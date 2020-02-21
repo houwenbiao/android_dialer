@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel" msgid="2202739481132958990">"Telefon"</string>
+    <string name="launcherDialpadActivityLabel" msgid="4170587663888307424">"Telefon Tuş Takımı"</string>
+    <string name="dialerIconLabel" msgid="3422916015542176907">"Telefon"</string>
+    <string name="callHistoryIconLabel" msgid="7493268743411968630">"Çağrı geçmişi"</string>
+    <string name="action_report_number" msgid="7231442711369737797">"Hatalı numarayı bildir"</string>
+    <string name="action_copy_number_text" msgid="832682558551502319">"Numarayı kopyala"</string>
+    <string name="copy_transcript_text" msgid="937904189017310829">"Çeviri yazıyı kopyala"</string>
+    <string name="action_block_number" msgid="3669819840999705278">"Numarayı engelle"</string>
+    <string name="action_unblock_number" msgid="6583611581996402004">"Numaranın engellemesini kaldır"</string>
+    <string name="action_edit_number_before_call" msgid="8017492815878473837">"Telefon etmeden önce numarayı düzenle"</string>
+    <string name="call_log_delete_all" msgid="7852970926906523784">"Çağrı geçmişini temizle"</string>
+    <string name="call_log_trash_voicemail" msgid="6118493534178533972">"Sesli mesajı sil"</string>
+    <string name="snackbar_voicemail_deleted" msgid="7463166543725496307">"Sesli mesaj silindi"</string>
+    <string name="snackbar_voicemail_deleted_undo" msgid="6959743982796409941">"GERİ AL"</string>
+    <string name="clearCallLogConfirmation_title" msgid="7051888019546472245">"Çağrı geçmişi temizlensin mi?"</string>
+    <string name="clearCallLogConfirmation" msgid="6844949465815109166">"Bu işlem, geçmişinizdeki tüm çağrıları silecek"</string>
+    <string name="clearCallLogProgress_title" msgid="995004835687361977">"Çağrı geçmişi temizleniyor…"</string>
+    <string name="userCallActivityLabel" product="default" msgid="9198964841862577505">"Telefon"</string>
+    <string name="notification_missedCallTitle" msgid="8283366068539898486">"Cevapsız çağrı"</string>
+    <string name="notification_missedWorkCallTitle" msgid="8831332957103679183">"İşle ilgili cevapsız çağrı"</string>
+    <string name="notification_missedCallsTitle" msgid="3697442015345089802">"Cevapsız çağrılar"</string>
+    <string name="notification_missedCallsMsg" msgid="8176217633929018706">"<xliff:g id="NUM_MISSED_CALLS">%d</xliff:g> cevapsız çağrı"</string>
+    <string name="notification_missedCall_call_back" msgid="3875698110051973965">"Geri ara"</string>
+    <string name="notification_missedCall_message" msgid="5086910028988305964">"İleti"</string>
+    <string name="post_call_notification_message" msgid="5417476789860590611">"<xliff:g id="NAME">%1$s</xliff:g>: <xliff:g id="MESSAGE">%2$s</xliff:g>"</string>
+    <string name="notification_voicemail_text_format" msgid="1895667520930252897">"Arayın: <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number" msgid="8942821987929495842">"Sesli mesaj numarası bilinmiyor"</string>
+    <plurals name="notification_voicemail_title" formatted="false" msgid="1551847434476438657">
+      <item quantity="other"> <xliff:g id="COUNT">%1$d</xliff:g> Sesli Mesaj </item>
+      <item quantity="one">Sesli Mesaj</item>
+    </plurals>
+    <string name="notification_action_voicemail_play" msgid="5156500902796354071">"Oynat"</string>
+    <string name="notification_voicemail_callers_list" msgid="7543659703018479564">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+    <string name="notification_new_voicemail_ticker" msgid="6547711461667072303">"Yeni sesli mesj gönderen: <xliff:g id="CALLER">%1$s</xliff:g>"</string>
+    <string name="voicemail_playback_error" msgid="4384373852257757295">"Sesli mesaj oynatılamadı"</string>
+    <string name="voicemail_fetching_content" msgid="572320120918636014">"Sesli mesaj yükleniyor…"</string>
+    <string name="voicemail_archiving_content" msgid="2415183864104922185">"Sesli mesaj arşivleniyor…"</string>
+    <string name="voicemail_fetching_timout" msgid="2128873915839949783">"Sesli mesaj yüklenemedi"</string>
+    <string name="call_log_voicemail_header" msgid="5799424860394542726">"Yalnızca sesli mesaj içeren çağrılar"</string>
+    <string name="call_log_incoming_header" msgid="1158753168119845168">"Yalnızca gelen çağrılar"</string>
+    <string name="call_log_outgoing_header" msgid="149333910997122683">"Yalnızca giden çağrılar"</string>
+    <string name="call_log_missed_header" msgid="6491707499211289630">"Yalnızca cevapsız çağrılar"</string>
+    <string name="call_log_item_count_and_date" msgid="723848797957319181">"(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="description_search_button" msgid="4515570469584782176">"ara"</string>
+    <string name="description_dial_button" msgid="699794433224646027">"çevir"</string>
+    <string name="description_digits_edittext" msgid="8908702618098485186">"çevrilecek numara"</string>
+    <string name="description_playback_start_stop" msgid="5320452461700750120">"Oynatmayı başlat veya durdur"</string>
+    <string name="description_playback_speakerphone" msgid="4852027754869750227">"Hoperlörü aç veya kapat"</string>
+    <string name="description_playback_seek" msgid="1340910573254132520">"Oynatma konumunu ayarla"</string>
+    <string name="description_rate_decrease" msgid="5053221110217704199">"Oynatma hızını azalt"</string>
+    <string name="description_rate_increase" msgid="4372206363557406700">"Oynatma hızını artır"</string>
+    <string name="action_menu_call_history_description" msgid="8829135306925008546">"Çağrı geçmişi"</string>
+    <string name="action_menu_overflow_description" msgid="7648679686746517341">"Diğer seçenekler"</string>
+    <string name="action_menu_dialpad_button" msgid="1970631633457493180">"tuş takımı"</string>
+    <string name="menu_show_outgoing_only" msgid="6941420328999801171">"Yalnızca gidenleri göster"</string>
+    <string name="menu_show_incoming_only" msgid="6018600870504685564">"Yalnızca gelenleri göster"</string>
+    <string name="menu_show_missed_only" msgid="2266983597575047192">"Yalnızca cevapsızları göster"</string>
+    <string name="menu_show_voicemails_only" msgid="1114917855179284592">"Yalnızca sesli msajları göster"</string>
+    <string name="menu_show_all_calls" msgid="220054502052344488">"Tüm çağrıları göster"</string>
+    <string name="add_2sec_pause" msgid="3417815038173424525">"2 saniyelik duraklama ekle"</string>
+    <string name="add_wait" msgid="1177723010768282578">"Bekleme ekle"</string>
+    <string name="dialer_settings_label" msgid="4980176284150290175">"Ayarlar"</string>
+    <string name="simulator_submenu_label" msgid="186156287346615267">"Simülatör"</string>
+    <string name="new_ui_launcher_shortcut_label" msgid="7195823535703686736">"Kull. Arayüzü Kısayolu Oluştur"</string>
+    <string name="menu_allContacts" msgid="8544950176866640863">"Tüm kişiler"</string>
+    <string name="dialer_useDtmfDialpad" msgid="3919115408138798484">"Telefon tuş takımını kullan"</string>
+    <string name="dialer_returnToInCallScreen" msgid="3487191628252824117">"Çağrıya dön"</string>
+    <string name="dialer_addAnotherCall" msgid="3132945651710234674">"Çağrı ekle"</string>
+    <string name="actionIncomingCall" msgid="891346596090030558">"Gelen çağrılar"</string>
+    <string name="description_entering_bulk_action_mode" msgid="6134916000015585401">"Toplu işlem moduna giriliyor"</string>
+    <string name="description_leaving_bulk_action_mode" msgid="4355853387639765529">"Toplu işlem modundan çıkıldı"</string>
+    <string name="description_selecting_bulk_action_mode" msgid="7228565941043117618">"Seçildi: <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_unselecting_bulk_action_mode" msgid="6450971299622386060">"Seçimi kaldırıldı: <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_call_log_play_button" msgid="2349845005022431438">"Sesli mesajı oynat"</string>
+    <string name="description_view_contact" msgid="3940984937384372665">"Kişiyi görüntüle: <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call" msgid="1532402285334775372">"Ara: <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_contact_details" msgid="3341280873855253464">"<xliff:g id="NAMEORNUMBER">%1$s</xliff:g> için kişi ayrıntıları"</string>
+    <string name="description_spam_contact_details" msgid="5592578752881528368">"Spam olduğundan şüphelenilen arayanın (<xliff:g id="NAMEORNUMBER">%1$s</xliff:g>) kişi ayrıntıları"</string>
+    <string name="description_num_calls" msgid="6483594535796216044">"<xliff:g id="NUMBEROFCALLS">%1$s</xliff:g> çağrı."</string>
+    <string name="description_video_call" msgid="3738199365585751727">"Video görüşmesi."</string>
+    <string name="description_send_text_message" msgid="8450269896765568596">"Şuraya SMS gönder: <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call_log_unheard_voicemail" msgid="2258821530650350303">"Dinlenilmemiş sesli mesaj"</string>
+    <string name="description_start_voice_search" msgid="8380022725973015261">"Sesli arama başlat"</string>
+    <string name="menu_callNumber" msgid="1540773545517152514">"Çağrı yap: <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="voicemail" msgid="8899540969000957954">"Sesli Mesaj"</string>
+    <string name="callDetailsShortDurationFormat" msgid="8517030531054801588">"<xliff:g id="SECONDS">%s</xliff:g> sn."</string>
+    <string name="callDetailsDurationFormat" msgid="6826204822350034578">"<xliff:g id="MINUTES">%s</xliff:g> dk. <xliff:g id="SECONDS">%s</xliff:g> sn."</string>
+    <string name="description_cancel_multi_select" msgid="3930475950253360461">"Toplu işlemler modu iptal edilir"</string>
+    <string name="voicemailMultiSelectDeleteConfirm" msgid="5110048580165845200">"Sil"</string>
+    <string name="voicemailMultiSelectDeleteCancel" msgid="4574287102479485528">"İptal"</string>
+    <string name="voicemailMultiSelectDialogTitle" msgid="150612124416146690">"Seçili <xliff:g id="VOICEMAILORVOICEMAILS">%1$s</xliff:g> silinsin mi?"</string>
+    <string name="voicemailMultiSelectActionBarTitle" msgid="5840745438559612431">"<xliff:g id="NUMBER">%1$s</xliff:g> öğe seçildi"</string>
+    <plurals name="delete_voicemails_confirmation_dialog_title" formatted="false" msgid="2452264208706783960">
+      <item quantity="other">"<b>"Bu sesli mesajlar silinsin mi? "</b>"</item>
+      <item quantity="one">"<b>"Bu sesli mesaj silinsin mi? "</b>"</item>
+    </plurals>
+    <string name="voicemailCallLogToday" msgid="709034597866788854">@string/call_log_header_today</string>
+    <string name="voicemailCallLogDateTimeFormat" msgid="4998985002074131268">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="voicemailDurationFormat" msgid="5649961568550898382">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration" msgid="7224408726047155205">"<xliff:g id="DATEANDTIME">%1$s</xliff:g> • <xliff:g id="DURATION">%2$s</xliff:g>"</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="6317935773274628316">"Bu numara aranamaz"</string>
+    <string name="dialog_voicemail_not_ready_message" msgid="6437173108290752604">"Sesli mesajı yapılandırmak için Menü &gt; Ayarlar\'a gidin."</string>
+    <string name="dialog_voicemail_airplane_mode_message" msgid="1044988101597862159">"Sesli mesaja çağrı yapmak için öncelikle Uçak modunu kapatın."</string>
+    <string name="contact_list_loading" msgid="7919825236309749352">"Yükleniyor..."</string>
+    <string name="imei" msgid="5214505934662768308">"IMEI"</string>
+    <string name="meid" msgid="3333779521535224028">"MEID"</string>
+    <string name="simContacts_emptyLoading" msgid="6205424276735652071">"SIM karttan yükleniyor..."</string>
+    <string name="simContacts_title" msgid="7961069730386378887">"SIM kart kişileri"</string>
+    <string name="voice_search_not_available" msgid="6546240433719732905">"Sesli arama kullanılamaz"</string>
+    <string name="call_not_available" msgid="7850148370757361155">"Telefon uygulaması devre dışı bırakıldığından telefon edilemiyor."</string>
+    <string name="dialer_hint_find_contact" msgid="2023214799381149808">"Kişilerde ara"</string>
+    <string name="block_number_search_hint" msgid="5377706079015099416">"Numara ekleyin veya kişi arayın"</string>
+    <string name="call_log_all_empty" msgid="3955572868518162004">"Çağrı geçmişiniz boş"</string>
+    <string name="call_log_all_empty_action" msgid="852218280136243014">"Telefon et"</string>
+    <string name="call_log_missed_empty" msgid="7094936030845062214">"Cevapsız çağrınız yok."</string>
+    <string name="call_log_voicemail_empty" msgid="273623903423275178">"Sesli mesaj gelen kutunuz boş."</string>
+    <string name="show_favorites_only" msgid="8089163582448737837">"Yalnızca favori kişileri göster"</string>
+    <string name="call_log_activity_title" msgid="1275242727244945527">"Çağrı Geçmişi"</string>
+    <string name="call_log_all_title" msgid="6042262422192020327">"Tümü"</string>
+    <string name="call_log_missed_title" msgid="17254005889268015">"Cevapsız"</string>
+    <string name="call_log_voicemail_title" msgid="6504826963256437971">"Sesli Mesaj"</string>
+    <string name="tab_speed_dial" msgid="6616404752227561075">"Hızlı arama"</string>
+    <string name="tab_history" msgid="7420269368689503596">"Çağrı Geçmişi"</string>
+    <string name="tab_all_contacts" msgid="5531733977693943015">"Kişiler"</string>
+    <string name="tab_voicemail" msgid="2458548090088316246">"Sesli mesaj"</string>
+    <string name="favorite_hidden" msgid="1077010324849831399">"Favorilerden kaldırıldı"</string>
+    <string name="favorite_hidden_undo" msgid="5660280521854875320">"Geri al"</string>
+    <string name="search_shortcut_call_number" msgid="8847918845036880688">"Çağrı yap: <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="search_shortcut_create_new_contact" msgid="2076374262874775425">"Yeni kişi oluştur"</string>
+    <string name="search_shortcut_add_to_contact" msgid="701957016267810766">"Bir kişiye ekle"</string>
+    <string name="search_shortcut_send_sms_message" msgid="1065069206532610854">"SMS gönder"</string>
+    <string name="search_shortcut_make_video_call" msgid="3746207985295802095">"Video görüşmesi yap"</string>
+    <string name="search_shortcut_block_number" msgid="4587283230665805776">"Numarayı engelle"</string>
+    <string name="num_missed_calls" msgid="5171791753696317082">"<xliff:g id="NUMBER">%s</xliff:g> yeni cevapsız çağrı"</string>
+    <string name="speed_dial_empty" msgid="3346406399966039505">"Hızlı arama listenizde henüz kimse yok"</string>
+    <string name="speed_dial_empty_add_favorite_action" msgid="3470360584638103033">"Favori ekle"</string>
+    <string name="contact_tooltip" msgid="8871614660967439999">"Tüm numaraları görmek için resme dokunun veya yeniden sıralamak için dokunup basılı tutun"</string>
+    <string name="remove_contact" msgid="2353580570488923668">"Kaldır"</string>
+    <string name="select_all" msgid="408601760696146245">"Tümünü seç"</string>
+    <string name="call_log_action_video_call" msgid="7565549950343850819">"Video görüşmesi"</string>
+    <string name="call_log_action_send_message" msgid="6948727362660115554">"İleti gönder"</string>
+    <string name="call_log_action_details" msgid="2091370737371449501">"Çağrı ayrıntıları"</string>
+    <string name="call_log_action_share_voicemail" msgid="8888250682433873454">"Gönder…"</string>
+    <string name="call_log_action_call" msgid="682724094251540583">"Telefon et: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_incoming_missed_call" msgid="8292535799379230029">"Cevapsız çağrı: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_incoming_answered_call" msgid="3920182963103160610">"Cevaplanan çağrı: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_unread_voicemail" msgid="145170985013419170">"Dinlenmemiş sesli posta: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_read_voicemail" msgid="5585559881573227732">"Sesli posta: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>"</string>
+    <string name="description_outgoing_call" msgid="543952487882919924">"Yapılan çağrı: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="call_log_via_number" msgid="1340307109806397650">"<xliff:g id="NUMBER">%1$s</xliff:g> kullanılarak"</string>
+    <string name="call_log_via_number_phone_account" msgid="7698459003033083416">"<xliff:g id="NUMBER">%2$s</xliff:g> kullanılarak <xliff:g id="PHONEACCOUNT">%1$s</xliff:g>"</string>
+    <string name="description_call_action" msgid="4042796498169106545">"Telefon et: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_video_call_action" msgid="1237090968588659650">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> ile video görüşmesi yap."</string>
+    <string name="description_voicemail_action" msgid="3290143432403538524">"Şu numaradan gelen sesli mesajı dinle: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_play" msgid="737337291418966183">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> tarafından kaydedilmiş sesli mesajı çal"</string>
+    <string name="description_voicemail_pause" msgid="2400610579956333661">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> tarafından kaydedilmiş sesli mesajı duraklat"</string>
+    <string name="description_voicemail_delete" msgid="5305509366448404410">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> tarafından kaydedilmiş sesli mesajı sil"</string>
+    <plurals name="description_voicemail_unread" formatted="false" msgid="7562208210097630839">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> yeni sesli mesaj</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> yeni sesli mesaj</item>
+    </plurals>
+    <string name="description_create_new_contact_action" msgid="1928282350281564130">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> için kişi oluştur"</string>
+    <string name="description_add_to_existing_contact_action" msgid="5485618682525057684">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> bilgisini mevcut kişiye ekle"</string>
+    <string name="description_details_action" msgid="2061866409737706174">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> için çağrı ayrıntıları"</string>
+    <string name="toast_entry_removed" msgid="6821678859297454838">"Çağrı geçmişinden silindi"</string>
+    <string name="call_log_header_today" msgid="1576119097475845293">"Bugün"</string>
+    <string name="call_log_header_yesterday" msgid="5616077776205329563">"Dün"</string>
+    <string name="call_log_header_other" msgid="4940676886254217644">"Daha eski"</string>
+    <string name="call_detail_list_header" msgid="1174040565810083473">"Çağrı listesi"</string>
+    <string name="voicemail_speaker_on" msgid="3151333608926996668">"Hoparlörü açın."</string>
+    <string name="voicemail_speaker_off" msgid="2530064206962034201">"Hoparlörü kapatın."</string>
+    <string name="voicemail_play_faster" msgid="2742012169751409677">"Daha hızlı çalın."</string>
+    <string name="voicemail_play_slower" msgid="868588128301087884">"Daha yavaş çalın."</string>
+    <string name="voicemail_play_start_pause" msgid="3874823480278334664">"Çalmayı başlatın veya duraklatın."</string>
+    <string name="display_options_title" msgid="3880091801055797975">"Görüntüleme seçenekleri"</string>
+    <string name="sounds_and_vibration_title" msgid="3075050000721181384">"Ses ve titreşim"</string>
+    <string name="accessibility_settings_title" msgid="3329027650429831820">"Erişilebilirlik"</string>
+    <string name="ringtone_title" msgid="8377174189894648486">"Telefon zil sesi"</string>
+    <string name="vibrate_on_ring_title" msgid="631441314790960485">"Çağrılarda ayrıca titret"</string>
+    <string name="dtmf_tone_enable_title" msgid="3273762431523939277">"Tuş takımı sesleri"</string>
+    <string name="dtmf_tone_length_title" msgid="534096029202438539">"Tuş takımı ses uzunluğu"</string>
+  <string-array name="dtmf_tone_length_entries">
+    <item msgid="3136353015227162823">"Normal"</item>
+    <item msgid="5376841175538523822">"Uzun"</item>
+  </string-array>
+    <string name="respond_via_sms_setting_title" msgid="8008181606657693452">"Hızlı yanıtlar"</string>
+    <string name="call_settings_label" msgid="7824611757200960807">"Çağrılar"</string>
+    <string name="manage_blocked_numbers_label" msgid="16823761991832273">"Çağrı engelleme"</string>
+    <string name="voicemail_settings_label" msgid="4594299554519920570">"Sesli mesaj"</string>
+    <string name="voicemail_settings_select_sim_title" msgid="129296966967476845">"Sesli mesaj ayarl. için SIM seçin"</string>
+    <string name="blocked_numbers_disabled_emergency_header_label" msgid="6936696532562923971">"Çağrı engelleme geçici olarak kapalı"</string>
+    <string name="blocked_numbers_disabled_emergency_desc" msgid="5484785225285297040">"Son 48 saat içinde bu telefondan acil servislerle iletişimde bulunduğunuz için çağrı engelleme modu devre dışı bırakıldı. 48 saatlik süre dolduktan sonra çağrı engelleme modu otomatik olarak tekrar etkinleştirilecektir."</string>
+    <string name="import_send_to_voicemail_numbers_label" msgid="7821890095264297681">"Numaraları içe aktar"</string>
+    <string name="blocked_call_settings_import_description" msgid="1819412052545228965">"Bazı arayanları, diğer uygulamalar aracılığıyla otomatik olarak sesli mesaj gönderilmesi için önceden işaretlediniz."</string>
+    <string name="blocked_call_settings_view_numbers_button" msgid="3332727948554356704">"Numaraları Görüntüle"</string>
+    <string name="blocked_call_settings_import_button" msgid="7319111700387470727">"İçe aktar"</string>
+    <string name="description_blocked_number_list_delete" msgid="2139644216858370740">"Numaranın engellemesini kaldır"</string>
+    <string name="addBlockedNumber" msgid="3053473735238295551">"Numara ekle"</string>
+    <string name="block_number_footer_message_vvm" msgid="7955326304033982368">"Bu numaralardan gelen çağrılar engellenecek ve sesli mesajlar otomatik olarak silinecektir."</string>
+    <string name="block_number_footer_message_no_vvm" msgid="1152684139070471665">"Bu numaralardan gelen çağrılar engellenecek, ancak arayan kişiler yine de size sesli mesaj bırakabileceklerdir."</string>
+    <string name="block_list" msgid="4701585783411870782">"Engellenen numaralar"</string>
+    <string name="alreadyBlocked" msgid="5483253180532475653">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefon zaten engellendi."</string>
+    <string name="phone_account_settings_label" msgid="8372485478006965920">"Çağrı hesapları"</string>
+    <string name="permission_multiple_turn_on" msgid="5679888820253829400">"İzinleri ayarla"</string>
+    <string name="permission_no_speeddial" msgid="8487215628510596753">"Hızlı aramayı etkinleştirmek için Kişiler iznini açın."</string>
+    <string name="permission_no_calllog" msgid="4053705651238775784">"Çağrı günlüğünüzü görmek için Telefon iznini açın."</string>
+    <string name="permission_no_voicemail" msgid="1908142679289209291">"Sesli mesajınıza erişmek için Telefon iznini açın."</string>
+    <string name="permission_no_search" msgid="2424710404207193826">"Kişilerinizde arama yapmak için Kişiler izinlerini açın."</string>
+    <string name="permission_place_call" msgid="8686908130349369423">"Telefon etmek için Telefon iznini açın."</string>
+    <string name="toast_cannot_write_system_settings" msgid="1108307781918782515">"Telefon uygulamasının sistem ayarlarına yazma izni yok."</string>
+    <string name="blocked_number_call_log_label" msgid="4212282846299997693">"Engellendi"</string>
+    <string name="call_log_action_block_report_number" msgid="7302636538668696729">"Engelle/spam bildir"</string>
+    <string name="call_log_action_block_number" msgid="5048188386501998865">"Numarayı engelle"</string>
+    <string name="call_log_action_remove_spam" msgid="2045319806318398403">"Spam değil"</string>
+    <string name="call_log_action_unblock_number" msgid="6100117033288448758">"Numaranın engellemesini kaldır"</string>
+    <string name="spam_number_call_log_label" msgid="2678431398326811131">"Spam"</string>
+    <string name="call_composer_connection_failed" msgid="6776461585447831242">"<xliff:g id="NAME">%1$s</xliff:g> çevrimdışı olduğundan ulaşılamıyor"</string>
+    <string name="about_phone_label" msgid="582991354677973731">"Hakkında"</string>
+    <string name="view_conversation" msgid="7895904782094119702">"Göster"</string>
+    <string name="ec_data_deleted" msgid="4794880345545827107">"Çağrı silindi. Bu çağrı sırasında paylaşılan ekleri Mesajlar\'da görebilir ve silebilirsiniz."</string>
+    <string name="multiple_ec_data_deleted" msgid="2971579891973176316">"Çağrılar silindi. Çağrılar sırasında paylaşılan ekleri Mesajlar\'da görebilir ve silebilirsiniz."</string>
+    
+    
+    <string name="build_version_label" msgid="3876300343684966840">"Derleme sürümü"</string>
+    <string name="open_source_license_detail_label" msgid="2860076509914623912">"Açık kaynak yazılımlar için lisans ayrıntıları"</string>
+    <string name="licenseActivityLabel" msgid="8258726177561826066">"Açık kaynak lisansları"</string>
+    <string name="privacy_policy_label" msgid="6567158248788870442">"Gizlilik politikası"</string>
+    <string name="terms_of_service_label" msgid="6788126078040996084">"Hizmet şartları"</string>
+
+
+    <string name="unknown" msgid="7932659017139013277">"Bilinmiyor"</string>
+    <string name="unknown_counter" msgid="7452889151953704159">"<xliff:g id="UNKNOWN">%s</xliff:g> <xliff:g id="ID">%d</xliff:g>"</string>
+    <string name="payphone" msgid="7106361320283710387">"Ankesörlü telefon"</string>
+    <string name="launcherActivityLabel" msgid="9034868428899993166">"Telefon"</string>
+    <string name="video_call" msgid="8914878391104612532">"Görüntülü görüşme"</string>
+    <string name="call" msgid="3699617769606114168">"Telefon et"</string>
+
+
+<string name="toast_text_copied" msgid="8979281391599667362">"Metin kopyalandı"</string>
+    <string name="copy_text" msgid="5890820280087874642">"Panoya kopyala"</string>
+    <string name="call_custom" msgid="3041673234638990874">"Ara (<xliff:g id="CUSTOM">%s</xliff:g>)"</string>
+    <string name="call_home" msgid="125893483593803791">"Ara (ev)"</string>
+    <string name="call_mobile" msgid="967589404494150813">"Ara (mobil)"</string>
+    <string name="call_work" msgid="6040550697395300892">"Ara (iş)"</string>
+    <string name="call_fax_work" msgid="5260192771364592922">"Ara (iş faksı)"</string>
+    <string name="call_fax_home" msgid="5174311195081144124">"Ara (ev faksı)"</string>
+    <string name="call_pager" msgid="6814149227741274161">"Ara (çağrı cihazı)"</string>
+    <string name="call_other" msgid="5536385588712587235">"Ara"</string>
+    <string name="call_callback" msgid="6314019862718112786">"Ara (geri arama)"</string>
+    <string name="call_car" msgid="3197417098027764954">"Ara (araç)"</string>
+    <string name="call_company_main" msgid="2557663310028446397">"Ara (şirket santrali)"</string>
+    <string name="call_isdn" msgid="4691270442763649522">"Ara (ISDN)"</string>
+    <string name="call_main" msgid="3293707608770407814">"Ara (santral)"</string>
+    <string name="call_other_fax" msgid="4724521984879021465">"Ara (faks)"</string>
+    <string name="call_radio" msgid="8942441419845057942">"Ara (telsiz)"</string>
+    <string name="call_telex" msgid="2031514461660668351">"Ara (teleks)"</string>
+    <string name="call_tty_tdd" msgid="7807210224965727701">"Ara (TTY/TDD)"</string>
+    <string name="call_work_mobile" msgid="2716342732938578495">"Ara (iş cep telefonu)"</string>
+    <string name="call_work_pager" msgid="3791778749827366574">"Ara (iş çağrı cihazı)"</string>
+    <string name="call_assistant" msgid="4177478845473789294">"Ara (<xliff:g id="ASSISTANT">%s</xliff:g>)"</string>
+    <string name="call_mms" msgid="4958811711741872901">"Ara (MMS)"</string>
+    <string name="call_by_shortcut" msgid="4623082183552111045">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (Telefon et)"</string>
+    <string name="sms_custom" msgid="8785368968605026317">"SMS gönder (<xliff:g id="CUSTOM">%s</xliff:g>)"</string>
+    <string name="sms_home" msgid="3527719551060295243">"SMS gönder (ev)"</string>
+    <string name="sms_mobile" msgid="8883045857887736518">"SMS gönder (mobil)"</string>
+    <string name="sms_work" msgid="4158595439553450966">"SMS gönder (iş)"</string>
+    <string name="sms_fax_work" msgid="5483726627718055248">"SMS gönder (iş faksı)"</string>
+    <string name="sms_fax_home" msgid="9219265155770746077">"SMS gönder (ev faksı)"</string>
+    <string name="sms_pager" msgid="4901085068525193933">"SMS gönder (çağrı cihazı)"</string>
+    <string name="sms_other" msgid="1742702947993285933">"SMS gönder"</string>
+    <string name="sms_callback" msgid="5833483630377538308">"SMS gönder (geri arama)"</string>
+    <string name="sms_car" msgid="4314577266154395174">"SMS gönder (araç)"</string>
+    <string name="sms_company_main" msgid="2308160928487360705">"SMS gönder (şirket santrali)"</string>
+    <string name="sms_isdn" msgid="6394300346179302542">"SMS gönder (ISDN)"</string>
+    <string name="sms_main" msgid="8908087742014140774">"SMS gönder (santral)"</string>
+    <string name="sms_other_fax" msgid="8768455473295405427">"SMS gönder (faks)"</string>
+    <string name="sms_radio" msgid="855555176531704682">"SMS gönder (telsiz)"</string>
+    <string name="sms_telex" msgid="6269029276223252719">"SMS gönder (teleks)"</string>
+    <string name="sms_tty_tdd" msgid="6229057354509192444">"SMS gönder (TTY/TDD)"</string>
+    <string name="sms_work_mobile" msgid="2155975469329969840">"SMS gönder (iş cep telefonu)"</string>
+    <string name="sms_work_pager" msgid="8500140274906830742">"SMS gönder (iş çağrı cihazı)"</string>
+    <string name="sms_assistant" msgid="8513548482745330818">"SMS gönder (<xliff:g id="ASSISTANT">%s</xliff:g>)"</string>
+    <string name="sms_mms" msgid="5187888900503248542">"SMS gönder (MMS)"</string>
+    <string name="sms_by_shortcut" msgid="8005496406639963582">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (Mesaj gönder)"</string>
+    <string name="clearFrequentsConfirmation_title" msgid="7465690215775790243">"Sık iletişim kurulanlar silinsin mi?"</string>
+    <string name="clearFrequentsConfirmation" msgid="5750611450893399198">"Kişiler ve Telefon uygulamalarındaki sık iletişim kurulanlar listesini temizleyecek ve e-posta uygulamalarını adres tercihlerinizi en baştan öğrenmeye zorlayacaksınız."</string>
+    <string name="clearFrequentsProgress_title" msgid="2057183487226039454">"Sık iletişim kurulanlar siliniyor…"</string>
+    <string name="status_available" msgid="2648156525685472626">"Müsait"</string>
+    <string name="status_away" msgid="2298688367552893953">"Dışarıda"</string>
+    <string name="status_busy" msgid="5990832098713248503">"Meşgul"</string>
+    <string name="contactsList" msgid="8806067891419291513">"Kişiler"</string>
+    <string name="contact_suggestions" msgid="3324166754807120006">"En Çok Önerilenler"</string>
+    <string name="local_invisible_directory" msgid="4723238462733650090">"Diğer"</string>
+    <string name="directory_search_label" msgid="4621215895484025229">"Dizin"</string>
+    <string name="directory_search_label_work" msgid="7679326282707414897">"İş dizini"</string>
+    <string name="local_search_label" msgid="907622822323119235">"Tüm kişiler"</string>
+    <string name="local_suggestions_search_label" msgid="1178575146224386118">"Öneriler"</string>
+    <string name="user_profile_contacts_list_header" msgid="9180620153828279580">"Ben"</string>
+    <string name="search_results_searching" msgid="3710866752172327451">"Aranıyor..."</string>
+    <string name="foundTooManyContacts" msgid="3685002426663730799">"<xliff:g id="COUNT">%d</xliff:g> kişiden fazla bulundu."</string>
+    <string name="listFoundAllContactsZero" msgid="1151813986040671916">"Hiç kişi yok"</string>
+    <plurals name="searchFoundContacts" formatted="false" msgid="3733009742282085433">
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> kişi bulundu</item>
+      <item quantity="one">1 kişi bulundu</item>
+    </plurals>
+    <string name="description_quick_contact_for" msgid="6327207399167819147">"<xliff:g id="NAME">%1$s</xliff:g> için hızlı kişi"</string>
+    <string name="missing_name" msgid="978606963362745020">"(Adsız)"</string>
+    <string name="favoritesFrequentCalled" msgid="4646019087163449555">"Sık arananlar"</string>
+    <string name="favoritesFrequentContacted" msgid="946588736701567509">"Sık iletişim kurulanlar"</string>
+    <string name="description_view_contact_detail" msgid="2428742401208561136">"Kişiyi görüntüle"</string>
+    <string name="list_filter_phones" msgid="8763316061763437182">"Telefon numarası olan tüm kişiler"</string>
+    <string name="list_filter_phones_work" msgid="7083575404573422965">"İş profili kişileri"</string>
+    <string name="view_updates_from_group" msgid="9011641093168385729">"Güncellemeleri görüntüle"</string>
+    <string name="account_phone" msgid="7067809073194061035">"Yalnızca cihaz, senkronize edilmemiş"</string>
+    <string name="nameLabelsGroup" msgid="7730465833159557471">"Adı"</string>
+    <string name="nicknameLabelsGroup" msgid="6310556912361840029">"Takma ad"</string>
+    <string name="full_name" msgid="648186563998465740">"Ad"</string>
+    <string name="name_given" msgid="5096576006314820536">"Ad"</string>
+    <string name="name_family" msgid="6646235805198547467">"Soyadı"</string>
+    <string name="name_prefix" msgid="9215326539658838">"Ad öneki"</string>
+    <string name="name_middle" msgid="703755205331582769">"İkinci adı"</string>
+    <string name="name_suffix" msgid="5777083390282548702">"Ad soneki"</string>
+    <string name="name_phonetic" msgid="1650870996361663089">"Fonetik adı"</string>
+    <string name="name_phonetic_given" msgid="618812334274603170">"Fonetik ad"</string>
+    <string name="name_phonetic_middle" msgid="4826820763384625538">"Fonetik ikinci adı"</string>
+    <string name="name_phonetic_family" msgid="379905191212930771">"Fonetik soyadı"</string>
+    <string name="phoneLabelsGroup" msgid="169661929021355548">"Telefon"</string>
+    <string name="emailLabelsGroup" msgid="2249752810477488833">"E-posta gönder"</string>
+    <string name="postalLabelsGroup" msgid="6772000590189142253">"Adres"</string>
+    <string name="imLabelsGroup" msgid="5718066254237364731">"IM"</string>
+    <string name="organizationLabelsGroup" msgid="1101996309241601435">"Kuruluş"</string>
+    <string name="relationLabelsGroup" msgid="53866051664600053">"İlişki"</string>
+    <string name="eventLabelsGroup" msgid="1236970042646618489">"Özel tarih"</string>
+    <string name="sms" msgid="7574344928185328095">"Kısa mesaj"</string>
+    <string name="postal_address" msgid="1804707930129674200">"Adres"</string>
+    <string name="ghostData_company" msgid="2554310786296833424">"Şirket"</string>
+    <string name="ghostData_title" msgid="4994968731830184837">"Unvan"</string>
+    <string name="label_notes" msgid="2050255313694219786">"Notlar"</string>
+    <string name="label_sip_address" msgid="8883266182575965926">"SIP"</string>
+    <string name="websiteLabelsGroup" msgid="1630734286462186790">"Web sitesi"</string>
+    <string name="groupsLabel" msgid="2694002798416868728">"Gruplar"</string>
+    <string name="email_home" msgid="889830029388962171">"E-posta gönder (ev)"</string>
+    <string name="email_mobile" msgid="4487686436743741150">"E-posta gönder (mobil)"</string>
+    <string name="email_work" msgid="4223487303344613528">"E-posta gönder (iş)"</string>
+    <string name="email_other" msgid="4246411900126012062">"E-posta gönder"</string>
+    <string name="email_custom" msgid="7246580894327511013">"E-posta gönder (<xliff:g id="CUSTOM">%s</xliff:g>)"</string>
+    <string name="email" msgid="2807318537887091606">"E-posta gönder"</string>
+    <string name="postal_street" msgid="6918171741240802474">"Cadde"</string>
+    <string name="postal_pobox" msgid="2962203483168878561">"Posta kutusu"</string>
+    <string name="postal_neighborhood" msgid="5275280978237639716">"Mahalle"</string>
+    <string name="postal_city" msgid="8674569121430005628">"Şehir"</string>
+    <string name="postal_region" msgid="1730369286225469192">"Eyalet"</string>
+    <string name="postal_postcode" msgid="4450700741261990439">"Posta kodu"</string>
+    <string name="postal_country" msgid="232670707458768148">"Ülke"</string>
+    <string name="map_home" msgid="4181131107392126938">"Ev adresini görüntüle"</string>
+    <string name="map_work" msgid="5723471185992684400">"İş adresini görüntüle"</string>
+    <string name="map_other" msgid="2253764780863500516">"Adresi görüntüle"</string>
+    <string name="map_custom" msgid="5581743097882436157">"<xliff:g id="CUSTOM">%s</xliff:g> adresini görüntüle"</string>
+    <string name="chat_aim" msgid="2954364435497941659">"AIM kullanarak sohbet et"</string>
+    <string name="chat_msn" msgid="3130135239071228678">"Windows Live kullanarak sohbet et"</string>
+    <string name="chat_yahoo" msgid="3233552142326865347">"Yahoo kullanarak sohbet et"</string>
+    <string name="chat_skype" msgid="6486703981390592425">"Skype kullanarak sohbet et"</string>
+    <string name="chat_qq" msgid="786924280665740019">"QQ kullanarak sohbet et"</string>
+    <string name="chat_gtalk" msgid="7914674177243078035">"Google Talk kullanarak sohbet et"</string>
+    <string name="chat_icq" msgid="3292934726414765801">"ICQ kullanarak sohbet et"</string>
+    <string name="chat_jabber" msgid="6701542313597880204">"Jabber kullanarak sohbet et"</string>
+    <string name="chat" msgid="1020428260359370236">"Sohbet"</string>
+    <string name="description_minus_button" msgid="2659092981396583806">"sil"</string>
+    <string name="expand_collapse_name_fields_description" msgid="9005732230091761802">"Ad alanlarını genişlet veya daralt"</string>
+    <string name="expand_collapse_phonetic_name_fields_description" msgid="3450645489720595412">"Fonetik ad alanlarını genişlet veya daralt"</string>
+    <string name="list_filter_all_accounts" msgid="473782314881473992">"Tüm kişiler"</string>
+    <string name="menu_done" msgid="1817505539263889535">"Bitti"</string>
+    <string name="menu_doNotSave" msgid="4174389775790094548">"İptal"</string>
+    <string name="listAllContactsInAccount" msgid="3486378621592995630">"<xliff:g id="NAME">%s</xliff:g> hesabındaki kişiler"</string>
+    <string name="listCustomView" msgid="5306282632413086731">"Özel görünümdeki kişiler"</string>
+    <string name="listSingleContact" msgid="8620818791932382627">"Tek kişi"</string>
+    <string name="dialog_new_contact_account" msgid="3089718960461539156">"İçe aktarılan kişilerin kaydedileceği yer:"</string>
+    <string name="import_from_sim" msgid="4025122666048801234">"SIM karttan içe aktar"</string>
+    <string name="import_from_sim_summary" msgid="7347530878981811858">"SIM\'den (<xliff:g id="SIM_NAME">^1</xliff:g> - <xliff:g id="SIM_NUMBER">^2</xliff:g>) içe aktar"</string>
+    <string name="import_from_sim_summary_no_number" msgid="2311025421424473798">"SIM\'den (<xliff:g id="SIM_NAME">%1$s</xliff:g>) içe aktar"</string>
+    <string name="import_from_vcf_file" product="default" msgid="2755992524137862594">".vcf dosyasından aktar"</string>
+    <string name="cancel_import_confirmation_message" msgid="1112854508504355394">"<xliff:g id="FILENAME">%s</xliff:g> dosyasının içe aktarılması iptal edilsin mi?"</string>
+    <string name="cancel_export_confirmation_message" msgid="8507822905973961704">"<xliff:g id="FILENAME">%s</xliff:g> dosyasının dışa aktarılması iptal edilsin mi?"</string>
+    <string name="cancel_vcard_import_or_export_failed" msgid="3633975947527306665">"İçe/dışa aktarma işlemi iptal edilemedi"</string>
+    <string name="fail_reason_unknown" msgid="4526834573707737085">"Bilinmeyen hata."</string>
+    <string name="fail_reason_could_not_open_file" msgid="2564113989228646444">"\"<xliff:g id="FILE_NAME">%s</xliff:g>\" açılamadı: <xliff:g id="EXACT_REASON">%s</xliff:g>"</string>
+    <string name="fail_reason_could_not_initialize_exporter" msgid="1391801997398257839">"Dışa aktarıcı başlatılamadı: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_no_exportable_contact" msgid="5905140440417594395">"Dışa aktarabilecek kişi yok."</string>
+    <string name="missing_required_permission" msgid="3977319568919699902">"Gerekli bir izni devre dışı bıraktınız."</string>
+    <string name="fail_reason_error_occurred_during_export" msgid="4022425018935814242">"Dışa aktarma sırasında bir hata oluştu: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_too_long_filename" msgid="1782388695897859448">"Gereken dosya adı çok uzun (\"<xliff:g id="FILENAME">%s</xliff:g>\")."</string>
+    <string name="fail_reason_io_error" msgid="5610192449460803752">"G/Ç Hatası"</string>
+    <string name="fail_reason_low_memory_during_import" msgid="5383581106403466715">"Bellek yetersiz. Dosya çok büyük olabilir."</string>
+    <string name="fail_reason_vcard_parse_error" msgid="7166381747317969497">"Beklenmeyen bir nedenden dolayı vCard ayrıştırılamadı."</string>
+    <string name="fail_reason_not_supported" msgid="6529299412185608834">"Biçim desteklenmiyor."</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info" msgid="2071371622333685552">"Belirtilen vCard dosyalarının meta bilgileri toplanamadı."</string>
+    <string name="fail_reason_failed_to_read_files" msgid="7364342120566067558">"Bir veya daha fazla dosya içe aktarılamadı (%s)."</string>
+    <string name="exporting_vcard_finished_title" msgid="6969111823207538096">"<xliff:g id="FILENAME">%s</xliff:g> dosyasını dışa aktarma tamamlandı."</string>
+    <string name="exporting_vcard_finished_title_fallback" msgid="3456404588243153606">"Kişileri dışa aktarma işlemi tamamlandı."</string>
+    <string name="exporting_vcard_finished_toast" msgid="864313687240614505">"Kişileri dışa aktarma işlemi tamamlandı. Dışa aktarılan kişileri paylaşmak için bildirimi tıklayın."</string>
+    <string name="touch_to_share_contacts" msgid="8684610418619975866">"Kişileri paylaşmak için dokunun."</string>
+    <string name="exporting_vcard_canceled_title" msgid="4160930279977285925">"<xliff:g id="FILENAME">%s</xliff:g> dosyasını dışa aktarma iptal edildi."</string>
+    <string name="exporting_contact_list_title" msgid="874590947793345632">"Kişi verileri dışa aktarılıyor"</string>
+    <string name="exporting_contact_list_message" msgid="3263011604569444133">"Kişi verileri dışa aktarılıyor."</string>
+    <string name="composer_failed_to_get_database_infomation" msgid="443743100925218813">"Veritabanı bilgileri alınamadı."</string>
+    <string name="composer_has_no_exportable_contact" msgid="1492572045460138455">"Dışa aktarılabilecek kişi yok. Cihazınızda kişileriniz varsa, bazı veri sağlayıcılar kişilerin telefondan dışa aktarılmasına izin vermeyebilir."</string>
+    <string name="composer_not_initialized" msgid="7126008930727708362">"vCard oluşturucu düzgün başlamadı."</string>
+    <string name="exporting_contact_failed_title" msgid="5400878429352404258">"Dışa aktarılamadı"</string>
+    <string name="exporting_contact_failed_message" msgid="1453772164161663415">"Kişi verileri dışa aktarılamadı.\nNedeni: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="importing_vcard_description" msgid="1206078719084863234">"<xliff:g id="NAME">%s</xliff:g> içe aktarılıyor"</string>
+    <string name="reading_vcard_failed_title" msgid="4759080957711586257">"vCard verileri okunamadı"</string>
+    <string name="reading_vcard_canceled_title" msgid="3650078934530953275">"vCard verilerini okuma işlemi iptal edildi"</string>
+    <string name="importing_vcard_finished_title" msgid="1543368028741535966">"vCard <xliff:g id="FILENAME">%s</xliff:g> dosyasının içe aktarılması tamamlandı"</string>
+    <string name="importing_vcard_canceled_title" msgid="2454436016819017436">"<xliff:g id="FILENAME">%s</xliff:g> dosyasını içe aktarma iptal edildi"</string>
+    <string name="vcard_import_will_start_message" msgid="6013286576133592154">"<xliff:g id="FILENAME">%s</xliff:g> kısa bir süre içinde içe aktarılacak."</string>
+    <string name="vcard_import_will_start_message_with_default_name" msgid="3172538521736189687">"Dosya kısa bir süre sonra içe aktarılacak."</string>
+    <string name="vcard_import_request_rejected_message" msgid="7620870852106507620">"vCard\'ı içe aktarma isteği reddedildi. Daha sonra tekrar deneyin."</string>
+    <string name="vcard_export_will_start_message" msgid="4480722586633503615">"<xliff:g id="FILENAME">%s</xliff:g> kısa bir süre içinde dışa aktarılacak."</string>
+    <string name="vcard_export_will_start_message_fallback" msgid="8746087280091814150">"Dosya kısa bir süre sonra dışa aktarılacak."</string>
+    <string name="contacts_export_will_start_message" msgid="5950262391638837408">"Kişiler kısa bir süre içinde dışa aktarılacak."</string>
+    <string name="vcard_export_request_rejected_message" msgid="4132430982367686579">"vCard\'ı dışa aktarma isteği reddedildi. Daha sonra tekrar deneyin."</string>
+    <string name="vcard_unknown_filename" msgid="7576066884501578965">"kişi"</string>
+    <string name="caching_vcard_message" msgid="7778832851741500256">"vCard\'lar geçici bir yerel depolama alanında önbelleğe alınıyor. Asıl içe aktarma işlemi kısa süre içinde başlayacak."</string>
+    <string name="vcard_import_failed" msgid="4135012206186446511">"vCard içe aktarılamadı."</string>
+    <string name="nfc_vcard_file_name" msgid="7174382505002702431">"Kişi NFC ile alındı"</string>
+    <string name="confirm_export_title" msgid="9164673124925342242">"Kişiler dışa aktarılsın mı?"</string>
+    <string name="caching_vcard_title" msgid="8092335276785174935">"Önbelleğe alınıyor"</string>
+    <string name="progress_notifier_message" msgid="2778542784808529164">"İçe aktarılıyor <xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g>: <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="export_to_vcf_file" product="default" msgid="6148360234812424446">".vcf dosyasına aktar"</string>
+    <string name="display_options_sort_list_by" msgid="3541875948367831228">"Sıralama ölçütü"</string>
+    <string name="display_options_sort_by_given_name" msgid="4316351826810346915">"Ad"</string>
+    <string name="display_options_sort_by_family_name" msgid="5238820876940079000">"Soyadı"</string>
+    <string name="display_options_view_names_as" msgid="4204204205736735618">"Ad biçimi"</string>
+    <string name="display_options_view_given_name_first" msgid="2308026973021171020">"Önce ad"</string>
+    <string name="display_options_view_family_name_first" msgid="987430497292428242">"Önce soyadı"</string>
+    <string name="default_editor_account" msgid="1826578934497338822">"Yeni kişiler için varsayılan hesap"</string>
+    <string name="sync_contact_metadata_dialog_title" msgid="7839882899954930421">"Kişi meta verilerini senkronize et"</string>
+    <string name="setting_about" msgid="5253319937596745755">"Kişiler Hakkında"</string>
+    <string name="activity_title_settings" msgid="2398428034981372932">"Ayarlar"</string>
+    <string name="share_visible_contacts" msgid="6775120441469077620">"Görülebilir kişileri paylaş"</string>
+    <string name="share_visible_contacts_failure" msgid="1365755167786055470">"Görünür kişiler paylaşılamadı."</string>
+    <string name="share_favorite_contacts" msgid="9138011836074034817">"Favori kişileri paylaş"</string>
+    <string name="share_contacts" msgid="6505699963814423437">"Tüm kişileri paylaş"</string>
+    <string name="share_contacts_failure" msgid="6027174424732204424">"Kişiler paylaşılamadı."</string>
+    <string name="dialog_import_export" msgid="3052335055728876529">"Kişileri içe/dışa aktar"</string>
+    <string name="dialog_import" msgid="8508508044485808554">"Kişileri içe aktar"</string>
+    <string name="share_error" msgid="5642622973966851784">"Bu kişi paylaşılamıyor."</string>
+    <string name="no_contact_to_share" msgid="9115223064368461904">"Paylaşılacak kişi yok."</string>
+    <string name="menu_search" msgid="1241802591112035764">"Ara"</string>
+    <string name="hint_findContacts" msgid="1913556676649442295">"Kişileri bul"</string>
+    <string name="contactsFavoritesLabel" msgid="5198982253222486561">"Sık Kullanılanlar"</string>
+    <string name="listTotalAllContactsZero" msgid="8436822729781033537">"Kişi listesi boş."</string>
+    <string name="listTotalAllContactsZeroCustom" msgid="6072173682342248964">"Görülebilir kişi yok."</string>
+    <string name="listTotalAllContactsZeroStarred" msgid="5008410556001744528">"Favori yok"</string>
+    <string name="listTotalAllContactsZeroGroup" msgid="6782377127075025237">"<xliff:g id="NAME">%s</xliff:g> içinde kişi yok"</string>
+    <string name="menu_clear_frequents" msgid="5358271535047496120">"Sık iletişim kurulanları sil"</string>
+    <string name="menu_select_sim" msgid="3960197724339200637">"SIM kart seçin"</string>
+    <string name="menu_accounts" msgid="8092083497106343280">"Hesapları yönet"</string>
+    <string name="menu_import_export" msgid="8834601882032781755">"İçe/Dışa aktar"</string>
+    <string name="contact_status_update_attribution" msgid="6042601531361543253">"<xliff:g id="SOURCE">%1$s</xliff:g> üzerinden"</string>
+    <string name="contact_status_update_attribution_with_date" msgid="3448746388181727251">"<xliff:g id="SOURCE">%2$s</xliff:g> üzerinden şu zamanda: <xliff:g id="DATE">%1$s</xliff:g>"</string>
+    <string name="action_menu_back_from_search" msgid="3550669942742167644">"aramayı durdur"</string>
+    <string name="description_clear_search" msgid="2347258825265600782">"Aramayı temizle"</string>
+    <string name="settings_contact_display_options_title" msgid="5535295687646503547">"Kişi görüntüleme seçenekleri"</string>
+    <string name="select_account_dialog_title" msgid="2673504582803359239">"Hesap"</string>
+    <string name="set_default_account" msgid="7966099951006467572">"Çağrılar için her zaman bunu kullan"</string>
+    <string name="select_phone_account_for_calls" msgid="1784460686103423274">"Çağrıyı şununla yap:"</string>
+    <string name="call_with_a_note" msgid="6242261320491851133">"Notla telefon et"</string>
+    <string name="call_subject_hint" msgid="7233138753650420800">"Çağrıyla göndermek için bir not yazın..."</string>
+    <string name="send_and_call_button" msgid="4735168294120154013">"GÖNDER VE ARA"</string>
+    <string name="call_subject_limit" msgid="8273208736191593939">"<xliff:g id="COUNT">%1$s</xliff:g> / <xliff:g id="LIMIT">%2$s</xliff:g>"</string>
+    <string name="call_subject_type_and_number" msgid="6338030032554019678">"<xliff:g id="TYPE">%1$s</xliff:g> <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="tab_title" msgid="3387876802026074288">"<xliff:g id="TITLE">%1$s</xliff:g> sekmesi."</string>
+    <plurals name="tab_title_with_unread_items" formatted="false" msgid="8548492980702182785">
+      <item quantity="other"> <xliff:g id="TITLE_2">%1$s</xliff:g> sekmesi. <xliff:g id="COUNT_3">%2$d</xliff:g> okunmamış öğe. </item>
+      <item quantity="one"> <xliff:g id="TITLE_0">%1$s</xliff:g> sekmesi. <xliff:g id="COUNT_1">%2$d</xliff:g> okunmamış öğe. </item>
+    </plurals>
+    <string name="about_build_version" msgid="6809677213570116689">"Derleme sürümü"</string>
+    <string name="about_open_source_licenses" msgid="9071344335180981674">"Açık kaynak lisansları"</string>
+    <string name="about_open_source_licenses_summary" msgid="4662018242345608420">"Açık kaynak yazılımlar için lisans ayrıntıları"</string>
+    <string name="about_privacy_policy" msgid="120921692215934837">"Gizlilik politikası"</string>
+    <string name="about_terms_of_service" msgid="9004506174858804172">"Hizmet şartları"</string>
+    <string name="activity_title_licenses" msgid="2416018204229261875">"Açık kaynak lisansları"</string>
+    <string name="url_open_error_toast" msgid="3814442157861318482">"URL açılamadı."</string>
+    <string name="description_search_video_call" msgid="4337369876888024909">"Görüntülü görüşme"</string>
+    <string name="description_search_call_and_share" msgid="4912772842755050467">"Paylaşır ve telefon eder"</string>
+
+
+
+    <string name="phoneAppLabel" product="default" msgid="4266606423746318128">"Telefon"</string>
+    <string name="inCallLabel" msgid="8627766543550519912">"InCallUI"</string>
+    <string name="confCall" msgid="36560628097626181">"Konferans görüşmesi"</string>
+    <string name="call_lost" msgid="2082971531689406145">"Çağrı kesildi"</string>
+    <string name="wait_prompt_str" msgid="3509685348904329594">"Şu zil sesleri gönderilsin mi?\n"</string>
+    <string name="pause_prompt_str" msgid="5712344742516488080">"Sayı tonları gönderiliyor\n"</string>
+    <string name="send_button" msgid="6976782353456252579">"Gönder"</string>
+    <string name="pause_prompt_yes" msgid="4642047011233552973">"Evet"</string>
+    <string name="pause_prompt_no" msgid="4691320111774935838">"Hayır"</string>
+    <string name="wild_prompt_str" msgid="1399377741491574104">"Joker karakteri şununla değiştir:"</string>
+    <string name="caller_manage_header" msgid="7358710345135355578">"Konferans görüşmesi <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="voicemail_settings_number_label" msgid="8935904934161608885">"Sesli mesaj numarası"</string>
+    <string name="notification_dialing" msgid="9072177265772083826">"Numara çevriliyor"</string>
+    <string name="notification_missedCallTicker" msgid="238492086972857643">"Cevapsız çağrı: <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call" msgid="8712641937577776125">"Devam eden çağrılar"</string>
+    <string name="notification_ongoing_work_call" msgid="3189581218078981547">"Süren iş çağrısı"</string>
+    <string name="notification_ongoing_call_wifi" msgid="4393238962909277019">"Devam eden kablosuz çağrı"</string>
+    <string name="notification_ongoing_work_call_wifi" msgid="3169378605818323964">"İşle ilgili devam eden kablosuz çağrı"</string>
+    <string name="notification_on_hold" msgid="7141827443379205682">"Beklemede"</string>
+    <string name="notification_incoming_call" msgid="7520580807513849283">"Gelen çağrı"</string>
+    <string name="notification_incoming_call_with_photo" msgid="4360505044807517422">"Fotoğraf eklenmiş gelen çağrı"</string>
+    <string name="notification_incoming_call_with_message" msgid="5608687985694956601">"Mesaj eklenmiş gelen çağrı"</string>
+    <string name="notification_incoming_call_with_location" msgid="4519498445081598767">"Konum eklenmiş gelen çağrı"</string>
+    <string name="notification_incoming_call_with_photo_message" msgid="316806247057497525">"Fotoğraf ve mesaj eklenmiş gelen çağrı"</string>
+    <string name="notification_incoming_call_with_photo_location" msgid="3523930283842222367">"Fotoğraf ve konum eklenmiş gelen çağrı"</string>
+    <string name="notification_incoming_call_with_message_location" msgid="319374298517482028">"Mesaj ve konum eklenmiş gelen çağrı"</string>
+    <string name="notification_incoming_call_with_photo_message_location" msgid="596658237891406809">"Fotoğraf, mesaj ve konum eklenmiş gelen çağrı"</string>
+    <string name="notification_incoming_call_attachments" msgid="3708414495376236948">"Ek iliştirilmiş gelen çağrı"</string>
+    <string name="important_notification_incoming_call" msgid="2867013954509930989">"Önemli gelen çağrı"</string>
+    <string name="important_notification_incoming_call_with_photo" msgid="4908333121583658560">"Fotoğraf eklenmiş önemli gelen çağrı"</string>
+    <string name="important_notification_incoming_call_with_message" msgid="1614505248246685319">"Mesaj eklenmiş önemli gelen çağrı"</string>
+    <string name="important_notification_incoming_call_with_location" msgid="7387284065036564352">"Konum eklenmiş önemli gelen çağrı"</string>
+    <string name="important_notification_incoming_call_with_photo_message" msgid="4577220919701434817">"Fotoğraf ve mesaj eklenmiş önemli gelen çağrı"</string>
+    <string name="important_notification_incoming_call_with_photo_location" msgid="7172208615619394502">"Fotoğraf ve konum eklenmiş önemli gelen çağrı"</string>
+    <string name="important_notification_incoming_call_with_message_location" msgid="7244079127080064796">"Mesaj ve konum eklenmiş önemli gelen çağrı"</string>
+    <string name="important_notification_incoming_call_with_photo_message_location" msgid="513692941317253479">"Fotoğraf, mesaj ve konum eklenmiş önemli çağrı"</string>
+    <string name="important_notification_incoming_call_attachments" msgid="4594375776340303751">"Ek iliştirilmiş önemli gelen çağrı"</string>
+    <string name="notification_incoming_work_call" msgid="5291275092734261918">"Gelen iş çağrısı"</string>
+    <string name="notification_incoming_call_wifi" msgid="1020138378061234203">"Gelen kablosuz çağrı"</string>
+    <string name="notification_incoming_work_call_wifi" msgid="3549264481033044684">"İşle ilgili gelen kablosuz çağrı"</string>
+    <string name="notification_incoming_spam_call" msgid="7591506944666791937">"Spam olabilecek gelen arama"</string>
+    <string name="notification_requesting_video_call" msgid="1807679328811515758">"Gelen video isteği"</string>
+    <string name="notification_network_selection_title" msgid="8639159088474275747">"Hizmet yok"</string>
+    <string name="notification_network_selection_text" msgid="7190860774239009625">"Seçili ağ (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) kullanılamıyor"</string>
+    <string name="notification_action_answer" msgid="8748275902211192568">"Yanıtla"</string>
+    <string name="notification_action_end_call" msgid="7467258454170007765">"Kapat"</string>
+    <string name="notification_action_answer_video" msgid="8488108892919917287">"Video"</string>
+    <string name="notification_action_answer_voice" msgid="6237890905749760509">"Ses"</string>
+    <string name="notification_action_accept" msgid="1272761514200507143">"Kabul et"</string>
+    <string name="notification_action_dismiss" msgid="3128241581632616226">"Reddet"</string>
+    <string name="notification_external_call" msgid="2504334597315343920">"Başka bir cihazda devam eden çağrı"</string>
+    <string name="notification_external_video_call" msgid="7709394856028436683">"Başka bir cihazda devam eden video görüşmesi var"</string>
+    <string name="notification_take_call" msgid="5631659438864492229">"Çağrıyı Al"</string>
+    <string name="notification_take_video_call" msgid="4473387503712341390">"Video Görüşmesini Al"</string>
+    <string name="incall_error_power_off" msgid="3244691852792529453">"Bir çağrı yapmak için öncelikle Uçak modunu kapatın."</string>
+    <string name="incall_error_emergency_only" msgid="8313690034696753566">"Ağda kayıtlı değil."</string>
+    <string name="incall_error_out_of_service" msgid="5027539470868484145">"Mobil ağ kullanılamıyor."</string>
+    <string name="incall_error_no_phone_number_supplied" msgid="293343960362630925">"Telefon etmek için geçerli bir numara girin."</string>
+    <string name="incall_error_call_failed" msgid="5560521345862514733">"Arama yapılamıyor."</string>
+    <string name="incall_status_dialed_mmi" msgid="3341365334358686873">"MMI dizisi başlatılıyor..."</string>
+    <string name="incall_error_supp_service_unknown" msgid="3062751096566282959">"Servis desteklenmiyor."</string>
+    <string name="incall_error_supp_service_switch" msgid="759346040980722884">"Çağrı geçişi yapılamıyor."</string>
+    <string name="incall_error_supp_service_separate" msgid="5250304200901095519">"Çağrı ayrılamıyor."</string>
+    <string name="incall_error_supp_service_transfer" msgid="556522021433482116">"Aktarılamıyor."</string>
+    <string name="incall_error_supp_service_conference" msgid="9211560861266632111">"Konferans yapılamıyor."</string>
+    <string name="incall_error_supp_service_reject" msgid="2724981515194352120">"Çağrı reddedilemiyor."</string>
+    <string name="incall_error_supp_service_hangup" msgid="4659922482839313098">"Çağrılar bırakılamıyor."</string>
+    <string name="emergency_enable_radio_dialog_title" msgid="5964415982020440543">"Acil durum çağrısı"</string>
+    <string name="emergency_enable_radio_dialog_message" msgid="6927454354381787268">"Radyo açılıyor..."</string>
+    <string name="emergency_enable_radio_dialog_retry" msgid="8760220613410560290">"Servis yok. Tekrar deneniyor…"</string>
+    <string name="dial_emergency_error" msgid="6953255422990366011">"Çağrı yapılamıyor. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> bir acil durum numarası değil."</string>
+    <string name="dial_emergency_empty_error" msgid="6668006522178181198">"Aranamıyor. Bir acil durum numarasını arayın."</string>
+    <string name="dialerKeyboardHintText" msgid="6275105254377292585">"Çevirmek için klavyeyi kullan"</string>
+    <string name="player_started" msgid="9177182657338033086">"Oynatıcı Başlatıldı"</string>
+    <string name="player_stopped" msgid="5040965200339765956">"Oynatıcı Durduruldu"</string>
+    <string name="camera_not_ready" msgid="3629017450703828964">"Kamera hazır değil"</string>
+    <string name="camera_ready" msgid="4312684554501216898">"Kamera hazır"</string>
+    <string name="unknown_call_session_event" msgid="797786212356595358">"Bilinmeyen çağrı oturumu etkinliği"</string>
+    <string name="other_settings" msgid="2537377721890761197">"Diğer çağrı ayarları"</string>
+    <string name="goPrivate" msgid="5269514638004595378">"özele git"</string>
+    <string name="selectContact" msgid="1703433172800564849">"kişi seçin"</string>
+    <string name="preference_category_ringtone" msgid="8566115267004890115">"Zil Sesi ve Titreşim"</string>
+    <string name="manageConferenceLabel" msgid="3589379023518128318">"Konferans çağrısını yönet"</string>
+    <string name="emergency_call_dialog_number_for_display" msgid="461645337084699104">"Acil durum numarası"</string>
+    <string name="child_number" msgid="3398257437107259682">"<xliff:g id="CHILD_NUMBER">%s</xliff:g> ile"</string>
+    <string name="person_contact_context_title" msgid="9186980175313563725">"Son iletiler"</string>
+    <string name="business_contact_context_title" msgid="4796616668776688978">"İş bilgileri"</string>
+    <string name="distance_imperial_away" msgid="66546464027126106">"<xliff:g id="DISTANCE">%.1f</xliff:g> mil uzakta"</string>
+    <string name="distance_metric_away" msgid="4535553190850854545">"<xliff:g id="DISTANCE">%.1f</xliff:g> km uzakta"</string>
+    <string name="display_address" msgid="2909385132133621873">"<xliff:g id="STREET_ADDRESS">%1$s</xliff:g>, <xliff:g id="LOCALITY">%2$s</xliff:g>"</string>
+    <string name="open_time_span" msgid="3333746415188434992">"<xliff:g id="OPEN_TIME">%1$s</xliff:g> - <xliff:g id="CLOSE_TIME">%2$s</xliff:g>"</string>
+    <string name="opening_hours" msgid="2908934145495754020">"<xliff:g id="EARLIER_TIMES">%1$s</xliff:g>, <xliff:g id="LATER_TIME">%2$s</xliff:g>"</string>
+    <string name="opens_tomorrow_at" msgid="2896787795283597856">"Yarın açılış saati: <xliff:g id="OPEN_TIME">%s</xliff:g>"</string>
+    <string name="opens_today_at" msgid="4701005560156621184">"Bugün açılış saati: <xliff:g id="OPEN_TIME">%s</xliff:g>"</string>
+    <string name="closes_today_at" msgid="2668928851103904896">"Kapanış saati: <xliff:g id="CLOSE_TIME">%s</xliff:g>"</string>
+    <string name="closed_today_at" msgid="4203311397205549440">"Bugün kapanış saati: <xliff:g id="CLOSE_TIME">%s</xliff:g>"</string>
+    <string name="open_now" msgid="5897306702060039512">"Şu an açık"</string>
+    <string name="closed_now" msgid="3962291301467974921">"Şu an kapalı"</string>
+    <string name="non_spam_notification_title" msgid="3290544768406546372">"<xliff:g id="NUMBER">%1$s</xliff:g> tanıdık bir numara mı?"</string>
+    <string name="spam_notification_title" msgid="2439276063775520534">"<xliff:g id="NUMBER">%1$s</xliff:g> spam amaçlı bir numara mı?"</string>
+    <string name="spam_notification_block_report_toast_text" msgid="6844067640633690292">"<xliff:g id="NUMBER">%1$s</xliff:g> engellendi ve çağrı spam olarak bildirildi."</string>
+    <string name="spam_notification_not_spam_toast_text" msgid="8321993839027073785">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan gelen çağrının spam olmadığı bildirildi."</string>
+    <string name="spam_notification_non_spam_call_collapsed_text" msgid="6482092382445364016">"Kişilere eklemek veya spam numarasını engellemek için dokunun."</string>
+    <string name="spam_notification_non_spam_call_expanded_text" msgid="3598209932872915536">"Bu numaradan ilk kez arandınız. Bu çağrı spam amaçlı olarak yapıldıysa numarayı engelleyip bildirebilirsiniz."</string>
+    <string name="spam_notification_spam_call_collapsed_text" msgid="3865687645128037638">"SPAM DEĞİL bildirimi göndermek için dokunun veya numarayı engelleyin."</string>
+    <string name="spam_notification_spam_call_expanded_text" msgid="1062029525759401658">"Bu numaranın spam amaçlı olduğundan şüphelendik. Çağrı spam amaçlı değilse, SPAM DEĞİL\'e dokunarak kararımızın hatalı olduğunu bildirin."</string>
+    <string name="spam_notification_report_spam_action_text" msgid="4829510418690824538">"Engelle ve bildir"</string>
+    <string name="spam_notification_add_contact_action_text" msgid="307315138401483232">"Kişi ekle"</string>
+    <string name="spam_notification_not_spam_action_text" msgid="2576048366011852090">"Spam değil"</string>
+    <string name="spam_notification_block_spam_action_text" msgid="80045727259264724">"Numarayı engelle"</string>
+    <string name="spam_notification_dialog_add_contact_action_text" msgid="5619696845681999506">"Kişilere ekle"</string>
+    <string name="spam_notification_dialog_block_report_spam_action_text" msgid="1821506089128547428">"Engelle ve spam bildir"</string>
+    <string name="spam_notification_dialog_was_not_spam_action_text" msgid="4953789750391355251">"Spam değil"</string>
+    <string name="callFailed_simError" msgid="4587775795711340072">"SIM kart yok veya SIM hatası"</string>
+    <string name="conference_caller_disconnect_content_description" msgid="2821988368803183644">"Çağrı sonlandırılır"</string>
+    <string name="conference_call_name" msgid="8189987124611337174">"Konferans çağrısı"</string>
+    <string name="generic_conference_call_name" msgid="1546941472424243894">"Konferans çağrısında"</string>
+    <string name="video_call_wifi_to_lte_handover_toast" msgid="2108633957233856099">"Görüşmeye mobil veri kullanılarak devam ediliyor…"</string>
+    <string name="video_call_lte_to_wifi_failed_title" msgid="1343446383310594456">"Kablosuz ağa geçilemedi"</string>
+    <string name="video_call_lte_to_wifi_failed_message" msgid="3703332569739939335">"Görüntülü görüşme mobil ağda devam edecek. Standart veri ücretleri alınabilir."</string>
+    <string name="video_call_lte_to_wifi_failed_do_not_show" msgid="7609115874511223150">"Bunu bir daha gösterme"</string>
+
+
+
+    <string name="voicemail_settings_with_label" msgid="563926539137546586">"Sesli mesaj (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="voicemail_settings_title" msgid="6685263321755930738">"Sesli mesaj"</string>
+    <string name="voicemail_notifications_preference_title" msgid="3490553930230492405">"Bildirimler"</string>
+    <string name="voicemail_advanced_settings_title" msgid="6390900339808156711">"Gelişmiş Ayarlar"</string>
+    <string name="voicemail_visual_voicemail_switch_title" msgid="3158454817165714998">"Görsel Sesli Mesaj"</string>
+    <string name="voicemail_visual_voicemail_auto_archive_switch_title" msgid="7120443850486401455">"Ekstra yedekleme ve depolama alanı"</string>
+    <string name="voicemail_set_pin_preference_title" msgid="1034691230818233684">"PIN belirleyin"</string>
+    <string name="voicemail_change_pin_preference_title" msgid="8944570865151211693">"PIN\'i değiştirin"</string>
+    <string name="voicemail_change_pin_preference_summary_disable" msgid="2787334822298063691">"PIN\'i değiştirebilmek için görsel sesli mesaj etkinleştirilmelidir"</string>
+    <string name="voicemail_change_pin_preference_summary_not_activated" msgid="8794039647258533633">"Görsel sesli mesaj henüz etkinleştirilmedi. Lütfen daha sonra tekrar deneyin."</string>
+    <string name="vm_change_pin_old_pin" msgid="3732582036597386047">"Eski PIN"</string>
+    <string name="vm_change_pin_new_pin" msgid="5167496290646066333">"Yeni PIN"</string>
+    <string name="vm_change_pin_progress_message" msgid="4143209637626661679">"Lütfen bekleyin."</string>
+    <string name="vm_change_pin_error_too_short" msgid="2825020644385639921">"Yeni PIN çok kısa."</string>
+    <string name="vm_change_pin_error_too_long" msgid="683260438529171998">"Yeni PIN çok uzun."</string>
+    <string name="vm_change_pin_error_too_weak" msgid="5865254034338293113">"Yeni PIN çok zayıf. Güçlü bir şifrede birbirini sıralı şekilde takip eden veya yinelenen rakamlar bulunmamalıdır."</string>
+    <string name="vm_change_pin_error_mismatch" msgid="3682667971009913553">"Eski PIN eşleşmiyor."</string>
+    <string name="vm_change_pin_error_invalid" msgid="4317397281749196545">"Yeni PIN, geçersiz karakterler içeriyor."</string>
+    <string name="vm_change_pin_error_system_error" msgid="5972056058776852411">"PIN değiştirilemedi"</string>
+    <string name="vvm_unsupported_message_format" msgid="2746490691815392491">"Desteklenmeyen mesaj türü. Dinlemek için <xliff:g id="NUMBER">%s</xliff:g> numaralı telefonu arayın."</string>
+    <string name="change_pin_title" msgid="1363830310845461697">"Sesli Mesaj PIN\'ini Değiştirin"</string>
+    <string name="change_pin_continue_label" msgid="9184635195162827832">"Devam"</string>
+    <string name="change_pin_cancel_label" msgid="7258783861113501519">"İptal"</string>
+    <string name="change_pin_ok_label" msgid="4527043915415428629">"Tamam"</string>
+    <string name="change_pin_enter_old_pin_header" msgid="1375728090965833028">"Eski PIN\'inizi onaylayın"</string>
+    <string name="change_pin_enter_old_pin_hint" msgid="1654231195871094175">"Devam etmek için sesli mesaj PIN\'inizi girin."</string>
+    <string name="change_pin_enter_new_pin_header" msgid="7142620840890909719">"Yeni PIN oluşturun"</string>
+    <string name="change_pin_enter_new_pin_hint" msgid="1289662932759932217">"PIN, <xliff:g id="MIN">%1$d</xliff:g> ila <xliff:g id="MAX">%2$d</xliff:g> basamaklı olmalıdır."</string>
+    <string name="change_pin_confirm_pin_header" msgid="7282604363655862136">"PIN\'inizi onaylayın"</string>
+    <string name="change_pin_confirm_pins_dont_match" msgid="8626742552205369433">"PIN\'ler eşleşmiyor"</string>
+    <string name="change_pin_succeeded" msgid="6869403202124894671">"Sesli mesaj PIN\'i güncellendi"</string>
+    <string name="change_pin_system_error" msgid="5762853042379833829">"PIN ayarlanamadı"</string>
+
+
+    <string name="urgent" msgid="5271653973625093934">"Acil! Lütfen telefona cevap verin!"</string>
+    <string name="want_to_chat" msgid="847333669248949914">"Sohbet etmek mi istiyorsunuz?"</string>
+    <string name="quick_question" msgid="3501160802390214092">"Kısa soru…"</string>
+    <string name="message_composer_custom_message_hint" msgid="2061100708804604835">"Özel bir mesaj yazın"</string>
+    <string name="send_and_call" msgid="3749091015058610762">"Gönder ve telefon et"</string>
+    <string name="share_and_call" msgid="8934144481838868674">"Paylaş ve telefon et"</string>
+    <string name="gallery_item_description" msgid="7600601724204579471">"resim <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g>"</string>
+    <string name="gallery_item_description_no_date" msgid="2059198895441426838">"resim"</string>
+    <string name="camera_switch_to_still_mode" msgid="1881982437979592567">"Fotoğraf çeker"</string>
+    <string name="camera_media_failure" msgid="8979549551450965882">"Kamera görüntüsü yüklenemedi"</string>
+    <string name="allow" msgid="8637148297403066623">"İzin ver"</string>
+    <string name="camera_permission_text" msgid="7863231776480341614">"Fotoğraf çekmek için Kamera\'ya erişim izni verin"</string>
+    <string name="gallery_permission_text" msgid="4102566850658919346">"Resim paylaşmak için Medya\'ya erişim izni verin"</string>
+    <string name="description_call_composer_camera" msgid="388088245837924914">"Resim çeker"</string>
+    <string name="description_call_composer_photo" msgid="6449208314952246454">"Fotoğraf seçilmesini sağlar"</string>
+    <string name="description_call_composer_message" msgid="9132362446000908550">"Mesaj gönderir"</string>
+    <string name="image_sent_messages" msgid="6520870555040566229">"Fotoğraf, Mesajlar uygulaması üzerinden gönderildi"</string>
+    <string name="message_sent_messages" msgid="6286576951151541098">"Mesaj, Mesajlar uygulaması üzerinden gönderildi"</string>
+    
+
+
+    <string name="migrate_blocked_numbers_dialog_title" msgid="7823962296457673809">"Yeni, basitleştirlmş engelleme"</string>
+    <string name="migrate_blocked_numbers_dialog_message" msgid="8309736147266462485">"Daha iyi korunmanız için engelleme işlevinin çalışma biçiminin Telefon tarafından değiştirilmesi gerekmektedir. Engellediğiniz numaralardan artık çağrı ve kısa mesaj almayacaksınız. Ayrıca bu numaralar başka uygulamalarla paylaşılabilir."</string>
+    <string name="migrate_blocked_numbers_dialog_allow_button" msgid="5192836471557751367">"İzin ver"</string>
+    <string name="block_number_confirmation_title" msgid="2699521227461376076">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefon engellensin mi?"</string>
+    <string name="block_number_confirmation_message_vvm" msgid="6501105244172290939">"Bu numaradan gelen çağrılar engellenecek ve sesli mesajlar otomatik olarak silinecektir."</string>
+    <string name="block_number_confirmation_message_no_vvm" msgid="8236641245709649882">"Bu numaradan gelen çağrılar engellenecek, ancak arayan kişi yine de size sesli mesaj bırakabilecektir."</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="8487449683723062644">"Artık bu numaradan sesli arama veya kısa mesaj almayacaksınız."</string>
+    <string name="block_number_ok" msgid="739786082788038932">"ENGELLE"</string>
+    <string name="unblock_number_confirmation_title" msgid="7897778825085659941">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefonun engellemesi kaldırılsın mı?"</string>
+    <string name="unblock_number_ok" msgid="5089057152966269355">"ENGELLEMEYİ KALDIR"</string>
+    <string name="invalidNumber" msgid="6270918250761754967">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefon geçersiz."</string>
+    <string name="snackbar_number_blocked" msgid="5760234822413921845">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefon engellendi"</string>
+    <string name="snackbar_number_unblocked" msgid="7941296274123990585">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefonun engellemesi kaldırıldı"</string>
+    <string name="block_number_undo" msgid="5158120911892491697">"GERİ AL"</string>
+    <string name="send_to_voicemail_import_failed" msgid="1012752662074208237">"İçe aktarma başarısız oldu"</string>
+    <string name="call_blocking_disabled_notification_title" msgid="7211352205255347489">"Çağrı engelleme 48 saat süreyle devre dışı bırakıldı"</string>
+    <string name="call_blocking_disabled_notification_text" msgid="141384084865180722">"Acil durum çağrısı yapıldığından devre dışı bırakıldı."</string>
+    <string name="block_report_number_alert_title" msgid="2740581989824959611">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefon engellensin mi?"</string>
+    <string name="block_report_number_alert_details" msgid="2652479394593143562">"Artık bu numaradan çağrı almayacaksınız."</string>
+    <string name="block_number_alert_details" msgid="715942751312046429">"<xliff:g id="TEXT">%1$s</xliff:g> Bu çağrı spam olarak bildirilecek."</string>
+    <string name="unblock_number_alert_details" msgid="8696070817026870606">"Numaranın engellemesi ve spam durumu kaldırılacak. Gelecekteki çağrılar spam olarak tanımlanmayacak."</string>
+    <string name="unblock_report_number_alert_title" msgid="2221901995393696882">"<xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefonun engellemesi kaldırılsın mı?"</string>
+    <string name="report_not_spam_alert_button" msgid="3244953565919894995">"Bildir"</string>
+    <string name="report_not_spam_alert_title" msgid="395961923213504916">"Yanlışlıkla mı bildirim gönderdiniz?"</string>
+    <string name="report_not_spam_alert_details" msgid="4463730683530824797">"Artık <xliff:g id="NUMBER">%1$s</xliff:g> numarasından gelecek çağrılar spam olarak tanımlanmayacak."</string>
+    <string name="checkbox_report_as_spam_action" msgid="1549159682170273798">"Çağrıyı spam olarak bildir"</string>
+
+
+
+    <string name="call_details" msgid="5063658079729839605">"Çağrı ayrıntıları"</string>
+    <string name="delete" msgid="2141020674108406737">"Sil"</string>
+    <string name="call_details_copy_number" msgid="4265479408878990796">"Numarayı kopyala"</string>
+    <string name="call_details_edit_number" msgid="8718476514903513624">"Telefon etmeden önce numarayı düzenleyin"</string>
+    <string name="call_details_report_call_id" msgid="8857541295264421217">"Hatalı numarayı bildir"</string>
+    <string name="sent_a_photo" msgid="3978670717462979502">"Bir fotoğraf gönderildi"</string>
+    <string name="received_a_photo" msgid="3528953225576480505">"Bir fotoğraf alındı"</string>
+    <string name="message_in_quotes" msgid="3270574830115828365">"\"<xliff:g id="MESSAGE">%1$s</xliff:g>\""</string>
+    <string name="report_caller_id_dialog_title" msgid="145323726250371695">"Yanlış numarayı bildir"</string>
+    <string name="report_caller_id_failed" msgid="1471904930106125702">"Numara bildirilemedi"</string>
+    <string name="report_caller_id_toast" msgid="5494870403429969932">"Numara bildirildi"</string>
+
+
+    <string name="type_incoming" msgid="5727636795656199810">"Gelen çağrı"</string>
+    <string name="type_incoming_pulled" msgid="8434723359163965796">"Gelen çağrı başka bir cihaza aktarıldı"</string>
+    <string name="type_outgoing" msgid="764896746073942963">"Giden çağrı"</string>
+    <string name="type_outgoing_pulled" msgid="1648517538371704193">"Giden çağrı başka bir cihaza aktarıldı"</string>
+    <string name="type_missed" msgid="2997043831022028176">"Cevapsız çağrı"</string>
+    <string name="type_incoming_video" msgid="7507180294202642554">"Gelen görüntülü görüşme isteği"</string>
+    <string name="type_incoming_video_pulled" msgid="7879031598844023977">"Gelen görüntülü görüşme isteği başka bir cihaza aktarıldı"</string>
+    <string name="type_outgoing_video" msgid="309370072333983910">"Giden görüntülü görüşme isteği"</string>
+    <string name="type_outgoing_video_pulled" msgid="3924450629684331345">"Giden görüntülü görüşme isteği başka bir cihaza aktarıldı"</string>
+    <string name="type_missed_video" msgid="4350107016317603785">"Cevapsız görüntülü görüşme isteği"</string>
+    <string name="type_voicemail" msgid="1877524395253846684">"Sesli mesaj"</string>
+    <string name="type_rejected" msgid="5632107438472996198">"Reddedilen çağrı"</string>
+    <string name="type_blocked" msgid="9177237294052244929">"Engellenen çağrı"</string>
+    <string name="call_details_minutes_abbreviation" msgid="7899774555556720560">"dk."</string>
+    <string name="call_details_seconds_abbreviation" msgid="5893806826648947126">"sn."</string>
+    <string name="a11y_call_duration_format" msgid="2905525933361674470">"<xliff:g id="MINUTES_0">%d</xliff:g> <xliff:g id="MINUTES_TRANSLATION">%s</xliff:g> <xliff:g id="SECONDS_1">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="a11y_call_duration_short_format" msgid="5908875871251062453">"<xliff:g id="SECONDS_0">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="call_duration_format_pattern" msgid="7566375153243313914">"<xliff:g id="MINUTES_SPECIAL_CHARACTER">%s</xliff:g> \'<xliff:g id="MINUTES_TRANSLATION">%s</xliff:g>\' <xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g> \'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <string name="call_duration_short_format_pattern" msgid="1713177000235994790">"<xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g> \'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <plurals name="a11y_seconds" formatted="false" msgid="6695730844760611970">
+      <item quantity="other">saniye</item>
+      <item quantity="one">saniye</item>
+    </plurals>
+    <plurals name="a11y_minutes" formatted="false" msgid="6377010096698624038">
+      <item quantity="other">dakika</item>
+      <item quantity="one">dakika</item>
+    </plurals>
+    <string name="type_answered_elsewhere" msgid="411958582555881640">"Çağrı başka bir cihazda cevaplandı"</string>
+    <string name="description_phone_account" msgid="4382951172691362244">"<xliff:g id="PHONEACCOUNT">^1</xliff:g> hesabında"</string>
+    <string name="description_via_number" msgid="7682575124846343076">"<xliff:g id="NUMBER">%1$s</xliff:g> kullanılarak"</string>
+    <string name="description_via_number_phone_account" msgid="4345445677508018830">"<xliff:g id="NUMBER">%2$s</xliff:g> kullanılarak <xliff:g id="PHONEACCOUNT">%1$s</xliff:g> hesabında"</string>
+    <string name="voicemail_string" msgid="6029775151483803006">"Sesli mesaj"</string>
+
+
+    <string name="network_name_wifi" msgid="3026388992566895417">"Kablosuz"</string>
+    <string name="network_name_mobile" msgid="7655711935020766459">"Mobil"</string>
+
+
+    <string name="description_dialpad_back" msgid="6226488105558971135">"Geri dön"</string>
+    <string name="description_dialpad_overflow" msgid="5984341386518189787">"Diğer seçenekler"</string>
+    <string name="description_delete_button" msgid="8431313818404527096">"geri tuşu"</string>
+    <string name="description_image_button_plus" msgid="8936338119824589388">"artı"</string>
+    <string name="description_voicemail_button" msgid="4187006295368768215">"sesli mesaj"</string>
+
+
+    <string name="sms_disambig_title" msgid="369677069797534410">"Numarayı seçin"</string>
+    <string name="call_disambig_title" msgid="2395382326030227603">"Numarayı seçin"</string>
+    <string name="make_primary" msgid="9069345357862475091">"Bu tercihi anımsa"</string>
+
+
+    <string name="notification_channel_incoming_call" msgid="2478740764736158630">"Gelen çağrılar"</string>
+    <string name="notification_channel_ongoing_call" msgid="5593444445363940672">"Devam eden çağrılar"</string>
+    <string name="notification_channel_missed_call" msgid="5820652855908217695">"Cevapsız çağrılar"</string>
+    <string name="notification_channel_voicemail" msgid="9206363659849426204">"Sesli mesajlar"</string>
+    <string name="notification_channel_misc" msgid="5595452227577858518">"Varsayılan"</string>
+
+
+    <string name="private_num_verizon" msgid="3281061244372204957">"Kısıtlanmış"</string>
+    <string name="private_num_non_verizon" msgid="5829254390933301216">"Özel numara"</string>
+
+
+    <string name="post_call_message" msgid="3541277172068556862">"Arama nedeninizi söyleyin"</string>
+    <string name="post_call_message_1" msgid="4827849136801228106">"Acil bir durum var. Beni geri arayın."</string>
+    <string name="post_call_message_2" msgid="5310301526176003385">"Zamanınız olduğunda beni geri arayın."</string>
+    <string name="post_call_message_3" msgid="3932759658420368056">"Acil bir durum yok. Daha sonra konuşuruz."</string>
+    <string name="post_call_add_message" msgid="8298853527467080463">"Mesaj ekleyin"</string>
+    <string name="post_call_send_message" msgid="8039569617234824873">"Mesaj gönder"</string>
+    <string name="post_call_message_sent" msgid="832757977985265036">"Mesaj gönderildi"</string>
+    <string name="view" msgid="8572192949673703830">"Görüntüle"</string>
+
+
+    <string name="dialer_shortcut_add_contact_short" msgid="7587385197258884650">"Yeni kişi"</string>
+    <string name="dialer_shortcut_add_contact_long" msgid="7573187314386728329">"Yeni kişi"</string>
+    <string name="dialer_shortcut_disabled_message" msgid="7713603194332953571">"Kısayol çalışmıyor. Kaldırmak için sürükleyin."</string>
+    <string name="dialer_shortcut_contact_not_found_or_has_no_number" msgid="3538594504123040498">"Kişi artık kullanılamıyor."</string>
+    <string name="dialer_shortcut_no_permissions" msgid="4422956724546867357">"İzinler olmadan sesli arama yapılamaz."</string>
+    <string name="default_notification_description" msgid="4304424287748323094">"Varsayılan ses (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="ringtone_silent" msgid="946744257396998305">"Yok"</string>
+    <string name="ringtone_unknown" msgid="1310974715243581582">"Bilinmeyen zil sesi"</string>
+    <string name="activity_not_available" msgid="8360067109103762211">"Bu cihazda bu işlem için uygun uygulama yok"</string>
+    <string name="outgoing_wps_warning" msgid="7505673114152005234">"WPS çağrısı yaparsanız, devam eden çağrı sonlandırılır."</string>
+    <string name="dialog_continue" msgid="4070630558441163574">"Devam"</string>
+    <!-- no translation found for camera_privacy_text (4268584469444688293) -->
+    <skip />
+
+
+    <string name="voicemail_status_voicemail_not_available" msgid="5853033558114540057">"Sesli mesaj güncellemesi yok"</string>
+    <string name="voicemail_status_messages_waiting" msgid="8900895357460505877">"Yeni sesli mesaj bekliyor. Şu anda yüklenemiyor."</string>
+    <string name="voicemail_status_configure_voicemail" msgid="8642831215097798709">"Sesli mesajınızı yapılandırın"</string>
+    <string name="voicemail_status_audio_not_available" msgid="2341871147130931237">"Ses kullanılamıyor"</string>
+    <string name="voicemail_status_action_configure" msgid="4445818528232235329">"Yapılandır"</string>
+    <string name="voicemail_status_action_call_server" msgid="3189606267631644507">"Sesli mesaj ara"</string>
+
+
+    <string name="custom_message_hint" msgid="2179012696339457461">"Özel bir mesaj yazın"</string>
+    <string name="toolbar_close" msgid="1081308076149879833">"Kapat"</string>
+    <string name="all_contacts_empty" msgid="4260556610403994011">"Henüz hiç kişiniz yok"</string>
+    <string name="all_contacts_empty_add_contact_action" msgid="7850060327481179533">"Yeni kişi oluştur"</string>
+    <string name="permission_single_turn_on" msgid="1306416016676232584">"Etkinleştir"</string>
+    <string name="permission_no_contacts" msgid="2388204904477299207">"Kişilerinizi görmek için Kişiler iznini etkinleştirin."</string>
+    <string name="add_contact_not_available" msgid="3083256438899321502">"Kullanılabilir kişi uygulaması yok"</string>
+
+    <string name="audioroute_bluetooth" msgid="3426527851663711141">"Bluetooth"</string>
+    <string name="audioroute_speaker" msgid="3269659224838962927">"Hoparlör"</string>
+    <string name="audioroute_phone" msgid="4006113852056568310">"Telefon"</string>
+    <string name="audioroute_headset" msgid="3911496379650036544">"Kablolu mikrofonlu kulaklık"</string>
+
+
+    <string name="incall_content_description_end_call" msgid="8232796487777787200">"Çağrıyı sonlandırın"</string>
+    <string name="incall_content_description_muted" msgid="2130133443150389474">"Ses kapatıldı"</string>
+    <string name="incall_content_description_unmuted" msgid="4023577547526525202">"Ses açıldı"</string>
+    <string name="incall_content_description_swap_calls" msgid="5233257839262161417">"Çağrılar arasında geçiş yapın"</string>
+    <string name="incall_content_description_merge_calls" msgid="5198778837993669729">"Çağrıları birleştirin"</string>
+    <string name="incall_content_description_earpiece" msgid="2786221842272370555">"Mobil cihaz kulaklığı"</string>
+    <string name="incall_content_description_speaker" msgid="7837829930201265549">"Hoparlör"</string>
+    <string name="incall_content_description_bluetooth" msgid="6988919010980910001">"Bluetooth"</string>
+    <string name="incall_content_description_headset" msgid="3170439802944346719">"Kablolu mikrofonlu kulaklık"</string>
+    <string name="incall_content_description_hold" msgid="3335508251734906019">"Çağrıyı beklet"</string>
+    <string name="incall_content_description_unhold" msgid="3862584118869933593">"Çağrıyı devam ettir"</string>
+    <string name="incall_content_description_video_on" msgid="899266487647420613">"Video açık"</string>
+    <string name="incall_content_description_video_off" msgid="762985912616707076">"Video kapalı"</string>
+    <string name="incall_content_description_swap_video" msgid="297943299827908998">"Videoyu değiştirin"</string>
+    <string name="incall_label_speaker" msgid="1814254833253409394">"Hoparlör"</string>
+    <string name="incall_label_audio" msgid="5923781170533336820">"Ses"</string>
+
+
+    <string name="incall_calling_via_template" msgid="3416867359475780924">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> üzerinden çağrı yapılıyor"</string>
+    <string name="incall_connecting" msgid="1708280493198276616">"Çağrı yapılıyor…"</string>
+    <string name="incall_transferring" msgid="7909128243635579407">"Aktarılıyor…"</string>
+    <string name="incall_video_call_requesting" msgid="5251915562785911238">"Video görüşmesi bağlanıyor…"</string>
+    <string name="incall_wifi_video_call_requesting" msgid="8783968191180862607">"Kablosuz video görüşmesi isteği yapılıyor…"</string>
+    <string name="incall_video_call_request_failed" msgid="5014067473831870379">"Bağlantı kurulamadı"</string>
+    <string name="incall_video_call_request_rejected" msgid="5357441169519503234">"Çağrı reddedildi"</string>
+    <string name="incall_video_call_request_timed_out" msgid="6804535684856203120">"Çağrı zaman aşımına uğradı"</string>
+    <string name="incall_hanging_up" msgid="2166116351937190949">"Çağrı sonlandırılıyor"</string>
+    <string name="incall_call_ended" msgid="6294704948774348480">"Çağrı sonlandırıldı"</string>
+    <string name="incall_remotely_held" msgid="8561379039177396615">"Beklemede"</string>
+    <string name="contact_grid_incoming_video_call" msgid="4935122585117803710">"Gelen video görüşmesi isteği:"</string>
+    <string name="contact_grid_incoming_wifi_video_call" msgid="5938822096623593533">"Gelen kablosuz video görüşmesi isteği:"</string>
+    <string name="contact_grid_incoming_video_request" msgid="7488892854791471116">"Görüntülü görüşmeye geçme isteği alındı:"</string>
+    <string name="contact_grid_incoming_wifi_video_request" msgid="4516902096577976768">"Kablosuz görüntülü görüşmeye geçme isteği alındı:"</string>
+    <string name="contact_grid_incoming_voice_call" msgid="7165853925114955346">"Gelen çağrı:"</string>
+    <string name="contact_grid_incoming_work_call" msgid="837605505036615004">"Gelen iş çağrısı:"</string>
+    <string name="contact_grid_incoming_via_template" msgid="7747391077955623969">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> adlı sağlayıcı üzerinden gelen çağrı"</string>
+    <string name="contact_grid_incoming_suspected_spam" msgid="285365265897630425">"Spam olduğundan şüphelenilen arayan"</string>
+    <string name="contact_grid_callback_number" msgid="1284649030313415807">"Geri arama numarası: <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+
+
+    <string name="incall_enable_wifi_calling_button" msgid="3295230556186542328">"Etkinleştir"</string>
+    <string name="video_call_not_available_title" msgid="987490011944013201">"Görüntülü görüşme şu anda kullanılamıyor"</string>
+    <string name="video_call_not_available_message" msgid="2284146863894603221">"Görüntülü görüşme yapmayı daha sonra tekrar deneyin veya görüşmeye sesli arama olarak devam edin."</string>
+    <string name="voice_call" msgid="6748636104112578475">"Sesli arama"</string>
+
+
+    <string name="incall_on_hold" msgid="5618253281695138626">"Beklemede"</string>
+
+
+    <string name="incall_label_videocall" msgid="2208755440134676113">"Görü. görüş."</string>
+    <string name="incall_label_hold" msgid="4223472584896867896">"Beklemeye al"</string>
+    <string name="incall_label_add_call" msgid="5641663436373994915">"Çağrı ekle"</string>
+    <string name="incall_label_mute" msgid="2180667027331706737">"Sesi kapat"</string>
+    <string name="incall_label_end_call" msgid="5434079261446614887">"Çğryı sonldr"</string>
+    <string name="incall_label_dialpad" msgid="8609779533654156550">"Tuş takımı"</string>
+    <string name="incall_talkback_speaker_on" msgid="5819463769258124228">", Açık"</string>
+    <string name="incall_talkback_speaker_off" msgid="7486836772563090186">", Kapalı"</string>
+    <string name="incall_label_merge" msgid="720076442985913175">"Birleştir"</string>
+    <string name="incall_label_manage" msgid="2175471192903568159">"Yönet"</string>
+    <string name="a11y_description_incall_label_manage_content" msgid="8298638893449287602">"Arayanları yönetin"</string>
+    <string name="incall_label_swap" msgid="10458642864243507">"Değiştir"</string>
+    <string name="incall_note_sent" msgid="4524130323127388367">"Not gönderildi"</string>
+
+
+    <string name="spam_photo_text" msgid="5250301844057954813">"Fotoğrafı görmek için cevaplayın"</string>
+    <string name="spam_message_text" msgid="6522893079398269847">"Mesajı görmek için cevaplayın"</string>
+
+
+    <string name="always_warn" msgid="8332929731464707890">"Her seferinde uyarı göster"</string>
+    <string name="details" msgid="8642701148762155677">"Uluslararası bir numarayı arıyorsunuz. Bu çağrı için ücret alınabilir."</string>
+
+
+    <string name="description_camera_switch_full_screen" msgid="835509743097428216">"Tam ekran kameraya geçer"</string>
+    <string name="description_camera_switch_preview_screen" msgid="2575355782470181047">"Kamera önizlemesine geçer"</string>
+    <string name="description_camera_switch_camera_facing" msgid="6831946148788764412">"Ön kameraya geçer"</string>
+    <string name="description_camera_switch_camera_rear" msgid="644854053851698293">"Arka kameraya geçer"</string>
+    <string name="description_camera_take_picture" msgid="3953639532118936286">"Fotoğraf çeker"</string>
+    <string name="description_camera_cancel_photo" msgid="2759593421176396701">"Fotoğrafı yeniden çeker"</string>
+
+
+  <string name="enriched_call_simulator_activity" translatable="false">Enriched Call Simulator Activity</string>
+
+  <string name="important" translatable="false">important</string>
+  <string name="not_important" translatable="false">not important</string>
+
+  <string name="refresh" translatable="false">refresh</string>
+
+
+    <string name="main_activity_label" msgid="3121599977875141886">"Telefon"</string>
+    <string name="nui_shortcut_name" msgid="6370942901789984087">"Telefonun Yeni Kullanıcı Arayüzü"</string>
+    <string name="main_call_history_tab_description" msgid="1705569872650796265">"Çağrı geçmişi"</string>
+    <string name="search" msgid="3570654445331155513">"@android:string/search_go"</string>
+    <string name="description_search" msgid="3443578912463129718">"Kişileri ve yerleri ara"</string>
+    <string name="contacts" msgid="4464246185723317911">"Kişiler"</string>
+    <string name="description_contacts" msgid="12768481422137448">"Kişileri Göster"</string>
+    <string name="tab_title_call_history" msgid="5191872501729332994">"Çağrı Gçmş"</string>
+    <string name="tab_title_speed_dial" msgid="1968484500112572774">"Hızlı Ara"</string>
+    <string name="tab_title_voicemail" msgid="4777655983569268504">"Sesli msj"</string>
+    <string name="settings" msgid="7614336599112169779">"Ayarlar"</string>
+    <string name="main_send_feedback" msgid="2446919533981327373">"Geri bildirim gönder"</string>
+    
+        <string name="nearby_places" msgid="275117539511113867">"Yakındaki yerler"</string>
+
+
+    <string name="call_incoming_swipe_to_decline_with_message" msgid="2426342919316424240">"Mesajla reddetmek için, simgeden hızlıca kaydırın"</string>
+    <string name="call_incoming_swipe_to_answer_video_as_audio" msgid="2656902519734774070">"Sesli çağrı olarak cevaplamak için, simgeden hızlıca kaydırın"</string>
+    <string name="call_incoming_default_label_answer_and_release_second" msgid="4543429977872844314">"Devam eden çağrı cevaplamak ve bekletmek için hızlıca yukarı kaydırın"</string>
+    <string name="call_incoming_default_label_answer_and_release_third" msgid="1738895612225349741">"Cevaplamak ve beklemedeki çağrıyı sona erdirmek için hızlıca yukarı kaydırın"</string>
+    <string name="call_incoming_swipe_to_answer_and_release" msgid="662432029870261061">"Bir çağrıyı cevaplamak ve devam eden çağrıyı sona erdirmek için simgeden hızlıca kaydırın"</string>
+    <string name="call_incoming_message_custom" msgid="5819492800418293238">"Kendi yanıtınızı oluşturun…"</string>
+    <string name="call_incoming_audio_handset" msgid="2299009191401671619">"Mobil cihaz kulaklığı"</string>
+    <string name="call_incoming_audio_speakerphone" msgid="5632622369522427991">"Hoparlör"</string>
+    <string name="call_incoming_respond_via_sms_custom_message" msgid="6808438125627371020">"Kendi yanıtınızı oluşturun…"</string>
+    <string name="call_incoming_custom_message_cancel" msgid="5231860339073505201">"İptal"</string>
+    <string name="call_incoming_custom_message_send" msgid="3826716354040318205">"Gönder"</string>
+    <string name="a11y_incoming_call_reject_with_sms" msgid="6101839791429796754">"Bu çağrıyı mesajla reddedin"</string>
+    <string name="a11y_incoming_call_answer_video_as_audio" msgid="3890612269318682756">"Sesli çağrı olarak cevaplayın"</string>
+    <string name="a11y_incoming_call_answer_and_release" msgid="4896746774725239464">"Bir çağrıyı cevaplayın ve devam eden çağrıyı sona erdirin"</string>
+    <string name="a11y_description_incoming_call_reject_with_sms" msgid="4705064921696291310">"Çağrıyı, mesajla reddedin"</string>
+    <string name="a11y_description_incoming_call_answer_video_as_audio" msgid="1562530317428907884">"Sesli çağrı olarak cevaplayın"</string>
+    <string name="a11y_description_incoming_call_answer_and_release" msgid="8511087499748888476">"Bir çağrı cevaplanır ve devam eden çağrı sona erdirilir"</string>
+    <string name="call_incoming_video_is_off" msgid="3216603035158629403">"Video kapalı"</string>
+    <string name="a11y_incoming_call_swipe_gesture_prompt" msgid="8682480557168484972">"Cevaplamak için iki parmağınızla hızlıca yukarı kaydırın. Reddetmek içinse iki parmağınızla hızlıca aşağı kaydırın."</string>
+    <string name="call_incoming_important" msgid="3762352743365137090">"Önemli"</string>
+
+    <string name="call_incoming_swipe_to_answer" msgid="2959042172304267183">"Cevaplamak için hızlıca yukarı kaydırın"</string>
+    <string name="call_incoming_swipe_to_reject" msgid="463322705441386885">"Reddetmek için hızlıca aşağı kaydırın"</string>
+    <string name="a11y_incoming_call_swipe_to_answer" msgid="6992663569851713736">"Çağrıyı cevaplamak için iki parmağınızla yukarı doğru, reddetmek içinse aşağı doğru hızlıca kaydırın"</string>
+    <string name="call_incoming_will_disconnect" msgid="7095934149229485541">"Bu çağrıyı cevapladığınızda görüntülü görüşmeniz sonlandırılacak"</string>
+    <string name="a11y_call_incoming_decline_description" msgid="4441041052558364987">"Reddedin"</string>
+    <string name="call_incoming_decline" msgid="2982110738106661231">"Reddet"</string>
+    <string name="a11y_call_incoming_answer_description" msgid="1623200501347799736">"Cevaplayın"</string>
+    <string name="call_incoming_answer" msgid="841798555883717852">"Cevapla"</string>
+
+    <string name="videocall_remote_video_off" msgid="2959680546745902547">"Videosu kapalı"</string>
+    <string name="videocall_remote_video_on" msgid="6011817851703181639">"Video açık"</string>
+    <string name="videocall_remotely_held" msgid="1295702896355732947">"Çağrı beklemede"</string>
+    <string name="videocall_remotely_resumed" msgid="3331784411244773788">"Çağrı sürdürüldü"</string>
+    <string name="camera_permission_dialog_title" msgid="4901760354830982117">"Videoya izin verilsin mi?"</string>
+    <string name="camera_permission_dialog_message" msgid="2677490854794162699">"Telefon uygulaması, görüntülü görüşmeler için kameranızı kullanmak istiyor."</string>
+    <string name="camera_permission_dialog_positive_button" msgid="9075818030671161374">"İzin ver"</string>
+    <string name="camera_permission_dialog_negative_button" msgid="7538535842403837541">"Reddet"</string>
+
+
+    <string name="voicemail_error_turn_off_airplane_mode_title" msgid="335011175933917603">"Uçak modunu kapatın"</string>
+    <string name="voicemail_error_activating_title" msgid="2428457130578359186">"Görsel sesli mesaj etkinleştiriliyor"</string>
+    <string name="voicemail_error_activating_message" msgid="7157030596259443393">"Görsel sesli mesaj tam olarak etkinleştirilene dek sesli mesaj bildirimlerini almayabilirsiniz. Sesli mesaj tam olarak etkinleştirilene kadar, yeni mesajları almak için sesli mesaj hizmetini arayın."</string>
+    <string name="voicemail_error_not_activate_no_signal_title" msgid="742273366199085615">"Görsel sesli mesaj etkinleştirilemiyor"</string>
+    <string name="voicemail_error_not_activate_no_signal_message" msgid="2929059808327964011">"Telefonunuzda mobil ağ bağlantısı olduğundan emin olup tekrar deneyin."</string>
+    <string name="voicemail_error_not_activate_no_signal_airplane_mode_message" msgid="2005255281543281215">"Uçak modunu kapatıp tekrar deneyin."</string>
+    <string name="voicemail_error_no_signal_title" msgid="341954685733680219">"Bağlantı yok"</string>
+    <string name="voicemail_error_no_signal_message" msgid="2626509025723748371">"Yeni sesli mesajlarla ilgili olarak bilgilendirilmeyeceksiniz. Kablosuz bağlantınız varsa şimdi senkronizasyon gerçekleştirerek sesli mesajlarınızı kontrol edebilirsiniz."</string>
+    <string name="voicemail_error_no_signal_airplane_mode_message" msgid="8553646558282754276">"Yeni sesli mesajlarla ilgili olarak bilgilendirilmeyeceksiniz. Sesli mesajlarınızı senkronize etmek için uçak modunu kapatın."</string>
+    <string name="voicemail_error_no_signal_cellular_required_message" msgid="6452586752169746399">"Sesli mesaj kontrolü için telefonunuzda mobil veri bağlantısı olmalıdır."</string>
+    <string name="voicemail_error_activation_failed_title" msgid="3823477898681399391">"Görsel sesli mesaj etkinleştirilemiyor"</string>
+    <string name="voicemail_error_activation_failed_message" msgid="2188301459207765442">"Hâlâ arayarak sesli mesajlarınızı kontrol edebilirsiniz."</string>
+    <string name="voicemail_error_no_data_title" msgid="8127858252892092732">"Görsel sesli mesaj güncellenemiyor"</string>
+    <string name="voicemail_error_no_data_message" msgid="6634124460113498265">"Kablosuz veya mobil veri bağlantısı kalitesi daha iyi olduğunda tekrar deneyin. Hâlâ arayarak sesli mesajlarınızı kontrol edebilirsiniz."</string>
+    <string name="voicemail_error_no_data_cellular_required_message" msgid="2521491029817662357">"Mobil veri bağlantısı kalitesi daha iyi olduğunda tekrar deneyin. Hâlâ arayarak sesli mesajlarınızı kontrol edebilirsiniz."</string>
+    <string name="voicemail_error_bad_config_title" msgid="527594487104462966">"Görsel sesli mesaj güncellenemiyor"</string>
+    <string name="voicemail_error_bad_config_message" msgid="2692955418930476771">"Hâlâ arayarak sesli mesajlarınızı kontrol edebilirsiniz."</string>
+    <string name="voicemail_error_communication_title" msgid="9183339646110368169">"Görsel sesli mesaj güncellenemiyor"</string>
+    <string name="voicemail_error_communication_message" msgid="1226746423005179379">"Hâlâ arayarak sesli mesajlarınızı kontrol edebilirsiniz."</string>
+    <string name="voicemail_error_server_connection_title" msgid="3036980885397552848">"Görsel sesli mesaj güncellenemiyor"</string>
+    <string name="voicemail_error_server_connection_message" msgid="6008577624710159550">"Hâlâ arayarak sesli mesajlarınızı kontrol edebilirsiniz."</string>
+    <string name="voicemail_error_server_title" msgid="5355286554022049134">"Görsel sesli mesaj güncellenemiyor"</string>
+    <string name="voicemail_error_server_message" msgid="3538157415413084592">"Hâlâ arayarak sesli mesajlarınızı kontrol edebilirsiniz."</string>
+    <string name="voicemail_error_inbox_near_full_title" msgid="7568681773644454672">"Gelen kutusu dolmak üzere"</string>
+    <string name="voicemail_error_inbox_near_full_message" msgid="354118612203528244">"Gelen kutunuz dolarsa yeni sesli mesajları alamayacaksınız."</string>
+    <string name="voicemail_error_inbox_full_title" msgid="249268068442046872">"Yeni sesli mesajlar alınamıyor"</string>
+    <string name="voicemail_error_inbox_full_message" msgid="5788411018158899123">"Gelen kutunuz doldu. Yeni sesli mesajları almak için bazı mesajları silmeyi deneyin."</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_title" msgid="6209039728273651055">"Ekstra depolama alanını ve yedeklemeyi etkinleştirin"</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_message" msgid="5203159732288749722">"Posta kutunuz dolu. Google\'ın sesli mesajlarınızı yönetebileceği ve yedekleyebileceği şekilde yer açmak için ekstra depolama alanını etkinleştirin."</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title" msgid="20352920357816927">"Ekstra depolama alanını ve yedeklemeyi etkinleştirin"</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message" msgid="9140680538578301853">"Posta kutunuz dolmak üzere. Google\'ın sesli mesajlarınızı yönetebileceği ve yedekleyebileceği şekilde yer açmak için ekstra depolama alanını etkinleştirin."</string>
+    <string name="voicemail_error_pin_not_set_title" msgid="1287168514277948082">"Sesli mesaj PIN\'inizi ayarlayın"</string>
+    <string name="voicemail_error_pin_not_set_message" msgid="3802375002103184625">"Sesli mesajlarınıza erişmek için her aradığınızda bir sesli mesaj PIN\'i girmeniz gerekecek."</string>
+    <string name="voicemail_error_unknown_title" msgid="7214482611706360680">"Bilinmeyen hata"</string>
+    <string name="voicemail_action_turn_off_airplane_mode" msgid="6905706401164671086">"Uçak Modu Ayarları"</string>
+    <string name="voicemail_action_set_pin" msgid="958510049866316228">"PIN ayarlayın"</string>
+    <string name="voicemail_action_retry" msgid="4450307484541052511">"Tekrar Deneyin"</string>
+    <string name="voicemail_action_turn_archive_on" msgid="6008444955560830591">"Etkinleştir"</string>
+    <string name="voicemail_action_dimiss" msgid="6018415798136796966">"Hayır, teşekkürler"</string>
+    <string name="voicemail_action_sync" msgid="5139315923415392787">"Senkronize et"</string>
+    <string name="voicemail_action_call_voicemail" msgid="6701710720535556395">"Sesli Mesaj Hizmetini Ara"</string>
+    <string name="voicemail_action_call_customer_support" msgid="7698973007656462748">"Müşteri Desteğini Ara"</string>
+    <string name="vvm3_error_vms_dns_failure_title" msgid="7561818769198666727">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_vms_dns_failure_message" msgid="4284259553458502369">"Maalesef bir sorunla karşılaştık. Lütfen daha sonra tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9001 olduğunu bildirin."</string>
+    <string name="vvm3_error_vmg_dns_failure_title" msgid="6257196468618464574">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_vmg_dns_failure_message" msgid="7110154996415009499">"Maalesef bir sorunla karşılaştık. Lütfen daha sonra tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9002 olduğunu bildirin."</string>
+    <string name="vvm3_error_spg_dns_failure_title" msgid="8670172138011171697">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_spg_dns_failure_message" msgid="6780011498675342391">"Maalesef bir sorunla karşılaştık. Lütfen daha sonra tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9003 olduğunu bildirin."</string>
+    <string name="vvm3_error_vms_no_cellular_title" msgid="5402891018307856824">"Sesli Mesaj Kutunuza Bağlanılamıyor"</string>
+    <string name="vvm3_error_vms_no_cellular_message" msgid="6671769320769351896">"Maalesef sesli mesaj kutunuza bağlanmada sorun yaşıyoruz. Sinyal gücünün zayıf olduğu bir alandaysanız sinyal gücü kuvvetlenene kadar bekleyin ve tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9004 olduğunu bildirin."</string>
+    <string name="vvm3_error_vmg_no_cellular_title" msgid="7974884412395827829">"Sesli Mesaj Kutunuza Bağlanılamıyor"</string>
+    <string name="vvm3_error_vmg_no_cellular_message" msgid="4591495395224161921">"Maalesef sesli mesaj kutunuza bağlanmada sorun yaşıyoruz. Sinyal gücünün zayıf olduğu bir alandaysanız sinyal gücü kuvvetlenene kadar bekleyin ve tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9005 olduğunu bildirin."</string>
+    <string name="vvm3_error_spg_no_cellular_title" msgid="8175349498869951939">"Sesli Mesaj Kutunuza Bağlanılamıyor"</string>
+    <string name="vvm3_error_spg_no_cellular_message" msgid="7902149969965747111">"Maalesef sesli mesaj kutunuza bağlanmada sorun yaşıyoruz. Sinyal gücünün zayıf olduğu bir alandaysanız sinyal gücü kuvvetlenene kadar bekleyin ve tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9006 olduğunu bildirin."</string>
+    <string name="vvm3_error_vms_timeout_title" msgid="4044531581957597519">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_vms_timeout_message" msgid="2997890600174252849">"Maalesef bir sorunla karşılaştık. Lütfen daha sonra tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9007 olduğunu bildirin."</string>
+    <string name="vvm3_error_vmg_timeout_title" msgid="2631426958078372779">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_vmg_timeout_message" msgid="8366857300952305567">"Maalesef bir sorunla karşılaştık. Lütfen daha sonra tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9008 olduğunu bildirin."</string>
+    <string name="vvm3_error_status_sms_timeout_title" msgid="6528532085593533049">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_status_sms_timeout_message" msgid="9079367624352316780">"Maalesef hizmetin ayarlanmasında sorun yaşıyoruz. Lütfen daha sonra tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9009 olduğunu bildirin."</string>
+    <string name="vvm3_error_subscriber_blocked_title" msgid="3650932081111129710">"Sesli Mesaj Kutunuza Bağlanılamıyor"</string>
+    <string name="vvm3_error_subscriber_blocked_message" msgid="5162479488602796264">"Maalesef şu anda sesli mesaj kutunuza bağlanamadık. Lütfen daha sonra tekrar deneyin. Sorun devam ederse lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9990 olduğunu bildirin."</string>
+    <string name="vvm3_error_unknown_user_title" msgid="3908082247867523916">"Sesli Mesajı Ayarlayın"</string>
+    <string name="vvm3_error_unknown_user_message" msgid="1509539640475335686">"Hesabınızda sesli mesaj ayarlanmadı. Lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9991 olduğunu bildirin."</string>
+    <string name="vvm3_error_unknown_device_title" msgid="1894628172321293169">"Sesli Mesaj"</string>
+    <string name="vvm3_error_unknown_device_message" msgid="5653639091623486217">"Görsel Sesli Mesaj bu cihazda kullanılamıyor. Lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9992 olduğunu bildirin."</string>
+    <string name="vvm3_error_invalid_password_title" msgid="4552360498026788519">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_invalid_password_message" msgid="7203223289526274700">"Lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9993 olduğunu bildirin."</string>
+    <string name="vvm3_error_mailbox_not_initialized_title" msgid="7903951619707049472">"Görsel Sesli Mesaj"</string>
+    <string name="vvm3_error_mailbox_not_initialized_message" msgid="6411209982463628638">"Görsel Sesli Mesaj kurulumunu tamamlamak için lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9994 olduğunu bildirin."</string>
+    <string name="vvm3_error_service_not_provisioned_title" msgid="6200721664168681357">"Görsel Sesli Mesaj"</string>
+    <string name="vvm3_error_service_not_provisioned_message" msgid="2652652017548677049">"Görsel Sesli Mesaj kurulumunu tamamlamak için lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9995 olduğunu bildirin."</string>
+    <string name="vvm3_error_service_not_activated_title" msgid="8223482379756083354">"Görsel Sesli Mesaj"</string>
+    <string name="vvm3_error_service_not_activated_message" msgid="3877179443583231620">"Görsel Sesli Mesaj\'ı etkinleştirmek için lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9996 olduğunu bildirin."</string>
+    <string name="vvm3_error_user_blocked_title" msgid="3182280563102274326">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_user_blocked_message" msgid="5006388183845631086">"Görsel Sesli Mesaj kurulumunu tamamlamak için lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9998 olduğunu bildirin."</string>
+    <string name="vvm3_error_subscriber_unknown_title" msgid="2327013918755472131">"Görsel Sesli Mesaj Devre Dışı"</string>
+    <string name="vvm3_error_subscriber_unknown_message" msgid="7991526423950940698">"Görsel sesli mesajı etkinleştirmek için lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçin."</string>
+    <string name="vvm3_error_imap_getquota_error_title" msgid="2229474251543811881">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_imap_getquota_error_message" msgid="4266777005393484563">"Lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9997 olduğunu bildirin."</string>
+    <string name="vvm3_error_imap_select_error_title" msgid="688468464562761731">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_imap_select_error_message" msgid="7535508175537847085">"Lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9989 olduğunu bildirin."</string>
+    <string name="vvm3_error_imap_error_title" msgid="1952971680250515832">"Bir Sorun Oluştu"</string>
+    <string name="vvm3_error_imap_error_message" msgid="6668651261796655388">"Lütfen <xliff:g id="NUMBER">%1$s</xliff:g> numaralı telefondan Müşteri Hizmetleri ile iletişime geçerek hata kodunun 9999 olduğunu bildirin."</string>
+    <string name="verizon_terms_and_conditions_title" msgid="9074967311276321500">"Görsel Sesli Mesaj Şartlar ve Koşulları"</string>
+    <string name="verizon_terms_and_conditions_message" msgid="120258835788235077">"%1$s\n\nGörsel sesli mesajı kullanabilmek için Verizon Wireless\'ın şartlar ve koşullarını kabul etmelisiniz:\n\n%2$s"</string>
+    <string name="dialer_terms_and_conditions_title" msgid="311603424861921251">"Görsel Sesli Mesaj\'ı etkinleştirme"</string>
+    <string name="dialer_terms_and_conditions_message" msgid="6207219973959897196">"%s"</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_message" msgid="7852059293806766767">"Şartlar ve koşullar reddedilirse görsel sesli mesaj devre dışı bırakılır."</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_downgrade" msgid="8347128304508008823">"Görsel sesli mesajı devre dışı bırak"</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_message" msgid="1726573227032877573">"Şartlar ve koşullar reddedilirse sesli mesaj çeviri yazısı devre dışı bırakılır."</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_downgrade" msgid="6694612247173639685">"Sesli mesaj çeviri yazısını devre dışı bırakın"</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message" msgid="2200388197966526000">"Sesli mesajlara yalnızca *86 aranarak erişilebilir. Devam etmek için yeni bir sesli mesaj PIN\'i belirleyin."</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin" msgid="4320664492466296770">"PIN belirleyin"</string>
+
+    <string name="event_deactivated" msgid="689994223349549274">"Evcil hayvan modu kapalı"</string>
+
+
+</resources>

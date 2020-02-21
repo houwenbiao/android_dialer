@@ -1,0 +1,102 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.COMPILE_SDK_VERSION;
+
+    defaultConfig {
+        applicationId rootProject.ext.APPLICATION_ID
+        minSdkVersion rootProject.ext.MIN_SDK_VERSION
+        targetSdkVersion rootProject.ext.TARGET_SDK_VERSION
+        versionCode rootProject.ext.VERSION_CODE
+        versionName rootProject.ext.VERSION_NAME
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+    }
+    //解决：More than one file was found with OS independent path 'META-INF/DEPENDENCIES'
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+    //编译Release包需要屏蔽部分资源的检查
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    signingConfigs {
+        config {
+            keyAlias rootProject.ext.KEY_ALIAS
+            keyPassword rootProject.ext.KEY_PASSWORD
+            storeFile file(rootProject.ext.STORE_FILE)
+            storePassword rootProject.ext.STORE_PASSWORD
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+
+        debug {
+            signingConfig signingConfigs.config
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility = rootProject.ext.SOURCE_COMPATIBILITY
+        targetCompatibility = rootProject.ext.TARGET_COMPATIBILITY
+    }
+
+    //AS3.0版本之后写法
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            if (variant.name.endsWith("debug")) {
+                //debug包
+                outputFileName = rootProject.ext.APP_OUT_NAME
+            } else {
+                //release包
+                outputFileName = rootProject.ext.APP_OUT_NAME
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation "com.android.support:appcompat-v7:${rootProject.ext.SUPPORT_VERSION}"
+    implementation "com.android.support:design:${rootProject.ext.SUPPORT_VERSION}"
+    implementation "com.android.support:transition:${rootProject.ext.SUPPORT_VERSION}"
+    implementation "com.android.support:support-v13:${rootProject.ext.SUPPORT_VERSION}"
+    implementation "com.android.support:support-v4:${rootProject.ext.SUPPORT_VERSION}"
+    implementation "com.android.support:cardview-v7:${rootProject.ext.SUPPORT_VERSION}"
+    implementation "com.android.support:recyclerview-v7:${rootProject.ext.SUPPORT_VERSION}"
+    implementation "com.android.support:support-dynamic-animation:${rootProject.ext.SUPPORT_VERSION}"
+    compileOnly files('libs/frameworks.jar')
+    implementation files('libs/android_common.jar')
+    implementation files('libs/auto-value.jar')
+    implementation files('libs/jsr305.jar')
+    implementation files('libs/javax-annotation.jar')
+    implementation files('libs/glide.jar')
+    implementation files('libs/dagger2.jar')
+    implementation files('libs/javax-inject.jar')
+    implementation files('libs/mime4j-core.jar')
+    implementation files('libs/mime4j-dom.jar')
+    implementation files('libs/commons-io.jar')
+    implementation files('libs/grpc-core.jar')
+    implementation files('libs/grpc-stub.jar')
+    implementation files('libs/grpc-protobuf.jar')
+    implementation files('libs/grpc-okhttp.jar')
+    implementation files('libs/volley.jar')
+    implementation files('libs/libprotobug-java-lite.jar')
+    implementation files('libs/ShortcutBadger-1.1.13.jar')
+    implementation files('libs/libphonenumber.jar')
+    implementation files('libs/guava.jar')
+    implementation files('libs/shadows-core-3.1-SNAPSHOT-17.jar')
+    implementation files('libs/robolectric-annotations-3.1-SNAPSHOT.jar')
+    implementation files('libs/robolectric-resources-3.1-SNAPSHOT.jar')
+}

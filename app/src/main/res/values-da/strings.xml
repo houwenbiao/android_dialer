@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel" msgid="2202739481132958990">"Opkald"</string>
+    <string name="launcherDialpadActivityLabel" msgid="4170587663888307424">"Telefontastatur"</string>
+    <string name="dialerIconLabel" msgid="3422916015542176907">"Opkald"</string>
+    <string name="callHistoryIconLabel" msgid="7493268743411968630">"Opkaldshistorik"</string>
+    <string name="action_report_number" msgid="7231442711369737797">"Rapportér et forkert nummer"</string>
+    <string name="action_copy_number_text" msgid="832682558551502319">"Kopiér nummeret"</string>
+    <string name="copy_transcript_text" msgid="937904189017310829">"Kopiér transskriptionen"</string>
+    <string name="action_block_number" msgid="3669819840999705278">"Bloker nummeret"</string>
+    <string name="action_unblock_number" msgid="6583611581996402004">"Ophæv blokering af nummeret"</string>
+    <string name="action_edit_number_before_call" msgid="8017492815878473837">"Rediger nummeret før opkald"</string>
+    <string name="call_log_delete_all" msgid="7852970926906523784">"Ryd opkaldshistorik"</string>
+    <string name="call_log_trash_voicemail" msgid="6118493534178533972">"Slet talemeddelelsen"</string>
+    <string name="snackbar_voicemail_deleted" msgid="7463166543725496307">"Talebeskeden blev slettet"</string>
+    <string name="snackbar_voicemail_deleted_undo" msgid="6959743982796409941">"FORTRYD"</string>
+    <string name="clearCallLogConfirmation_title" msgid="7051888019546472245">"Vil du rydde opkaldshistorikken?"</string>
+    <string name="clearCallLogConfirmation" msgid="6844949465815109166">"Dette vil slette alle opkald fra din historik"</string>
+    <string name="clearCallLogProgress_title" msgid="995004835687361977">"Opkaldshistorik ryddes..."</string>
+    <string name="userCallActivityLabel" product="default" msgid="9198964841862577505">"Telefon"</string>
+    <string name="notification_missedCallTitle" msgid="8283366068539898486">"Ubesvarede opkald"</string>
+    <string name="notification_missedWorkCallTitle" msgid="8831332957103679183">"Ubesvaret arbejdsopkald"</string>
+    <string name="notification_missedCallsTitle" msgid="3697442015345089802">"Ubesvarede opkald"</string>
+    <string name="notification_missedCallsMsg" msgid="8176217633929018706">"<xliff:g id="NUM_MISSED_CALLS">%d</xliff:g> ubesvarede opkald"</string>
+    <string name="notification_missedCall_call_back" msgid="3875698110051973965">"Ring tilbage"</string>
+    <string name="notification_missedCall_message" msgid="5086910028988305964">"Besked"</string>
+    <string name="post_call_notification_message" msgid="5417476789860590611">"<xliff:g id="NAME">%1$s</xliff:g>: <xliff:g id="MESSAGE">%2$s</xliff:g>"</string>
+    <string name="notification_voicemail_text_format" msgid="1895667520930252897">"Ring til <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number" msgid="8942821987929495842">"Nummeret til telefonsvareren er ukendt"</string>
+    <plurals name="notification_voicemail_title" formatted="false" msgid="1551847434476438657">
+      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> talebeskeder </item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> talebeskeder </item>
+    </plurals>
+    <string name="notification_action_voicemail_play" msgid="5156500902796354071">"Spil"</string>
+    <string name="notification_voicemail_callers_list" msgid="7543659703018479564">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+    <string name="notification_new_voicemail_ticker" msgid="6547711461667072303">"Ny besked fra <xliff:g id="CALLER">%1$s</xliff:g>"</string>
+    <string name="voicemail_playback_error" msgid="4384373852257757295">"Telefonsvarerbesked kan ikke afspilles"</string>
+    <string name="voicemail_fetching_content" msgid="572320120918636014">"Telefonsvarerbesked indlæses..."</string>
+    <string name="voicemail_archiving_content" msgid="2415183864104922185">"Arkiverer talebeskeden…"</string>
+    <string name="voicemail_fetching_timout" msgid="2128873915839949783">"Telefonsvarerbesked kan ikke indlæses"</string>
+    <string name="call_log_voicemail_header" msgid="5799424860394542726">"Kun opkald med telefonsvarer"</string>
+    <string name="call_log_incoming_header" msgid="1158753168119845168">"Kun indgående opkald"</string>
+    <string name="call_log_outgoing_header" msgid="149333910997122683">"Kun udgående opkald"</string>
+    <string name="call_log_missed_header" msgid="6491707499211289630">"Kun ubesvarede opkald"</string>
+    <string name="call_log_item_count_and_date" msgid="723848797957319181">"(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="description_search_button" msgid="4515570469584782176">"søg"</string>
+    <string name="description_dial_button" msgid="699794433224646027">"ring op"</string>
+    <string name="description_digits_edittext" msgid="8908702618098485186">"nummer at ringe op"</string>
+    <string name="description_playback_start_stop" msgid="5320452461700750120">"Start eller stop afspilning"</string>
+    <string name="description_playback_speakerphone" msgid="4852027754869750227">"Slå medhør til eller fra"</string>
+    <string name="description_playback_seek" msgid="1340910573254132520">"Søg efter afspilningsposition"</string>
+    <string name="description_rate_decrease" msgid="5053221110217704199">"Skru ned for afspilningshastigheden"</string>
+    <string name="description_rate_increase" msgid="4372206363557406700">"Skru op for afspilningshastigheden"</string>
+    <string name="action_menu_call_history_description" msgid="8829135306925008546">"Opkaldshistorik"</string>
+    <string name="action_menu_overflow_description" msgid="7648679686746517341">"Flere valgmuligheder"</string>
+    <string name="action_menu_dialpad_button" msgid="1970631633457493180">"tastatur"</string>
+    <string name="menu_show_outgoing_only" msgid="6941420328999801171">"Vis kun udgående"</string>
+    <string name="menu_show_incoming_only" msgid="6018600870504685564">"Vis kun indgående"</string>
+    <string name="menu_show_missed_only" msgid="2266983597575047192">"Vis kun ubesvarede"</string>
+    <string name="menu_show_voicemails_only" msgid="1114917855179284592">"Vis kun telefonsvarerbeskeder"</string>
+    <string name="menu_show_all_calls" msgid="220054502052344488">"Vis alle opkald"</string>
+    <string name="add_2sec_pause" msgid="3417815038173424525">"Tilføj pause på 2 sek."</string>
+    <string name="add_wait" msgid="1177723010768282578">"Tilføj ventetid"</string>
+    <string name="dialer_settings_label" msgid="4980176284150290175">"Indstillinger"</string>
+    <string name="simulator_submenu_label" msgid="186156287346615267">"Simulator"</string>
+    <string name="new_ui_launcher_shortcut_label" msgid="7195823535703686736">"Opret ny brugerfladegenvej"</string>
+    <string name="menu_allContacts" msgid="8544950176866640863">"Alle kontakter"</string>
+    <string name="dialer_useDtmfDialpad" msgid="3919115408138798484">"Brug numerisk tastatur"</string>
+    <string name="dialer_returnToInCallScreen" msgid="3487191628252824117">"Vend tilbage til igangværende opkald"</string>
+    <string name="dialer_addAnotherCall" msgid="3132945651710234674">"Tilføj opkald"</string>
+    <string name="actionIncomingCall" msgid="891346596090030558">"Indgående opkald"</string>
+    <string name="description_entering_bulk_action_mode" msgid="6134916000015585401">"Massehandlingstilstanden startes"</string>
+    <string name="description_leaving_bulk_action_mode" msgid="4355853387639765529">"Massehandlingstilstanden blev afsluttet"</string>
+    <string name="description_selecting_bulk_action_mode" msgid="7228565941043117618">"Valgt <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_unselecting_bulk_action_mode" msgid="6450971299622386060">"Fravalgt <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_call_log_play_button" msgid="2349845005022431438">"Afspil telefonsvarerbesked"</string>
+    <string name="description_view_contact" msgid="3940984937384372665">"Vis kontaktpersonen <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call" msgid="1532402285334775372">"Ring til <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_contact_details" msgid="3341280873855253464">"Kontaktoplysninger for <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_spam_contact_details" msgid="5592578752881528368">"Kontaktoplysninger om formodet spammer <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_num_calls" msgid="6483594535796216044">"<xliff:g id="NUMBEROFCALLS">%1$s</xliff:g> opkald."</string>
+    <string name="description_video_call" msgid="3738199365585751727">"Videoopkald."</string>
+    <string name="description_send_text_message" msgid="8450269896765568596">"Send sms-besked til <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call_log_unheard_voicemail" msgid="2258821530650350303">"Uaflyttet besked på telefonsvareren"</string>
+    <string name="description_start_voice_search" msgid="8380022725973015261">"Start talesøgning"</string>
+    <string name="menu_callNumber" msgid="1540773545517152514">"Ring til <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="voicemail" msgid="8899540969000957954">"Telefonsvarer"</string>
+    <string name="callDetailsShortDurationFormat" msgid="8517030531054801588">"<xliff:g id="SECONDS">%s</xliff:g> sek."</string>
+    <string name="callDetailsDurationFormat" msgid="6826204822350034578">"<xliff:g id="MINUTES">%s</xliff:g> min. <xliff:g id="SECONDS">%s</xliff:g> sek."</string>
+    <string name="description_cancel_multi_select" msgid="3930475950253360461">"Annuller massehandlingstilstand"</string>
+    <string name="voicemailMultiSelectDeleteConfirm" msgid="5110048580165845200">"Slet"</string>
+    <string name="voicemailMultiSelectDeleteCancel" msgid="4574287102479485528">"Annuller"</string>
+    <string name="voicemailMultiSelectDialogTitle" msgid="150612124416146690">"Vil du slette de valgte <xliff:g id="VOICEMAILORVOICEMAILS">%1$s</xliff:g>?"</string>
+    <string name="voicemailMultiSelectActionBarTitle" msgid="5840745438559612431">"<xliff:g id="NUMBER">%1$s</xliff:g> er valgt"</string>
+    <plurals name="delete_voicemails_confirmation_dialog_title" formatted="false" msgid="2452264208706783960">
+      <item quantity="one">"<b>"Vil du slette denne talebesked? "</b>"</item>
+      <item quantity="other">"<b>"Vil du slette disse talebeskeder? "</b>"</item>
+    </plurals>
+    <string name="voicemailCallLogToday" msgid="709034597866788854">@string/call_log_header_today</string>
+    <string name="voicemailCallLogDateTimeFormat" msgid="4998985002074131268">"<xliff:g id="DATE">%1$s</xliff:g> kl. <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="voicemailDurationFormat" msgid="5649961568550898382">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration" msgid="7224408726047155205">"<xliff:g id="DATEANDTIME">%1$s</xliff:g> • <xliff:g id="DURATION">%2$s</xliff:g>"</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="6317935773274628316">"Det er ikke muligt at ringe til dette nummer"</string>
+    <string name="dialog_voicemail_not_ready_message" msgid="6437173108290752604">"Hvis du vil konfigurere telefonsvareren, skal du gå til Menu &gt; Indstillinger."</string>
+    <string name="dialog_voicemail_airplane_mode_message" msgid="1044988101597862159">"Hvis du vil ringe til telefonsvareren, skal du først slå Flytilstand fra."</string>
+    <string name="contact_list_loading" msgid="7919825236309749352">"Indlæser…"</string>
+    <string name="imei" msgid="5214505934662768308">"IMEI-nummer"</string>
+    <string name="meid" msgid="3333779521535224028">"MEID"</string>
+    <string name="simContacts_emptyLoading" msgid="6205424276735652071">"Indlæser fra SIM-kort ..."</string>
+    <string name="simContacts_title" msgid="7961069730386378887">"Kontakter på SIM-kort"</string>
+    <string name="voice_search_not_available" msgid="6546240433719732905">"Talesøgning er ikke tilgængelig"</string>
+    <string name="call_not_available" msgid="7850148370757361155">"Det er ikke muligt at foretage et telefonopkald, fordi applikationen Telefon er deaktiveret."</string>
+    <string name="dialer_hint_find_contact" msgid="2023214799381149808">"Søg i kontakter"</string>
+    <string name="block_number_search_hint" msgid="5377706079015099416">"Tilføj nummer, eller søg i kontaktpersoner"</string>
+    <string name="call_log_all_empty" msgid="3955572868518162004">"Din opkaldshistorik er tom"</string>
+    <string name="call_log_all_empty_action" msgid="852218280136243014">"Foretag et opkald"</string>
+    <string name="call_log_missed_empty" msgid="7094936030845062214">"Du har ingen ubesvarede opkald."</string>
+    <string name="call_log_voicemail_empty" msgid="273623903423275178">"Indbakken for din telefonsvarer er tom."</string>
+    <string name="show_favorites_only" msgid="8089163582448737837">"Vis kun foretrukne"</string>
+    <string name="call_log_activity_title" msgid="1275242727244945527">"Opkaldshistorik"</string>
+    <string name="call_log_all_title" msgid="6042262422192020327">"Alle"</string>
+    <string name="call_log_missed_title" msgid="17254005889268015">"Ubesvarede"</string>
+    <string name="call_log_voicemail_title" msgid="6504826963256437971">"Talebesked"</string>
+    <string name="tab_speed_dial" msgid="6616404752227561075">"Hurtigopkald"</string>
+    <string name="tab_history" msgid="7420269368689503596">"Opkaldshistorik"</string>
+    <string name="tab_all_contacts" msgid="5531733977693943015">"Kontaktpersoner"</string>
+    <string name="tab_voicemail" msgid="2458548090088316246">"Telefonsvarer"</string>
+    <string name="favorite_hidden" msgid="1077010324849831399">"Fjernet fra foretrukne"</string>
+    <string name="favorite_hidden_undo" msgid="5660280521854875320">"Fortryd"</string>
+    <string name="search_shortcut_call_number" msgid="8847918845036880688">"Ring til <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="search_shortcut_create_new_contact" msgid="2076374262874775425">"Opret ny kontaktperson"</string>
+    <string name="search_shortcut_add_to_contact" msgid="701957016267810766">"Føj til en kontaktperson"</string>
+    <string name="search_shortcut_send_sms_message" msgid="1065069206532610854">"Send sms"</string>
+    <string name="search_shortcut_make_video_call" msgid="3746207985295802095">"Foretag videoopkald"</string>
+    <string name="search_shortcut_block_number" msgid="4587283230665805776">"Bloker nummer"</string>
+    <string name="num_missed_calls" msgid="5171791753696317082">"<xliff:g id="NUMBER">%s</xliff:g> nye ubesvarede opkald"</string>
+    <string name="speed_dial_empty" msgid="3346406399966039505">"Der er endnu ingen kontaktpersoner i Hurtigopkald"</string>
+    <string name="speed_dial_empty_add_favorite_action" msgid="3470360584638103033">"Angiv en kontaktperson som foretrukken"</string>
+    <string name="contact_tooltip" msgid="8871614660967439999">"Tryk på billedet for at se alle numre, eller tryk og hold nede på billedet for at omarrangere"</string>
+    <string name="remove_contact" msgid="2353580570488923668">"Fjern"</string>
+    <string name="select_all" msgid="408601760696146245">"Vælg alt"</string>
+    <string name="call_log_action_video_call" msgid="7565549950343850819">"Videoopkald"</string>
+    <string name="call_log_action_send_message" msgid="6948727362660115554">"Send en sms-besked"</string>
+    <string name="call_log_action_details" msgid="2091370737371449501">"Opkaldsinfo"</string>
+    <string name="call_log_action_share_voicemail" msgid="8888250682433873454">"Send til…"</string>
+    <string name="call_log_action_call" msgid="682724094251540583">"Ring til <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_incoming_missed_call" msgid="8292535799379230029">"Mistet opkald fra <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_incoming_answered_call" msgid="3920182963103160610">"Besvaret opkald fra <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_unread_voicemail" msgid="145170985013419170">"Ulæst talebesked fra <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_read_voicemail" msgid="5585559881573227732">"Talebesked fra <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_outgoing_call" msgid="543952487882919924">"Ring til <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="call_log_via_number" msgid="1340307109806397650">"via <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string name="call_log_via_number_phone_account" msgid="7698459003033083416">"<xliff:g id="PHONEACCOUNT">%1$s</xliff:g> via <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="description_call_action" msgid="4042796498169106545">"Ring til <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_video_call_action" msgid="1237090968588659650">"Videoopkald <xliff:g id="NAMEORNUMBER">^1</xliff:g>."</string>
+    <string name="description_voicemail_action" msgid="3290143432403538524">"Lyt til indtalt besked fra <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_play" msgid="737337291418966183">"Afspil talemeddelelsen fra <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_pause" msgid="2400610579956333661">"Sæt talemeddelelsen fra <xliff:g id="NAMEORNUMBER">^1</xliff:g> på pause"</string>
+    <string name="description_voicemail_delete" msgid="5305509366448404410">"Slet talemeddelelsen fra <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <plurals name="description_voicemail_unread" formatted="false" msgid="7562208210097630839">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> nye talemeddelelser</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> nye talemeddelelser</item>
+    </plurals>
+    <string name="description_create_new_contact_action" msgid="1928282350281564130">"Opret en kontaktperson for <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_add_to_existing_contact_action" msgid="5485618682525057684">"Føj <xliff:g id="NAMEORNUMBER">^1</xliff:g> til en eksisterende kontaktperson"</string>
+    <string name="description_details_action" msgid="2061866409737706174">"Opkaldsoplysninger for <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="toast_entry_removed" msgid="6821678859297454838">"Slettet fra opkaldshistorik"</string>
+    <string name="call_log_header_today" msgid="1576119097475845293">"I dag"</string>
+    <string name="call_log_header_yesterday" msgid="5616077776205329563">"I går"</string>
+    <string name="call_log_header_other" msgid="4940676886254217644">"Ældre"</string>
+    <string name="call_detail_list_header" msgid="1174040565810083473">"Opkaldsliste"</string>
+    <string name="voicemail_speaker_on" msgid="3151333608926996668">"Slå højttaler til."</string>
+    <string name="voicemail_speaker_off" msgid="2530064206962034201">"Slå højttaler fra."</string>
+    <string name="voicemail_play_faster" msgid="2742012169751409677">"Afspil hurtigere."</string>
+    <string name="voicemail_play_slower" msgid="868588128301087884">"Afspil langsommere."</string>
+    <string name="voicemail_play_start_pause" msgid="3874823480278334664">"Start afspilningen, eller sæt den på pause."</string>
+    <string name="display_options_title" msgid="3880091801055797975">"Valgmuligheder for visning"</string>
+    <string name="sounds_and_vibration_title" msgid="3075050000721181384">"Lyde og vibration"</string>
+    <string name="accessibility_settings_title" msgid="3329027650429831820">"Hjælpefunktioner"</string>
+    <string name="ringtone_title" msgid="8377174189894648486">"Ringetone for opkald"</string>
+    <string name="vibrate_on_ring_title" msgid="631441314790960485">"Vibrer også ved opkald"</string>
+    <string name="dtmf_tone_enable_title" msgid="3273762431523939277">"Tastaturtoner"</string>
+    <string name="dtmf_tone_length_title" msgid="534096029202438539">"Tastaturtonernes længde"</string>
+  <string-array name="dtmf_tone_length_entries">
+    <item msgid="3136353015227162823">"Normal"</item>
+    <item msgid="5376841175538523822">"Lang"</item>
+  </string-array>
+    <string name="respond_via_sms_setting_title" msgid="8008181606657693452">"Hurtige svar"</string>
+    <string name="call_settings_label" msgid="7824611757200960807">"Opkald"</string>
+    <string name="manage_blocked_numbers_label" msgid="16823761991832273">"Opkaldsblokering"</string>
+    <string name="voicemail_settings_label" msgid="4594299554519920570">"Telefonsvarer"</string>
+    <string name="voicemail_settings_select_sim_title" msgid="129296966967476845">"Vælg SIM til telefonsvarerindst."</string>
+    <string name="blocked_numbers_disabled_emergency_header_label" msgid="6936696532562923971">"Opkaldsblokering er midlertidigt slået fra"</string>
+    <string name="blocked_numbers_disabled_emergency_desc" msgid="5484785225285297040">"Opkaldsblokering er blevet deaktiveret, da du inden for de sidste 48 timer har kontaktet en alarmcentral. Blokeringen aktiveres automatisk igen, når perioden på 48 timer er udløbet."</string>
+    <string name="import_send_to_voicemail_numbers_label" msgid="7821890095264297681">"Importér numre"</string>
+    <string name="blocked_call_settings_import_description" msgid="1819412052545228965">"Du har tidligere angivet, at nogle opkaldere automatisk skal sendes til telefonsvareren via andre apps."</string>
+    <string name="blocked_call_settings_view_numbers_button" msgid="3332727948554356704">"Se numre"</string>
+    <string name="blocked_call_settings_import_button" msgid="7319111700387470727">"Importér"</string>
+    <string name="description_blocked_number_list_delete" msgid="2139644216858370740">"Ophæv blokering af nummer"</string>
+    <string name="addBlockedNumber" msgid="3053473735238295551">"Tilføj nummer"</string>
+    <string name="block_number_footer_message_vvm" msgid="7955326304033982368">"Opkald fra disse numre blokeres, og beskeder i telefonsvareren slettes automatisk."</string>
+    <string name="block_number_footer_message_no_vvm" msgid="1152684139070471665">"Opkald fra disse numre bliver blokeret, men der kan muligvis stadig lægges beskeder i din telefonsvarer."</string>
+    <string name="block_list" msgid="4701585783411870782">"Blokerede telefonnumre"</string>
+    <string name="alreadyBlocked" msgid="5483253180532475653">"<xliff:g id="NUMBER">%1$s</xliff:g> er allerede blokeret."</string>
+    <string name="phone_account_settings_label" msgid="8372485478006965920">"Opkaldskonti"</string>
+    <string name="permission_multiple_turn_on" msgid="5679888820253829400">"Angiv tilladelser"</string>
+    <string name="permission_no_speeddial" msgid="8487215628510596753">"Slå tilladelsen Kontaktpersoner til for at aktivere hurtigopkald."</string>
+    <string name="permission_no_calllog" msgid="4053705651238775784">"Slå tilladelsen Telefon til for at se din opkaldsliste."</string>
+    <string name="permission_no_voicemail" msgid="1908142679289209291">"Slå tilladelsen Telefon til for at få adgang til din telefonsvarer,"</string>
+    <string name="permission_no_search" msgid="2424710404207193826">"Hvis du vil søge i dine kontaktpersoner, skal du slå tilladelserne Kontaktpersoner til."</string>
+    <string name="permission_place_call" msgid="8686908130349369423">"Slå tilladelsen Telefon til for at foretage et opkald."</string>
+    <string name="toast_cannot_write_system_settings" msgid="1108307781918782515">"Opkaldsappen har ikke tilladelse til at ændre systemindstillinger."</string>
+    <string name="blocked_number_call_log_label" msgid="4212282846299997693">"Blokeret"</string>
+    <string name="call_log_action_block_report_number" msgid="7302636538668696729">"Bloker/rapportér spam"</string>
+    <string name="call_log_action_block_number" msgid="5048188386501998865">"Bloker nummer"</string>
+    <string name="call_log_action_remove_spam" msgid="2045319806318398403">"Ikke spam"</string>
+    <string name="call_log_action_unblock_number" msgid="6100117033288448758">"Ophæv blokering af nummer"</string>
+    <string name="spam_number_call_log_label" msgid="2678431398326811131">"Spam"</string>
+    <string name="call_composer_connection_failed" msgid="6776461585447831242">"<xliff:g id="NAME">%1$s</xliff:g> er offline og kan ikke nås"</string>
+    <string name="about_phone_label" msgid="582991354677973731">"Om"</string>
+    <string name="view_conversation" msgid="7895904782094119702">"Vis"</string>
+    <string name="ec_data_deleted" msgid="4794880345545827107">"Opkaldet er slettet. Du kan se og slette vedhæftede filer, der er delt i forbindelse med dette opkald, i Beskeder."</string>
+    <string name="multiple_ec_data_deleted" msgid="2971579891973176316">"Opkaldene er slettet. Du kan se og slette vedhæftede filer, der er delt i forbindelse med opkald, i Beskeder."</string>
+
+
+    <string name="build_version_label" msgid="3876300343684966840">"Build-version"</string>
+    <string name="open_source_license_detail_label" msgid="2860076509914623912">"Licensoplysninger til open source-software"</string>
+    <string name="licenseActivityLabel" msgid="8258726177561826066">"Open source-licenser"</string>
+    <string name="privacy_policy_label" msgid="6567158248788870442">"Privatlivspolitik"</string>
+    <string name="terms_of_service_label" msgid="6788126078040996084">"Servicevilkår"</string>
+
+     <string name="unknown" msgid="7932659017139013277">"Ukendt"</string>
+    <string name="unknown_counter" msgid="7452889151953704159">"<xliff:g id="UNKNOWN">%s</xliff:g> <xliff:g id="ID">%d</xliff:g>"</string>
+    <string name="payphone" msgid="7106361320283710387">"Mønttelefon"</string>
+    <string name="launcherActivityLabel" msgid="9034868428899993166">"Opkald"</string>
+    <string name="video_call" msgid="8914878391104612532">"Videoopkald"</string>
+    <string name="call" msgid="3699617769606114168">"Ring op"</string>
+
+
+
+ <string name="toast_text_copied" msgid="8979281391599667362">"Kopieret tekst"</string>
+    <string name="copy_text" msgid="5890820280087874642">"Kopier til udklipsholder"</string>
+    <string name="call_custom" msgid="3041673234638990874">"Ring til <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="call_home" msgid="125893483593803791">"Ring hjem"</string>
+    <string name="call_mobile" msgid="967589404494150813">"Ring til mobil"</string>
+    <string name="call_work" msgid="6040550697395300892">"Ring til arbejde"</string>
+    <string name="call_fax_work" msgid="5260192771364592922">"Ring til arbejdsfax"</string>
+    <string name="call_fax_home" msgid="5174311195081144124">"Ring til hjemmefax"</string>
+    <string name="call_pager" msgid="6814149227741274161">"Ring til personsøger"</string>
+    <string name="call_other" msgid="5536385588712587235">"Ring til"</string>
+    <string name="call_callback" msgid="6314019862718112786">"Ring til tilbagekald"</string>
+    <string name="call_car" msgid="3197417098027764954">"Ring til bil"</string>
+    <string name="call_company_main" msgid="2557663310028446397">"Ring til virksomhedens hovednummer"</string>
+    <string name="call_isdn" msgid="4691270442763649522">"Ring til ISDN"</string>
+    <string name="call_main" msgid="3293707608770407814">"Ring til hovednummeret"</string>
+    <string name="call_other_fax" msgid="4724521984879021465">"Ring til fax"</string>
+    <string name="call_radio" msgid="8942441419845057942">"Ring til radio"</string>
+    <string name="call_telex" msgid="2031514461660668351">"Ring til telex"</string>
+    <string name="call_tty_tdd" msgid="7807210224965727701">"Ring til TTY/TDD"</string>
+    <string name="call_work_mobile" msgid="2716342732938578495">"Ring til arbejdsmobiltelefon"</string>
+    <string name="call_work_pager" msgid="3791778749827366574">"Ring til personsøger på arbejdet"</string>
+    <string name="call_assistant" msgid="4177478845473789294">"Ring til <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="call_mms" msgid="4958811711741872901">"Ring til mms"</string>
+    <string name="call_by_shortcut" msgid="4623082183552111045">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (ring op)"</string>
+    <string name="sms_custom" msgid="8785368968605026317">"Send sms til <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="sms_home" msgid="3527719551060295243">"Send sms til hjem"</string>
+    <string name="sms_mobile" msgid="8883045857887736518">"Send sms til mobil"</string>
+    <string name="sms_work" msgid="4158595439553450966">"Send sms til arbejde"</string>
+    <string name="sms_fax_work" msgid="5483726627718055248">"Send sms til arbejdsfax"</string>
+    <string name="sms_fax_home" msgid="9219265155770746077">"Send sms til hjemmefax"</string>
+    <string name="sms_pager" msgid="4901085068525193933">"Send sms til personsøger"</string>
+    <string name="sms_other" msgid="1742702947993285933">"Send sms"</string>
+    <string name="sms_callback" msgid="5833483630377538308">"Send sms til tilbagekald"</string>
+    <string name="sms_car" msgid="4314577266154395174">"Send sms til bil"</string>
+    <string name="sms_company_main" msgid="2308160928487360705">"Send sms til virksomhedens hovednummer"</string>
+    <string name="sms_isdn" msgid="6394300346179302542">"Send sms til ISDN"</string>
+    <string name="sms_main" msgid="8908087742014140774">"Send sms til hovednummeret"</string>
+    <string name="sms_other_fax" msgid="8768455473295405427">"Send sms til fax"</string>
+    <string name="sms_radio" msgid="855555176531704682">"Send sms til radio"</string>
+    <string name="sms_telex" msgid="6269029276223252719">"Send sms til telex"</string>
+    <string name="sms_tty_tdd" msgid="6229057354509192444">"Send sms til TTY/TDD"</string>
+    <string name="sms_work_mobile" msgid="2155975469329969840">"Send sms til arbejdsmobiltelefon"</string>
+    <string name="sms_work_pager" msgid="8500140274906830742">"Send sms til personsøger på arbejdet"</string>
+    <string name="sms_assistant" msgid="8513548482745330818">"Send sms til <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="sms_mms" msgid="5187888900503248542">"Send sms til mms"</string>
+    <string name="sms_by_shortcut" msgid="8005496406639963582">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (send besked)"</string>
+    <string name="clearFrequentsConfirmation_title" msgid="7465690215775790243">"Vil du rydde de ofte kontaktede?"</string>
+    <string name="clearFrequentsConfirmation" msgid="5750611450893399198">"Hvis du gør dette, rydder du listen over personer, som du ofte kontakter, i appene Kontaktpersoner og Opkald. Du vil samtidig tvinge e-mailapps til at lære dine adressepræferencer fra bunden."</string>
+    <string name="clearFrequentsProgress_title" msgid="2057183487226039454">"Ofte kontaktede personer ryddes…"</string>
+    <string name="status_available" msgid="2648156525685472626">"Tilgængelig"</string>
+    <string name="status_away" msgid="2298688367552893953">"Ikke til stede"</string>
+    <string name="status_busy" msgid="5990832098713248503">"Optaget"</string>
+    <string name="contactsList" msgid="8806067891419291513">"Kontakter"</string>
+    <string name="contact_suggestions" msgid="3324166754807120006">"Populære forslag"</string>
+    <string name="local_invisible_directory" msgid="4723238462733650090">"Andre"</string>
+    <string name="directory_search_label" msgid="4621215895484025229">"Indeks"</string>
+    <string name="directory_search_label_work" msgid="7679326282707414897">"Indeks for arbejde"</string>
+    <string name="local_search_label" msgid="907622822323119235">"Alle kontakter"</string>
+    <string name="local_suggestions_search_label" msgid="1178575146224386118">"Forslag"</string>
+    <string name="user_profile_contacts_list_header" msgid="9180620153828279580">"Mig"</string>
+    <string name="search_results_searching" msgid="3710866752172327451">"Søger..."</string>
+    <string name="foundTooManyContacts" msgid="3685002426663730799">"Der er fundet mere end <xliff:g id="COUNT">%d</xliff:g>."</string>
+    <string name="listFoundAllContactsZero" msgid="1151813986040671916">"Ingen kontaktpersoner"</string>
+    <plurals name="searchFoundContacts" formatted="false" msgid="3733009742282085433">
+      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> blev fundet</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> blev fundet</item>
+    </plurals>
+    <string name="description_quick_contact_for" msgid="6327207399167819147">"Hurtig kontakt til <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="missing_name" msgid="978606963362745020">"(Intet navn)"</string>
+    <string name="favoritesFrequentCalled" msgid="4646019087163449555">"Ofte ringet til"</string>
+    <string name="favoritesFrequentContacted" msgid="946588736701567509">"Ofte kontaktet"</string>
+    <string name="description_view_contact_detail" msgid="2428742401208561136">"Se kontaktperson"</string>
+    <string name="list_filter_phones" msgid="8763316061763437182">"Alle kontaktpersoner med telefonnumre"</string>
+    <string name="list_filter_phones_work" msgid="7083575404573422965">"Kontaktpersoner for arbejdsprofil"</string>
+    <string name="view_updates_from_group" msgid="9011641093168385729">"Se opdateringer"</string>
+    <string name="account_phone" msgid="7067809073194061035">"Kun enhed, ikke synkroniseret"</string>
+    <string name="nameLabelsGroup" msgid="7730465833159557471">"Navn"</string>
+    <string name="nicknameLabelsGroup" msgid="6310556912361840029">"Kaldenavn"</string>
+    <string name="full_name" msgid="648186563998465740">"Navn"</string>
+    <string name="name_given" msgid="5096576006314820536">"Fornavn"</string>
+    <string name="name_family" msgid="6646235805198547467">"Efternavn"</string>
+    <string name="name_prefix" msgid="9215326539658838">"Navnepræfiks"</string>
+    <string name="name_middle" msgid="703755205331582769">"Mellemnavn"</string>
+    <string name="name_suffix" msgid="5777083390282548702">"Navnesuffiks"</string>
+    <string name="name_phonetic" msgid="1650870996361663089">"Fonetisk navn"</string>
+    <string name="name_phonetic_given" msgid="618812334274603170">"Fonetisk fornavn"</string>
+    <string name="name_phonetic_middle" msgid="4826820763384625538">"Fonetisk mellemnavn"</string>
+    <string name="name_phonetic_family" msgid="379905191212930771">"Fonetisk efternavn"</string>
+    <string name="phoneLabelsGroup" msgid="169661929021355548">"Opkald"</string>
+    <string name="emailLabelsGroup" msgid="2249752810477488833">"Send e-mail"</string>
+    <string name="postalLabelsGroup" msgid="6772000590189142253">"Adresse"</string>
+    <string name="imLabelsGroup" msgid="5718066254237364731">"Chat"</string>
+    <string name="organizationLabelsGroup" msgid="1101996309241601435">"Organisation"</string>
+    <string name="relationLabelsGroup" msgid="53866051664600053">"Forhold"</string>
+    <string name="eventLabelsGroup" msgid="1236970042646618489">"Særlig dato"</string>
+    <string name="sms" msgid="7574344928185328095">"Sms"</string>
+    <string name="postal_address" msgid="1804707930129674200">"Adresse"</string>
+    <string name="ghostData_company" msgid="2554310786296833424">"Virksomhed"</string>
+    <string name="ghostData_title" msgid="4994968731830184837">"Titel"</string>
+    <string name="label_notes" msgid="2050255313694219786">"Noter"</string>
+    <string name="label_sip_address" msgid="8883266182575965926">"SIP"</string>
+    <string name="websiteLabelsGroup" msgid="1630734286462186790">"Website"</string>
+    <string name="groupsLabel" msgid="2694002798416868728">"Grupper"</string>
+    <string name="email_home" msgid="889830029388962171">"Send e-mail hjem"</string>
+    <string name="email_mobile" msgid="4487686436743741150">"Send e-mail til mobil"</string>
+    <string name="email_work" msgid="4223487303344613528">"Send e-mail til arbejde"</string>
+    <string name="email_other" msgid="4246411900126012062">"Send e-mail"</string>
+    <string name="email_custom" msgid="7246580894327511013">"Send e-mail til <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="email" msgid="2807318537887091606">"Send e-mail"</string>
+    <string name="postal_street" msgid="6918171741240802474">"Gade"</string>
+    <string name="postal_pobox" msgid="2962203483168878561">"Postboks"</string>
+    <string name="postal_neighborhood" msgid="5275280978237639716">"Nabolag"</string>
+    <string name="postal_city" msgid="8674569121430005628">"By"</string>
+    <string name="postal_region" msgid="1730369286225469192">"Stat"</string>
+    <string name="postal_postcode" msgid="4450700741261990439">"Postnummer"</string>
+    <string name="postal_country" msgid="232670707458768148">"Land"</string>
+    <string name="map_home" msgid="4181131107392126938">"Vis hjemmeadresse"</string>
+    <string name="map_work" msgid="5723471185992684400">"Vis arbejdsadresse"</string>
+    <string name="map_other" msgid="2253764780863500516">"Vis adresse"</string>
+    <string name="map_custom" msgid="5581743097882436157">"Vis <xliff:g id="CUSTOM">%s</xliff:g>-adresse"</string>
+    <string name="chat_aim" msgid="2954364435497941659">"Chat ved hjælp af AIM"</string>
+    <string name="chat_msn" msgid="3130135239071228678">"Chat ved hjælp af Windows Live"</string>
+    <string name="chat_yahoo" msgid="3233552142326865347">"Chat ved hjælp af Yahoo"</string>
+    <string name="chat_skype" msgid="6486703981390592425">"Chat ved hjælp af Skype"</string>
+    <string name="chat_qq" msgid="786924280665740019">"Chat ved hjælp af QQ"</string>
+    <string name="chat_gtalk" msgid="7914674177243078035">"Chat ved hjælp af Google Talk"</string>
+    <string name="chat_icq" msgid="3292934726414765801">"Chat ved hjælp af ICQ"</string>
+    <string name="chat_jabber" msgid="6701542313597880204">"Chat ved hjælp af Jabber"</string>
+    <string name="chat" msgid="1020428260359370236">"Chat"</string>
+    <string name="description_minus_button" msgid="2659092981396583806">"slet"</string>
+    <string name="expand_collapse_name_fields_description" msgid="9005732230091761802">"Udvid eller skjul navnefelter"</string>
+    <string name="expand_collapse_phonetic_name_fields_description" msgid="3450645489720595412">"Udvid eller skjul felter til fonetiske navne"</string>
+    <string name="list_filter_all_accounts" msgid="473782314881473992">"Alle kontaktpersoner"</string>
+    <string name="menu_done" msgid="1817505539263889535">"Afslut"</string>
+    <string name="menu_doNotSave" msgid="4174389775790094548">"Annuller"</string>
+    <string name="listAllContactsInAccount" msgid="3486378621592995630">"Kontaktpersoner i <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="listCustomView" msgid="5306282632413086731">"Kontakter i tilpasset visning"</string>
+    <string name="listSingleContact" msgid="8620818791932382627">"Enkelt kontaktperson"</string>
+    <string name="dialog_new_contact_account" msgid="3089718960461539156">"Gem importerede kontaktpersoner på:"</string>
+    <string name="import_from_sim" msgid="4025122666048801234">"Importér fra SIM-kort"</string>
+    <string name="import_from_sim_summary" msgid="7347530878981811858">"Importér fra SIM <xliff:g id="SIM_NAME">^1</xliff:g> – <xliff:g id="SIM_NUMBER">^2</xliff:g>"</string>
+    <string name="import_from_sim_summary_no_number" msgid="2311025421424473798">"Importér fra SIM <xliff:g id="SIM_NAME">%1$s</xliff:g>"</string>
+    <string name="import_from_vcf_file" product="default" msgid="2755992524137862594">"Importér fra .vcf-fil"</string>
+    <string name="cancel_import_confirmation_message" msgid="1112854508504355394">"Vil du annullere importen af <xliff:g id="FILENAME">%s</xliff:g>?"</string>
+    <string name="cancel_export_confirmation_message" msgid="8507822905973961704">"Vil du annullere eksporten af <xliff:g id="FILENAME">%s</xliff:g>?"</string>
+    <string name="cancel_vcard_import_or_export_failed" msgid="3633975947527306665">"Import/eksport af vCard kunne ikke annulleres"</string>
+    <string name="fail_reason_unknown" msgid="4526834573707737085">"Ukendt fejl."</string>
+    <string name="fail_reason_could_not_open_file" msgid="2564113989228646444">"\"<xliff:g id="FILE_NAME">%s</xliff:g>\" kan ikke åbnes: <xliff:g id="EXACT_REASON">%s</xliff:g>."</string>
+    <string name="fail_reason_could_not_initialize_exporter" msgid="1391801997398257839">"Eksportfunktionen kunne ikke startes: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_no_exportable_contact" msgid="5905140440417594395">"Der er ingen kontaktpersoner, der kan eksporteres."</string>
+    <string name="missing_required_permission" msgid="3977319568919699902">"Du har deaktiveret en påkrævet tilladelse."</string>
+    <string name="fail_reason_error_occurred_during_export" msgid="4022425018935814242">"Der opstod en fejl under eksporten: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\"."</string>
+    <string name="fail_reason_too_long_filename" msgid="1782388695897859448">"Det krævede filnavn er for langt (\"<xliff:g id="FILENAME">%s</xliff:g>\")."</string>
+    <string name="fail_reason_io_error" msgid="5610192449460803752">"I/O-fejl"</string>
+    <string name="fail_reason_low_memory_during_import" msgid="5383581106403466715">"Ikke nok hukommelse. Filen kan være for stor."</string>
+    <string name="fail_reason_vcard_parse_error" msgid="7166381747317969497">"vCard kunne ikke parses af uventede årsager."</string>
+    <string name="fail_reason_not_supported" msgid="6529299412185608834">"Formatet understøttes ikke."</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info" msgid="2071371622333685552">"Metaoplysninger om de angivne vCard-filer kunne ikke hentes."</string>
+    <string name="fail_reason_failed_to_read_files" msgid="7364342120566067558">"En eller flere filer kunne ikke importeres (%s)."</string>
+    <string name="exporting_vcard_finished_title" msgid="6969111823207538096">"<xliff:g id="FILENAME">%s</xliff:g> er eksporteret."</string>
+    <string name="exporting_vcard_finished_title_fallback" msgid="3456404588243153606">"Kontaktpersoner blev eksporteret."</string>
+    <string name="exporting_vcard_finished_toast" msgid="864313687240614505">"Kontaktpersonerne blev eksporteret. Klik på underretningen for at dele kontaktpersonerne."</string>
+    <string name="touch_to_share_contacts" msgid="8684610418619975866">"Tryk for at dele kontaktpersoner."</string>
+    <string name="exporting_vcard_canceled_title" msgid="4160930279977285925">"Eksport af <xliff:g id="FILENAME">%s</xliff:g> er annulleret."</string>
+    <string name="exporting_contact_list_title" msgid="874590947793345632">"Eksporterer kontaktdata"</string>
+    <string name="exporting_contact_list_message" msgid="3263011604569444133">"Kontaktoplysningerne eksporteres."</string>
+    <string name="composer_failed_to_get_database_infomation" msgid="443743100925218813">"Databaseoplysningerne kunne ikke hentes."</string>
+    <string name="composer_has_no_exportable_contact" msgid="1492572045460138455">"Der er ingen kontaktpersoner, der kan eksporteres. Hvis du har kontaktpersoner på din enhed, tillader nogle dataudbydere muligvis ikke, at kontaktpersonerne eksporteres fra enheden."</string>
+    <string name="composer_not_initialized" msgid="7126008930727708362">"Oprettelsen af vCard startede ikke korrekt."</string>
+    <string name="exporting_contact_failed_title" msgid="5400878429352404258">"Eksport ikke mulig"</string>
+    <string name="exporting_contact_failed_message" msgid="1453772164161663415">"Kontaktdataene blev ikke eksporteret.\nÅrsag: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="importing_vcard_description" msgid="1206078719084863234">"Importerer <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="reading_vcard_failed_title" msgid="4759080957711586257">"Dataene på dette vCard kunne ikke læses"</string>
+    <string name="reading_vcard_canceled_title" msgid="3650078934530953275">"Læsning af vCard-data blev annulleret"</string>
+    <string name="importing_vcard_finished_title" msgid="1543368028741535966">"Import af vCard afsluttet <xliff:g id="FILENAME">%s</xliff:g>"</string>
+    <string name="importing_vcard_canceled_title" msgid="2454436016819017436">"Import af <xliff:g id="FILENAME">%s</xliff:g> blev annulleret"</string>
+    <string name="vcard_import_will_start_message" msgid="6013286576133592154">"<xliff:g id="FILENAME">%s</xliff:g> importeres om et øjeblik."</string>
+    <string name="vcard_import_will_start_message_with_default_name" msgid="3172538521736189687">"Filen importeres inden længe."</string>
+    <string name="vcard_import_request_rejected_message" msgid="7620870852106507620">"Anmodningen om import af vCard blev afvist. Prøv igen senere."</string>
+    <string name="vcard_export_will_start_message" msgid="4480722586633503615">"<xliff:g id="FILENAME">%s</xliff:g> eksporteres om et øjeblik."</string>
+    <string name="vcard_export_will_start_message_fallback" msgid="8746087280091814150">"Filen eksporteres om et øjeblik."</string>
+    <string name="contacts_export_will_start_message" msgid="5950262391638837408">"Kontaktpersonerne eksporteres om lidt."</string>
+    <string name="vcard_export_request_rejected_message" msgid="4132430982367686579">"Anmodningen om eksport af vCard blev afvist. Prøv igen senere."</string>
+    <string name="vcard_unknown_filename" msgid="7576066884501578965">"kontaktperson"</string>
+    <string name="caching_vcard_message" msgid="7778832851741500256">"Cachelagrer vCard-fil(er) til lokalt midlertidigt lager. Den egentlige import starter snart."</string>
+    <string name="vcard_import_failed" msgid="4135012206186446511">"vCard kunne ikke importeres."</string>
+    <string name="nfc_vcard_file_name" msgid="7174382505002702431">"Kontakt via NFC"</string>
+    <string name="confirm_export_title" msgid="9164673124925342242">"Eksportér kontaktpersoner?"</string>
+    <string name="caching_vcard_title" msgid="8092335276785174935">"Cachelagrer"</string>
+    <string name="progress_notifier_message" msgid="2778542784808529164">"Importerer <xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g>: <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="export_to_vcf_file" product="default" msgid="6148360234812424446">"Eksportér til .vcf-fil"</string>
+    <string name="display_options_sort_list_by" msgid="3541875948367831228">"Sortér efter"</string>
+    <string name="display_options_sort_by_given_name" msgid="4316351826810346915">"Fornavn"</string>
+    <string name="display_options_sort_by_family_name" msgid="5238820876940079000">"Efternavn"</string>
+    <string name="display_options_view_names_as" msgid="4204204205736735618">"Navneformat"</string>
+    <string name="display_options_view_given_name_first" msgid="2308026973021171020">"Fornavn først"</string>
+    <string name="display_options_view_family_name_first" msgid="987430497292428242">"Efternavn først"</string>
+    <string name="default_editor_account" msgid="1826578934497338822">"Standardkonto til nye kontaktpersoner"</string>
+    <string name="sync_contact_metadata_dialog_title" msgid="7839882899954930421">"Synkroniser metadata for kontaktpersoner"</string>
+    <string name="setting_about" msgid="5253319937596745755">"Om Kontaktpersoner"</string>
+    <string name="activity_title_settings" msgid="2398428034981372932">"Indstillinger"</string>
+    <string name="share_visible_contacts" msgid="6775120441469077620">"Del synlige kontaktpersoner"</string>
+    <string name="share_visible_contacts_failure" msgid="1365755167786055470">"Det lykkedes ikke at dele synlige kontaktpersoner."</string>
+    <string name="share_favorite_contacts" msgid="9138011836074034817">"Del foretrukne kontaktpersoner"</string>
+    <string name="share_contacts" msgid="6505699963814423437">"Del alle kontaktpersoner"</string>
+    <string name="share_contacts_failure" msgid="6027174424732204424">"Kontaktpersonerne kunne ikke deles."</string>
+    <string name="dialog_import_export" msgid="3052335055728876529">"Importér/eksportér kontaktpersoner"</string>
+    <string name="dialog_import" msgid="8508508044485808554">"Importer kontaktpersoner"</string>
+    <string name="share_error" msgid="5642622973966851784">"Denne kontaktperson kan ikke deles."</string>
+    <string name="no_contact_to_share" msgid="9115223064368461904">"Der er ingen kontaktpersoner, der kan deles."</string>
+    <string name="menu_search" msgid="1241802591112035764">"Søg"</string>
+    <string name="hint_findContacts" msgid="1913556676649442295">"Find kontaktpersoner"</string>
+    <string name="contactsFavoritesLabel" msgid="5198982253222486561">"Foretrukne"</string>
+    <string name="listTotalAllContactsZero" msgid="8436822729781033537">"Der er ingen kontaktpersoner."</string>
+    <string name="listTotalAllContactsZeroCustom" msgid="6072173682342248964">"Ingen synlige kontaktpersoner."</string>
+    <string name="listTotalAllContactsZeroStarred" msgid="5008410556001744528">"Der er ingen favoritter"</string>
+    <string name="listTotalAllContactsZeroGroup" msgid="6782377127075025237">"Ingen kontaktpersoner i <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_clear_frequents" msgid="5358271535047496120">"Ryd hyppige"</string>
+    <string name="menu_select_sim" msgid="3960197724339200637">"Vælg SIM-kort"</string>
+    <string name="menu_accounts" msgid="8092083497106343280">"Administrer konti"</string>
+    <string name="menu_import_export" msgid="8834601882032781755">"Importér/eksportér"</string>
+    <string name="contact_status_update_attribution" msgid="6042601531361543253">"via <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="contact_status_update_attribution_with_date" msgid="3448746388181727251">"<xliff:g id="DATE">%1$s</xliff:g> via <xliff:g id="SOURCE">%2$s</xliff:g>"</string>
+    <string name="action_menu_back_from_search" msgid="3550669942742167644">"stop søgning"</string>
+    <string name="description_clear_search" msgid="2347258825265600782">"Ryd søgning"</string>
+    <string name="settings_contact_display_options_title" msgid="5535295687646503547">"Indstillinger for visning af kontaktpersoner"</string>
+    <string name="select_account_dialog_title" msgid="2673504582803359239">"Konto"</string>
+    <string name="set_default_account" msgid="7966099951006467572">"Brug altid ved opkald"</string>
+    <string name="select_phone_account_for_calls" msgid="1784460686103423274">"Ring med"</string>
+    <string name="call_with_a_note" msgid="6242261320491851133">"Ring med en note"</string>
+    <string name="call_subject_hint" msgid="7233138753650420800">"Indtast en note, som skal sendes ved opkald..."</string>
+    <string name="send_and_call_button" msgid="4735168294120154013">"SEND OG RING"</string>
+    <string name="call_subject_limit" msgid="8273208736191593939">"<xliff:g id="COUNT">%1$s</xliff:g>/<xliff:g id="LIMIT">%2$s</xliff:g>"</string>
+    <string name="call_subject_type_and_number" msgid="6338030032554019678">"<xliff:g id="TYPE">%1$s</xliff:g> <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="tab_title" msgid="3387876802026074288">"Fanen <xliff:g id="TITLE">%1$s</xliff:g>."</string>
+    <plurals name="tab_title_with_unread_items" formatted="false" msgid="8548492980702182785">
+      <item quantity="one"> Fanen <xliff:g id="TITLE_2">%1$s</xliff:g>. <xliff:g id="COUNT_3">%2$d</xliff:g> ulæst element. </item>
+      <item quantity="other"> Fanen <xliff:g id="TITLE_2">%1$s</xliff:g>. <xliff:g id="COUNT_3">%2$d</xliff:g> ulæste elementer. </item>
+    </plurals>
+    <string name="about_build_version" msgid="6809677213570116689">"Build-version"</string>
+    <string name="about_open_source_licenses" msgid="9071344335180981674">"Open source-licenser"</string>
+    <string name="about_open_source_licenses_summary" msgid="4662018242345608420">"Licensoplysninger til open source-software"</string>
+    <string name="about_privacy_policy" msgid="120921692215934837">"Privatlivspolitik"</string>
+    <string name="about_terms_of_service" msgid="9004506174858804172">"Servicevilkår"</string>
+    <string name="activity_title_licenses" msgid="2416018204229261875">"Open source-licenser"</string>
+    <string name="url_open_error_toast" msgid="3814442157861318482">"Webadressen kunne ikke åbnes."</string>
+    <string name="description_search_video_call" msgid="4337369876888024909">"Videoopkald"</string>
+    <string name="description_search_call_and_share" msgid="4912772842755050467">"Del og ring"</string>
+
+
+<string name="phoneAppLabel" product="default" msgid="4266606423746318128">"Opkald"</string>
+    <string name="inCallLabel" msgid="8627766543550519912">"InCallUI"</string>
+    <string name="confCall" msgid="36560628097626181">"Telefonmøde"</string>
+    <string name="call_lost" msgid="2082971531689406145">"Opkaldet blev droppet."</string>
+    <string name="wait_prompt_str" msgid="3509685348904329594">"Send følgende toner?\n"</string>
+    <string name="pause_prompt_str" msgid="5712344742516488080">"Sender toner\n"</string>
+    <string name="send_button" msgid="6976782353456252579">"Send"</string>
+    <string name="pause_prompt_yes" msgid="4642047011233552973">"Ja"</string>
+    <string name="pause_prompt_no" msgid="4691320111774935838">"Nej"</string>
+    <string name="wild_prompt_str" msgid="1399377741491574104">"Erstat jokertegnet med"</string>
+    <string name="caller_manage_header" msgid="7358710345135355578">"Telefonmøde <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="voicemail_settings_number_label" msgid="8935904934161608885">"Telefonsvarernummer"</string>
+    <string name="notification_dialing" msgid="9072177265772083826">"Ringer op"</string>
+    <string name="notification_missedCallTicker" msgid="238492086972857643">"Ubesvaret opkald fra <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call" msgid="8712641937577776125">"Igangværende opkald"</string>
+    <string name="notification_ongoing_work_call" msgid="3189581218078981547">"Igangværende opkald i forbindelse med arbejde"</string>
+    <string name="notification_ongoing_call_wifi" msgid="4393238962909277019">"Igangværende Wi-Fi-opkald"</string>
+    <string name="notification_ongoing_work_call_wifi" msgid="3169378605818323964">"Igangværende Wi-Fi-opkald i forbindelse med arbejde"</string>
+    <string name="notification_on_hold" msgid="7141827443379205682">"Ventende"</string>
+    <string name="notification_incoming_call" msgid="7520580807513849283">"Indgående opkald"</string>
+    <string name="notification_incoming_call_with_photo" msgid="4360505044807517422">"Indgående opkald med billede"</string>
+    <string name="notification_incoming_call_with_message" msgid="5608687985694956601">"Indgående opkald med besked"</string>
+    <string name="notification_incoming_call_with_location" msgid="4519498445081598767">"Indgående opkald med placering"</string>
+    <string name="notification_incoming_call_with_photo_message" msgid="316806247057497525">"Indgående opkald med billede og besked"</string>
+    <string name="notification_incoming_call_with_photo_location" msgid="3523930283842222367">"Indgående opkald med billede og placering"</string>
+    <string name="notification_incoming_call_with_message_location" msgid="319374298517482028">"Indgående opkald med besked og placering"</string>
+    <string name="notification_incoming_call_with_photo_message_location" msgid="596658237891406809">"Indgående opkald med billede, besked og placering"</string>
+    <string name="notification_incoming_call_attachments" msgid="3708414495376236948">"Indgående opkald med vedhæftede filer"</string>
+    <string name="important_notification_incoming_call" msgid="2867013954509930989">"Vigtigt indgående opkald"</string>
+    <string name="important_notification_incoming_call_with_photo" msgid="4908333121583658560">"Vigtigt indgående opkald med billede"</string>
+    <string name="important_notification_incoming_call_with_message" msgid="1614505248246685319">"Vigtigt indgående opkald med besked"</string>
+    <string name="important_notification_incoming_call_with_location" msgid="7387284065036564352">"Vigtigt indgående opkald med placering"</string>
+    <string name="important_notification_incoming_call_with_photo_message" msgid="4577220919701434817">"Vigtigt indgående opkald med billede og besked"</string>
+    <string name="important_notification_incoming_call_with_photo_location" msgid="7172208615619394502">"Vigtigt indgående opkald med billede og placering"</string>
+    <string name="important_notification_incoming_call_with_message_location" msgid="7244079127080064796">"Vigtigt indgående opkald med besked og placering"</string>
+    <string name="important_notification_incoming_call_with_photo_message_location" msgid="513692941317253479">"Vigtigt opkald med billede, besked og placering"</string>
+    <string name="important_notification_incoming_call_attachments" msgid="4594375776340303751">"Vigtigt indgående opkald med vedhæftede filer"</string>
+    <string name="notification_incoming_work_call" msgid="5291275092734261918">"Indgående opkald i forbindelse med arbejde"</string>
+    <string name="notification_incoming_call_wifi" msgid="1020138378061234203">"Indgående Wi-Fi-opkald"</string>
+    <string name="notification_incoming_work_call_wifi" msgid="3549264481033044684">"Indgående Wi-Fi-opkald i forbindelse med arbejde"</string>
+    <string name="notification_incoming_spam_call" msgid="7591506944666791937">"Indgående formodet spamopkald"</string>
+    <string name="notification_requesting_video_call" msgid="1807679328811515758">"Indgående videoanmodning"</string>
+    <string name="notification_network_selection_title" msgid="8639159088474275747">"Ingen dækning"</string>
+    <string name="notification_network_selection_text" msgid="7190860774239009625">"Det valgte netværk (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) er ikke tilgængeligt"</string>
+    <string name="notification_action_answer" msgid="8748275902211192568">"Svar"</string>
+    <string name="notification_action_end_call" msgid="7467258454170007765">"Læg på"</string>
+    <string name="notification_action_answer_video" msgid="8488108892919917287">"Video"</string>
+    <string name="notification_action_answer_voice" msgid="6237890905749760509">"Tale"</string>
+    <string name="notification_action_accept" msgid="1272761514200507143">"Besvar"</string>
+    <string name="notification_action_dismiss" msgid="3128241581632616226">"Afvis"</string>
+    <string name="notification_external_call" msgid="2504334597315343920">"Igangværende opkald på en anden enhed"</string>
+    <string name="notification_external_video_call" msgid="7709394856028436683">"Igangværende opkald på en anden enhed"</string>
+    <string name="notification_take_call" msgid="5631659438864492229">"Besvar opkald"</string>
+    <string name="notification_take_video_call" msgid="4473387503712341390">"Besvar videoopkald"</string>
+    <string name="incall_error_power_off" msgid="3244691852792529453">"Slå Flytilstand fra først for at foretage et opkald."</string>
+    <string name="incall_error_emergency_only" msgid="8313690034696753566">"Ikke registreret på netværk."</string>
+    <string name="incall_error_out_of_service" msgid="5027539470868484145">"Mobilnetværket er ikke tilgængeligt."</string>
+    <string name="incall_error_no_phone_number_supplied" msgid="293343960362630925">"Indtast et gyldigt nummer for at foretage et opkald."</string>
+    <string name="incall_error_call_failed" msgid="5560521345862514733">"Kan ikke ringe op."</string>
+    <string name="incall_status_dialed_mmi" msgid="3341365334358686873">"Starter MMI-sekvens ..."</string>
+    <string name="incall_error_supp_service_unknown" msgid="3062751096566282959">"Tjenesten er ikke understøttet."</string>
+    <string name="incall_error_supp_service_switch" msgid="759346040980722884">"Kan ikke skifte opkald."</string>
+    <string name="incall_error_supp_service_separate" msgid="5250304200901095519">"Kan ikke adskille opkald."</string>
+    <string name="incall_error_supp_service_transfer" msgid="556522021433482116">"Kan ikke overføre."</string>
+    <string name="incall_error_supp_service_conference" msgid="9211560861266632111">"Kan ikke oprette telefonmøde."</string>
+    <string name="incall_error_supp_service_reject" msgid="2724981515194352120">"Kan ikke afvise opkaldet."</string>
+    <string name="incall_error_supp_service_hangup" msgid="4659922482839313098">"Kan ikke frigive et eller flere opkald."</string>
+    <string name="emergency_enable_radio_dialog_title" msgid="5964415982020440543">"Nødopkald"</string>
+    <string name="emergency_enable_radio_dialog_message" msgid="6927454354381787268">"Tænder for radio ..."</string>
+    <string name="emergency_enable_radio_dialog_retry" msgid="8760220613410560290">"Ingen tjeneste. Prøver igen..."</string>
+    <string name="dial_emergency_error" msgid="6953255422990366011">"Der kan ikke ringes op. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> er ikke et alarmnummer."</string>
+    <string name="dial_emergency_empty_error" msgid="6668006522178181198">"Kan ikke ringe op. Ring til et alarmnummer."</string>
+    <string name="dialerKeyboardHintText" msgid="6275105254377292585">"Brug tastatur til at ringe op"</string>
+    <string name="player_started" msgid="9177182657338033086">"Afspilleren er startet"</string>
+    <string name="player_stopped" msgid="5040965200339765956">"Afspilleren er stoppet"</string>
+    <string name="camera_not_ready" msgid="3629017450703828964">"Kameraet er ikke klar"</string>
+    <string name="camera_ready" msgid="4312684554501216898">"Kameraet er klar"</string>
+    <string name="unknown_call_session_event" msgid="797786212356595358">"Ukendt opkaldsbegivenhed"</string>
+    <string name="other_settings" msgid="2537377721890761197">"Andre indstillinger for opkald"</string>
+    <string name="goPrivate" msgid="5269514638004595378">"gør privat"</string>
+    <string name="selectContact" msgid="1703433172800564849">"vælg kontaktperson"</string>
+    <string name="preference_category_ringtone" msgid="8566115267004890115">"Ringetone og vibration"</string>
+    <string name="manageConferenceLabel" msgid="3589379023518128318">"Administrer telefonmøde"</string>
+    <string name="emergency_call_dialog_number_for_display" msgid="461645337084699104">"Nødnummer"</string>
+    <string name="child_number" msgid="3398257437107259682">"via <xliff:g id="CHILD_NUMBER">%s</xliff:g>"</string>
+    <string name="person_contact_context_title" msgid="9186980175313563725">"Seneste beskeder"</string>
+    <string name="business_contact_context_title" msgid="4796616668776688978">"Virksomhedsoplysninger"</string>
+    <string name="distance_imperial_away" msgid="66546464027126106">"<xliff:g id="DISTANCE">%.1f</xliff:g> mil væk"</string>
+    <string name="distance_metric_away" msgid="4535553190850854545">"<xliff:g id="DISTANCE">%.1f</xliff:g> km væk"</string>
+    <string name="display_address" msgid="2909385132133621873">"<xliff:g id="STREET_ADDRESS">%1$s</xliff:g>, <xliff:g id="LOCALITY">%2$s</xliff:g>"</string>
+    <string name="open_time_span" msgid="3333746415188434992">"<xliff:g id="OPEN_TIME">%1$s</xliff:g>-<xliff:g id="CLOSE_TIME">%2$s</xliff:g>"</string>
+    <string name="opening_hours" msgid="2908934145495754020">"<xliff:g id="EARLIER_TIMES">%1$s</xliff:g>, <xliff:g id="LATER_TIME">%2$s</xliff:g>"</string>
+    <string name="opens_tomorrow_at" msgid="2896787795283597856">"Åbner i morgen kl. <xliff:g id="OPEN_TIME">%s</xliff:g>"</string>
+    <string name="opens_today_at" msgid="4701005560156621184">"Åbner i dag kl. <xliff:g id="OPEN_TIME">%s</xliff:g>"</string>
+    <string name="closes_today_at" msgid="2668928851103904896">"Lukker kl. <xliff:g id="CLOSE_TIME">%s</xliff:g>"</string>
+    <string name="closed_today_at" msgid="4203311397205549440">"Lukkede i dag kl. <xliff:g id="CLOSE_TIME">%s</xliff:g>"</string>
+    <string name="open_now" msgid="5897306702060039512">"Åbent nu"</string>
+    <string name="closed_now" msgid="3962291301467974921">"Lukket for i dag"</string>
+    <string name="non_spam_notification_title" msgid="3290544768406546372">"Kender du <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="spam_notification_title" msgid="2439276063775520534">"Er <xliff:g id="NUMBER">%1$s</xliff:g> spam?"</string>
+    <string name="spam_notification_block_report_toast_text" msgid="6844067640633690292">"<xliff:g id="NUMBER">%1$s</xliff:g> blev blokeret, og opkaldet blev rapporteret som spam."</string>
+    <string name="spam_notification_not_spam_toast_text" msgid="8321993839027073785">"Opkaldet fra <xliff:g id="NUMBER">%1$s</xliff:g> blev ikke registreret som spam."</string>
+    <string name="spam_notification_non_spam_call_collapsed_text" msgid="6482092382445364016">"Tryk for at føje til kontaktpersoner eller for at blokere nummeret som spam."</string>
+    <string name="spam_notification_non_spam_call_expanded_text" msgid="3598209932872915536">"Dette er første gang, at dette nummer har ringet til dig. Hvis det var et spamopkald, kan du blokere nummeret og rapportere det."</string>
+    <string name="spam_notification_spam_call_collapsed_text" msgid="3865687645128037638">"Tryk for at rapportere som IKKE SPAM, eller bloker det."</string>
+    <string name="spam_notification_spam_call_expanded_text" msgid="1062029525759401658">"Hvis har mistanke om, at dette er en spammer. Hvis opkaldet ikke er spam, skal du trykke på IKKE SPAM for at rapportere vores mistanke."</string>
+    <string name="spam_notification_report_spam_action_text" msgid="4829510418690824538">"Bloker og rapportér"</string>
+    <string name="spam_notification_add_contact_action_text" msgid="307315138401483232">"Tilføj kontakt"</string>
+    <string name="spam_notification_not_spam_action_text" msgid="2576048366011852090">"Ikke spam"</string>
+    <string name="spam_notification_block_spam_action_text" msgid="80045727259264724">"Bloker nummer"</string>
+    <string name="spam_notification_dialog_add_contact_action_text" msgid="5619696845681999506">"Føj til kontaktpersoner"</string>
+    <string name="spam_notification_dialog_block_report_spam_action_text" msgid="1821506089128547428">"Bloker, og rapportér spam"</string>
+    <string name="spam_notification_dialog_was_not_spam_action_text" msgid="4953789750391355251">"Ikke spam"</string>
+    <string name="callFailed_simError" msgid="4587775795711340072">"Der er intet SIM-kort, eller der er SIM-kortfejl"</string>
+    <string name="conference_caller_disconnect_content_description" msgid="2821988368803183644">"Afslut opkald"</string>
+    <string name="conference_call_name" msgid="8189987124611337174">"Telefonmøde"</string>
+    <string name="generic_conference_call_name" msgid="1546941472424243894">"Opkald i gang"</string>
+    <string name="video_call_wifi_to_lte_handover_toast" msgid="2108633957233856099">"Opkaldet fortsættes med mobildata…"</string>
+    <string name="video_call_lte_to_wifi_failed_title" msgid="1343446383310594456">"Du kunne ikke skifte til Wi-Fi-netværk"</string>
+    <string name="video_call_lte_to_wifi_failed_message" msgid="3703332569739939335">"Videoopkaldet bliver ved med at bruge mobilnetværket. Du skal muligvis betale et standardgebyr for data."</string>
+    <string name="video_call_lte_to_wifi_failed_do_not_show" msgid="7609115874511223150">"Vis ikke dette igen"</string>
+
+
+
+    <string name="voicemail_settings_with_label" msgid="563926539137546586">"Telefonsvarer (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="voicemail_settings_title" msgid="6685263321755930738">"Telefonsvarer"</string>
+    <string name="voicemail_notifications_preference_title" msgid="3490553930230492405">"Underretninger"</string>
+    <string name="voicemail_advanced_settings_title" msgid="6390900339808156711">"Avancerede indstillinger"</string>
+    <string name="voicemail_visual_voicemail_switch_title" msgid="3158454817165714998">"Visuel telefonsvarer"</string>
+    <string name="voicemail_visual_voicemail_auto_archive_switch_title" msgid="7120443850486401455">"Ekstra sikkerhedskopiering og lagerplads"</string>
+    <string name="voicemail_set_pin_preference_title" msgid="1034691230818233684">"Angiv pinkode"</string>
+    <string name="voicemail_change_pin_preference_title" msgid="8944570865151211693">"Skift pinkode"</string>
+    <string name="voicemail_change_pin_preference_summary_disable" msgid="2787334822298063691">"Visuel telefonsvarer skal være aktiveret, for at du kan skifte pinkode"</string>
+    <string name="voicemail_change_pin_preference_summary_not_activated" msgid="8794039647258533633">"Visuel telefonsvarer er ikke aktiveret endnu. Prøv igen senere"</string>
+    <string name="vm_change_pin_old_pin" msgid="3732582036597386047">"Nuværende pinkode"</string>
+    <string name="vm_change_pin_new_pin" msgid="5167496290646066333">"Ny pinkode"</string>
+    <string name="vm_change_pin_progress_message" msgid="4143209637626661679">"Vent et øjeblik."</string>
+    <string name="vm_change_pin_error_too_short" msgid="2825020644385639921">"Den nye pinkode er for kort."</string>
+    <string name="vm_change_pin_error_too_long" msgid="683260438529171998">"Den nye pinkode er for lang."</string>
+    <string name="vm_change_pin_error_too_weak" msgid="5865254034338293113">"Denne pinkode er for svag. En stærk adgangskode består ikke af en række tal og har ikke flere af de samme tal efter hinanden."</string>
+    <string name="vm_change_pin_error_mismatch" msgid="3682667971009913553">"Den gamle pinkode er forkert."</string>
+    <string name="vm_change_pin_error_invalid" msgid="4317397281749196545">"Den nye pinkode har ugyldige tegn."</string>
+    <string name="vm_change_pin_error_system_error" msgid="5972056058776852411">"Pinkoden kunne ikke ændres"</string>
+    <string name="vvm_unsupported_message_format" msgid="2746490691815392491">"Ikke-understøttet beskedtype. Ring til <xliff:g id="NUMBER">%s</xliff:g> for at aflytte."</string>
+    <string name="change_pin_title" msgid="1363830310845461697">"Skift pinkode til din telefonsvarer"</string>
+    <string name="change_pin_continue_label" msgid="9184635195162827832">"Fortsæt"</string>
+    <string name="change_pin_cancel_label" msgid="7258783861113501519">"Annuller"</string>
+    <string name="change_pin_ok_label" msgid="4527043915415428629">"OK"</string>
+    <string name="change_pin_enter_old_pin_header" msgid="1375728090965833028">"Bekræft din gamle pinkode"</string>
+    <string name="change_pin_enter_old_pin_hint" msgid="1654231195871094175">"Angiv din pinkode til din telefonsvarer for at fortsætte."</string>
+    <string name="change_pin_enter_new_pin_header" msgid="7142620840890909719">"Angiv en ny pinkode"</string>
+    <string name="change_pin_enter_new_pin_hint" msgid="1289662932759932217">"Pinkoden skal være på <xliff:g id="MIN">%1$d</xliff:g>-<xliff:g id="MAX">%2$d</xliff:g> cifre."</string>
+    <string name="change_pin_confirm_pin_header" msgid="7282604363655862136">"Bekræft din pinkode"</string>
+    <string name="change_pin_confirm_pins_dont_match" msgid="8626742552205369433">"Pinkoderne er ikke ens"</string>
+    <string name="change_pin_succeeded" msgid="6869403202124894671">"Pinkoden til din telefonsvarer blev opdateret"</string>
+    <string name="change_pin_system_error" msgid="5762853042379833829">"Pinkoden kunne ikke angives"</string>
+
+
+    <string name="urgent" msgid="5271653973625093934">"Det haster. Besvar opkaldet!"</string>
+    <string name="want_to_chat" msgid="847333669248949914">"Har du lyst til at chatte?"</string>
+    <string name="quick_question" msgid="3501160802390214092">"Et hurtigt spørgsmål…"</string>
+    <string name="message_composer_custom_message_hint" msgid="2061100708804604835">"Skriv en tilpasset besked"</string>
+    <string name="send_and_call" msgid="3749091015058610762">"Send og ring"</string>
+    <string name="share_and_call" msgid="8934144481838868674">"Del og ring"</string>
+    <string name="gallery_item_description" msgid="7600601724204579471">"billede <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g>"</string>
+    <string name="gallery_item_description_no_date" msgid="2059198895441426838">"billede"</string>
+    <string name="camera_switch_to_still_mode" msgid="1881982437979592567">"Tag et billede"</string>
+    <string name="camera_media_failure" msgid="8979549551450965882">"Kamerabilledet kan ikke indlæses"</string>
+    <string name="allow" msgid="8637148297403066623">"Tillad"</string>
+    <string name="camera_permission_text" msgid="7863231776480341614">"Du skal give adgang til kameraet for at tage et billede"</string>
+    <string name="gallery_permission_text" msgid="4102566850658919346">"Du skal give adgang til medier for at dele et billede"</string>
+    <string name="description_call_composer_camera" msgid="388088245837924914">"Tag et billede"</string>
+    <string name="description_call_composer_photo" msgid="6449208314952246454">"Vælg et billede"</string>
+    <string name="description_call_composer_message" msgid="9132362446000908550">"Send en sms"</string>
+    <string name="image_sent_messages" msgid="6520870555040566229">"Fotoet blev sendt via Beskeder"</string>
+    <string name="message_sent_messages" msgid="6286576951151541098">"Beskeden blev sendt via Beskeder"</string>
+
+
+
+    <string name="migrate_blocked_numbers_dialog_title" msgid="7823962296457673809">"Ny, forenklet blokering"</string>
+    <string name="migrate_blocked_numbers_dialog_message" msgid="8309736147266462485">"Phone er nødt til at ændre, hvordan blokering fungerer, for bedre at kunne beskytte dig. Dine blokerede numre forhindrer både opkald og sms-beskeder, og de kan muligvis deles med andre apps."</string>
+    <string name="migrate_blocked_numbers_dialog_allow_button" msgid="5192836471557751367">"Tillad"</string>
+    <string name="block_number_confirmation_title" msgid="2699521227461376076">"Vil du blokere <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="block_number_confirmation_message_vvm" msgid="6501105244172290939">"Opkald fra dette nummer blokeres, og beskeder i telefonsvareren slettes automatisk."</string>
+    <string name="block_number_confirmation_message_no_vvm" msgid="8236641245709649882">"Opkald fra dette nummer bliver blokeret, men der kan muligvis stadig lægges beskeder i din telefonsvarer."</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="8487449683723062644">"Du modtager ikke længere opkald eller sms-beskeder fra dette nummer."</string>
+    <string name="block_number_ok" msgid="739786082788038932">"BLOKER"</string>
+    <string name="unblock_number_confirmation_title" msgid="7897778825085659941">"Vil du fjerne blokeringen af <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="unblock_number_ok" msgid="5089057152966269355">"FJERN BLOKERING"</string>
+    <string name="invalidNumber" msgid="6270918250761754967">"<xliff:g id="NUMBER">%1$s</xliff:g> er ugyldigt."</string>
+    <string name="snackbar_number_blocked" msgid="5760234822413921845">"<xliff:g id="NUMBER">%1$s</xliff:g> er blokeret"</string>
+    <string name="snackbar_number_unblocked" msgid="7941296274123990585">"<xliff:g id="NUMBER">%1$s</xliff:g> er ikke blokeret"</string>
+    <string name="block_number_undo" msgid="5158120911892491697">"FORTRYD"</string>
+    <string name="send_to_voicemail_import_failed" msgid="1012752662074208237">"Importen mislykkedes"</string>
+    <string name="call_blocking_disabled_notification_title" msgid="7211352205255347489">"Opkaldsblokering er blevet deaktiveret i 48 timer"</string>
+    <string name="call_blocking_disabled_notification_text" msgid="141384084865180722">"Deaktiveret, da du har foretaget et nødopkald."</string>
+    <string name="block_report_number_alert_title" msgid="2740581989824959611">"Vil du blokere <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="block_report_number_alert_details" msgid="2652479394593143562">"Du vil ikke længere modtage opkald fra dette nummer."</string>
+    <string name="block_number_alert_details" msgid="715942751312046429">"<xliff:g id="TEXT">%1$s</xliff:g> Dette opkald bliver rapporteret som spam."</string>
+    <string name="unblock_number_alert_details" msgid="8696070817026870606">"Blokeringen af nummeret ophæves, og spam rapporteres ikke. Nye opkald registreres ikke som spam."</string>
+    <string name="unblock_report_number_alert_title" msgid="2221901995393696882">"Vil du fjerne blokeringen af <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="report_not_spam_alert_button" msgid="3244953565919894995">"Rapportér"</string>
+    <string name="report_not_spam_alert_title" msgid="395961923213504916">"Vil du rapportere en fejl?"</string>
+    <string name="report_not_spam_alert_details" msgid="4463730683530824797">"Nye opkald fra <xliff:g id="NUMBER">%1$s</xliff:g> registreres ikke længere som spam."</string>
+    <string name="checkbox_report_as_spam_action" msgid="1549159682170273798">"Rapportér opkaldet som spam"</string>
+
+
+    <string name="call_details" msgid="5063658079729839605">"Opkaldsinfo"</string>
+    <string name="delete" msgid="2141020674108406737">"Slet"</string>
+    <string name="call_details_copy_number" msgid="4265479408878990796">"Kopiér nummer"</string>
+    <string name="call_details_edit_number" msgid="8718476514903513624">"Rediger nummer før opkald"</string>
+    <string name="call_details_report_call_id" msgid="8857541295264421217">"Rapportér et forkert nummer"</string>
+    <string name="sent_a_photo" msgid="3978670717462979502">"Der blev sendt et billede"</string>
+    <string name="received_a_photo" msgid="3528953225576480505">"Der blev modtaget et billede"</string>
+    <string name="message_in_quotes" msgid="3270574830115828365">"\"<xliff:g id="MESSAGE">%1$s</xliff:g>\""</string>
+    <string name="report_caller_id_dialog_title" msgid="145323726250371695">"Rapportér forkert nummer"</string>
+    <string name="report_caller_id_failed" msgid="1471904930106125702">"Det forkerte nummer kunne ikke rapporteres"</string>
+    <string name="report_caller_id_toast" msgid="5494870403429969932">"Nummeret blev rapporteret"</string>
+
+
+    <string name="type_incoming" msgid="5727636795656199810">"Indgående opkald"</string>
+    <string name="type_incoming_pulled" msgid="8434723359163965796">"Det indgående opkald blev viderestillet til en anden enhed"</string>
+    <string name="type_outgoing" msgid="764896746073942963">"Udgående opkald"</string>
+    <string name="type_outgoing_pulled" msgid="1648517538371704193">"Det udgående opkald blev viderestillet til en anden enhed"</string>
+    <string name="type_missed" msgid="2997043831022028176">"Ubesvarede opkald"</string>
+    <string name="type_incoming_video" msgid="7507180294202642554">"Indgående videoopkald"</string>
+    <string name="type_incoming_video_pulled" msgid="7879031598844023977">"Det indgående videoopkald blev viderestillet til anden enhed"</string>
+    <string name="type_outgoing_video" msgid="309370072333983910">"Udgående videoopkald"</string>
+    <string name="type_outgoing_video_pulled" msgid="3924450629684331345">"Det udgående videoopkald blev viderestillet til anden enhed"</string>
+    <string name="type_missed_video" msgid="4350107016317603785">"Ubesvaret videoopkald"</string>
+    <string name="type_voicemail" msgid="1877524395253846684">"Telefonsvarer"</string>
+    <string name="type_rejected" msgid="5632107438472996198">"Afvist opkald"</string>
+    <string name="type_blocked" msgid="9177237294052244929">"Blokeret opkald"</string>
+    <string name="call_details_minutes_abbreviation" msgid="7899774555556720560">"min."</string>
+    <string name="call_details_seconds_abbreviation" msgid="5893806826648947126">"sek."</string>
+    <string name="a11y_call_duration_format" msgid="2905525933361674470">"<xliff:g id="MINUTES_0">%d</xliff:g> <xliff:g id="MINUTES_TRANSLATION">%s</xliff:g> <xliff:g id="SECONDS_1">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="a11y_call_duration_short_format" msgid="5908875871251062453">"<xliff:g id="SECONDS_0">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="call_duration_format_pattern" msgid="7566375153243313914">"<xliff:g id="MINUTES_SPECIAL_CHARACTER">%s</xliff:g> \'<xliff:g id="MINUTES_TRANSLATION">%s</xliff:g>\' <xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g> \'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <string name="call_duration_short_format_pattern" msgid="1713177000235994790">"<xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g> \'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <plurals name="a11y_seconds" formatted="false" msgid="6695730844760611970">
+      <item quantity="one">sekund</item>
+      <item quantity="other">sekunder</item>
+    </plurals>
+    <plurals name="a11y_minutes" formatted="false" msgid="6377010096698624038">
+      <item quantity="one">minut</item>
+      <item quantity="other">minutter</item>
+    </plurals>
+    <string name="type_answered_elsewhere" msgid="411958582555881640">"Opkaldet blev besvaret på en anden enhed"</string>
+    <string name="description_phone_account" msgid="4382951172691362244">"på <xliff:g id="PHONEACCOUNT">^1</xliff:g>"</string>
+    <string name="description_via_number" msgid="7682575124846343076">"via <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string name="description_via_number_phone_account" msgid="4345445677508018830">"til <xliff:g id="PHONEACCOUNT">%1$s</xliff:g>, via <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="voicemail_string" msgid="6029775151483803006">"Telefonsvarer"</string>
+
+
+
+    <string name="network_name_wifi" msgid="3026388992566895417">"Wi-Fi"</string>
+    <string name="network_name_mobile" msgid="7655711935020766459">"Mobil"</string>
+
+
+
+    <string name="description_dialpad_back" msgid="6226488105558971135">"Naviger tilbage"</string>
+    <string name="description_dialpad_overflow" msgid="5984341386518189787">"Flere valgmuligheder"</string>
+    <string name="description_delete_button" msgid="8431313818404527096">"tilbagetast"</string>
+    <string name="description_image_button_plus" msgid="8936338119824589388">"plus"</string>
+    <string name="description_voicemail_button" msgid="4187006295368768215">"telefonsvarer"</string>
+
+    <string name="sms_disambig_title" msgid="369677069797534410">"Vælg nummer"</string>
+    <string name="call_disambig_title" msgid="2395382326030227603">"Vælg nummer"</string>
+    <string name="make_primary" msgid="9069345357862475091">"Husk dette valg"</string>
+
+
+    <string name="notification_channel_incoming_call" msgid="2478740764736158630">"Indgående opkald"</string>
+    <string name="notification_channel_ongoing_call" msgid="5593444445363940672">"Igangværende opkald"</string>
+    <string name="notification_channel_missed_call" msgid="5820652855908217695">"Ubesvarede opkald"</string>
+    <string name="notification_channel_voicemail" msgid="9206363659849426204">"Talebeskeder"</string>
+    <string name="notification_channel_misc" msgid="5595452227577858518">"Standard"</string>
+
+
+    <string name="private_num_verizon" msgid="3281061244372204957">"Privat"</string>
+    <string name="private_num_non_verizon" msgid="5829254390933301216">"Privat nummer"</string>
+
+
+    <string name="post_call_message" msgid="3541277172068556862">"Fortæl, hvorfor du har ringet"</string>
+    <string name="post_call_message_1" msgid="4827849136801228106">"Det haster. Ring tilbage til mig."</string>
+    <string name="post_call_message_2" msgid="5310301526176003385">"Ring tilbage til mig, når du har tid."</string>
+    <string name="post_call_message_3" msgid="3932759658420368056">"Det haster ikke. Vi kan tale sammen senere."</string>
+    <string name="post_call_add_message" msgid="8298853527467080463">"Tilføj besked"</string>
+    <string name="post_call_send_message" msgid="8039569617234824873">"Send besked"</string>
+    <string name="post_call_message_sent" msgid="832757977985265036">"Beskeden blev sendt"</string>
+    <string name="view" msgid="8572192949673703830">"Se"</string>
+
+
+    <string name="dialer_shortcut_add_contact_short" msgid="7587385197258884650">"Ny kontakt"</string>
+    <string name="dialer_shortcut_add_contact_long" msgid="7573187314386728329">"Ny kontaktperson"</string>
+    <string name="dialer_shortcut_disabled_message" msgid="7713603194332953571">"Genvejen virker ikke. Træk for at fjerne."</string>
+    <string name="dialer_shortcut_contact_not_found_or_has_no_number" msgid="3538594504123040498">"Kontaktpersonen er ikke længere tilgængelig."</string>
+    <string name="dialer_shortcut_no_permissions" msgid="4422956724546867357">"Opkaldet kan ikke foretages uden tilladelser."</string>
+
+
+    <string name="default_notification_description" msgid="4304424287748323094">"Standardlyd (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="ringtone_silent" msgid="946744257396998305">"Ingen"</string>
+    <string name="ringtone_unknown" msgid="1310974715243581582">"Ukendt ringetone"</string>
+    <string name="activity_not_available" msgid="8360067109103762211">"Der findes Ingen app til det på denne enhed"</string>
+    <string name="outgoing_wps_warning" msgid="7505673114152005234">"Hvis du foretager et WPS-opkald, afsluttes dit nuværende opkald."</string>
+    <string name="dialog_continue" msgid="4070630558441163574">"Fortsæt"</string>
+    <!-- no translation found for camera_privacy_text (4268584469444688293) -->
+    <skip />
+
+    <string name="voicemail_status_voicemail_not_available" msgid="5853033558114540057">"Nye telefonsvarerbeskeder er ikke tilgængelige"</string>
+    <string name="voicemail_status_messages_waiting" msgid="8900895357460505877">"Ny telefonsvarerbesked venter. Den kan ikke indlæses lige nu."</string>
+    <string name="voicemail_status_configure_voicemail" msgid="8642831215097798709">"Konfigurer din telefonsvarer"</string>
+    <string name="voicemail_status_audio_not_available" msgid="2341871147130931237">"Lyd er ikke tilgængelig"</string>
+    <string name="voicemail_status_action_configure" msgid="4445818528232235329">"Konfigurer"</string>
+    <string name="voicemail_status_action_call_server" msgid="3189606267631644507">"Ring til tlfsvarer"</string>
+
+
+    <string name="custom_message_hint" msgid="2179012696339457461">"Skriv en tilpasset besked"</string>
+    <string name="toolbar_close" msgid="1081308076149879833">"Luk"</string>
+    <string name="all_contacts_empty" msgid="4260556610403994011">"Du har endnu ikke nogen kontaktpersoner"</string>
+    <string name="all_contacts_empty_add_contact_action" msgid="7850060327481179533">"Opret ny kontaktperson"</string>
+    <string name="permission_single_turn_on" msgid="1306416016676232584">"Slå til"</string>
+    <string name="permission_no_contacts" msgid="2388204904477299207">"Slå tilladelsen Kontaktpersoner til for at se dine kontaktpersoner."</string>
+    <string name="add_contact_not_available" msgid="3083256438899321502">"Der er ingen tilgængelig app til kontaktpersoner"</string>
+
+
+    <string name="audioroute_bluetooth" msgid="3426527851663711141">"Bluetooth"</string>
+    <string name="audioroute_speaker" msgid="3269659224838962927">"Højttaler"</string>
+    <string name="audioroute_phone" msgid="4006113852056568310">"Telefon"</string>
+    <string name="audioroute_headset" msgid="3911496379650036544">"Headset med ledning"</string>
+
+
+    <string name="incall_content_description_end_call" msgid="8232796487777787200">"Afslut opkald"</string>
+    <string name="incall_content_description_muted" msgid="2130133443150389474">"Lyde blev slået fra"</string>
+    <string name="incall_content_description_unmuted" msgid="4023577547526525202">"Lyden blev slået til"</string>
+    <string name="incall_content_description_swap_calls" msgid="5233257839262161417">"Byt opkald"</string>
+    <string name="incall_content_description_merge_calls" msgid="5198778837993669729">"Flet opkald"</string>
+    <string name="incall_content_description_earpiece" msgid="2786221842272370555">"Ørestykke til håndsæt"</string>
+    <string name="incall_content_description_speaker" msgid="7837829930201265549">"Højttaler"</string>
+    <string name="incall_content_description_bluetooth" msgid="6988919010980910001">"Bluetooth"</string>
+    <string name="incall_content_description_headset" msgid="3170439802944346719">"Headset med ledning"</string>
+    <string name="incall_content_description_hold" msgid="3335508251734906019">"Parkér opkald"</string>
+    <string name="incall_content_description_unhold" msgid="3862584118869933593">"Genoptag opkald"</string>
+    <string name="incall_content_description_video_on" msgid="899266487647420613">"Video til"</string>
+    <string name="incall_content_description_video_off" msgid="762985912616707076">"Video fra"</string>
+    <string name="incall_content_description_swap_video" msgid="297943299827908998">"Byt video"</string>
+    <string name="incall_label_speaker" msgid="1814254833253409394">"Højttaler"</string>
+    <string name="incall_label_audio" msgid="5923781170533336820">"Lyd"</string>
+
+
+    <string name="incall_calling_via_template" msgid="3416867359475780924">"Ringer via <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="incall_connecting" msgid="1708280493198276616">"Ringer…"</string>
+    <string name="incall_transferring" msgid="7909128243635579407">"Overfører…"</string>
+    <string name="incall_video_call_requesting" msgid="5251915562785911238">"Videoopkald…"</string>
+    <string name="incall_wifi_video_call_requesting" msgid="8783968191180862607">"Wi-Fi-video ringer op…"</string>
+    <string name="incall_video_call_request_failed" msgid="5014067473831870379">"Der kunne ikke oprettes forbindelse"</string>
+    <string name="incall_video_call_request_rejected" msgid="5357441169519503234">"Opkaldet blev afvist"</string>
+    <string name="incall_video_call_request_timed_out" msgid="6804535684856203120">"Opkaldet fik timeout"</string>
+    <string name="incall_hanging_up" msgid="2166116351937190949">"Lægger på"</string>
+    <string name="incall_call_ended" msgid="6294704948774348480">"Opkaldet er afsluttet"</string>
+    <string name="incall_remotely_held" msgid="8561379039177396615">"I venteposition"</string>
+    <string name="contact_grid_incoming_video_call" msgid="4935122585117803710">"Videoopkald fra"</string>
+    <string name="contact_grid_incoming_wifi_video_call" msgid="5938822096623593533">"Wi-Fi-videoopkald fra"</string>
+    <string name="contact_grid_incoming_video_request" msgid="7488892854791471116">"Anmodning om opgradering til et videoopkald fra"</string>
+    <string name="contact_grid_incoming_wifi_video_request" msgid="4516902096577976768">"Anmodning om opgradering til et Wi-Fi-videoopkald fra"</string>
+    <string name="contact_grid_incoming_voice_call" msgid="7165853925114955346">"Opkald fra"</string>
+    <string name="contact_grid_incoming_work_call" msgid="837605505036615004">"Arbejdsopkald fra"</string>
+    <string name="contact_grid_incoming_via_template" msgid="7747391077955623969">"Indgående opkald via <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="contact_grid_incoming_suspected_spam" msgid="285365265897630425">"Formodet spammer"</string>
+    <string name="contact_grid_callback_number" msgid="1284649030313415807">"Tilbagekaldsnummer: <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+
+
+    <string name="incall_enable_wifi_calling_button" msgid="3295230556186542328">"Aktivér"</string>
+    <string name="video_call_not_available_title" msgid="987490011944013201">"Det er ikke muligt at foretage videoopkald i øjeblikket"</string>
+    <string name="video_call_not_available_message" msgid="2284146863894603221">"Prøv at ringe igen senere, eller fortsæt med et taleopkald."</string>
+    <string name="voice_call" msgid="6748636104112578475">"Taleopkald"</string>
+
+    <string name="incall_on_hold" msgid="5618253281695138626">"I venteposition"</string>
+
+
+    <string name="incall_label_videocall" msgid="2208755440134676113">"Videoopkald"</string>
+    <string name="incall_label_hold" msgid="4223472584896867896">"Parkér"</string>
+    <string name="incall_label_add_call" msgid="5641663436373994915">"Tilføj opkald"</string>
+    <string name="incall_label_mute" msgid="2180667027331706737">"Slå lyden fra"</string>
+    <string name="incall_label_end_call" msgid="5434079261446614887">"Slut opkald"</string>
+    <string name="incall_label_dialpad" msgid="8609779533654156550">"Tastatur"</string>
+    <string name="incall_talkback_speaker_on" msgid="5819463769258124228">", er til"</string>
+    <string name="incall_talkback_speaker_off" msgid="7486836772563090186">", er fra"</string>
+    <string name="incall_label_merge" msgid="720076442985913175">"Flet"</string>
+    <string name="incall_label_manage" msgid="2175471192903568159">"Administrer"</string>
+    <string name="a11y_description_incall_label_manage_content" msgid="8298638893449287602">"Administrer opkaldere"</string>
+    <string name="incall_label_swap" msgid="10458642864243507">"Byt"</string>
+    <string name="incall_note_sent" msgid="4524130323127388367">"Noten blev sendt"</string>
+
+
+    <string name="spam_photo_text" msgid="5250301844057954813">"Besvar for at se billedet"</string>
+    <string name="spam_message_text" msgid="6522893079398269847">"Besvar for at se beskeden"</string>
+
+
+    <string name="always_warn" msgid="8332929731464707890">"Vis en advarsel hver gang"</string>
+    <string name="details" msgid="8642701148762155677">"Du ringer til et internationalt nummer, og du bliver muligvis opkrævet et gebyr."</string>
+
+
+    <string name="description_camera_switch_full_screen" msgid="835509743097428216">"Skift til kamera i fuld skærm"</string>
+    <string name="description_camera_switch_preview_screen" msgid="2575355782470181047">"Skift til forhåndsvisning af kamera"</string>
+    <string name="description_camera_switch_camera_facing" msgid="6831946148788764412">"Skift til kamera på forsiden"</string>
+    <string name="description_camera_switch_camera_rear" msgid="644854053851698293">"Skift til kamera på bagsiden"</string>
+    <string name="description_camera_take_picture" msgid="3953639532118936286">"Tag billede"</string>
+    <string name="description_camera_cancel_photo" msgid="2759593421176396701">"Tag billedet om"</string>
+
+
+  <string name="enriched_call_simulator_activity" translatable="false">Enriched Call Simulator Activity</string>
+
+  <string name="important" translatable="false">important</string>
+  <string name="not_important" translatable="false">not important</string>
+
+  <string name="refresh" translatable="false">refresh</string>
+
+    <string name="main_activity_label" msgid="3121599977875141886">"Telefon"</string>
+    <string name="nui_shortcut_name" msgid="6370942901789984087">"Ny genvej til telefon"</string>
+    <string name="main_call_history_tab_description" msgid="1705569872650796265">"Opkaldshistorik"</string>
+    <string name="search" msgid="3570654445331155513">"@android:string/search_go"</string>
+    <string name="description_search" msgid="3443578912463129718">"Søg efter kontaktpersoner og steder"</string>
+    <string name="contacts" msgid="4464246185723317911">"Kontaktpersoner"</string>
+    <string name="description_contacts" msgid="12768481422137448">"Se kontaktpersoner"</string>
+    <string name="tab_title_call_history" msgid="5191872501729332994">"Opkaldshistorik"</string>
+    <string name="tab_title_speed_dial" msgid="1968484500112572774">"Hurtigkald"</string>
+    <string name="tab_title_voicemail" msgid="4777655983569268504">"Talebesked"</string>
+    <string name="settings" msgid="7614336599112169779">"Indstillinger"</string>
+    <string name="main_send_feedback" msgid="2446919533981327373">"Send feedback"</string>
+    
+    <string name="nearby_places" msgid="275117539511113867">"Steder i nærheden"</string>
+
+
+    <string name="call_incoming_swipe_to_decline_with_message" msgid="2426342919316424240">"Stryg fra ikonet for at afvise med en besked"</string>
+    <string name="call_incoming_swipe_to_answer_video_as_audio" msgid="2656902519734774070">"Stryg fra ikonet for at besvare som et taleopkald"</string>
+    <string name="call_incoming_default_label_answer_and_release_second" msgid="4543429977872844314">"Stryg op for at besvare og sætte det igangværende opkald i venteposition"</string>
+    <string name="call_incoming_default_label_answer_and_release_third" msgid="1738895612225349741">"Stryg op for at besvare og afslutte opkaldet i venteposition"</string>
+    <string name="call_incoming_swipe_to_answer_and_release" msgid="662432029870261061">"Stryg fra ikonet for at besvare og afslutte det igangværende opkald"</string>
+    <string name="call_incoming_message_custom" msgid="5819492800418293238">"Skriv dit eget…"</string>
+    <string name="call_incoming_audio_handset" msgid="2299009191401671619">"Håndsæt"</string>
+    <string name="call_incoming_audio_speakerphone" msgid="5632622369522427991">"Medhør"</string>
+    <string name="call_incoming_respond_via_sms_custom_message" msgid="6808438125627371020">"Skriv dit eget…"</string>
+    <string name="call_incoming_custom_message_cancel" msgid="5231860339073505201">"Annuller"</string>
+    <string name="call_incoming_custom_message_send" msgid="3826716354040318205">"Send"</string>
+    <string name="a11y_incoming_call_reject_with_sms" msgid="6101839791429796754">"Afvis dette opkald med en besked"</string>
+    <string name="a11y_incoming_call_answer_video_as_audio" msgid="3890612269318682756">"Besvar som taleopkald"</string>
+    <string name="a11y_incoming_call_answer_and_release" msgid="4896746774725239464">"Besvar, og afslut det igangværende opkald"</string>
+    <string name="a11y_description_incoming_call_reject_with_sms" msgid="4705064921696291310">"Afvis med en besked"</string>
+    <string name="a11y_description_incoming_call_answer_video_as_audio" msgid="1562530317428907884">"Besvar som taleopkald"</string>
+    <string name="a11y_description_incoming_call_answer_and_release" msgid="8511087499748888476">"Besvar, og afslut det igangværende opkald"</string>
+    <string name="call_incoming_video_is_off" msgid="3216603035158629403">"Video er deaktiveret"</string>
+    <string name="a11y_incoming_call_swipe_gesture_prompt" msgid="8682480557168484972">"Stryg op med to fingre for at besvare. Stryg ned med to fingre for at afvise."</string>
+    <string name="call_incoming_important" msgid="3762352743365137090">"Vigtigt"</string>
+
+    <string name="call_incoming_swipe_to_answer" msgid="2959042172304267183">"Stryg op for at besvare"</string>
+    <string name="call_incoming_swipe_to_reject" msgid="463322705441386885">"Stryg ned for at afvise"</string>
+    <string name="a11y_incoming_call_swipe_to_answer" msgid="6992663569851713736">"Stryg op med to fingre for at besvare eller ned for at afvise opkaldet"</string>
+    <string name="call_incoming_will_disconnect" msgid="7095934149229485541">"Hvis du besvarer dette opkald, afsluttes dit videoopkald"</string>
+    <string name="a11y_call_incoming_decline_description" msgid="4441041052558364987">"Afvis"</string>
+    <string name="call_incoming_decline" msgid="2982110738106661231">"Afvis"</string>
+    <string name="a11y_call_incoming_answer_description" msgid="1623200501347799736">"Besvar"</string>
+    <string name="call_incoming_answer" msgid="841798555883717852">"Besvar"</string>
+
+
+    <string name="videocall_remote_video_off" msgid="2959680546745902547">"Vedkommendes video er slået fra"</string>
+    <string name="videocall_remote_video_on" msgid="6011817851703181639">"Vedkommendes video er slået til"</string>
+    <string name="videocall_remotely_held" msgid="1295702896355732947">"Parkeret opkald"</string>
+    <string name="videocall_remotely_resumed" msgid="3331784411244773788">"Opkaldet er genoptaget"</string>
+    <string name="camera_permission_dialog_title" msgid="4901760354830982117">"Vil du tillade videoen?"</string>
+    <string name="camera_permission_dialog_message" msgid="2677490854794162699">"Appen Fotos vil gerne bruge dit kamera til videoopkald."</string>
+    <string name="camera_permission_dialog_positive_button" msgid="9075818030671161374">"Tillad"</string>
+    <string name="camera_permission_dialog_negative_button" msgid="7538535842403837541">"Afvis"</string>
+
+
+    <string name="voicemail_error_turn_off_airplane_mode_title" msgid="335011175933917603">"Slå flytilstand fra"</string>
+    <string name="voicemail_error_activating_title" msgid="2428457130578359186">"Aktiverer visuel telefonsvarer"</string>
+    <string name="voicemail_error_activating_message" msgid="7157030596259443393">"Du modtager muligvis ikke telefonsvarerunderretninger, før den visuelle telefonsvarer er fuldt aktiveret. Ring til telefonsvareren for hente nye beskeder, indtil telefonsvareren er fuldt aktiveret."</string>
+    <string name="voicemail_error_not_activate_no_signal_title" msgid="742273366199085615">"Visuel telefonsvarer kan ikke aktiveres"</string>
+    <string name="voicemail_error_not_activate_no_signal_message" msgid="2929059808327964011">"Sørg for, at din telefon har forbindelse til mobilnetværket, og prøv igen."</string>
+    <string name="voicemail_error_not_activate_no_signal_airplane_mode_message" msgid="2005255281543281215">"Slå flytilstand fra, og prøv igen."</string>
+    <string name="voicemail_error_no_signal_title" msgid="341954685733680219">"Ingen forbindelse"</string>
+    <string name="voicemail_error_no_signal_message" msgid="2626509025723748371">"Du får ikke besked om nye talebeskeder. Hvis du er på Wi-Fi, kan du tjekke, om der er talebeskeder, ved at synkronisere nu."</string>
+    <string name="voicemail_error_no_signal_airplane_mode_message" msgid="8553646558282754276">"Du vil ikke få besked om nye telefonsvarerbeskeder. Slå flytilstand fra for at synkronisere din e-mail."</string>
+    <string name="voicemail_error_no_signal_cellular_required_message" msgid="6452586752169746399">"Din telefon skal have en mobildataforbindelse, for at du kan tjekke, om der er talebeskeder."</string>
+    <string name="voicemail_error_activation_failed_title" msgid="3823477898681399391">"Visuel telefonsvarer kan ikke aktiveres"</string>
+    <string name="voicemail_error_activation_failed_message" msgid="2188301459207765442">"Du kan stadig ringe op for at tjekke din telefonsvarer."</string>
+    <string name="voicemail_error_no_data_title" msgid="8127858252892092732">"Visuel telefonsvarer kan ikke opdateres"</string>
+    <string name="voicemail_error_no_data_message" msgid="6634124460113498265">"Prøv igen, når din Wi-Fi- eller mobildataforbindelse er bedre. Du kan stadig ringe for at tjekke, om der er talebeskeder."</string>
+    <string name="voicemail_error_no_data_cellular_required_message" msgid="2521491029817662357">"Prøv igen, når din mobildataforbindelse er bedre. Du kan stadig ringe for at tjekke, om der er talebeskeder."</string>
+    <string name="voicemail_error_bad_config_title" msgid="527594487104462966">"Visuel telefonsvarer kan ikke opdateres"</string>
+    <string name="voicemail_error_bad_config_message" msgid="2692955418930476771">"Du kan stadig ringe op for at tjekke din telefonsvarer."</string>
+    <string name="voicemail_error_communication_title" msgid="9183339646110368169">"Visuel telefonsvarer kan ikke opdateres"</string>
+    <string name="voicemail_error_communication_message" msgid="1226746423005179379">"Du kan stadig ringe op for at tjekke din telefonsvarer."</string>
+    <string name="voicemail_error_server_connection_title" msgid="3036980885397552848">"Visuel telefonsvarer kan ikke opdateres"</string>
+    <string name="voicemail_error_server_connection_message" msgid="6008577624710159550">"Du kan stadig ringe op for at tjekke din telefonsvarer."</string>
+    <string name="voicemail_error_server_title" msgid="5355286554022049134">"Visuel telefonsvarer kan ikke opdateres"</string>
+    <string name="voicemail_error_server_message" msgid="3538157415413084592">"Du kan stadig ringe op for at tjekke din telefonsvarer."</string>
+    <string name="voicemail_error_inbox_near_full_title" msgid="7568681773644454672">"Indbakken er næsten fuld"</string>
+    <string name="voicemail_error_inbox_near_full_message" msgid="354118612203528244">"Du vil ikke kunne modtage nye telefonsvarerbeskeder, hvis din indbakke er fuld."</string>
+    <string name="voicemail_error_inbox_full_title" msgid="249268068442046872">"Du kan ikke modtage nye telefonsvarerbeskeder"</string>
+    <string name="voicemail_error_inbox_full_message" msgid="5788411018158899123">"Din indbakke er fuld. Prøv at slette nogle beskeder for at modtage nye telefonsvarerbeskeder."</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_title" msgid="6209039728273651055">"Slå ekstra lagerplads og sikkerhedskopiering til"</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_message" msgid="5203159732288749722">"Din telefonsvarer er fuld. Du kan frigøre plads ved at slå ekstra lagerplads til, så Google kan administrere og sikkerhedskopiere dine talebeskeder."</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title" msgid="20352920357816927">"Slå ekstra lagerplads og sikkerhedskopiering til"</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message" msgid="9140680538578301853">"Din telefonsvarer er næsten fuld. Du kan frigøre plads ved at slå ekstra lagerplads til, så Google kan administrere og sikkerhedskopiere dine talebeskeder."</string>
+    <string name="voicemail_error_pin_not_set_title" msgid="1287168514277948082">"Bestem pinkoden til din telefonsvarer"</string>
+    <string name="voicemail_error_pin_not_set_message" msgid="3802375002103184625">"Du skal bruge en pinkode til din telefonsvarer, når du ringer for at få adgang til den."</string>
+    <string name="voicemail_error_unknown_title" msgid="7214482611706360680">"Ukendt fejl"</string>
+    <string name="voicemail_action_turn_off_airplane_mode" msgid="6905706401164671086">"Indstillinger for flytilstand"</string>
+    <string name="voicemail_action_set_pin" msgid="958510049866316228">"Vælg pinkode"</string>
+    <string name="voicemail_action_retry" msgid="4450307484541052511">"Prøv igen"</string>
+    <string name="voicemail_action_turn_archive_on" msgid="6008444955560830591">"Slå til"</string>
+    <string name="voicemail_action_dimiss" msgid="6018415798136796966">"Nej tak"</string>
+    <string name="voicemail_action_sync" msgid="5139315923415392787">"Synkroniser"</string>
+    <string name="voicemail_action_call_voicemail" msgid="6701710720535556395">"Ring til telefonsvarer"</string>
+    <string name="voicemail_action_call_customer_support" msgid="7698973007656462748">"Ring til kundesupport"</string>
+    <string name="vvm3_error_vms_dns_failure_title" msgid="7561818769198666727">"Der opstod en fejl"</string>
+    <string name="vvm3_error_vms_dns_failure_message" msgid="4284259553458502369">"Der opstod desværre et problem. Prøv igen senere. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9001."</string>
+    <string name="vvm3_error_vmg_dns_failure_title" msgid="6257196468618464574">"Der opstod en fejl"</string>
+    <string name="vvm3_error_vmg_dns_failure_message" msgid="7110154996415009499">"Der opstod desværre et problem. Prøv igen senere. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9002."</string>
+    <string name="vvm3_error_spg_dns_failure_title" msgid="8670172138011171697">"Der opstod en fejl"</string>
+    <string name="vvm3_error_spg_dns_failure_message" msgid="6780011498675342391">"Der opstod desværre et problem. Prøv igen senere. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9003."</string>
+    <string name="vvm3_error_vms_no_cellular_title" msgid="5402891018307856824">"Der kan ikke oprettes forbindelse til din telefonsvarer"</string>
+    <string name="vvm3_error_vms_no_cellular_message" msgid="6671769320769351896">"Vi har desværre problemer med at oprette forbindelse til din telefonsvarer. Hvis du befinder dig i et område med dårlig signalstyrke, skal du vente, til du har et stærkt signal, og prøve igen. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9004."</string>
+    <string name="vvm3_error_vmg_no_cellular_title" msgid="7974884412395827829">"Der kan ikke oprettes forbindelse til din telefonsvarer"</string>
+    <string name="vvm3_error_vmg_no_cellular_message" msgid="4591495395224161921">"Vi har desværre problemer med at oprette forbindelse til din telefonsvarer. Hvis du befinder dig i et område med dårlig signalstyrke, skal du vente, til du har et stærkt signal, og prøve igen. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9005."</string>
+    <string name="vvm3_error_spg_no_cellular_title" msgid="8175349498869951939">"Der kan ikke oprettes forbindelse til din telefonsvarer"</string>
+    <string name="vvm3_error_spg_no_cellular_message" msgid="7902149969965747111">"Vi har desværre problemer med at oprette forbindelse til din telefonsvarer. Hvis du befinder dig i et område med dårlig signalstyrke, skal du vente, til du har et stærkt signal, og prøve igen. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9006."</string>
+    <string name="vvm3_error_vms_timeout_title" msgid="4044531581957597519">"Der opstod en fejl"</string>
+    <string name="vvm3_error_vms_timeout_message" msgid="2997890600174252849">"Der opstod desværre et problem. Prøv igen senere. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9007."</string>
+    <string name="vvm3_error_vmg_timeout_title" msgid="2631426958078372779">"Der opstod en fejl"</string>
+    <string name="vvm3_error_vmg_timeout_message" msgid="8366857300952305567">"Der opstod desværre et problem. Prøv igen senere. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9008."</string>
+    <string name="vvm3_error_status_sms_timeout_title" msgid="6528532085593533049">"Der opstod en fejl"</string>
+    <string name="vvm3_error_status_sms_timeout_message" msgid="9079367624352316780">"Vi har desværre problemer med at konfigurere din tjeneste. Prøv igen senere. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9009."</string>
+    <string name="vvm3_error_subscriber_blocked_title" msgid="3650932081111129710">"Der kan ikke oprettes forbindelse til din telefonsvarer"</string>
+    <string name="vvm3_error_subscriber_blocked_message" msgid="5162479488602796264">"Vi kan desværre ikke oprette forbindelse til din telefonsvarer i øjeblikket. Prøv igen senere. Hvis der stadig er et problem, skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9990."</string>
+    <string name="vvm3_error_unknown_user_title" msgid="3908082247867523916">"Konfigurer telefonsvarer"</string>
+    <string name="vvm3_error_unknown_user_message" msgid="1509539640475335686">"Telefonsvarer er ikke konfigureret på din konto. Kontakt kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g>, og fortæl dem, at fejlkoden er 9991."</string>
+    <string name="vvm3_error_unknown_device_title" msgid="1894628172321293169">"Telefonsvarer"</string>
+    <string name="vvm3_error_unknown_device_message" msgid="5653639091623486217">"Visuel telefonsvarer kan ikke bruges på denne enhed. Kontakt kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g>, og fortæl dem, at fejlkoden 9992."</string>
+    <string name="vvm3_error_invalid_password_title" msgid="4552360498026788519">"Der opstod en fejl"</string>
+    <string name="vvm3_error_invalid_password_message" msgid="7203223289526274700">"Kontakt kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g>, og fortæl dem, at fejlkoden er 9993."</string>
+    <string name="vvm3_error_mailbox_not_initialized_title" msgid="7903951619707049472">"Visuel telefonsvarer"</string>
+    <string name="vvm3_error_mailbox_not_initialized_message" msgid="6411209982463628638">"For at fuldføre konfigurationen af den visuelle telefonsvarer skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9994."</string>
+    <string name="vvm3_error_service_not_provisioned_title" msgid="6200721664168681357">"Visuel telefonsvarer"</string>
+    <string name="vvm3_error_service_not_provisioned_message" msgid="2652652017548677049">"For at fuldføre konfigurationen af den visuelle telefonsvarer skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9995."</string>
+    <string name="vvm3_error_service_not_activated_title" msgid="8223482379756083354">"Visuel telefonsvarer"</string>
+    <string name="vvm3_error_service_not_activated_message" msgid="3877179443583231620">"For at aktivere den visuelle telefonsvarer skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9996."</string>
+    <string name="vvm3_error_user_blocked_title" msgid="3182280563102274326">"Der opstod en fejl"</string>
+    <string name="vvm3_error_user_blocked_message" msgid="5006388183845631086">"For at fuldføre konfigurationen af den visuelle telefonsvarer skal du kontakte kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> og fortælle dem, at fejlkoden er 9998."</string>
+    <string name="vvm3_error_subscriber_unknown_title" msgid="2327013918755472131">"Visuel telefonsvarer er deaktiveret"</string>
+    <string name="vvm3_error_subscriber_unknown_message" msgid="7991526423950940698">"Kontakt kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g> for at aktivere visuel telefonsvarer."</string>
+    <string name="vvm3_error_imap_getquota_error_title" msgid="2229474251543811881">"Der opstod en fejl"</string>
+    <string name="vvm3_error_imap_getquota_error_message" msgid="4266777005393484563">"Kontakt kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g>, og fortæl dem, at fejlkoden er 9997."</string>
+    <string name="vvm3_error_imap_select_error_title" msgid="688468464562761731">"Der opstod en fejl"</string>
+    <string name="vvm3_error_imap_select_error_message" msgid="7535508175537847085">"Kontakt kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g>, og fortæl dem, at fejlkoden er 9989."</string>
+    <string name="vvm3_error_imap_error_title" msgid="1952971680250515832">"Der opstod en fejl"</string>
+    <string name="vvm3_error_imap_error_message" msgid="6668651261796655388">"Kontakt kundeservice på <xliff:g id="NUMBER">%1$s</xliff:g>, og fortæl dem, at fejlkoden er 9999."</string>
+    <string name="verizon_terms_and_conditions_title" msgid="9074967311276321500">"Vilkår og betingelser for visuel telefonsvarer"</string>
+    <string name="verizon_terms_and_conditions_message" msgid="120258835788235077">"%1$s\n\nDu skal acceptere vilkår og betingelser for Verizon Wireless for at bruge visuel telefonsvarer:\n\n%2$s"</string>
+    <string name="dialer_terms_and_conditions_title" msgid="311603424861921251">"Slå Visuel telefonsvarer til"</string>
+    <string name="dialer_terms_and_conditions_message" msgid="6207219973959897196">"%s"</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_message" msgid="7852059293806766767">"Visuel telefonsvarer bliver deaktiveret, hvis vilkår og betingelser afvises."</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_downgrade" msgid="8347128304508008823">"Deaktiver visuel telefonsvarer"</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_message" msgid="1726573227032877573">"Transskription af talebeskeder deaktiveres, hvis du ikke accepterer vilkår og betingelser."</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_downgrade" msgid="6694612247173639685">"Deaktiver transskription af talebeskeder"</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message" msgid="2200388197966526000">"Telefonsvareren er kun tilgængelig, hvis du taster *86 og ringer op. Angiv en ny pinkode til telefonsvarer for at fortsætte."</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin" msgid="4320664492466296770">"Angiv pinkode"</string>
+
+    <string name="event_deactivated" msgid="689994223349549274">"Dyretilstand er slået fra"</string>
+
+
+
+</resources>
+

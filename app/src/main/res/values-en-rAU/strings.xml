@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel" msgid="2202739481132958990">"Phone"</string>
+    <string name="launcherDialpadActivityLabel" msgid="4170587663888307424">"Phone keypad"</string>
+    <string name="dialerIconLabel" msgid="3422916015542176907">"Phone"</string>
+    <string name="callHistoryIconLabel" msgid="7493268743411968630">"Call history"</string>
+    <string name="action_report_number" msgid="7231442711369737797">"Report inaccurate number"</string>
+    <string name="action_copy_number_text" msgid="832682558551502319">"Copy number"</string>
+    <string name="copy_transcript_text" msgid="937904189017310829">"Copy transcription"</string>
+    <string name="action_block_number" msgid="3669819840999705278">"Block number"</string>
+    <string name="action_unblock_number" msgid="6583611581996402004">"Unblock number"</string>
+    <string name="action_edit_number_before_call" msgid="8017492815878473837">"Edit number before call"</string>
+    <string name="call_log_delete_all" msgid="7852970926906523784">"Clear call history"</string>
+    <string name="call_log_trash_voicemail" msgid="6118493534178533972">"Delete voicemail"</string>
+    <string name="snackbar_voicemail_deleted" msgid="7463166543725496307">"Voicemail deleted"</string>
+    <string name="snackbar_voicemail_deleted_undo" msgid="6959743982796409941">"UNDO"</string>
+    <string name="clearCallLogConfirmation_title" msgid="7051888019546472245">"Clear call history?"</string>
+    <string name="clearCallLogConfirmation" msgid="6844949465815109166">"This will delete all calls from your history"</string>
+    <string name="clearCallLogProgress_title" msgid="995004835687361977">"Clearing call history…"</string>
+    <string name="userCallActivityLabel" product="default" msgid="9198964841862577505">"Phone"</string>
+    <string name="notification_missedCallTitle" msgid="8283366068539898486">"Missed call"</string>
+    <string name="notification_missedWorkCallTitle" msgid="8831332957103679183">"Missed work call"</string>
+    <string name="notification_missedCallsTitle" msgid="3697442015345089802">"Missed calls"</string>
+    <string name="notification_missedCallsMsg" msgid="8176217633929018706">"<xliff:g id="NUM_MISSED_CALLS">%d</xliff:g> missed calls"</string>
+    <string name="notification_missedCall_call_back" msgid="3875698110051973965">"Call back"</string>
+    <string name="notification_missedCall_message" msgid="5086910028988305964">"Message"</string>
+    <string name="post_call_notification_message" msgid="5417476789860590611">"<xliff:g id="NAME">%1$s</xliff:g>: <xliff:g id="MESSAGE">%2$s</xliff:g>"</string>
+    <string name="notification_voicemail_text_format" msgid="1895667520930252897">"Dial <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number" msgid="8942821987929495842">"Voicemail number unknown"</string>
+    <plurals name="notification_voicemail_title" formatted="false" msgid="1551847434476438657">
+      <item quantity="other"> <xliff:g id="COUNT">%1$d</xliff:g> Voicemails </item>
+      <item quantity="one">Voicemail</item>
+    </plurals>
+    <string name="notification_action_voicemail_play" msgid="5156500902796354071">"Play"</string>
+    <string name="notification_voicemail_callers_list" msgid="7543659703018479564">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+    <string name="notification_new_voicemail_ticker" msgid="6547711461667072303">"New voicemail from <xliff:g id="CALLER">%1$s</xliff:g>"</string>
+    <string name="voicemail_playback_error" msgid="4384373852257757295">"Couldn\'t play voicemail"</string>
+    <string name="voicemail_fetching_content" msgid="572320120918636014">"Loading voicemail…"</string>
+    <string name="voicemail_archiving_content" msgid="2415183864104922185">"Archiving voicemail…"</string>
+    <string name="voicemail_fetching_timout" msgid="2128873915839949783">"Couldn\'t load voicemail"</string>
+    <string name="call_log_voicemail_header" msgid="5799424860394542726">"Calls with voicemail only"</string>
+    <string name="call_log_incoming_header" msgid="1158753168119845168">"Incoming calls only"</string>
+    <string name="call_log_outgoing_header" msgid="149333910997122683">"Outgoing calls only"</string>
+    <string name="call_log_missed_header" msgid="6491707499211289630">"Missed calls only"</string>
+    <string name="call_log_item_count_and_date" msgid="723848797957319181">"(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="description_search_button" msgid="4515570469584782176">"search"</string>
+    <string name="description_dial_button" msgid="699794433224646027">"dial"</string>
+    <string name="description_digits_edittext" msgid="8908702618098485186">"number to dial"</string>
+    <string name="description_playback_start_stop" msgid="5320452461700750120">"Play or stop playback"</string>
+    <string name="description_playback_speakerphone" msgid="4852027754869750227">"Switch on or off speakerphone"</string>
+    <string name="description_playback_seek" msgid="1340910573254132520">"Seek playback position"</string>
+    <string name="description_rate_decrease" msgid="5053221110217704199">"Decrease playback rate"</string>
+    <string name="description_rate_increase" msgid="4372206363557406700">"Increase playback rate"</string>
+    <string name="action_menu_call_history_description" msgid="8829135306925008546">"Call history"</string>
+    <string name="action_menu_overflow_description" msgid="7648679686746517341">"More options"</string>
+    <string name="action_menu_dialpad_button" msgid="1970631633457493180">"key pad"</string>
+    <string name="menu_show_outgoing_only" msgid="6941420328999801171">"Show outgoing only"</string>
+    <string name="menu_show_incoming_only" msgid="6018600870504685564">"Show incoming only"</string>
+    <string name="menu_show_missed_only" msgid="2266983597575047192">"Show missed only"</string>
+    <string name="menu_show_voicemails_only" msgid="1114917855179284592">"Show voicemails only"</string>
+    <string name="menu_show_all_calls" msgid="220054502052344488">"Show all calls"</string>
+    <string name="add_2sec_pause" msgid="3417815038173424525">"Add 2-sec pause"</string>
+    <string name="add_wait" msgid="1177723010768282578">"Add wait"</string>
+    <string name="dialer_settings_label" msgid="4980176284150290175">"Settings"</string>
+    <string name="simulator_submenu_label" msgid="186156287346615267">"Simulator"</string>
+    <string name="new_ui_launcher_shortcut_label" msgid="7195823535703686736">"Create new UI shortcut"</string>
+    <string name="menu_allContacts" msgid="8544950176866640863">"All contacts"</string>
+    <string name="dialer_useDtmfDialpad" msgid="3919115408138798484">"Use touch tone keypad"</string>
+    <string name="dialer_returnToInCallScreen" msgid="3487191628252824117">"Return to call in progress"</string>
+    <string name="dialer_addAnotherCall" msgid="3132945651710234674">"Add call"</string>
+    <string name="actionIncomingCall" msgid="891346596090030558">"Incoming calls"</string>
+    <string name="description_entering_bulk_action_mode" msgid="6134916000015585401">"Entering bulk action mode"</string>
+    <string name="description_leaving_bulk_action_mode" msgid="4355853387639765529">"Left bulk action mode"</string>
+    <string name="description_selecting_bulk_action_mode" msgid="7228565941043117618">"Selected <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_unselecting_bulk_action_mode" msgid="6450971299622386060">"Unselected <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_call_log_play_button" msgid="2349845005022431438">"Play voicemail"</string>
+    <string name="description_view_contact" msgid="3940984937384372665">"View contact <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call" msgid="1532402285334775372">"Call <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_contact_details" msgid="3341280873855253464">"Contact details for <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_spam_contact_details" msgid="5592578752881528368">"Contact details for suspected spam caller <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_num_calls" msgid="6483594535796216044">"<xliff:g id="NUMBEROFCALLS">%1$s</xliff:g> calls."</string>
+    <string name="description_video_call" msgid="3738199365585751727">"Video call."</string>
+    <string name="description_send_text_message" msgid="8450269896765568596">"Send SMS to <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call_log_unheard_voicemail" msgid="2258821530650350303">"Unheard voicemail"</string>
+    <string name="description_start_voice_search" msgid="8380022725973015261">"Start voice search"</string>
+    <string name="menu_callNumber" msgid="1540773545517152514">"Call <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="voicemail" msgid="8899540969000957954">"Voicemail"</string>
+    <string name="callDetailsShortDurationFormat" msgid="8517030531054801588">"<xliff:g id="SECONDS">%s</xliff:g> sec"</string>
+    <string name="callDetailsDurationFormat" msgid="6826204822350034578">"<xliff:g id="MINUTES">%s</xliff:g> min <xliff:g id="SECONDS">%s</xliff:g> sec"</string>
+    <string name="description_cancel_multi_select" msgid="3930475950253360461">"Cancel batch actions mode"</string>
+    <string name="voicemailMultiSelectDeleteConfirm" msgid="5110048580165845200">"Delete"</string>
+    <string name="voicemailMultiSelectDeleteCancel" msgid="4574287102479485528">"Cancel"</string>
+    <string name="voicemailMultiSelectDialogTitle" msgid="150612124416146690">"Delete selected <xliff:g id="VOICEMAILORVOICEMAILS">%1$s</xliff:g>?"</string>
+    <string name="voicemailMultiSelectActionBarTitle" msgid="5840745438559612431">"<xliff:g id="NUMBER">%1$s</xliff:g> selected"</string>
+    <plurals name="delete_voicemails_confirmation_dialog_title" formatted="false" msgid="2452264208706783960">
+      <item quantity="other">"<b>"Delete these voicemails? "</b>"</item>
+      <item quantity="one">"<b>"Delete this voicemail? "</b>"</item>
+    </plurals>
+    <string name="voicemailCallLogToday" msgid="709034597866788854">@string/call_log_header_today</string>
+    <string name="voicemailCallLogDateTimeFormat" msgid="4998985002074131268">"<xliff:g id="DATE">%1$s</xliff:g> at <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="voicemailDurationFormat" msgid="5649961568550898382">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration" msgid="7224408726047155205">"<xliff:g id="DATEANDTIME">%1$s</xliff:g> • <xliff:g id="DURATION">%2$s</xliff:g>"</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="6317935773274628316">"Can\'t call this number"</string>
+    <string name="dialog_voicemail_not_ready_message" msgid="6437173108290752604">"To set up voicemail, go to Menu &gt; Settings."</string>
+    <string name="dialog_voicemail_airplane_mode_message" msgid="1044988101597862159">"To call voicemail, turn off Aeroplane mode first."</string>
+    <string name="contact_list_loading" msgid="7919825236309749352">"Loading…"</string>
+    <string name="imei" msgid="5214505934662768308">"IMEI"</string>
+    <string name="meid" msgid="3333779521535224028">"MEID"</string>
+    <string name="simContacts_emptyLoading" msgid="6205424276735652071">"Loading from SIM card…"</string>
+    <string name="simContacts_title" msgid="7961069730386378887">"SIM card contacts"</string>
+    <string name="voice_search_not_available" msgid="6546240433719732905">"Voice search not available"</string>
+    <string name="call_not_available" msgid="7850148370757361155">"Cannot make a phone call because the Phone application has been disabled."</string>
+    <string name="dialer_hint_find_contact" msgid="2023214799381149808">"Search contacts"</string>
+    <string name="block_number_search_hint" msgid="5377706079015099416">"Add number or search contacts"</string>
+    <string name="call_log_all_empty" msgid="3955572868518162004">"Your call history is empty"</string>
+    <string name="call_log_all_empty_action" msgid="852218280136243014">"Make a call"</string>
+    <string name="call_log_missed_empty" msgid="7094936030845062214">"You have no missed calls."</string>
+    <string name="call_log_voicemail_empty" msgid="273623903423275178">"Your voicemail inbox is empty."</string>
+    <string name="show_favorites_only" msgid="8089163582448737837">"Show favourites only"</string>
+    <string name="call_log_activity_title" msgid="1275242727244945527">"Call history"</string>
+    <string name="call_log_all_title" msgid="6042262422192020327">"All"</string>
+    <string name="call_log_missed_title" msgid="17254005889268015">"Missed"</string>
+    <string name="call_log_voicemail_title" msgid="6504826963256437971">"Voicemail"</string>
+    <string name="tab_speed_dial" msgid="6616404752227561075">"Speed dial"</string>
+    <string name="tab_history" msgid="7420269368689503596">"Call history"</string>
+    <string name="tab_all_contacts" msgid="5531733977693943015">"Contacts"</string>
+    <string name="tab_voicemail" msgid="2458548090088316246">"Voicemail"</string>
+    <string name="favorite_hidden" msgid="1077010324849831399">"Removed from favourites"</string>
+    <string name="favorite_hidden_undo" msgid="5660280521854875320">"Undo"</string>
+    <string name="search_shortcut_call_number" msgid="8847918845036880688">"Call <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="search_shortcut_create_new_contact" msgid="2076374262874775425">"Create new contact"</string>
+    <string name="search_shortcut_add_to_contact" msgid="701957016267810766">"Add to a contact"</string>
+    <string name="search_shortcut_send_sms_message" msgid="1065069206532610854">"Send SMS"</string>
+    <string name="search_shortcut_make_video_call" msgid="3746207985295802095">"Make video call"</string>
+    <string name="search_shortcut_block_number" msgid="4587283230665805776">"Block number"</string>
+    <string name="num_missed_calls" msgid="5171791753696317082">"<xliff:g id="NUMBER">%s</xliff:g> new missed calls"</string>
+    <string name="speed_dial_empty" msgid="3346406399966039505">"No one is on your speed dial yet"</string>
+    <string name="speed_dial_empty_add_favorite_action" msgid="3470360584638103033">"Add a favourite"</string>
+    <string name="contact_tooltip" msgid="8871614660967439999">"Touch image to see all numbers, or touch &amp; hold to re-arrange"</string>
+    <string name="remove_contact" msgid="2353580570488923668">"Remove"</string>
+    <string name="select_all" msgid="408601760696146245">"Select all"</string>
+    <string name="call_log_action_video_call" msgid="7565549950343850819">"Video call"</string>
+    <string name="call_log_action_send_message" msgid="6948727362660115554">"Send a message"</string>
+    <string name="call_log_action_details" msgid="2091370737371449501">"Call details"</string>
+    <string name="call_log_action_share_voicemail" msgid="8888250682433873454">"Send to…"</string>
+    <string name="call_log_action_call" msgid="682724094251540583">"Call <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_incoming_missed_call" msgid="8292535799379230029">"Missed call from <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_incoming_answered_call" msgid="3920182963103160610">"Answered call from <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_unread_voicemail" msgid="145170985013419170">"Unread voicemail from <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_read_voicemail" msgid="5585559881573227732">"Voicemail from <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_outgoing_call" msgid="543952487882919924">"Call to <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="call_log_via_number" msgid="1340307109806397650">"via <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string name="call_log_via_number_phone_account" msgid="7698459003033083416">"<xliff:g id="PHONEACCOUNT">%1$s</xliff:g>, via <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="description_call_action" msgid="4042796498169106545">"Call <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_video_call_action" msgid="1237090968588659650">"Video call <xliff:g id="NAMEORNUMBER">^1</xliff:g>."</string>
+    <string name="description_voicemail_action" msgid="3290143432403538524">"Listen to voicemail from <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_play" msgid="737337291418966183">"Play voicemail from <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_pause" msgid="2400610579956333661">"Pause voicemail from <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_delete" msgid="5305509366448404410">"Delete voicemail from <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <plurals name="description_voicemail_unread" formatted="false" msgid="7562208210097630839">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> new voicemails</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> new voicemail</item>
+    </plurals>
+    <string name="description_create_new_contact_action" msgid="1928282350281564130">"Create contact for <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_add_to_existing_contact_action" msgid="5485618682525057684">"Add <xliff:g id="NAMEORNUMBER">^1</xliff:g> to existing contact"</string>
+    <string name="description_details_action" msgid="2061866409737706174">"Call details for <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="toast_entry_removed" msgid="6821678859297454838">"Deleted from call history"</string>
+    <string name="call_log_header_today" msgid="1576119097475845293">"Today"</string>
+    <string name="call_log_header_yesterday" msgid="5616077776205329563">"Yesterday"</string>
+    <string name="call_log_header_other" msgid="4940676886254217644">"Older"</string>
+    <string name="call_detail_list_header" msgid="1174040565810083473">"Calls list"</string>
+    <string name="voicemail_speaker_on" msgid="3151333608926996668">"Turn speaker on."</string>
+    <string name="voicemail_speaker_off" msgid="2530064206962034201">"Turn speaker off."</string>
+    <string name="voicemail_play_faster" msgid="2742012169751409677">"Play faster."</string>
+    <string name="voicemail_play_slower" msgid="868588128301087884">"Play slower."</string>
+    <string name="voicemail_play_start_pause" msgid="3874823480278334664">"Start or pause playback."</string>
+    <string name="display_options_title" msgid="3880091801055797975">"Display options"</string>
+    <string name="sounds_and_vibration_title" msgid="3075050000721181384">"Sounds and vibration"</string>
+    <string name="accessibility_settings_title" msgid="3329027650429831820">"Accessibility"</string>
+    <string name="ringtone_title" msgid="8377174189894648486">"Phone ringtone"</string>
+    <string name="vibrate_on_ring_title" msgid="631441314790960485">"Also vibrate for calls"</string>
+    <string name="dtmf_tone_enable_title" msgid="3273762431523939277">"Keypad tones"</string>
+    <string name="dtmf_tone_length_title" msgid="534096029202438539">"Keypad tone length"</string>
+  <string-array name="dtmf_tone_length_entries">
+    <item msgid="3136353015227162823">"Normal"</item>
+    <item msgid="5376841175538523822">"Long"</item>
+  </string-array>
+    <string name="respond_via_sms_setting_title" msgid="8008181606657693452">"Quick responses"</string>
+    <string name="call_settings_label" msgid="7824611757200960807">"Calls"</string>
+    <string name="manage_blocked_numbers_label" msgid="16823761991832273">"Call blocking"</string>
+    <string name="voicemail_settings_label" msgid="4594299554519920570">"Voicemail"</string>
+    <string name="voicemail_settings_select_sim_title" msgid="129296966967476845">"Select SIM for voicemail settings"</string>
+    <string name="blocked_numbers_disabled_emergency_header_label" msgid="6936696532562923971">"Call blocking temporarily off"</string>
+    <string name="blocked_numbers_disabled_emergency_desc" msgid="5484785225285297040">"Call blocking has been disabled because you contacted emergency services from this phone within the last 48 hours. It will be automatically re-enabled once the 48 hour period expires."</string>
+    <string name="import_send_to_voicemail_numbers_label" msgid="7821890095264297681">"Import numbers"</string>
+    <string name="blocked_call_settings_import_description" msgid="1819412052545228965">"You previously marked some callers to be automatically sent to voicemail via other apps."</string>
+    <string name="blocked_call_settings_view_numbers_button" msgid="3332727948554356704">"View Numbers"</string>
+    <string name="blocked_call_settings_import_button" msgid="7319111700387470727">"Import"</string>
+    <string name="description_blocked_number_list_delete" msgid="2139644216858370740">"Unblock number"</string>
+    <string name="addBlockedNumber" msgid="3053473735238295551">"Add number"</string>
+    <string name="block_number_footer_message_vvm" msgid="7955326304033982368">"Calls from these numbers will be blocked and voicemails will be automatically deleted."</string>
+    <string name="block_number_footer_message_no_vvm" msgid="1152684139070471665">"Calls from these numbers will be blocked, but they may still be able to leave you voicemails."</string>
+    <string name="block_list" msgid="4701585783411870782">"Blocked numbers"</string>
+    <string name="alreadyBlocked" msgid="5483253180532475653">"<xliff:g id="NUMBER">%1$s</xliff:g> is already blocked."</string>
+    <string name="phone_account_settings_label" msgid="8372485478006965920">"Calling accounts"</string>
+    <string name="permission_multiple_turn_on" msgid="5679888820253829400">"Set permissions"</string>
+    <string name="permission_no_speeddial" msgid="8487215628510596753">"To enable speed dial, turn on the Contacts permission."</string>
+    <string name="permission_no_calllog" msgid="4053705651238775784">"To see your call log, turn on the Phone permission."</string>
+    <string name="permission_no_voicemail" msgid="1908142679289209291">"To access your voicemail, turn on the Phone permission."</string>
+    <string name="permission_no_search" msgid="2424710404207193826">"To search your contacts, turn on the Contacts permissions."</string>
+    <string name="permission_place_call" msgid="8686908130349369423">"To place a call, turn on the Phone permission."</string>
+    <string name="toast_cannot_write_system_settings" msgid="1108307781918782515">"Phone app does not have permission to write to system settings."</string>
+    <string name="blocked_number_call_log_label" msgid="4212282846299997693">"Blocked"</string>
+    <string name="call_log_action_block_report_number" msgid="7302636538668696729">"Block/report spam"</string>
+    <string name="call_log_action_block_number" msgid="5048188386501998865">"Block number"</string>
+    <string name="call_log_action_remove_spam" msgid="2045319806318398403">"Not spam"</string>
+    <string name="call_log_action_unblock_number" msgid="6100117033288448758">"Unblock number"</string>
+    <string name="spam_number_call_log_label" msgid="2678431398326811131">"Spam"</string>
+    <string name="call_composer_connection_failed" msgid="6776461585447831242">"<xliff:g id="NAME">%1$s</xliff:g> is offline and can\'t be reached"</string>
+    <string name="about_phone_label" msgid="582991354677973731">"About"</string>
+    <string name="view_conversation" msgid="7895904782094119702">"View"</string>
+    <string name="ec_data_deleted" msgid="4794880345545827107">"Call deleted. View and delete attachments shared during this call in Messages."</string>
+    <string name="multiple_ec_data_deleted" msgid="2971579891973176316">"Calls deleted. View and delete attachments shared during calls in Messages."</string>
+
+    <string name="build_version_label" msgid="3876300343684966840">"Build version"</string>
+    <string name="open_source_license_detail_label" msgid="2860076509914623912">"Licence details for open-source software"</string>
+    <string name="licenseActivityLabel" msgid="8258726177561826066">"Open-source licences"</string>
+    <string name="privacy_policy_label" msgid="6567158248788870442">"Privacy Policy"</string>
+    <string name="terms_of_service_label" msgid="6788126078040996084">"Terms of Service"</string>
+
+<string name="unknown" msgid="7932659017139013277">"Unknown"</string>
+    <string name="unknown_counter" msgid="7452889151953704159">"<xliff:g id="UNKNOWN">%s</xliff:g> <xliff:g id="ID">%d</xliff:g>"</string>
+    <string name="payphone" msgid="7106361320283710387">"Payphone"</string>
+    <string name="launcherActivityLabel" msgid="9034868428899993166">"Phone"</string>
+    <string name="video_call" msgid="8914878391104612532">"Video call"</string>
+    <string name="call" msgid="3699617769606114168">"Call"</string>
+
+
+<string name="toast_text_copied" msgid="8979281391599667362">"Text copied"</string>
+    <string name="copy_text" msgid="5890820280087874642">"Copy to clipboard"</string>
+    <string name="call_custom" msgid="3041673234638990874">"Call <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="call_home" msgid="125893483593803791">"Call home"</string>
+    <string name="call_mobile" msgid="967589404494150813">"Call mobile"</string>
+    <string name="call_work" msgid="6040550697395300892">"Call work"</string>
+    <string name="call_fax_work" msgid="5260192771364592922">"Call work fax"</string>
+    <string name="call_fax_home" msgid="5174311195081144124">"Call home fax"</string>
+    <string name="call_pager" msgid="6814149227741274161">"Call pager"</string>
+    <string name="call_other" msgid="5536385588712587235">"Call"</string>
+    <string name="call_callback" msgid="6314019862718112786">"Call callback"</string>
+    <string name="call_car" msgid="3197417098027764954">"Call car"</string>
+    <string name="call_company_main" msgid="2557663310028446397">"Call company main"</string>
+    <string name="call_isdn" msgid="4691270442763649522">"Call ISDN"</string>
+    <string name="call_main" msgid="3293707608770407814">"Call main"</string>
+    <string name="call_other_fax" msgid="4724521984879021465">"Call fax"</string>
+    <string name="call_radio" msgid="8942441419845057942">"Call radio"</string>
+    <string name="call_telex" msgid="2031514461660668351">"Call telex"</string>
+    <string name="call_tty_tdd" msgid="7807210224965727701">"Call TTY/TDD"</string>
+    <string name="call_work_mobile" msgid="2716342732938578495">"Call work mobile"</string>
+    <string name="call_work_pager" msgid="3791778749827366574">"Call work pager"</string>
+    <string name="call_assistant" msgid="4177478845473789294">"Call <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="call_mms" msgid="4958811711741872901">"Call MMS"</string>
+    <string name="call_by_shortcut" msgid="4623082183552111045">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (Call)"</string>
+    <string name="sms_custom" msgid="8785368968605026317">"Text <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="sms_home" msgid="3527719551060295243">"Text home"</string>
+    <string name="sms_mobile" msgid="8883045857887736518">"Text mobile"</string>
+    <string name="sms_work" msgid="4158595439553450966">"Text work"</string>
+    <string name="sms_fax_work" msgid="5483726627718055248">"Text work fax"</string>
+    <string name="sms_fax_home" msgid="9219265155770746077">"Text home fax"</string>
+    <string name="sms_pager" msgid="4901085068525193933">"Text pager"</string>
+    <string name="sms_other" msgid="1742702947993285933">"Text"</string>
+    <string name="sms_callback" msgid="5833483630377538308">"Text callback"</string>
+    <string name="sms_car" msgid="4314577266154395174">"Text car"</string>
+    <string name="sms_company_main" msgid="2308160928487360705">"Text company main"</string>
+    <string name="sms_isdn" msgid="6394300346179302542">"Text ISDN"</string>
+    <string name="sms_main" msgid="8908087742014140774">"Text main"</string>
+    <string name="sms_other_fax" msgid="8768455473295405427">"Text fax"</string>
+    <string name="sms_radio" msgid="855555176531704682">"Text radio"</string>
+    <string name="sms_telex" msgid="6269029276223252719">"Text telex"</string>
+    <string name="sms_tty_tdd" msgid="6229057354509192444">"Text TTY/TDD"</string>
+    <string name="sms_work_mobile" msgid="2155975469329969840">"Text work mobile"</string>
+    <string name="sms_work_pager" msgid="8500140274906830742">"Text work pager"</string>
+    <string name="sms_assistant" msgid="8513548482745330818">"Text <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="sms_mms" msgid="5187888900503248542">"Text MMS"</string>
+    <string name="sms_by_shortcut" msgid="8005496406639963582">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (Message)"</string>
+    <string name="clearFrequentsConfirmation_title" msgid="7465690215775790243">"Clear frequently contacted?"</string>
+    <string name="clearFrequentsConfirmation" msgid="5750611450893399198">"You\'ll clear the frequently contacted list in the Contacts and Phone apps, and force email apps to learn your addressing preferences from scratch."</string>
+    <string name="clearFrequentsProgress_title" msgid="2057183487226039454">"Clearing frequently contacted…"</string>
+    <string name="status_available" msgid="2648156525685472626">"Available"</string>
+    <string name="status_away" msgid="2298688367552893953">"Away"</string>
+    <string name="status_busy" msgid="5990832098713248503">"Busy"</string>
+    <string name="contactsList" msgid="8806067891419291513">"Contacts"</string>
+    <string name="contact_suggestions" msgid="3324166754807120006">"Top suggested"</string>
+    <string name="local_invisible_directory" msgid="4723238462733650090">"Other"</string>
+    <string name="directory_search_label" msgid="4621215895484025229">"Directory"</string>
+    <string name="directory_search_label_work" msgid="7679326282707414897">"Work directory"</string>
+    <string name="local_search_label" msgid="907622822323119235">"All contacts"</string>
+    <string name="local_suggestions_search_label" msgid="1178575146224386118">"Suggestions"</string>
+    <string name="user_profile_contacts_list_header" msgid="9180620153828279580">"Me"</string>
+    <string name="search_results_searching" msgid="3710866752172327451">"Searching…"</string>
+    <string name="foundTooManyContacts" msgid="3685002426663730799">"More than <xliff:g id="COUNT">%d</xliff:g> found."</string>
+    <string name="listFoundAllContactsZero" msgid="1151813986040671916">"No contacts"</string>
+    <plurals name="searchFoundContacts" formatted="false" msgid="3733009742282085433">
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> found</item>
+      <item quantity="one">1 found</item>
+    </plurals>
+    <string name="description_quick_contact_for" msgid="6327207399167819147">"Quick contact for <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="missing_name" msgid="978606963362745020">"(No name)"</string>
+    <string name="favoritesFrequentCalled" msgid="4646019087163449555">"Frequently called"</string>
+    <string name="favoritesFrequentContacted" msgid="946588736701567509">"Frequently contacted"</string>
+    <string name="description_view_contact_detail" msgid="2428742401208561136">"View contact"</string>
+    <string name="list_filter_phones" msgid="8763316061763437182">"All contacts with phone numbers"</string>
+    <string name="list_filter_phones_work" msgid="7083575404573422965">"Work profile contacts"</string>
+    <string name="view_updates_from_group" msgid="9011641093168385729">"View updates"</string>
+    <string name="account_phone" msgid="7067809073194061035">"Device only, unsynced"</string>
+    <string name="nameLabelsGroup" msgid="7730465833159557471">"Name"</string>
+    <string name="nicknameLabelsGroup" msgid="6310556912361840029">"Nickname"</string>
+    <string name="full_name" msgid="648186563998465740">"Name"</string>
+    <string name="name_given" msgid="5096576006314820536">"First name"</string>
+    <string name="name_family" msgid="6646235805198547467">"Surname"</string>
+    <string name="name_prefix" msgid="9215326539658838">"Name prefix"</string>
+    <string name="name_middle" msgid="703755205331582769">"Middle name"</string>
+    <string name="name_suffix" msgid="5777083390282548702">"Name suffix"</string>
+    <string name="name_phonetic" msgid="1650870996361663089">"Phonetic name"</string>
+    <string name="name_phonetic_given" msgid="618812334274603170">"Phonetic first name"</string>
+    <string name="name_phonetic_middle" msgid="4826820763384625538">"Phonetic middle name"</string>
+    <string name="name_phonetic_family" msgid="379905191212930771">"Phonetic surname"</string>
+    <string name="phoneLabelsGroup" msgid="169661929021355548">"Phone"</string>
+    <string name="emailLabelsGroup" msgid="2249752810477488833">"Email"</string>
+    <string name="postalLabelsGroup" msgid="6772000590189142253">"Address"</string>
+    <string name="imLabelsGroup" msgid="5718066254237364731">"IM"</string>
+    <string name="organizationLabelsGroup" msgid="1101996309241601435">"Organisation"</string>
+    <string name="relationLabelsGroup" msgid="53866051664600053">"Relationship"</string>
+    <string name="eventLabelsGroup" msgid="1236970042646618489">"Special date"</string>
+    <string name="sms" msgid="7574344928185328095">"Text message"</string>
+    <string name="postal_address" msgid="1804707930129674200">"Address"</string>
+    <string name="ghostData_company" msgid="2554310786296833424">"Company"</string>
+    <string name="ghostData_title" msgid="4994968731830184837">"Title"</string>
+    <string name="label_notes" msgid="2050255313694219786">"Notes"</string>
+    <string name="label_sip_address" msgid="8883266182575965926">"SIP"</string>
+    <string name="websiteLabelsGroup" msgid="1630734286462186790">"Website"</string>
+    <string name="groupsLabel" msgid="2694002798416868728">"Groups"</string>
+    <string name="email_home" msgid="889830029388962171">"Email home"</string>
+    <string name="email_mobile" msgid="4487686436743741150">"Email mobile"</string>
+    <string name="email_work" msgid="4223487303344613528">"Email work"</string>
+    <string name="email_other" msgid="4246411900126012062">"Email"</string>
+    <string name="email_custom" msgid="7246580894327511013">"Email <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="email" msgid="2807318537887091606">"Email"</string>
+    <string name="postal_street" msgid="6918171741240802474">"Street"</string>
+    <string name="postal_pobox" msgid="2962203483168878561">"PO box"</string>
+    <string name="postal_neighborhood" msgid="5275280978237639716">"Neighbourhood"</string>
+    <string name="postal_city" msgid="8674569121430005628">"City"</string>
+    <string name="postal_region" msgid="1730369286225469192">"County"</string>
+    <string name="postal_postcode" msgid="4450700741261990439">"Postcode"</string>
+    <string name="postal_country" msgid="232670707458768148">"Country"</string>
+    <string name="map_home" msgid="4181131107392126938">"View home address"</string>
+    <string name="map_work" msgid="5723471185992684400">"View work address"</string>
+    <string name="map_other" msgid="2253764780863500516">"View address"</string>
+    <string name="map_custom" msgid="5581743097882436157">"View <xliff:g id="CUSTOM">%s</xliff:g> address"</string>
+    <string name="chat_aim" msgid="2954364435497941659">"Chat using AIM"</string>
+    <string name="chat_msn" msgid="3130135239071228678">"Chat using Windows Live"</string>
+    <string name="chat_yahoo" msgid="3233552142326865347">"Chat using Yahoo"</string>
+    <string name="chat_skype" msgid="6486703981390592425">"Chat using Skype"</string>
+    <string name="chat_qq" msgid="786924280665740019">"Chat using QQ"</string>
+    <string name="chat_gtalk" msgid="7914674177243078035">"Chat using Google Talk"</string>
+    <string name="chat_icq" msgid="3292934726414765801">"Chat using ICQ"</string>
+    <string name="chat_jabber" msgid="6701542313597880204">"Chat using Jabber"</string>
+    <string name="chat" msgid="1020428260359370236">"Chat"</string>
+    <string name="description_minus_button" msgid="2659092981396583806">"delete"</string>
+    <string name="expand_collapse_name_fields_description" msgid="9005732230091761802">"Expand or collapse name fields"</string>
+    <string name="expand_collapse_phonetic_name_fields_description" msgid="3450645489720595412">"Expand or collapse phonetic name fields"</string>
+    <string name="list_filter_all_accounts" msgid="473782314881473992">"All contacts"</string>
+    <string name="menu_done" msgid="1817505539263889535">"Done"</string>
+    <string name="menu_doNotSave" msgid="4174389775790094548">"Cancel"</string>
+    <string name="listAllContactsInAccount" msgid="3486378621592995630">"Contacts in <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="listCustomView" msgid="5306282632413086731">"Contacts in customised view"</string>
+    <string name="listSingleContact" msgid="8620818791932382627">"Single contact"</string>
+    <string name="dialog_new_contact_account" msgid="3089718960461539156">"Save imported contacts to:"</string>
+    <string name="import_from_sim" msgid="4025122666048801234">"Import from SIM card"</string>
+    <string name="import_from_sim_summary" msgid="7347530878981811858">"Import from SIM <xliff:g id="SIM_NAME">^1</xliff:g> - <xliff:g id="SIM_NUMBER">^2</xliff:g>"</string>
+    <string name="import_from_sim_summary_no_number" msgid="2311025421424473798">"Import from SIM <xliff:g id="SIM_NAME">%1$s</xliff:g>"</string>
+    <string name="import_from_vcf_file" product="default" msgid="2755992524137862594">"Import from .vcf file"</string>
+    <string name="cancel_import_confirmation_message" msgid="1112854508504355394">"Cancel import of <xliff:g id="FILENAME">%s</xliff:g>?"</string>
+    <string name="cancel_export_confirmation_message" msgid="8507822905973961704">"Cancel export of <xliff:g id="FILENAME">%s</xliff:g>?"</string>
+    <string name="cancel_vcard_import_or_export_failed" msgid="3633975947527306665">"Couldn\'t cancel vCard import/export"</string>
+    <string name="fail_reason_unknown" msgid="4526834573707737085">"Unknown error."</string>
+    <string name="fail_reason_could_not_open_file" msgid="2564113989228646444">"Couldn\'t open \"<xliff:g id="FILE_NAME">%s</xliff:g>\": <xliff:g id="EXACT_REASON">%s</xliff:g>."</string>
+    <string name="fail_reason_could_not_initialize_exporter" msgid="1391801997398257839">"Couldn\'t start the exporter: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\"."</string>
+    <string name="fail_reason_no_exportable_contact" msgid="5905140440417594395">"There is no exportable contact."</string>
+    <string name="missing_required_permission" msgid="3977319568919699902">"You have disabled a required permission."</string>
+    <string name="fail_reason_error_occurred_during_export" msgid="4022425018935814242">"An error occurred during export: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\"."</string>
+    <string name="fail_reason_too_long_filename" msgid="1782388695897859448">"Required filename is too long (\"<xliff:g id="FILENAME">%s</xliff:g>\")."</string>
+    <string name="fail_reason_io_error" msgid="5610192449460803752">"I/O error"</string>
+    <string name="fail_reason_low_memory_during_import" msgid="5383581106403466715">"Not enough memory. The file may be too large."</string>
+    <string name="fail_reason_vcard_parse_error" msgid="7166381747317969497">"Couldn\'t parse vCard for an unexpected reason."</string>
+    <string name="fail_reason_not_supported" msgid="6529299412185608834">"The format isn\'t supported."</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info" msgid="2071371622333685552">"Couldn\'t collect meta information of given vCard file(s)."</string>
+    <string name="fail_reason_failed_to_read_files" msgid="7364342120566067558">"One or more files couldn\'t be imported (%s)."</string>
+    <string name="exporting_vcard_finished_title" msgid="6969111823207538096">"Finished exporting <xliff:g id="FILENAME">%s</xliff:g>."</string>
+    <string name="exporting_vcard_finished_title_fallback" msgid="3456404588243153606">"Finished exporting contacts."</string>
+    <string name="exporting_vcard_finished_toast" msgid="864313687240614505">"Finished exporting contacts. Please click the notification to share contacts."</string>
+    <string name="touch_to_share_contacts" msgid="8684610418619975866">"Tap to share contacts."</string>
+    <string name="exporting_vcard_canceled_title" msgid="4160930279977285925">"Exporting <xliff:g id="FILENAME">%s</xliff:g> cancelled."</string>
+    <string name="exporting_contact_list_title" msgid="874590947793345632">"Exporting contact data"</string>
+    <string name="exporting_contact_list_message" msgid="3263011604569444133">"Contact data is being exported."</string>
+    <string name="composer_failed_to_get_database_infomation" msgid="443743100925218813">"Couldn\'t get database information."</string>
+    <string name="composer_has_no_exportable_contact" msgid="1492572045460138455">"There are no exportable contacts. If you do have contacts on your device, some data providers may not allow the contacts to be exported from the device."</string>
+    <string name="composer_not_initialized" msgid="7126008930727708362">"The vCard composer didn\'t start properly."</string>
+    <string name="exporting_contact_failed_title" msgid="5400878429352404258">"Couldn\'t export"</string>
+    <string name="exporting_contact_failed_message" msgid="1453772164161663415">"The contact data wasn\'t exported.\nReason: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="importing_vcard_description" msgid="1206078719084863234">"Importing <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="reading_vcard_failed_title" msgid="4759080957711586257">"Couldn\'t read vCard data"</string>
+    <string name="reading_vcard_canceled_title" msgid="3650078934530953275">"Reading vCard data cancelled"</string>
+    <string name="importing_vcard_finished_title" msgid="1543368028741535966">"Finished importing vCard <xliff:g id="FILENAME">%s</xliff:g>"</string>
+    <string name="importing_vcard_canceled_title" msgid="2454436016819017436">"Importing <xliff:g id="FILENAME">%s</xliff:g> cancelled"</string>
+    <string name="vcard_import_will_start_message" msgid="6013286576133592154">"<xliff:g id="FILENAME">%s</xliff:g> will be imported shortly."</string>
+    <string name="vcard_import_will_start_message_with_default_name" msgid="3172538521736189687">"The file will be imported shortly."</string>
+    <string name="vcard_import_request_rejected_message" msgid="7620870852106507620">"vCard import request was rejected. Try again later."</string>
+    <string name="vcard_export_will_start_message" msgid="4480722586633503615">"<xliff:g id="FILENAME">%s</xliff:g> will be exported shortly."</string>
+    <string name="vcard_export_will_start_message_fallback" msgid="8746087280091814150">"The file will be exported shortly."</string>
+    <string name="contacts_export_will_start_message" msgid="5950262391638837408">"Contacts will be exported shortly."</string>
+    <string name="vcard_export_request_rejected_message" msgid="4132430982367686579">"vCard export request was rejected. Try again later."</string>
+    <string name="vcard_unknown_filename" msgid="7576066884501578965">"contact"</string>
+    <string name="caching_vcard_message" msgid="7778832851741500256">"Caching vCard(s) to local temporary storage. The actual import will start soon."</string>
+    <string name="vcard_import_failed" msgid="4135012206186446511">"Couldn\'t import vCard."</string>
+    <string name="nfc_vcard_file_name" msgid="7174382505002702431">"Contact received over NFC"</string>
+    <string name="confirm_export_title" msgid="9164673124925342242">"Export contacts?"</string>
+    <string name="caching_vcard_title" msgid="8092335276785174935">"Caching"</string>
+    <string name="progress_notifier_message" msgid="2778542784808529164">"Importing <xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g>: <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="export_to_vcf_file" product="default" msgid="6148360234812424446">"Export to .vcf file"</string>
+    <string name="display_options_sort_list_by" msgid="3541875948367831228">"Sort by"</string>
+    <string name="display_options_sort_by_given_name" msgid="4316351826810346915">"First name"</string>
+    <string name="display_options_sort_by_family_name" msgid="5238820876940079000">"Surname"</string>
+    <string name="display_options_view_names_as" msgid="4204204205736735618">"Name format"</string>
+    <string name="display_options_view_given_name_first" msgid="2308026973021171020">"First name first"</string>
+    <string name="display_options_view_family_name_first" msgid="987430497292428242">"Surname first"</string>
+    <string name="default_editor_account" msgid="1826578934497338822">"Default account for new contacts"</string>
+    <string name="sync_contact_metadata_dialog_title" msgid="7839882899954930421">"Sync contact metadata"</string>
+    <string name="setting_about" msgid="5253319937596745755">"About Contacts"</string>
+    <string name="activity_title_settings" msgid="2398428034981372932">"Settings"</string>
+    <string name="share_visible_contacts" msgid="6775120441469077620">"Share visible contacts"</string>
+    <string name="share_visible_contacts_failure" msgid="1365755167786055470">"Failed to share visible contacts."</string>
+    <string name="share_favorite_contacts" msgid="9138011836074034817">"Share favourite contacts"</string>
+    <string name="share_contacts" msgid="6505699963814423437">"Share all contacts"</string>
+    <string name="share_contacts_failure" msgid="6027174424732204424">"Failed to share contacts."</string>
+    <string name="dialog_import_export" msgid="3052335055728876529">"Import/Export contacts"</string>
+    <string name="dialog_import" msgid="8508508044485808554">"Import contacts"</string>
+    <string name="share_error" msgid="5642622973966851784">"This contact cannot be shared."</string>
+    <string name="no_contact_to_share" msgid="9115223064368461904">"There are no contacts to share."</string>
+    <string name="menu_search" msgid="1241802591112035764">"Search"</string>
+    <string name="hint_findContacts" msgid="1913556676649442295">"Find contacts"</string>
+    <string name="contactsFavoritesLabel" msgid="5198982253222486561">"Favourites"</string>
+    <string name="listTotalAllContactsZero" msgid="8436822729781033537">"No contacts."</string>
+    <string name="listTotalAllContactsZeroCustom" msgid="6072173682342248964">"No visible contacts."</string>
+    <string name="listTotalAllContactsZeroStarred" msgid="5008410556001744528">"No favourites"</string>
+    <string name="listTotalAllContactsZeroGroup" msgid="6782377127075025237">"No contacts in <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_clear_frequents" msgid="5358271535047496120">"Clear frequents"</string>
+    <string name="menu_select_sim" msgid="3960197724339200637">"Select SIM card"</string>
+    <string name="menu_accounts" msgid="8092083497106343280">"Manage accounts"</string>
+    <string name="menu_import_export" msgid="8834601882032781755">"Import/export"</string>
+    <string name="contact_status_update_attribution" msgid="6042601531361543253">"via <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="contact_status_update_attribution_with_date" msgid="3448746388181727251">"<xliff:g id="DATE">%1$s</xliff:g> via <xliff:g id="SOURCE">%2$s</xliff:g>"</string>
+    <string name="action_menu_back_from_search" msgid="3550669942742167644">"stop searching"</string>
+    <string name="description_clear_search" msgid="2347258825265600782">"Clear search"</string>
+    <string name="settings_contact_display_options_title" msgid="5535295687646503547">"Contact display options"</string>
+    <string name="select_account_dialog_title" msgid="2673504582803359239">"Account"</string>
+    <string name="set_default_account" msgid="7966099951006467572">"Always use this for calls"</string>
+    <string name="select_phone_account_for_calls" msgid="1784460686103423274">"Call with"</string>
+    <string name="call_with_a_note" msgid="6242261320491851133">"Call with a note"</string>
+    <string name="call_subject_hint" msgid="7233138753650420800">"Type a note to send with call ..."</string>
+    <string name="send_and_call_button" msgid="4735168294120154013">"SEND &amp; CALL"</string>
+    <string name="call_subject_limit" msgid="8273208736191593939">"<xliff:g id="COUNT">%1$s</xliff:g> / <xliff:g id="LIMIT">%2$s</xliff:g>"</string>
+    <string name="call_subject_type_and_number" msgid="6338030032554019678">"<xliff:g id="TYPE">%1$s</xliff:g> <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="tab_title" msgid="3387876802026074288">"<xliff:g id="TITLE">%1$s</xliff:g> tab."</string>
+    <plurals name="tab_title_with_unread_items" formatted="false" msgid="8548492980702182785">
+      <item quantity="other"> <xliff:g id="TITLE_2">%1$s</xliff:g> tab. <xliff:g id="COUNT_3">%2$d</xliff:g> unread items. </item>
+      <item quantity="one"> <xliff:g id="TITLE_0">%1$s</xliff:g> tab. <xliff:g id="COUNT_1">%2$d</xliff:g> unread item. </item>
+    </plurals>
+    <string name="about_build_version" msgid="6809677213570116689">"Build version"</string>
+    <string name="about_open_source_licenses" msgid="9071344335180981674">"Open-source licences"</string>
+    <string name="about_open_source_licenses_summary" msgid="4662018242345608420">"Licence details for open-source software"</string>
+    <string name="about_privacy_policy" msgid="120921692215934837">"Privacy Policy"</string>
+    <string name="about_terms_of_service" msgid="9004506174858804172">"Terms of Service"</string>
+    <string name="activity_title_licenses" msgid="2416018204229261875">"Open-source licences"</string>
+    <string name="url_open_error_toast" msgid="3814442157861318482">"Failed to open the URL."</string>
+    <string name="description_search_video_call" msgid="4337369876888024909">"Video call"</string>
+    <string name="description_search_call_and_share" msgid="4912772842755050467">"Share and call"</string>
+
+
+<string name="phoneAppLabel" product="default" msgid="4266606423746318128">"Phone"</string>
+    <string name="inCallLabel" msgid="8627766543550519912">"InCallUI"</string>
+    <string name="confCall" msgid="36560628097626181">"Conference call"</string>
+    <string name="call_lost" msgid="2082971531689406145">"Call dropped"</string>
+    <string name="wait_prompt_str" msgid="3509685348904329594">"Send the following tones?\n"</string>
+    <string name="pause_prompt_str" msgid="5712344742516488080">"Sending tones\n"</string>
+    <string name="send_button" msgid="6976782353456252579">"Send"</string>
+    <string name="pause_prompt_yes" msgid="4642047011233552973">"Yes"</string>
+    <string name="pause_prompt_no" msgid="4691320111774935838">"No"</string>
+    <string name="wild_prompt_str" msgid="1399377741491574104">"Replace wild character with"</string>
+    <string name="caller_manage_header" msgid="7358710345135355578">"Conference call <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="voicemail_settings_number_label" msgid="8935904934161608885">"Voicemail number"</string>
+    <string name="notification_dialing" msgid="9072177265772083826">"Dialling"</string>
+    <string name="notification_missedCallTicker" msgid="238492086972857643">"Missed call from <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call" msgid="8712641937577776125">"On-going call"</string>
+    <string name="notification_ongoing_work_call" msgid="3189581218078981547">"Ongoing work call"</string>
+    <string name="notification_ongoing_call_wifi" msgid="4393238962909277019">"Ongoing Wi‑Fi call"</string>
+    <string name="notification_ongoing_work_call_wifi" msgid="3169378605818323964">"Ongoing Wi‑Fi work call"</string>
+    <string name="notification_on_hold" msgid="7141827443379205682">"On hold"</string>
+    <string name="notification_incoming_call" msgid="7520580807513849283">"Incoming call"</string>
+    <string name="notification_incoming_call_with_photo" msgid="4360505044807517422">"Incoming call with photo"</string>
+    <string name="notification_incoming_call_with_message" msgid="5608687985694956601">"Incoming call with message"</string>
+    <string name="notification_incoming_call_with_location" msgid="4519498445081598767">"Incoming call with location"</string>
+    <string name="notification_incoming_call_with_photo_message" msgid="316806247057497525">"Incoming call with photo and message"</string>
+    <string name="notification_incoming_call_with_photo_location" msgid="3523930283842222367">"Incoming call with photo and location"</string>
+    <string name="notification_incoming_call_with_message_location" msgid="319374298517482028">"Incoming call with message and location"</string>
+    <string name="notification_incoming_call_with_photo_message_location" msgid="596658237891406809">"Incoming call with photo, message and location"</string>
+    <string name="notification_incoming_call_attachments" msgid="3708414495376236948">"Incoming call with attachments"</string>
+    <string name="important_notification_incoming_call" msgid="2867013954509930989">"Important incoming call"</string>
+    <string name="important_notification_incoming_call_with_photo" msgid="4908333121583658560">"Important incoming call with photo"</string>
+    <string name="important_notification_incoming_call_with_message" msgid="1614505248246685319">"Important incoming call with message"</string>
+    <string name="important_notification_incoming_call_with_location" msgid="7387284065036564352">"Important incoming call with location"</string>
+    <string name="important_notification_incoming_call_with_photo_message" msgid="4577220919701434817">"Important incoming call with photo and message"</string>
+    <string name="important_notification_incoming_call_with_photo_location" msgid="7172208615619394502">"Important incoming call with photo and location"</string>
+    <string name="important_notification_incoming_call_with_message_location" msgid="7244079127080064796">"Important incoming call with message and location"</string>
+    <string name="important_notification_incoming_call_with_photo_message_location" msgid="513692941317253479">"Important call with photo, message and location"</string>
+    <string name="important_notification_incoming_call_attachments" msgid="4594375776340303751">"Important incoming call with attachments"</string>
+    <string name="notification_incoming_work_call" msgid="5291275092734261918">"Incoming work call"</string>
+    <string name="notification_incoming_call_wifi" msgid="1020138378061234203">"Incoming Wi‑Fi call"</string>
+    <string name="notification_incoming_work_call_wifi" msgid="3549264481033044684">"Incoming Wi‑Fi work call"</string>
+    <string name="notification_incoming_spam_call" msgid="7591506944666791937">"Incoming suspected spam call"</string>
+    <string name="notification_requesting_video_call" msgid="1807679328811515758">"Incoming video request"</string>
+    <string name="notification_network_selection_title" msgid="8639159088474275747">"No service"</string>
+    <string name="notification_network_selection_text" msgid="7190860774239009625">"Selected network (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) unavailable"</string>
+    <string name="notification_action_answer" msgid="8748275902211192568">"Answer"</string>
+    <string name="notification_action_end_call" msgid="7467258454170007765">"Hang up"</string>
+    <string name="notification_action_answer_video" msgid="8488108892919917287">"Video"</string>
+    <string name="notification_action_answer_voice" msgid="6237890905749760509">"Voice"</string>
+    <string name="notification_action_accept" msgid="1272761514200507143">"Accept"</string>
+    <string name="notification_action_dismiss" msgid="3128241581632616226">"Decline"</string>
+    <string name="notification_external_call" msgid="2504334597315343920">"Ongoing call on another device"</string>
+    <string name="notification_external_video_call" msgid="7709394856028436683">"Ongoing video call on another device"</string>
+    <string name="notification_take_call" msgid="5631659438864492229">"Take call"</string>
+    <string name="notification_take_video_call" msgid="4473387503712341390">"Take video call"</string>
+    <string name="incall_error_power_off" msgid="3244691852792529453">"To place a call, first turn off Aeroplane mode."</string>
+    <string name="incall_error_emergency_only" msgid="8313690034696753566">"Not registered on network."</string>
+    <string name="incall_error_out_of_service" msgid="5027539470868484145">"Mobile network not available."</string>
+    <string name="incall_error_no_phone_number_supplied" msgid="293343960362630925">"To place a call, enter a valid number."</string>
+    <string name="incall_error_call_failed" msgid="5560521345862514733">"Can\'t call."</string>
+    <string name="incall_status_dialed_mmi" msgid="3341365334358686873">"Starting MMI sequence…"</string>
+    <string name="incall_error_supp_service_unknown" msgid="3062751096566282959">"Service not supported."</string>
+    <string name="incall_error_supp_service_switch" msgid="759346040980722884">"Can\'t switch calls."</string>
+    <string name="incall_error_supp_service_separate" msgid="5250304200901095519">"Can\'t separate call."</string>
+    <string name="incall_error_supp_service_transfer" msgid="556522021433482116">"Can\'t transfer."</string>
+    <string name="incall_error_supp_service_conference" msgid="9211560861266632111">"Can\'t conference."</string>
+    <string name="incall_error_supp_service_reject" msgid="2724981515194352120">"Can\'t reject call."</string>
+    <string name="incall_error_supp_service_hangup" msgid="4659922482839313098">"Can\'t release call(s)."</string>
+    <string name="emergency_enable_radio_dialog_title" msgid="5964415982020440543">"Emergency call"</string>
+    <string name="emergency_enable_radio_dialog_message" msgid="6927454354381787268">"Turning on radio…"</string>
+    <string name="emergency_enable_radio_dialog_retry" msgid="8760220613410560290">"No service. Trying again…"</string>
+    <string name="dial_emergency_error" msgid="6953255422990366011">"Can\'t call. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> is not an emergency number."</string>
+    <string name="dial_emergency_empty_error" msgid="6668006522178181198">"Can\'t call. Dial an emergency number."</string>
+    <string name="dialerKeyboardHintText" msgid="6275105254377292585">"Use keyboard to dial"</string>
+    <string name="player_started" msgid="9177182657338033086">"Player Started"</string>
+    <string name="player_stopped" msgid="5040965200339765956">"Player Stopped"</string>
+    <string name="camera_not_ready" msgid="3629017450703828964">"Camera not ready"</string>
+    <string name="camera_ready" msgid="4312684554501216898">"Camera ready"</string>
+    <string name="unknown_call_session_event" msgid="797786212356595358">"Unknown call session event"</string>
+    <string name="other_settings" msgid="2537377721890761197">"Other call settings"</string>
+    <string name="goPrivate" msgid="5269514638004595378">"go private"</string>
+    <string name="selectContact" msgid="1703433172800564849">"select contact"</string>
+    <string name="preference_category_ringtone" msgid="8566115267004890115">"Ringtone &amp; vibrate"</string>
+    <string name="manageConferenceLabel" msgid="3589379023518128318">"Manage conference call"</string>
+    <string name="emergency_call_dialog_number_for_display" msgid="461645337084699104">"Emergency number"</string>
+    <string name="child_number" msgid="3398257437107259682">"via <xliff:g id="CHILD_NUMBER">%s</xliff:g>"</string>
+    <string name="person_contact_context_title" msgid="9186980175313563725">"Recent messages"</string>
+    <string name="business_contact_context_title" msgid="4796616668776688978">"Business info"</string>
+    <string name="distance_imperial_away" msgid="66546464027126106">"<xliff:g id="DISTANCE">%.1f</xliff:g> mi away"</string>
+    <string name="distance_metric_away" msgid="4535553190850854545">"<xliff:g id="DISTANCE">%.1f</xliff:g> km away"</string>
+    <string name="display_address" msgid="2909385132133621873">"<xliff:g id="STREET_ADDRESS">%1$s</xliff:g>, <xliff:g id="LOCALITY">%2$s</xliff:g>"</string>
+    <string name="open_time_span" msgid="3333746415188434992">"<xliff:g id="OPEN_TIME">%1$s</xliff:g> – <xliff:g id="CLOSE_TIME">%2$s</xliff:g>"</string>
+    <string name="opening_hours" msgid="2908934145495754020">"<xliff:g id="EARLIER_TIMES">%1$s</xliff:g>, <xliff:g id="LATER_TIME">%2$s</xliff:g>"</string>
+    <string name="opens_tomorrow_at" msgid="2896787795283597856">"Opens tomorrow at <xliff:g id="OPEN_TIME">%s</xliff:g>"</string>
+    <string name="opens_today_at" msgid="4701005560156621184">"Opens today at <xliff:g id="OPEN_TIME">%s</xliff:g>"</string>
+    <string name="closes_today_at" msgid="2668928851103904896">"Closes at <xliff:g id="CLOSE_TIME">%s</xliff:g>"</string>
+    <string name="closed_today_at" msgid="4203311397205549440">"Closed today at <xliff:g id="CLOSE_TIME">%s</xliff:g>"</string>
+    <string name="open_now" msgid="5897306702060039512">"Open now"</string>
+    <string name="closed_now" msgid="3962291301467974921">"Closed now"</string>
+    <string name="non_spam_notification_title" msgid="3290544768406546372">"Do you know <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="spam_notification_title" msgid="2439276063775520534">"Is <xliff:g id="NUMBER">%1$s</xliff:g> spam?"</string>
+    <string name="spam_notification_block_report_toast_text" msgid="6844067640633690292">"<xliff:g id="NUMBER">%1$s</xliff:g> blocked and call was reported as spam."</string>
+    <string name="spam_notification_not_spam_toast_text" msgid="8321993839027073785">"Call from <xliff:g id="NUMBER">%1$s</xliff:g> reported as not spam."</string>
+    <string name="spam_notification_non_spam_call_collapsed_text" msgid="6482092382445364016">"Tap to add to contacts or block spam number."</string>
+    <string name="spam_notification_non_spam_call_expanded_text" msgid="3598209932872915536">"This is the first time that this number has called you. If this call was spam, you can block this number and report it."</string>
+    <string name="spam_notification_spam_call_collapsed_text" msgid="3865687645128037638">"Tap to report as NOT SPAM, or block it."</string>
+    <string name="spam_notification_spam_call_expanded_text" msgid="1062029525759401658">"We suspected this of being a spammer. If this call wasn\'t spam, tap NOT SPAM to report our mistake."</string>
+    <string name="spam_notification_report_spam_action_text" msgid="4829510418690824538">"Block &amp; report"</string>
+    <string name="spam_notification_add_contact_action_text" msgid="307315138401483232">"Add contact"</string>
+    <string name="spam_notification_not_spam_action_text" msgid="2576048366011852090">"Not spam"</string>
+    <string name="spam_notification_block_spam_action_text" msgid="80045727259264724">"Block number"</string>
+    <string name="spam_notification_dialog_add_contact_action_text" msgid="5619696845681999506">"Add to contacts"</string>
+    <string name="spam_notification_dialog_block_report_spam_action_text" msgid="1821506089128547428">"Block &amp; report spam"</string>
+    <string name="spam_notification_dialog_was_not_spam_action_text" msgid="4953789750391355251">"Not spam"</string>
+    <string name="callFailed_simError" msgid="4587775795711340072">"No SIM or SIM error"</string>
+    <string name="conference_caller_disconnect_content_description" msgid="2821988368803183644">"End call"</string>
+    <string name="conference_call_name" msgid="8189987124611337174">"Conference call"</string>
+    <string name="generic_conference_call_name" msgid="1546941472424243894">"On a call"</string>
+    <string name="video_call_wifi_to_lte_handover_toast" msgid="2108633957233856099">"Continuing call using mobile data…"</string>
+    <string name="video_call_lte_to_wifi_failed_title" msgid="1343446383310594456">"Couldn\'t switch to Wi‑Fi network"</string>
+    <string name="video_call_lte_to_wifi_failed_message" msgid="3703332569739939335">"Video call will remain on the mobile network. Standard data charges may apply."</string>
+    <string name="video_call_lte_to_wifi_failed_do_not_show" msgid="7609115874511223150">"Do not show this again"</string>
+
+
+
+    <string name="voicemail_settings_with_label" msgid="563926539137546586">"Voicemail (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="voicemail_settings_title" msgid="6685263321755930738">"Voicemail"</string>
+    <string name="voicemail_notifications_preference_title" msgid="3490553930230492405">"Notifications"</string>
+    <string name="voicemail_advanced_settings_title" msgid="6390900339808156711">"Advanced settings"</string>
+    <string name="voicemail_visual_voicemail_switch_title" msgid="3158454817165714998">"Visual voicemail"</string>
+    <string name="voicemail_visual_voicemail_auto_archive_switch_title" msgid="7120443850486401455">"Extra backup and storage"</string>
+    <string name="voicemail_set_pin_preference_title" msgid="1034691230818233684">"Set PIN"</string>
+    <string name="voicemail_change_pin_preference_title" msgid="8944570865151211693">"Change PIN"</string>
+    <string name="voicemail_change_pin_preference_summary_disable" msgid="2787334822298063691">"Visual voicemail must be enabled to change PIN"</string>
+    <string name="voicemail_change_pin_preference_summary_not_activated" msgid="8794039647258533633">"Visual voicemail is not activated yet. Please try again later"</string>
+    <string name="vm_change_pin_old_pin" msgid="3732582036597386047">"Old PIN"</string>
+    <string name="vm_change_pin_new_pin" msgid="5167496290646066333">"New PIN"</string>
+    <string name="vm_change_pin_progress_message" msgid="4143209637626661679">"Please wait."</string>
+    <string name="vm_change_pin_error_too_short" msgid="2825020644385639921">"The new PIN is too short."</string>
+    <string name="vm_change_pin_error_too_long" msgid="683260438529171998">"The new PIN is too long."</string>
+    <string name="vm_change_pin_error_too_weak" msgid="5865254034338293113">"The new PIN is too weak. A strong password should not have a continuous sequence or repeated digits."</string>
+    <string name="vm_change_pin_error_mismatch" msgid="3682667971009913553">"The old PIN doesn\'t match."</string>
+    <string name="vm_change_pin_error_invalid" msgid="4317397281749196545">"The new PIN contains invalid characters."</string>
+    <string name="vm_change_pin_error_system_error" msgid="5972056058776852411">"Unable to change PIN"</string>
+    <string name="vvm_unsupported_message_format" msgid="2746490691815392491">"Unsupported message type. Call <xliff:g id="NUMBER">%s</xliff:g> to listen."</string>
+    <string name="change_pin_title" msgid="1363830310845461697">"Change voicemail PIN"</string>
+    <string name="change_pin_continue_label" msgid="9184635195162827832">"Continue"</string>
+    <string name="change_pin_cancel_label" msgid="7258783861113501519">"Cancel"</string>
+    <string name="change_pin_ok_label" msgid="4527043915415428629">"OK"</string>
+    <string name="change_pin_enter_old_pin_header" msgid="1375728090965833028">"Confirm your old PIN"</string>
+    <string name="change_pin_enter_old_pin_hint" msgid="1654231195871094175">"Enter your voicemail PIN to continue."</string>
+    <string name="change_pin_enter_new_pin_header" msgid="7142620840890909719">"Set a new PIN"</string>
+    <string name="change_pin_enter_new_pin_hint" msgid="1289662932759932217">"PIN must be <xliff:g id="MIN">%1$d</xliff:g>–<xliff:g id="MAX">%2$d</xliff:g> digits long."</string>
+    <string name="change_pin_confirm_pin_header" msgid="7282604363655862136">"Confirm your PIN"</string>
+    <string name="change_pin_confirm_pins_dont_match" msgid="8626742552205369433">"PINs don\'t match"</string>
+    <string name="change_pin_succeeded" msgid="6869403202124894671">"Voicemail PIN updated"</string>
+    <string name="change_pin_system_error" msgid="5762853042379833829">"Unable to set PIN"</string>
+
+
+
+    <string name="urgent" msgid="5271653973625093934">"Urgent! Please answer!"</string>
+    <string name="want_to_chat" msgid="847333669248949914">"Want to chat?"</string>
+    <string name="quick_question" msgid="3501160802390214092">"Quick question…"</string>
+    <string name="message_composer_custom_message_hint" msgid="2061100708804604835">"Write a custom message"</string>
+    <string name="send_and_call" msgid="3749091015058610762">"Send and call"</string>
+    <string name="share_and_call" msgid="8934144481838868674">"Share and call"</string>
+    <string name="gallery_item_description" msgid="7600601724204579471">"image <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g>"</string>
+    <string name="gallery_item_description_no_date" msgid="2059198895441426838">"image"</string>
+    <string name="camera_switch_to_still_mode" msgid="1881982437979592567">"Take a photo"</string>
+    <string name="camera_media_failure" msgid="8979549551450965882">"Couldn\'t load camera image"</string>
+    <string name="allow" msgid="8637148297403066623">"Allow"</string>
+    <string name="camera_permission_text" msgid="7863231776480341614">"To take a photo, give access to Camera"</string>
+    <string name="gallery_permission_text" msgid="4102566850658919346">"To share an image, give access to Media"</string>
+    <string name="description_call_composer_camera" msgid="388088245837924914">"Take a picture"</string>
+    <string name="description_call_composer_photo" msgid="6449208314952246454">"Choose a photo"</string>
+    <string name="description_call_composer_message" msgid="9132362446000908550">"Sending a message"</string>
+    <string name="image_sent_messages" msgid="6520870555040566229">"Photo sent via Messages"</string>
+    <string name="message_sent_messages" msgid="6286576951151541098">"Message sent via Messages"</string>
+
+
+
+    <string name="migrate_blocked_numbers_dialog_title" msgid="7823962296457673809">"New, simplified blocking"</string>
+    <string name="migrate_blocked_numbers_dialog_message" msgid="8309736147266462485">"To protect you better, Phone needs to change how blocking works. Your blocked numbers will now stop both calls and texts and may be shared with other apps."</string>
+    <string name="migrate_blocked_numbers_dialog_allow_button" msgid="5192836471557751367">"Allow"</string>
+    <string name="block_number_confirmation_title" msgid="2699521227461376076">"Block <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="block_number_confirmation_message_vvm" msgid="6501105244172290939">"Calls from this number will be blocked and voicemails will be automatically deleted."</string>
+    <string name="block_number_confirmation_message_no_vvm" msgid="8236641245709649882">"Calls from this number will be blocked, but the caller may still be able to leave you voicemails."</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="8487449683723062644">"You will no longer receive calls or texts from this number."</string>
+    <string name="block_number_ok" msgid="739786082788038932">"BLOCK"</string>
+    <string name="unblock_number_confirmation_title" msgid="7897778825085659941">"Unblock <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="unblock_number_ok" msgid="5089057152966269355">"UNBLOCK"</string>
+    <string name="invalidNumber" msgid="6270918250761754967">"<xliff:g id="NUMBER">%1$s</xliff:g> is invalid."</string>
+    <string name="snackbar_number_blocked" msgid="5760234822413921845">"<xliff:g id="NUMBER">%1$s</xliff:g> blocked"</string>
+    <string name="snackbar_number_unblocked" msgid="7941296274123990585">"<xliff:g id="NUMBER">%1$s</xliff:g> unblocked"</string>
+    <string name="block_number_undo" msgid="5158120911892491697">"UNDO"</string>
+    <string name="send_to_voicemail_import_failed" msgid="1012752662074208237">"Import failed"</string>
+    <string name="call_blocking_disabled_notification_title" msgid="7211352205255347489">"Call blocking disabled for 48 hours"</string>
+    <string name="call_blocking_disabled_notification_text" msgid="141384084865180722">"Disabled because an emergency call was made."</string>
+    <string name="block_report_number_alert_title" msgid="2740581989824959611">"Block <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="block_report_number_alert_details" msgid="2652479394593143562">"You will no longer receive calls from this number."</string>
+    <string name="block_number_alert_details" msgid="715942751312046429">"<xliff:g id="TEXT">%1$s</xliff:g> This call will be reported as spam."</string>
+    <string name="unblock_number_alert_details" msgid="8696070817026870606">"This number will be unblocked and reported as not spam. Future calls won\'t be identified as spam."</string>
+    <string name="unblock_report_number_alert_title" msgid="2221901995393696882">"Unblock <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="report_not_spam_alert_button" msgid="3244953565919894995">"Report"</string>
+    <string name="report_not_spam_alert_title" msgid="395961923213504916">"Would you like to report a mistake?"</string>
+    <string name="report_not_spam_alert_details" msgid="4463730683530824797">"Future calls from <xliff:g id="NUMBER">%1$s</xliff:g> will no longer be identified as spam."</string>
+    <string name="checkbox_report_as_spam_action" msgid="1549159682170273798">"Report call as spam"</string>
+
+
+
+    <string name="call_details" msgid="5063658079729839605">"Call details"</string>
+    <string name="delete" msgid="2141020674108406737">"Delete"</string>
+    <string name="call_details_copy_number" msgid="4265479408878990796">"Copy number"</string>
+    <string name="call_details_edit_number" msgid="8718476514903513624">"Edit number before call"</string>
+    <string name="call_details_report_call_id" msgid="8857541295264421217">"Report inaccurate number"</string>
+    <string name="sent_a_photo" msgid="3978670717462979502">"Sent a photo"</string>
+    <string name="received_a_photo" msgid="3528953225576480505">"Received a photo"</string>
+    <string name="message_in_quotes" msgid="3270574830115828365">"\"<xliff:g id="MESSAGE">%1$s</xliff:g>\""</string>
+    <string name="report_caller_id_dialog_title" msgid="145323726250371695">"Report incorrect number"</string>
+    <string name="report_caller_id_failed" msgid="1471904930106125702">"Couldn\'t report number"</string>
+    <string name="report_caller_id_toast" msgid="5494870403429969932">"Number reported"</string>
+
+
+    <string name="type_incoming" msgid="5727636795656199810">"Incoming call"</string>
+    <string name="type_incoming_pulled" msgid="8434723359163965796">"Incoming call transferred to another device"</string>
+    <string name="type_outgoing" msgid="764896746073942963">"Outgoing call"</string>
+    <string name="type_outgoing_pulled" msgid="1648517538371704193">"Outgoing call transferred to another device"</string>
+    <string name="type_missed" msgid="2997043831022028176">"Missed call"</string>
+    <string name="type_incoming_video" msgid="7507180294202642554">"Incoming video call"</string>
+    <string name="type_incoming_video_pulled" msgid="7879031598844023977">"Incoming video call transferred to another device"</string>
+    <string name="type_outgoing_video" msgid="309370072333983910">"Outgoing video call"</string>
+    <string name="type_outgoing_video_pulled" msgid="3924450629684331345">"Outgoing video call transferred to another device"</string>
+    <string name="type_missed_video" msgid="4350107016317603785">"Missed video call"</string>
+    <string name="type_voicemail" msgid="1877524395253846684">"Voicemail"</string>
+    <string name="type_rejected" msgid="5632107438472996198">"Declined call"</string>
+    <string name="type_blocked" msgid="9177237294052244929">"Blocked call"</string>
+    <string name="call_details_minutes_abbreviation" msgid="7899774555556720560">"m"</string>
+    <string name="call_details_seconds_abbreviation" msgid="5893806826648947126">"s"</string>
+    <string name="a11y_call_duration_format" msgid="2905525933361674470">"<xliff:g id="MINUTES_0">%d</xliff:g> <xliff:g id="MINUTES_TRANSLATION">%s</xliff:g> <xliff:g id="SECONDS_1">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="a11y_call_duration_short_format" msgid="5908875871251062453">"<xliff:g id="SECONDS_0">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="call_duration_format_pattern" msgid="7566375153243313914">"<xliff:g id="MINUTES_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="MINUTES_TRANSLATION">%s</xliff:g>\' <xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <string name="call_duration_short_format_pattern" msgid="1713177000235994790">"<xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <plurals name="a11y_seconds" formatted="false" msgid="6695730844760611970">
+      <item quantity="other">seconds</item>
+      <item quantity="one">second</item>
+    </plurals>
+    <plurals name="a11y_minutes" formatted="false" msgid="6377010096698624038">
+      <item quantity="other">minutes</item>
+      <item quantity="one">minute</item>
+    </plurals>
+    <string name="type_answered_elsewhere" msgid="411958582555881640">"Call answered on another device"</string>
+    <string name="description_phone_account" msgid="4382951172691362244">"on <xliff:g id="PHONEACCOUNT">^1</xliff:g>"</string>
+    <string name="description_via_number" msgid="7682575124846343076">"via <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string name="description_via_number_phone_account" msgid="4345445677508018830">"on <xliff:g id="PHONEACCOUNT">%1$s</xliff:g>, via <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="voicemail_string" msgid="6029775151483803006">"Voicemail"</string>
+
+
+    <string name="network_name_wifi" msgid="3026388992566895417">"Wi-Fi"</string>
+    <string name="network_name_mobile" msgid="7655711935020766459">"Mobile"</string>
+
+
+
+    <string name="description_dialpad_back" msgid="6226488105558971135">"Navigate back"</string>
+    <string name="description_dialpad_overflow" msgid="5984341386518189787">"More options"</string>
+    <string name="description_delete_button" msgid="8431313818404527096">"backspace"</string>
+    <string name="description_image_button_plus" msgid="8936338119824589388">"plus"</string>
+    <string name="description_voicemail_button" msgid="4187006295368768215">"voicemail"</string>
+
+
+    <string name="sms_disambig_title" msgid="369677069797534410">"Choose number"</string>
+    <string name="call_disambig_title" msgid="2395382326030227603">"Choose number"</string>
+    <string name="make_primary" msgid="9069345357862475091">"Remember this choice"</string>
+
+
+    <string name="notification_channel_incoming_call" msgid="2478740764736158630">"Incoming calls"</string>
+    <string name="notification_channel_ongoing_call" msgid="5593444445363940672">"Ongoing calls"</string>
+    <string name="notification_channel_missed_call" msgid="5820652855908217695">"Missed calls"</string>
+    <string name="notification_channel_voicemail" msgid="9206363659849426204">"Voicemail"</string>
+    <string name="notification_channel_misc" msgid="5595452227577858518">"Default"</string>
+
+
+    <string name="private_num_verizon" msgid="3281061244372204957">"Restricted"</string>
+    <string name="private_num_non_verizon" msgid="5829254390933301216">"Private number"</string>
+
+
+    <string name="post_call_message" msgid="3541277172068556862">"Say why you called"</string>
+    <string name="post_call_message_1" msgid="4827849136801228106">"This is urgent. Call me back."</string>
+    <string name="post_call_message_2" msgid="5310301526176003385">"Call me back when you have time."</string>
+    <string name="post_call_message_3" msgid="3932759658420368056">"Not urgent – we can chat later."</string>
+    <string name="post_call_add_message" msgid="8298853527467080463">"Add message"</string>
+    <string name="post_call_send_message" msgid="8039569617234824873">"Send message"</string>
+    <string name="post_call_message_sent" msgid="832757977985265036">"Message sent"</string>
+    <string name="view" msgid="8572192949673703830">"View"</string>
+
+
+    <string name="dialer_shortcut_add_contact_short" msgid="7587385197258884650">"+ contact"</string>
+    <string name="dialer_shortcut_add_contact_long" msgid="7573187314386728329">"New contact"</string>
+    <string name="dialer_shortcut_disabled_message" msgid="7713603194332953571">"Shortcut not working. Drag to remove."</string>
+    <string name="dialer_shortcut_contact_not_found_or_has_no_number" msgid="3538594504123040498">"Contact no longer available."</string>
+    <string name="dialer_shortcut_no_permissions" msgid="4422956724546867357">"Cannot call without permission."</string>
+
+
+    <string name="default_notification_description" msgid="4304424287748323094">"Default sound (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="ringtone_silent" msgid="946744257396998305">"None"</string>
+    <string name="ringtone_unknown" msgid="1310974715243581582">"Unknown ringtone"</string>
+    <string name="activity_not_available" msgid="8360067109103762211">"No app for that on this device"</string>
+    <string name="outgoing_wps_warning" msgid="7505673114152005234">"Placing a WPS call will disconnect your existing call."</string>
+    <string name="dialog_continue" msgid="4070630558441163574">"Continue"</string>
+    <!-- no translation found for camera_privacy_text (4268584469444688293) -->
+    <skip />
+
+
+    <string name="voicemail_status_voicemail_not_available" msgid="5853033558114540057">"Voicemail updates not available"</string>
+    <string name="voicemail_status_messages_waiting" msgid="8900895357460505877">"New voicemail waiting. Can\'t load right now."</string>
+    <string name="voicemail_status_configure_voicemail" msgid="8642831215097798709">"Set up your voicemail"</string>
+    <string name="voicemail_status_audio_not_available" msgid="2341871147130931237">"Audio not available"</string>
+    <string name="voicemail_status_action_configure" msgid="4445818528232235329">"Set up"</string>
+    <string name="voicemail_status_action_call_server" msgid="3189606267631644507">"Call voicemail"</string>
+
+
+    <string name="custom_message_hint" msgid="2179012696339457461">"Write a custom message"</string>
+    <string name="toolbar_close" msgid="1081308076149879833">"Close"</string>
+    <string name="all_contacts_empty" msgid="4260556610403994011">"You don\'t have any contacts yet"</string>
+    <string name="all_contacts_empty_add_contact_action" msgid="7850060327481179533">"Create new contact"</string>
+    <string name="permission_single_turn_on" msgid="1306416016676232584">"Turn on"</string>
+    <string name="permission_no_contacts" msgid="2388204904477299207">"To see your contacts, turn on the Contacts permission."</string>
+    <string name="add_contact_not_available" msgid="3083256438899321502">"No contacts app available"</string>
+
+
+    <string name="audioroute_bluetooth" msgid="3426527851663711141">"Bluetooth"</string>
+    <string name="audioroute_speaker" msgid="3269659224838962927">"Speaker"</string>
+    <string name="audioroute_phone" msgid="4006113852056568310">"Phone"</string>
+    <string name="audioroute_headset" msgid="3911496379650036544">"Wired headset"</string>
+
+
+    <string name="incall_content_description_end_call" msgid="8232796487777787200">"End call"</string>
+    <string name="incall_content_description_muted" msgid="2130133443150389474">"Muted"</string>
+    <string name="incall_content_description_unmuted" msgid="4023577547526525202">"Unmuted"</string>
+    <string name="incall_content_description_swap_calls" msgid="5233257839262161417">"Swap calls"</string>
+    <string name="incall_content_description_merge_calls" msgid="5198778837993669729">"Merge calls"</string>
+    <string name="incall_content_description_earpiece" msgid="2786221842272370555">"Handset earpiece"</string>
+    <string name="incall_content_description_speaker" msgid="7837829930201265549">"Speaker"</string>
+    <string name="incall_content_description_bluetooth" msgid="6988919010980910001">"Bluetooth"</string>
+    <string name="incall_content_description_headset" msgid="3170439802944346719">"Wired headset"</string>
+    <string name="incall_content_description_hold" msgid="3335508251734906019">"Hold call"</string>
+    <string name="incall_content_description_unhold" msgid="3862584118869933593">"Resume call"</string>
+    <string name="incall_content_description_video_on" msgid="899266487647420613">"Video on"</string>
+    <string name="incall_content_description_video_off" msgid="762985912616707076">"Video off"</string>
+    <string name="incall_content_description_swap_video" msgid="297943299827908998">"Swap video"</string>
+    <string name="incall_label_speaker" msgid="1814254833253409394">"Speaker"</string>
+    <string name="incall_label_audio" msgid="5923781170533336820">"Sound"</string>
+
+
+    <string name="incall_calling_via_template" msgid="3416867359475780924">"Calling via <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="incall_connecting" msgid="1708280493198276616">"Calling…"</string>
+    <string name="incall_transferring" msgid="7909128243635579407">"Transferring…"</string>
+    <string name="incall_video_call_requesting" msgid="5251915562785911238">"Video calling…"</string>
+    <string name="incall_wifi_video_call_requesting" msgid="8783968191180862607">"Wi-Fi video calling…"</string>
+    <string name="incall_video_call_request_failed" msgid="5014067473831870379">"Unable to connect"</string>
+    <string name="incall_video_call_request_rejected" msgid="5357441169519503234">"Call declined"</string>
+    <string name="incall_video_call_request_timed_out" msgid="6804535684856203120">"Call timed out"</string>
+    <string name="incall_hanging_up" msgid="2166116351937190949">"Hanging up"</string>
+    <string name="incall_call_ended" msgid="6294704948774348480">"Call ended"</string>
+    <string name="incall_remotely_held" msgid="8561379039177396615">"On hold"</string>
+    <string name="contact_grid_incoming_video_call" msgid="4935122585117803710">"Video call from"</string>
+    <string name="contact_grid_incoming_wifi_video_call" msgid="5938822096623593533">"Wi-Fi video call from"</string>
+    <string name="contact_grid_incoming_video_request" msgid="7488892854791471116">"Video upgrade request from"</string>
+    <string name="contact_grid_incoming_wifi_video_request" msgid="4516902096577976768">"Wi-Fi video upgrade request from"</string>
+    <string name="contact_grid_incoming_voice_call" msgid="7165853925114955346">"Call from"</string>
+    <string name="contact_grid_incoming_work_call" msgid="837605505036615004">"Work call from"</string>
+    <string name="contact_grid_incoming_via_template" msgid="7747391077955623969">"Incoming via <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="contact_grid_incoming_suspected_spam" msgid="285365265897630425">"Suspected spam caller"</string>
+    <string name="contact_grid_callback_number" msgid="1284649030313415807">"Callback number: <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+
+
+    <string name="incall_enable_wifi_calling_button" msgid="3295230556186542328">"Enable"</string>
+    <string name="video_call_not_available_title" msgid="987490011944013201">"Video calling is currently not available"</string>
+    <string name="video_call_not_available_message" msgid="2284146863894603221">"Try calling again later or continue the call as a voice call."</string>
+    <string name="voice_call" msgid="6748636104112578475">"Voice call"</string>
+
+
+    <string name="incall_on_hold" msgid="5618253281695138626">"On hold"</string>
+
+
+    <string name="incall_label_videocall" msgid="2208755440134676113">"Video call"</string>
+    <string name="incall_label_hold" msgid="4223472584896867896">"Hold"</string>
+    <string name="incall_label_add_call" msgid="5641663436373994915">"Add call"</string>
+    <string name="incall_label_mute" msgid="2180667027331706737">"Mute"</string>
+    <string name="incall_label_end_call" msgid="5434079261446614887">"End call"</string>
+    <string name="incall_label_dialpad" msgid="8609779533654156550">"Keypad"</string>
+    <string name="incall_talkback_speaker_on" msgid="5819463769258124228">", is on"</string>
+    <string name="incall_talkback_speaker_off" msgid="7486836772563090186">", is off"</string>
+    <string name="incall_label_merge" msgid="720076442985913175">"Merge"</string>
+    <string name="incall_label_manage" msgid="2175471192903568159">"Manage"</string>
+    <string name="a11y_description_incall_label_manage_content" msgid="8298638893449287602">"Manage callers"</string>
+    <string name="incall_label_swap" msgid="10458642864243507">"Swap"</string>
+    <string name="incall_note_sent" msgid="4524130323127388367">"Note sent"</string>
+
+
+    <string name="spam_photo_text" msgid="5250301844057954813">"Answer to reveal photo"</string>
+    <string name="spam_message_text" msgid="6522893079398269847">"Answer to reveal message"</string>
+
+
+    <string name="always_warn" msgid="8332929731464707890">"Show warning every time"</string>
+    <string name="details" msgid="8642701148762155677">"You are calling an international number and charges may apply."</string>
+
+
+    <string name="description_camera_switch_full_screen" msgid="835509743097428216">"Switch to full-screen camera"</string>
+    <string name="description_camera_switch_preview_screen" msgid="2575355782470181047">"Switch to camera preview"</string>
+    <string name="description_camera_switch_camera_facing" msgid="6831946148788764412">"Switch to front-facing camera"</string>
+    <string name="description_camera_switch_camera_rear" msgid="644854053851698293">"Switch to rear-facing camera"</string>
+    <string name="description_camera_take_picture" msgid="3953639532118936286">"Take photo"</string>
+    <string name="description_camera_cancel_photo" msgid="2759593421176396701">"Retake photo"</string>
+
+
+  <string name="enriched_call_simulator_activity" translatable="false">Enriched Call Simulator Activity</string>
+
+  <string name="important" translatable="false">important</string>
+  <string name="not_important" translatable="false">not important</string>
+
+  <string name="refresh" translatable="false">refresh</string>
+
+
+    <string name="main_activity_label" msgid="3121599977875141886">"Telephone"</string>
+    <string name="nui_shortcut_name" msgid="6370942901789984087">"Phone NUI"</string>
+    <string name="main_call_history_tab_description" msgid="1705569872650796265">"Call history"</string>
+    <string name="search" msgid="3570654445331155513">"@android:string/search_go"</string>
+    <string name="description_search" msgid="3443578912463129718">"Search contacts and places"</string>
+    <string name="contacts" msgid="4464246185723317911">"Contacts"</string>
+    <string name="description_contacts" msgid="12768481422137448">"View contacts"</string>
+    <string name="tab_title_call_history" msgid="5191872501729332994">"Call history"</string>
+    <string name="tab_title_speed_dial" msgid="1968484500112572774">"Speed dial"</string>
+    <string name="tab_title_voicemail" msgid="4777655983569268504">"Voicemail"</string>
+    <string name="settings" msgid="7614336599112169779">"Settings"</string>
+    <string name="main_send_feedback" msgid="2446919533981327373">"Sending feedback"</string>
+    
+        <string name="nearby_places" msgid="275117539511113867">"Places nearby"</string>
+
+    <string name="call_incoming_swipe_to_decline_with_message" msgid="2426342919316424240">"Swipe from icon to decline with a message"</string>
+    <string name="call_incoming_swipe_to_answer_video_as_audio" msgid="2656902519734774070">"Swipe from icon to answer as an audio call"</string>
+    <string name="call_incoming_default_label_answer_and_release_second" msgid="4543429977872844314">"Swipe up to answer and hold ongoing call"</string>
+    <string name="call_incoming_default_label_answer_and_release_third" msgid="1738895612225349741">"Swipe up to answer and end call on hold"</string>
+    <string name="call_incoming_swipe_to_answer_and_release" msgid="662432029870261061">"Swipe from icon to answer and end ongoing call"</string>
+    <string name="call_incoming_message_custom" msgid="5819492800418293238">"Write your own…"</string>
+    <string name="call_incoming_audio_handset" msgid="2299009191401671619">"Handset"</string>
+    <string name="call_incoming_audio_speakerphone" msgid="5632622369522427991">"Speakerphone"</string>
+    <string name="call_incoming_respond_via_sms_custom_message" msgid="6808438125627371020">"Write your own…"</string>
+    <string name="call_incoming_custom_message_cancel" msgid="5231860339073505201">"Cancel"</string>
+    <string name="call_incoming_custom_message_send" msgid="3826716354040318205">"Send"</string>
+    <string name="a11y_incoming_call_reject_with_sms" msgid="6101839791429796754">"Reject this call with a message"</string>
+    <string name="a11y_incoming_call_answer_video_as_audio" msgid="3890612269318682756">"Answer as an audio call"</string>
+    <string name="a11y_incoming_call_answer_and_release" msgid="4896746774725239464">"Answer and end ongoing call"</string>
+    <string name="a11y_description_incoming_call_reject_with_sms" msgid="4705064921696291310">"Reject with a message"</string>
+    <string name="a11y_description_incoming_call_answer_video_as_audio" msgid="1562530317428907884">"Answer as an audio call"</string>
+    <string name="a11y_description_incoming_call_answer_and_release" msgid="8511087499748888476">"Answer and end ongoing call"</string>
+    <string name="call_incoming_video_is_off" msgid="3216603035158629403">"Video is off"</string>
+    <string name="a11y_incoming_call_swipe_gesture_prompt" msgid="8682480557168484972">"Swipe up with two fingers to answer. Swipe down with two fingers to decline."</string>
+    <string name="call_incoming_important" msgid="3762352743365137090">"Important"</string>
+
+
+    <string name="call_incoming_swipe_to_answer" msgid="2959042172304267183">"Swipe up to answer"</string>
+    <string name="call_incoming_swipe_to_reject" msgid="463322705441386885">"Swipe down to reject"</string>
+    <string name="a11y_incoming_call_swipe_to_answer" msgid="6992663569851713736">"Swipe up with two fingers to answer, or down to reject the call"</string>
+    <string name="call_incoming_will_disconnect" msgid="7095934149229485541">"Answering this call will end your video call"</string>
+    <string name="a11y_call_incoming_decline_description" msgid="4441041052558364987">"Decline"</string>
+    <string name="call_incoming_decline" msgid="2982110738106661231">"Decline"</string>
+    <string name="a11y_call_incoming_answer_description" msgid="1623200501347799736">"Answer"</string>
+    <string name="call_incoming_answer" msgid="841798555883717852">"Answer"</string>
+
+    <string name="videocall_remote_video_off" msgid="2959680546745902547">"Their video is off"</string>
+    <string name="videocall_remote_video_on" msgid="6011817851703181639">"Their video is on"</string>
+    <string name="videocall_remotely_held" msgid="1295702896355732947">"Call on hold"</string>
+    <string name="videocall_remotely_resumed" msgid="3331784411244773788">"Call resumed"</string>
+    <string name="camera_permission_dialog_title" msgid="4901760354830982117">"Allow video?"</string>
+    <string name="camera_permission_dialog_message" msgid="2677490854794162699">"The Phone app wants to use your camera for video calls."</string>
+    <string name="camera_permission_dialog_positive_button" msgid="9075818030671161374">"Allow"</string>
+    <string name="camera_permission_dialog_negative_button" msgid="7538535842403837541">"Deny"</string>
+
+    <string name="voicemail_error_turn_off_airplane_mode_title" msgid="335011175933917603">"Turn off aeroplane mode"</string>
+    <string name="voicemail_error_activating_title" msgid="2428457130578359186">"Activating visual voicemail"</string>
+    <string name="voicemail_error_activating_message" msgid="7157030596259443393">"You might not receive voicemail notifications until visual voicemail is fully activated. Call voicemail to retrieve new messages until voicemail is fully activated."</string>
+    <string name="voicemail_error_not_activate_no_signal_title" msgid="742273366199085615">"Can\'t activate visual voicemail"</string>
+    <string name="voicemail_error_not_activate_no_signal_message" msgid="2929059808327964011">"Make sure your phone has a mobile network connection and try again."</string>
+    <string name="voicemail_error_not_activate_no_signal_airplane_mode_message" msgid="2005255281543281215">"Turn off aeroplane mode and try again."</string>
+    <string name="voicemail_error_no_signal_title" msgid="341954685733680219">"No connection"</string>
+    <string name="voicemail_error_no_signal_message" msgid="2626509025723748371">"You won\'t be notified for new voicemails. If you\'re on Wi‑Fi, you can check for voicemail by syncing now."</string>
+    <string name="voicemail_error_no_signal_airplane_mode_message" msgid="8553646558282754276">"You won\'t be notified about new voicemail. Turn off aeroplane mode to sync your voicemail."</string>
+    <string name="voicemail_error_no_signal_cellular_required_message" msgid="6452586752169746399">"Your phone needs a mobile data connection to check voicemail."</string>
+    <string name="voicemail_error_activation_failed_title" msgid="3823477898681399391">"Can\'t activate visual voicemail"</string>
+    <string name="voicemail_error_activation_failed_message" msgid="2188301459207765442">"You can still call to check voicemail."</string>
+    <string name="voicemail_error_no_data_title" msgid="8127858252892092732">"Can\'t update visual voicemail"</string>
+    <string name="voicemail_error_no_data_message" msgid="6634124460113498265">"Try again when your Wi‑Fi or mobile data connection is better. You can still call to check voicemail."</string>
+    <string name="voicemail_error_no_data_cellular_required_message" msgid="2521491029817662357">"Try again when your mobile data connection is better. You can still call to check voicemail."</string>
+    <string name="voicemail_error_bad_config_title" msgid="527594487104462966">"Can\'t update visual voicemail"</string>
+    <string name="voicemail_error_bad_config_message" msgid="2692955418930476771">"You can still call to check voicemail."</string>
+    <string name="voicemail_error_communication_title" msgid="9183339646110368169">"Can\'t update visual voicemail"</string>
+    <string name="voicemail_error_communication_message" msgid="1226746423005179379">"You can still call to check voicemail."</string>
+    <string name="voicemail_error_server_connection_title" msgid="3036980885397552848">"Can\'t update visual voicemail"</string>
+    <string name="voicemail_error_server_connection_message" msgid="6008577624710159550">"You can still call to check voicemail."</string>
+    <string name="voicemail_error_server_title" msgid="5355286554022049134">"Can\'t update visual voicemail"</string>
+    <string name="voicemail_error_server_message" msgid="3538157415413084592">"You can still call to check voicemail."</string>
+    <string name="voicemail_error_inbox_near_full_title" msgid="7568681773644454672">"Inbox almost full"</string>
+    <string name="voicemail_error_inbox_near_full_message" msgid="354118612203528244">"You won\'t be able to receive new voicemail if your inbox is full."</string>
+    <string name="voicemail_error_inbox_full_title" msgid="249268068442046872">"Can\'t receive new voicemail"</string>
+    <string name="voicemail_error_inbox_full_message" msgid="5788411018158899123">"Your inbox is full. Try deleting some messages to receive new voicemail."</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_title" msgid="6209039728273651055">"Turn on extra storage and backup"</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_message" msgid="5203159732288749722">"Your mailbox is full. To free up space, turn on extra storage so that Google can manage and back up your voicemail messages."</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title" msgid="20352920357816927">"Turn on extra storage and backup"</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message" msgid="9140680538578301853">"Your mailbox is almost full. To free up space, turn on extra storage so that Google can manage and back up your voicemail messages."</string>
+    <string name="voicemail_error_pin_not_set_title" msgid="1287168514277948082">"Set your voicemail PIN"</string>
+    <string name="voicemail_error_pin_not_set_message" msgid="3802375002103184625">"You\'ll need a voicemail PIN whenever you call to access your voicemail."</string>
+    <string name="voicemail_error_unknown_title" msgid="7214482611706360680">"Unknown error"</string>
+    <string name="voicemail_action_turn_off_airplane_mode" msgid="6905706401164671086">"Aeroplane mode settings"</string>
+    <string name="voicemail_action_set_pin" msgid="958510049866316228">"Set PIN"</string>
+    <string name="voicemail_action_retry" msgid="4450307484541052511">"Try again"</string>
+    <string name="voicemail_action_turn_archive_on" msgid="6008444955560830591">"Turn on"</string>
+    <string name="voicemail_action_dimiss" msgid="6018415798136796966">"No, thanks"</string>
+    <string name="voicemail_action_sync" msgid="5139315923415392787">"Sync"</string>
+    <string name="voicemail_action_call_voicemail" msgid="6701710720535556395">"Call voicemail"</string>
+    <string name="voicemail_action_call_customer_support" msgid="7698973007656462748">"Call Customer Support"</string>
+    <string name="vvm3_error_vms_dns_failure_title" msgid="7561818769198666727">"Something went wrong"</string>
+    <string name="vvm3_error_vms_dns_failure_message" msgid="4284259553458502369">"Sorry, we ran into a problem. Please try again later. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9001."</string>
+    <string name="vvm3_error_vmg_dns_failure_title" msgid="6257196468618464574">"Something went wrong"</string>
+    <string name="vvm3_error_vmg_dns_failure_message" msgid="7110154996415009499">"Sorry, we ran into a problem. Please try again later. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9002."</string>
+    <string name="vvm3_error_spg_dns_failure_title" msgid="8670172138011171697">"Something went wrong"</string>
+    <string name="vvm3_error_spg_dns_failure_message" msgid="6780011498675342391">"Sorry, we ran into a problem. Please try again later. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9003."</string>
+    <string name="vvm3_error_vms_no_cellular_title" msgid="5402891018307856824">"Can\'t connect to your voice mailbox"</string>
+    <string name="vvm3_error_vms_no_cellular_message" msgid="6671769320769351896">"Sorry, we\'re having trouble connecting to your voice mailbox. If you\'re in an area with poor signal strength, wait until you have a strong signal and try again. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9004."</string>
+    <string name="vvm3_error_vmg_no_cellular_title" msgid="7974884412395827829">"Can\'t connect to your voice mailbox"</string>
+    <string name="vvm3_error_vmg_no_cellular_message" msgid="4591495395224161921">"Sorry, we\'re having trouble connecting to your voice mailbox. If you\'re in an area with poor signal strength, wait until you have a strong signal and try again. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9005."</string>
+    <string name="vvm3_error_spg_no_cellular_title" msgid="8175349498869951939">"Can\'t connect to your voice mailbox"</string>
+    <string name="vvm3_error_spg_no_cellular_message" msgid="7902149969965747111">"Sorry, we\'re having trouble connecting to your voice mailbox. If you\'re in an area with poor signal strength, wait until you have a strong signal and try again. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9006."</string>
+    <string name="vvm3_error_vms_timeout_title" msgid="4044531581957597519">"Something went wrong"</string>
+    <string name="vvm3_error_vms_timeout_message" msgid="2997890600174252849">"Sorry, we ran into a problem. Please try again later. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9007."</string>
+    <string name="vvm3_error_vmg_timeout_title" msgid="2631426958078372779">"Something went wrong"</string>
+    <string name="vvm3_error_vmg_timeout_message" msgid="8366857300952305567">"Sorry, we ran into a problem. Please try again later. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9008."</string>
+    <string name="vvm3_error_status_sms_timeout_title" msgid="6528532085593533049">"Something went wrong"</string>
+    <string name="vvm3_error_status_sms_timeout_message" msgid="9079367624352316780">"Sorry, we\'re having trouble setting up your service. Please try again later. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9009."</string>
+    <string name="vvm3_error_subscriber_blocked_title" msgid="3650932081111129710">"Can\'t connect to your voice mailbox"</string>
+    <string name="vvm3_error_subscriber_blocked_message" msgid="5162479488602796264">"Sorry, we\'re not able to connect to your voice mailbox at the moment. Please try again later. If there is still a problem, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9990."</string>
+    <string name="vvm3_error_unknown_user_title" msgid="3908082247867523916">"Set up voicemail"</string>
+    <string name="vvm3_error_unknown_user_message" msgid="1509539640475335686">"Voicemail isn\'t set up on your account. Please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9991."</string>
+    <string name="vvm3_error_unknown_device_title" msgid="1894628172321293169">"Voicemail"</string>
+    <string name="vvm3_error_unknown_device_message" msgid="5653639091623486217">"Visual voicemail cannot be used on this device. Please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9992."</string>
+    <string name="vvm3_error_invalid_password_title" msgid="4552360498026788519">"Something went wrong"</string>
+    <string name="vvm3_error_invalid_password_message" msgid="7203223289526274700">"Please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9993."</string>
+    <string name="vvm3_error_mailbox_not_initialized_title" msgid="7903951619707049472">"Visual voicemail"</string>
+    <string name="vvm3_error_mailbox_not_initialized_message" msgid="6411209982463628638">"To complete setting up visual voicemail, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9994."</string>
+    <string name="vvm3_error_service_not_provisioned_title" msgid="6200721664168681357">"Visual voicemail"</string>
+    <string name="vvm3_error_service_not_provisioned_message" msgid="2652652017548677049">"To complete setting up visual voicemail, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9995."</string>
+    <string name="vvm3_error_service_not_activated_title" msgid="8223482379756083354">"Visual voicemail"</string>
+    <string name="vvm3_error_service_not_activated_message" msgid="3877179443583231620">"To activate visual voicemail, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9996."</string>
+    <string name="vvm3_error_user_blocked_title" msgid="3182280563102274326">"Something went wrong"</string>
+    <string name="vvm3_error_user_blocked_message" msgid="5006388183845631086">"To complete setting up visual voicemail, please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9998."</string>
+    <string name="vvm3_error_subscriber_unknown_title" msgid="2327013918755472131">"Visual voicemail is disabled"</string>
+    <string name="vvm3_error_subscriber_unknown_message" msgid="7991526423950940698">"Please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> to activate visual voicemail."</string>
+    <string name="vvm3_error_imap_getquota_error_title" msgid="2229474251543811881">"Something went wrong"</string>
+    <string name="vvm3_error_imap_getquota_error_message" msgid="4266777005393484563">"Please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9997."</string>
+    <string name="vvm3_error_imap_select_error_title" msgid="688468464562761731">"Something went wrong"</string>
+    <string name="vvm3_error_imap_select_error_message" msgid="7535508175537847085">"Please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9989."</string>
+    <string name="vvm3_error_imap_error_title" msgid="1952971680250515832">"Something went wrong"</string>
+    <string name="vvm3_error_imap_error_message" msgid="6668651261796655388">"Please contact Customer Service on <xliff:g id="NUMBER">%1$s</xliff:g> and tell them that the error code is 9999."</string>
+    <string name="verizon_terms_and_conditions_title" msgid="9074967311276321500">"Visual voicemail Terms and Conditions"</string>
+    <string name="verizon_terms_and_conditions_message" msgid="120258835788235077">"%1$s\n\nYou must accept Verizon Wireless\'s terms and conditions to use visual voicemail:\n\n%2$s"</string>
+    <string name="dialer_terms_and_conditions_title" msgid="311603424861921251">"Turn on Visual Voicemail"</string>
+    <string name="dialer_terms_and_conditions_message" msgid="6207219973959897196">"%s"</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_message" msgid="7852059293806766767">"Visual voicemail will be disabled if the Terms and Conditions are declined."</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_downgrade" msgid="8347128304508008823">"Disable visual voicemail"</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_message" msgid="1726573227032877573">"Voicemail transcription will be disabled if the terms and conditions are declined."</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_downgrade" msgid="6694612247173639685">"Disable voicemail transcription"</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message" msgid="2200388197966526000">"Voicemail will only be accessible by calling *86. Set a new voicemail PIN to proceed."</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin" msgid="4320664492466296770">"Set PIN"</string>
+
+    <string name="event_deactivated" msgid="689994223349549274">"Pet mode off"</string>
+
+
+</resources>

@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel" msgid="2202739481132958990">"ఫోన్"</string>
+    <string name="launcherDialpadActivityLabel" msgid="4170587663888307424">"ఫోన్ కీప్యాడ్"</string>
+    <string name="dialerIconLabel" msgid="3422916015542176907">"ఫోన్"</string>
+    <string name="callHistoryIconLabel" msgid="7493268743411968630">"కాల్ చరిత్ర"</string>
+    <string name="action_report_number" msgid="7231442711369737797">"సరికాని నంబర్‌ను నివేదించు"</string>
+    <string name="action_copy_number_text" msgid="832682558551502319">"నంబర్‌ను కాపీ చేయి"</string>
+    <string name="copy_transcript_text" msgid="937904189017310829">"లిప్యంతరీకరణను కాపీ చేయి"</string>
+    <string name="action_block_number" msgid="3669819840999705278">"నంబర్‌ను బ్లాక్ చేయి"</string>
+    <string name="action_unblock_number" msgid="6583611581996402004">"నంబర్‌ను అన్‌బ్లాక్ చేయి"</string>
+    <string name="action_edit_number_before_call" msgid="8017492815878473837">"కాల్ చేయడానికి ముందు నంబర్‌ను సవరించు"</string>
+    <string name="call_log_delete_all" msgid="7852970926906523784">"కాల్ చరిత్రను క్లియర్ చేయి"</string>
+    <string name="call_log_trash_voicemail" msgid="6118493534178533972">"వాయిస్ మెయిల్‌ను తొలగించు"</string>
+    <string name="snackbar_voicemail_deleted" msgid="7463166543725496307">"వాయిస్‌‍మెయిల్ తొలగించింది"</string>
+    <string name="snackbar_voicemail_deleted_undo" msgid="6959743982796409941">"చర్యరద్దు"</string>
+    <string name="clearCallLogConfirmation_title" msgid="7051888019546472245">"కాల్ చరిత్రను తీసివేయాలా?"</string>
+    <string name="clearCallLogConfirmation" msgid="6844949465815109166">"దీని వలన మీ చరిత్ర నుండి అన్ని కాల్‌లు తొలగించబడతాయి"</string>
+    <string name="clearCallLogProgress_title" msgid="995004835687361977">"కాల్ చరిత్రను క్లియర్ చేస్తోంది…"</string>
+    <string name="userCallActivityLabel" product="default" msgid="9198964841862577505">"ఫోన్"</string>
+    <string name="notification_missedCallTitle" msgid="8283366068539898486">"సమాధానం ఇవ్వని కాల్"</string>
+    <string name="notification_missedWorkCallTitle" msgid="8831332957103679183">"మిస్డ్ కార్యాలయ కాల్"</string>
+    <string name="notification_missedCallsTitle" msgid="3697442015345089802">"మిస్డ్ కాల్‌లు"</string>
+    <string name="notification_missedCallsMsg" msgid="8176217633929018706">"<xliff:g id="NUM_MISSED_CALLS">%d</xliff:g> మిస్డ్ కాల్‌లు"</string>
+    <string name="notification_missedCall_call_back" msgid="3875698110051973965">"కాల్ చేయి"</string>
+    <string name="notification_missedCall_message" msgid="5086910028988305964">"సందేశం పంపు"</string>
+    <string name="post_call_notification_message" msgid="5417476789860590611">"<xliff:g id="NAME">%1$s</xliff:g>: <xliff:g id="MESSAGE">%2$s</xliff:g>"</string>
+    <string name="notification_voicemail_text_format" msgid="1895667520930252897">"<xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>కు డయల్ చేయండి"</string>
+    <string name="notification_voicemail_no_vm_number" msgid="8942821987929495842">"వాయిస్ మెయిల్ నంబర్ తెలియదు"</string>
+    <plurals name="notification_voicemail_title" formatted="false" msgid="1551847434476438657">
+      <item quantity="other"> <xliff:g id="COUNT">%1$d</xliff:g> వాయిస్ మెయిల్‌లు </item>
+      <item quantity="one">వాయిస్ మెయిల్</item>
+    </plurals>
+    <string name="notification_action_voicemail_play" msgid="5156500902796354071">"ప్లే చేయి"</string>
+    <string name="notification_voicemail_callers_list" msgid="7543659703018479564">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+    <string name="notification_new_voicemail_ticker" msgid="6547711461667072303">"<xliff:g id="CALLER">%1$s</xliff:g> నుండి కొత్త వాయిస్ మెయిల్"</string>
+    <string name="voicemail_playback_error" msgid="4384373852257757295">"వాయిస్ మెయిల్‌ను ప్లే చేయడం సాధ్యపడలేదు"</string>
+    <string name="voicemail_fetching_content" msgid="572320120918636014">"వాయిస్ మెయిల్‌ను లోడ్ చేస్తోంది…"</string>
+    <string name="voicemail_archiving_content" msgid="2415183864104922185">"వాయిస్ మెయిల్‌ను ఆర్కైవ్ చేస్తోంది…"</string>
+    <string name="voicemail_fetching_timout" msgid="2128873915839949783">"వాయిస్ మెయిల్‌ను లోడ్ చేయడం సాధ్యపడలేదు"</string>
+    <string name="call_log_voicemail_header" msgid="5799424860394542726">"వాయిస్ మెయిల్ కాల్‌లు మాత్రమే"</string>
+    <string name="call_log_incoming_header" msgid="1158753168119845168">"ఇన్‌కమింగ్ కాల్‌లు మాత్రమే"</string>
+    <string name="call_log_outgoing_header" msgid="149333910997122683">"అవుట్‌గోయింగ్ కాల్‌లు మాత్రమే"</string>
+    <string name="call_log_missed_header" msgid="6491707499211289630">"సమాధానం ఇవ్వని కాల్‌లు మాత్రమే"</string>
+    <string name="call_log_item_count_and_date" msgid="723848797957319181">"(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="description_search_button" msgid="4515570469584782176">"శోధించు"</string>
+    <string name="description_dial_button" msgid="699794433224646027">"డయల్ చేయి"</string>
+    <string name="description_digits_edittext" msgid="8908702618098485186">"డయల్ చేయాల్సిన నంబర్"</string>
+    <string name="description_playback_start_stop" msgid="5320452461700750120">"ప్లేబ్యాక్‌ని ప్లే చేయి లేదా ఆపివేయి"</string>
+    <string name="description_playback_speakerphone" msgid="4852027754869750227">"స్పీకర్‌ఫోన్‌ను స్విచ్ ఆన్ లేదా స్విచ్ ఆఫ్ చేయి"</string>
+    <string name="description_playback_seek" msgid="1340910573254132520">"ప్లేబ్యాక్ స్థానాన్ని కావాల్సిన చోటుకి జరపండి"</string>
+    <string name="description_rate_decrease" msgid="5053221110217704199">"ప్లేబ్యాక్ రేటుని తగ్గించు"</string>
+    <string name="description_rate_increase" msgid="4372206363557406700">"ప్లేబ్యాక్ రేటుని పెంచు"</string>
+    <string name="action_menu_call_history_description" msgid="8829135306925008546">"కాల్ చరిత్ర"</string>
+    <string name="action_menu_overflow_description" msgid="7648679686746517341">"మరిన్ని ఎంపికలు"</string>
+    <string name="action_menu_dialpad_button" msgid="1970631633457493180">"కీ ప్యాడ్"</string>
+    <string name="menu_show_outgoing_only" msgid="6941420328999801171">"అవుట్‌గోయింగ్ మాత్రమే చూపు"</string>
+    <string name="menu_show_incoming_only" msgid="6018600870504685564">"ఇన్‌కమింగ్ మాత్రమే చూపు"</string>
+    <string name="menu_show_missed_only" msgid="2266983597575047192">"సమాధానం ఇవ్వనివి మాత్రమే చూపు"</string>
+    <string name="menu_show_voicemails_only" msgid="1114917855179284592">"వాయిస్ మెయిల్‌లు మాత్రమే చూపు"</string>
+    <string name="menu_show_all_calls" msgid="220054502052344488">"అన్ని కాల్‌లను చూపు"</string>
+    <string name="add_2sec_pause" msgid="3417815038173424525">"2-సెకన్ల పాజ్‌ను జోడించండి"</string>
+    <string name="add_wait" msgid="1177723010768282578">"నిరీక్షణ సమయాన్ని జోడించు"</string>
+    <string name="dialer_settings_label" msgid="4980176284150290175">"సెట్టింగ్‌లు"</string>
+    <string name="simulator_submenu_label" msgid="186156287346615267">"సిములేటర్"</string>
+    <string name="new_ui_launcher_shortcut_label" msgid="7195823535703686736">"కొత్త UI సత్వరమార్గం సృష్టించు"</string>
+    <string name="menu_allContacts" msgid="8544950176866640863">"అన్ని పరిచయాలు"</string>
+    <string name="dialer_useDtmfDialpad" msgid="3919115408138798484">"టచ్ టోన్ కీప్యాడ్‌ను ఉపయోగించండి"</string>
+    <string name="dialer_returnToInCallScreen" msgid="3487191628252824117">"ప్రోగ్రెస్‌లో ఉన్న కాల్‌కు వెళ్లు"</string>
+    <string name="dialer_addAnotherCall" msgid="3132945651710234674">"కాల్‌ను జోడించు"</string>
+    <string name="actionIncomingCall" msgid="891346596090030558">"ఇన్‌కమింగ్ కాల్‌లు"</string>
+    <string name="description_entering_bulk_action_mode" msgid="6134916000015585401">"బల్క్ చర్య మోడ్‌లోకి ప్రవేశిస్తున్నారు"</string>
+    <string name="description_leaving_bulk_action_mode" msgid="4355853387639765529">"బల్క్ చర్య మోడ్ నుండి నిష్క్రమించారు"</string>
+    <string name="description_selecting_bulk_action_mode" msgid="7228565941043117618">"<xliff:g id="NAMEORNUMBER">%1$s</xliff:g> ఎంచుకోబడింది"</string>
+    <string name="description_unselecting_bulk_action_mode" msgid="6450971299622386060">"<xliff:g id="NAMEORNUMBER">%1$s</xliff:g> ఎంపిక తీసివేయబడింది"</string>
+    <string name="description_call_log_play_button" msgid="2349845005022431438">"వాయిస్ మెయిల్ ప్లే చేయండి"</string>
+    <string name="description_view_contact" msgid="3940984937384372665">"<xliff:g id="NAME">%1$s</xliff:g> పరిచయాన్ని వీక్షించండి"</string>
+    <string name="description_call" msgid="1532402285334775372">"<xliff:g id="NAME">%1$s</xliff:g>కు కాల్ చేయి"</string>
+    <string name="description_contact_details" msgid="3341280873855253464">"<xliff:g id="NAMEORNUMBER">%1$s</xliff:g> యొక్క సంప్రదింపు వివరాలు"</string>
+    <string name="description_spam_contact_details" msgid="5592578752881528368">"అనుమానాస్పద స్పామ్ కాలర్ <xliff:g id="NAMEORNUMBER">%1$s</xliff:g> సంప్రదింపు వివరాలు"</string>
+    <string name="description_num_calls" msgid="6483594535796216044">"<xliff:g id="NUMBEROFCALLS">%1$s</xliff:g> కాల్‌లు."</string>
+    <string name="description_video_call" msgid="3738199365585751727">"వీడియో కాల్."</string>
+    <string name="description_send_text_message" msgid="8450269896765568596">"<xliff:g id="NAME">%1$s</xliff:g>కి SMS పంపు"</string>
+    <string name="description_call_log_unheard_voicemail" msgid="2258821530650350303">"వినని వాయిస్ మెయిల్"</string>
+    <string name="description_start_voice_search" msgid="8380022725973015261">"వాయిస్ శోధనను ప్రారంభించండి"</string>
+    <string name="menu_callNumber" msgid="1540773545517152514">"<xliff:g id="NUMBER">%s</xliff:g>కు కాల్ చేయి"</string>
+    <string name="voicemail" msgid="8899540969000957954">"వాయిస్ మెయిల్"</string>
+    <string name="callDetailsShortDurationFormat" msgid="8517030531054801588">"<xliff:g id="SECONDS">%s</xliff:g> సెక"</string>
+    <string name="callDetailsDurationFormat" msgid="6826204822350034578">"<xliff:g id="MINUTES">%s</xliff:g> నిమి <xliff:g id="SECONDS">%s</xliff:g> సెక"</string>
+    <string name="description_cancel_multi_select" msgid="3930475950253360461">"సమూహ చర్యల మోడ్‌ను రద్దు చేస్తుంది"</string>
+    <string name="voicemailMultiSelectDeleteConfirm" msgid="5110048580165845200">"తొలగించు"</string>
+    <string name="voicemailMultiSelectDeleteCancel" msgid="4574287102479485528">"రద్దు చేయి"</string>
+    <string name="voicemailMultiSelectDialogTitle" msgid="150612124416146690">"ఎంచుకున్న <xliff:g id="VOICEMAILORVOICEMAILS">%1$s</xliff:g>ను తొలగించాలా?"</string>
+    <string name="voicemailMultiSelectActionBarTitle" msgid="5840745438559612431">"<xliff:g id="NUMBER">%1$s</xliff:g> ఎంచుకోబడ్డాయి"</string>
+    <plurals name="delete_voicemails_confirmation_dialog_title" formatted="false" msgid="2452264208706783960">
+      <item quantity="other">"<b>"ఈ వాయిస్ మెయిల్‌లను తొలగించాలా? "</b>"</item>
+      <item quantity="one">"<b>"ఈ వాయిస్ మెయిల్‌ను తొలగించాలా? "</b>"</item>
+    </plurals>
+    <string name="voicemailCallLogToday" msgid="709034597866788854">@string/call_log_header_today</string>
+    <string name="voicemailCallLogDateTimeFormat" msgid="4998985002074131268">"<xliff:g id="DATE">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g>కి"</string>
+    <string name="voicemailDurationFormat" msgid="5649961568550898382">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration" msgid="7224408726047155205">"<xliff:g id="DATEANDTIME">%1$s</xliff:g> • <xliff:g id="DURATION">%2$s</xliff:g>"</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="6317935773274628316">"ఈ నంబర్‌కు కాల్ చేయలేరు"</string>
+    <string name="dialog_voicemail_not_ready_message" msgid="6437173108290752604">"వాయిస్ మెయిల్ సెటప్ చేయడానికి, మెను &gt; సెట్టింగ్‌లకు వెళ్లండి."</string>
+    <string name="dialog_voicemail_airplane_mode_message" msgid="1044988101597862159">"వాయిస్ మెయిల్‌కు కాల్ చేయడానికి, ముందుగా ఎయిర్‌ప్లైన్ మోడ్‌ను ఆఫ్ చేయండి."</string>
+    <string name="contact_list_loading" msgid="7919825236309749352">"లోడ్ చేస్తోంది…"</string>
+    <string name="imei" msgid="5214505934662768308">"IMEI"</string>
+    <string name="meid" msgid="3333779521535224028">"MEID"</string>
+    <string name="simContacts_emptyLoading" msgid="6205424276735652071">"సిమ్ కార్డు నుండి లోడ్ చేస్తోంది…"</string>
+    <string name="simContacts_title" msgid="7961069730386378887">"సిమ్ కార్డు పరిచయాలు"</string>
+    <string name="voice_search_not_available" msgid="6546240433719732905">"వాయిస్ శోధన అందుబాటులో లేదు"</string>
+    <string name="call_not_available" msgid="7850148370757361155">"ఫోన్ అనువర్తనం నిలిపివేయబడినందున ఫోన్ కాల్ చేయలేరు."</string>
+    <string name="dialer_hint_find_contact" msgid="2023214799381149808">"పరిచయాలను శోధించు"</string>
+    <string name="block_number_search_hint" msgid="5377706079015099416">"నంబర్ జోడించండి లేదా పరిచయాల్లో శోధించండి"</string>
+    <string name="call_log_all_empty" msgid="3955572868518162004">"మీ కాల్ చరిత్ర ఖాళీగా ఉంది"</string>
+    <string name="call_log_all_empty_action" msgid="852218280136243014">"కాల్ చేయి"</string>
+    <string name="call_log_missed_empty" msgid="7094936030845062214">"మీరు సమాధానమివ్వని కాల్‌లు ఏవీ కలిగి లేరు."</string>
+    <string name="call_log_voicemail_empty" msgid="273623903423275178">"మీ వాయిస్‌మెయిల్ ఇన్‌బాక్స్ ఖాళీగా ఉంది."</string>
+    <string name="show_favorites_only" msgid="8089163582448737837">"ఇష్టమైనవాటిని మాత్రమే చూపు"</string>
+    <string name="call_log_activity_title" msgid="1275242727244945527">"కాల్ చరిత్ర"</string>
+    <string name="call_log_all_title" msgid="6042262422192020327">"అన్నీ"</string>
+    <string name="call_log_missed_title" msgid="17254005889268015">"సమాధానం ఇవ్వనవి"</string>
+    <string name="call_log_voicemail_title" msgid="6504826963256437971">"వాయిస్ మెయిల్"</string>
+    <string name="tab_speed_dial" msgid="6616404752227561075">"స్పీడ్ డయల్"</string>
+    <string name="tab_history" msgid="7420269368689503596">"కాల్ చరిత్ర"</string>
+    <string name="tab_all_contacts" msgid="5531733977693943015">"పరిచయాలు"</string>
+    <string name="tab_voicemail" msgid="2458548090088316246">"వాయిస్ మెయిల్"</string>
+    <string name="favorite_hidden" msgid="1077010324849831399">"ఇష్టమైనవాటి నుండి తీసివేయబడింది"</string>
+    <string name="favorite_hidden_undo" msgid="5660280521854875320">"చర్య రద్దు చేయి"</string>
+    <string name="search_shortcut_call_number" msgid="8847918845036880688">"<xliff:g id="NUMBER">%s</xliff:g>కు కాల్ చేయి"</string>
+    <string name="search_shortcut_create_new_contact" msgid="2076374262874775425">"కొత్త పరిచయాన్ని సృష్టించు"</string>
+    <string name="search_shortcut_add_to_contact" msgid="701957016267810766">"పరిచయానికి జోడించు"</string>
+    <string name="search_shortcut_send_sms_message" msgid="1065069206532610854">"SMS పంపు"</string>
+    <string name="search_shortcut_make_video_call" msgid="3746207985295802095">"వీడియో కాల్ చేయండి"</string>
+    <string name="search_shortcut_block_number" msgid="4587283230665805776">"నంబర్‌ను బ్లాక్ చేయి"</string>
+    <string name="num_missed_calls" msgid="5171791753696317082">"<xliff:g id="NUMBER">%s</xliff:g> కొత్త సమాధానం ఇవ్వని కాల్‌లు"</string>
+    <string name="speed_dial_empty" msgid="3346406399966039505">"మీ స్పీడ్ డయల్‌లో ఇంకా ఎవరూ లేరు"</string>
+    <string name="speed_dial_empty_add_favorite_action" msgid="3470360584638103033">"ఇష్టమైన వారిని జోడించండి"</string>
+    <string name="contact_tooltip" msgid="8871614660967439999">"అన్ని నంబర్‌లను చూడటానికి చిత్రాన్ని తాకండి లేదా క్రమం మార్చడానికి తాకి, కాసేపు అలాగే ఉంచండి"</string>
+    <string name="remove_contact" msgid="2353580570488923668">"తీసివేయి"</string>
+    <string name="select_all" msgid="408601760696146245">"అన్నీ ఎంచుకోండి"</string>
+    <string name="call_log_action_video_call" msgid="7565549950343850819">"వీడియో కాల్"</string>
+    <string name="call_log_action_send_message" msgid="6948727362660115554">"సందేశాన్ని పంపు"</string>
+    <string name="call_log_action_details" msgid="2091370737371449501">"కాల్ వివరాలు"</string>
+    <string name="call_log_action_share_voicemail" msgid="8888250682433873454">"దీనికి/వీటికి పంపు …"</string>
+    <string name="call_log_action_call" msgid="682724094251540583">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>కి కాల్ చేయి"</string>
+    <string name="description_incoming_missed_call" msgid="8292535799379230029">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g> నుండి <xliff:g id="TIMEOFCALL">^3</xliff:g> <xliff:g id="PHONEACCOUNT">^4</xliff:g>కి మిస్డ్ కాల్ ఇచ్చారు."</string>
+    <string name="description_incoming_answered_call" msgid="3920182963103160610">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g> నుండి <xliff:g id="TIMEOFCALL">^3</xliff:g> <xliff:g id="PHONEACCOUNT">^4</xliff:g>కి చేసిన కాల్‌కి సమాధానం ఇచ్చారు."</string>
+    <string name="description_unread_voicemail" msgid="145170985013419170">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> నుండి చదవని వాయిస్ మెయిల్, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_read_voicemail" msgid="5585559881573227732">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> నుండి వాయిస్ మెయిల్, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_outgoing_call" msgid="543952487882919924">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>కి <xliff:g id="TIMEOFCALL">^3</xliff:g> <xliff:g id="PHONEACCOUNT">^4</xliff:g> నుండి కాల్ చేసారు."</string>
+    <string name="call_log_via_number" msgid="1340307109806397650">"<xliff:g id="NUMBER">%1$s</xliff:g> ద్వారా"</string>
+    <string name="call_log_via_number_phone_account" msgid="7698459003033083416">"<xliff:g id="NUMBER">%2$s</xliff:g> ద్వారా <xliff:g id="PHONEACCOUNT">%1$s</xliff:g>"</string>
+    <string name="description_call_action" msgid="4042796498169106545">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>కి కాల్ చేయి"</string>
+    <string name="description_video_call_action" msgid="1237090968588659650">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>కి వీడియో కాల్."</string>
+    <string name="description_voicemail_action" msgid="3290143432403538524">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> నుండి వచ్చిన వాయిస్ మెయిల్‌ను వినండి"</string>
+    <string name="description_voicemail_play" msgid="737337291418966183">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> నుండి వచ్చిన వాయిస్ మెయిల్‌ను ప్లే చేయండి"</string>
+    <string name="description_voicemail_pause" msgid="2400610579956333661">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> నుండి వచ్చిన వాయిస్ మెయిల్‌ను పాజ్ చేయండి"</string>
+    <string name="description_voicemail_delete" msgid="5305509366448404410">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> నుండి వచ్చిన వాయిస్ మెయిల్‌ను తొలగించండి"</string>
+    <plurals name="description_voicemail_unread" formatted="false" msgid="7562208210097630839">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> కొత్త వాయిస్‌మెయిల్‌లు</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> కొత్త వాయిస్‌మెయిల్</item>
+    </plurals>
+    <string name="description_create_new_contact_action" msgid="1928282350281564130">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> కోసం పరిచయాన్ని సృష్టించండి"</string>
+    <string name="description_add_to_existing_contact_action" msgid="5485618682525057684">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>ని ఇప్పటికే ఉన్న పరిచయానికి జోడించండి"</string>
+    <string name="description_details_action" msgid="2061866409737706174">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> యొక్క కాల్ వివరాలు"</string>
+    <string name="toast_entry_removed" msgid="6821678859297454838">"కాల్ చరిత్ర నుండి తొలగించబడింది"</string>
+    <string name="call_log_header_today" msgid="1576119097475845293">"ఈ రోజు"</string>
+    <string name="call_log_header_yesterday" msgid="5616077776205329563">"నిన్న"</string>
+    <string name="call_log_header_other" msgid="4940676886254217644">"పాతది"</string>
+    <string name="call_detail_list_header" msgid="1174040565810083473">"కాల్‌ల జాబితా"</string>
+    <string name="voicemail_speaker_on" msgid="3151333608926996668">"స్పీకర్‌ను ఆన్ చేయి."</string>
+    <string name="voicemail_speaker_off" msgid="2530064206962034201">"స్పీకర్‌ను ఆఫ్ చేయి."</string>
+    <string name="voicemail_play_faster" msgid="2742012169751409677">"వేగంగా ప్లే చేయి."</string>
+    <string name="voicemail_play_slower" msgid="868588128301087884">"నెమ్మదిగా ప్లే చేయి."</string>
+    <string name="voicemail_play_start_pause" msgid="3874823480278334664">"ప్లేబ్యాక్‌ను ప్రారంభించు లేదా పాజ్ చేయి."</string>
+    <string name="display_options_title" msgid="3880091801055797975">"ప్రదర్శన ఎంపికలు"</string>
+    <string name="sounds_and_vibration_title" msgid="3075050000721181384">"ధ్వనులు మరియు వైబ్రేషన్"</string>
+    <string name="accessibility_settings_title" msgid="3329027650429831820">"ప్రాప్యత సామర్థ్యం"</string>
+    <string name="ringtone_title" msgid="8377174189894648486">"ఫోన్ రింగ్‌టోన్"</string>
+    <string name="vibrate_on_ring_title" msgid="631441314790960485">"కాల్‌ల కోసం వైబ్రేట్ కూడా చేయి"</string>
+    <string name="dtmf_tone_enable_title" msgid="3273762431523939277">"కీప్యాడ్ టోన్‌లు"</string>
+    <string name="dtmf_tone_length_title" msgid="534096029202438539">"కీప్యాడ్ టోన్ వ్యవధి"</string>
+  <string-array name="dtmf_tone_length_entries">
+    <item msgid="3136353015227162823">"సాధారణం"</item>
+    <item msgid="5376841175538523822">"ఎక్కువ నిడివి"</item>
+  </string-array>
+    <string name="respond_via_sms_setting_title" msgid="8008181606657693452">"శీఘ్ర ప్రతిస్పందనలు"</string>
+    <string name="call_settings_label" msgid="7824611757200960807">"కాల్‌లు"</string>
+    <string name="manage_blocked_numbers_label" msgid="16823761991832273">"కాల్ బ్లాక్ చేయడం"</string>
+    <string name="voicemail_settings_label" msgid="4594299554519920570">"వాయిస్ మెయిల్"</string>
+    <string name="voicemail_settings_select_sim_title" msgid="129296966967476845">"వాయిస్ మెయిల్ సెట్టింగ్‌ల కోసం SIM ఎంచుకోండి"</string>
+    <string name="blocked_numbers_disabled_emergency_header_label" msgid="6936696532562923971">"కాల్ బ్లాకింగ్ తాత్కాలికంగా ఆఫ్ అయ్యింది"</string>
+    <string name="blocked_numbers_disabled_emergency_desc" msgid="5484785225285297040">"మీరు గత 48 గంటల వ్యవధిలో ఈ ఫోన్ నుండి అత్యవసర సేవలను సంప్రదించినందున కాల్ బ్లాకింగ్ నిలిపివేయబడింది. 48 గంటల వ్యవధి ముగిసిన తర్వాత ఇది స్వయంచాలకంగా పునఃప్రారంభించబడుతుంది."</string>
+    <string name="import_send_to_voicemail_numbers_label" msgid="7821890095264297681">"నంబర్‌లను దిగుమతి చేయి"</string>
+    <string name="blocked_call_settings_import_description" msgid="1819412052545228965">"మీరు ఇంతకుముందే కొంతమంది కాలర్‌లను స్వయంచాలకంగా ఇతర అనువర్తనాల ద్వారా వాయిస్ మెయిల్‌కి పంపేందుకు గుర్తు పెట్టారు."</string>
+    <string name="blocked_call_settings_view_numbers_button" msgid="3332727948554356704">"నంబర్‌లను వీక్షించండి"</string>
+    <string name="blocked_call_settings_import_button" msgid="7319111700387470727">"దిగుమతి చేయి"</string>
+    <string name="description_blocked_number_list_delete" msgid="2139644216858370740">"నంబర్‌ను అన్‌బ్లాక్ చేయి"</string>
+    <string name="addBlockedNumber" msgid="3053473735238295551">"నంబర్‌ను జోడించండి"</string>
+    <string name="block_number_footer_message_vvm" msgid="7955326304033982368">"ఈ నంబర్‌ల నుండి కాల్‌లు బ్లాక్ చేయబడతాయి మరియు వాయిస్‌మెయిల్‌లు స్వయంచాలకంగా తొలగించబడతాయి."</string>
+    <string name="block_number_footer_message_no_vvm" msgid="1152684139070471665">"ఈ నంబర్‌ల నుండి కాల్‌లు బ్లాక్ చేయబడతాయి, కానీ వాటి నుండి ఇప్పటికీ వాయిస్‌మెయిల్‌లు పంపబడవచ్చు."</string>
+    <string name="block_list" msgid="4701585783411870782">"బ్లాక్ చేయబడిన నంబర్‌లు"</string>
+    <string name="alreadyBlocked" msgid="5483253180532475653">"<xliff:g id="NUMBER">%1$s</xliff:g> ఇప్పటికే బ్లాక్ చేయబడింది."</string>
+    <string name="phone_account_settings_label" msgid="8372485478006965920">"కాల్ చేసే ఖాతాలు"</string>
+    <string name="permission_multiple_turn_on" msgid="5679888820253829400">"అనుమతులను సెట్ చేయి"</string>
+    <string name="permission_no_speeddial" msgid="8487215628510596753">"స్పీడ్ డయల్‌ను ప్రారంభించడానికి, పరిచయాల అనుమతిని ఆన్ చేయండి."</string>
+    <string name="permission_no_calllog" msgid="4053705651238775784">"మీ కాల్ లాగ్‌ను చూడటానికి, ఫోన్ అనుమతిని ఆన్ చేయండి."</string>
+    <string name="permission_no_voicemail" msgid="1908142679289209291">"మీ వాయిస్ మెయిల్‌ను ప్రాప్యత చేయడానికి, ఫోన్ అనుమతిని ఆన్ చేయండి."</string>
+    <string name="permission_no_search" msgid="2424710404207193826">"మీ పరిచయాలను శోధించడానికి, పరిచయాల అనుమతులను ఆన్ చేయండి."</string>
+    <string name="permission_place_call" msgid="8686908130349369423">"కాల్ చేయడానికి, ఫోన్ అనుమతిని ఆన్ చేయండి."</string>
+    <string name="toast_cannot_write_system_settings" msgid="1108307781918782515">"సిస్టమ్ సెట్టింగ్‌లకు వ్రాయడం కోసం ఫోన్ అనువర్తనానికి అనుమతి లేదు."</string>
+    <string name="blocked_number_call_log_label" msgid="4212282846299997693">"బ్లాక్ చేయబడింది"</string>
+    <string name="call_log_action_block_report_number" msgid="7302636538668696729">"బ్లాక్ చేయి/స్పామ్‌గానివేదించు"</string>
+    <string name="call_log_action_block_number" msgid="5048188386501998865">"నంబర్‌ను బ్లాక్ చేయి"</string>
+    <string name="call_log_action_remove_spam" msgid="2045319806318398403">"స్పామ్ కాదు"</string>
+    <string name="call_log_action_unblock_number" msgid="6100117033288448758">"నంబర్‌ను అన్‌బ్లాక్ చేయి"</string>
+    <string name="spam_number_call_log_label" msgid="2678431398326811131">"స్పామ్"</string>
+    <string name="call_composer_connection_failed" msgid="6776461585447831242">"<xliff:g id="NAME">%1$s</xliff:g> ఆఫ్‌లైన్‌లో ఉన్నందున వారిని చేరుకోవడం సాధ్యపడదు"</string>
+    <string name="about_phone_label" msgid="582991354677973731">"పరిచయం"</string>
+    <string name="view_conversation" msgid="7895904782094119702">"వీక్షించండి"</string>
+    <string name="ec_data_deleted" msgid="4794880345545827107">"కాల్ తొలగించబడింది. ఈ కాల్‌లో భాగస్వామ్యం చేయబడిన జోడింపులను సందేశాల అనువర్తనంలో వీక్షించండి మరియు తొలగించండి."</string>
+    <string name="multiple_ec_data_deleted" msgid="2971579891973176316">"కాల్ తొలగించబడింది. కాల్‌ల్లో భాగస్వామ్యం చేయబడిన జోడింపులను సందేశాల అనువర్తనంలో వీక్షించండి మరియు తొలగించండి."</string>
+
+
+    <string name="build_version_label" msgid="3876300343684966840">"బిల్డ్ సంస్కరణ"</string>
+    <string name="open_source_license_detail_label" msgid="2860076509914623912">"ఓపెన్ సోర్స్ సాఫ్ట్‌వేర్ యొక్క లైసెన్స్ వివరాలు"</string>
+    <string name="licenseActivityLabel" msgid="8258726177561826066">"ఓపెన్ సోర్స్ లైసెన్స్‌లు"</string>
+    <string name="privacy_policy_label" msgid="6567158248788870442">"గోప్యతా విధానం"</string>
+    <string name="terms_of_service_label" msgid="6788126078040996084">"సేవా నిబంధనలు"</string>
+
+
+    <string name="unknown" msgid="7932659017139013277">"తెలియదు"</string>
+    <string name="unknown_counter" msgid="7452889151953704159">"<xliff:g id="UNKNOWN">%s</xliff:g> <xliff:g id="ID">%d</xliff:g>"</string>
+    <string name="payphone" msgid="7106361320283710387">"పే ఫోన్"</string>
+    <string name="launcherActivityLabel" msgid="9034868428899993166">"ఫోన్"</string>
+    <string name="video_call" msgid="8914878391104612532">"వీడియో కాల్"</string>
+    <string name="call" msgid="3699617769606114168">"కాల్ చేయి"</string>
+
+
+ <string name="toast_text_copied" msgid="8979281391599667362">"వచనం కాపీ చేయబడింది"</string>
+    <string name="copy_text" msgid="5890820280087874642">"క్లిప్‌బోర్డ్‌కు కాపీ చేయి"</string>
+    <string name="call_custom" msgid="3041673234638990874">"<xliff:g id="CUSTOM">%s</xliff:g>కు కాల్ చేయండి"</string>
+    <string name="call_home" msgid="125893483593803791">"ఇంటికి కాల్ చేయండి"</string>
+    <string name="call_mobile" msgid="967589404494150813">"మొబైల్‌కు కాల్ చేయండి"</string>
+    <string name="call_work" msgid="6040550697395300892">"కార్యాలయానికి కాల్ చేయండి"</string>
+    <string name="call_fax_work" msgid="5260192771364592922">"కార్యాలయ ఫ్యాక్స్‌కు కాల్ చేయండి"</string>
+    <string name="call_fax_home" msgid="5174311195081144124">"ఇంటి ఫ్యాక్స్‌కు కాల్ చేయండి"</string>
+    <string name="call_pager" msgid="6814149227741274161">"పేజర్‌కు కాల్ చేయండి"</string>
+    <string name="call_other" msgid="5536385588712587235">"కాల్ చేయండి"</string>
+    <string name="call_callback" msgid="6314019862718112786">"కాల్‌బ్యాక్‌కు కాల్ చేయండి"</string>
+    <string name="call_car" msgid="3197417098027764954">"కారుకు కాల్ చేయండి"</string>
+    <string name="call_company_main" msgid="2557663310028446397">"కంపెనీ ప్రధాన నంబర్‌కు కాల్ చేయండి"</string>
+    <string name="call_isdn" msgid="4691270442763649522">"ISDNకి కాల్ చేయండి"</string>
+    <string name="call_main" msgid="3293707608770407814">"ప్రధాన నంబర్‌కు కాల్ చేయండి"</string>
+    <string name="call_other_fax" msgid="4724521984879021465">"ఫ్యాక్స్‌కు కాల్ చేయండి"</string>
+    <string name="call_radio" msgid="8942441419845057942">"రేడియోకు కాల్ చేయండి"</string>
+    <string name="call_telex" msgid="2031514461660668351">"టెలెక్స్‌కు కాల్ చేయండి"</string>
+    <string name="call_tty_tdd" msgid="7807210224965727701">"TTY/TDDకి కాల్ చేయండి"</string>
+    <string name="call_work_mobile" msgid="2716342732938578495">"కార్యాలయ మొబైల్‌కు కాల్ చేయండి"</string>
+    <string name="call_work_pager" msgid="3791778749827366574">"కార్యాలయ పేజర్‌కు కాల్ చేయండి"</string>
+    <string name="call_assistant" msgid="4177478845473789294">"<xliff:g id="ASSISTANT">%s</xliff:g>కు కాల్ చేయండి"</string>
+    <string name="call_mms" msgid="4958811711741872901">"MMSకు కాల్ చేయండి"</string>
+    <string name="call_by_shortcut" msgid="4623082183552111045">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (కాల్ చేయి)"</string>
+    <string name="sms_custom" msgid="8785368968605026317">"<xliff:g id="CUSTOM">%s</xliff:g>కు వచనం పంపండి"</string>
+    <string name="sms_home" msgid="3527719551060295243">"ఇంటికి వచనం పంపండి"</string>
+    <string name="sms_mobile" msgid="8883045857887736518">"మొబైల్‌కు వచనం పంపండి"</string>
+    <string name="sms_work" msgid="4158595439553450966">"కార్యాలయానికి వచనం పంపండి"</string>
+    <string name="sms_fax_work" msgid="5483726627718055248">"కార్యాలయం ఫ్యాక్స్‌కు వచనం పంపండి"</string>
+    <string name="sms_fax_home" msgid="9219265155770746077">"ఇంటి ఫ్యాక్స్‌కు వచనం పంపండి"</string>
+    <string name="sms_pager" msgid="4901085068525193933">"పేజర్‌కు వచనం పంపండి"</string>
+    <string name="sms_other" msgid="1742702947993285933">"వచనం పంపండి"</string>
+    <string name="sms_callback" msgid="5833483630377538308">"కాల్‌బ్యాక్‌కు వచనం పంపండి"</string>
+    <string name="sms_car" msgid="4314577266154395174">"కారుకు వచనం పంపండి"</string>
+    <string name="sms_company_main" msgid="2308160928487360705">"కంపెనీ ప్రధాన నంబర్‌కు వచనం పంపండి"</string>
+    <string name="sms_isdn" msgid="6394300346179302542">"ISDNకి వచనం పంపండి"</string>
+    <string name="sms_main" msgid="8908087742014140774">"ప్రధాన నంబర్‌కు వచనం పంపండి"</string>
+    <string name="sms_other_fax" msgid="8768455473295405427">"ఫ్యాక్స్‌కు వచనం పంపండి"</string>
+    <string name="sms_radio" msgid="855555176531704682">"రేడియోకు వచనం పంపండి"</string>
+    <string name="sms_telex" msgid="6269029276223252719">"టెలెక్స్‌కు వచనం పంపండి"</string>
+    <string name="sms_tty_tdd" msgid="6229057354509192444">"TTY/TDDకి వచనం పంపండి"</string>
+    <string name="sms_work_mobile" msgid="2155975469329969840">"కార్యాలయ మొబైల్‌కు వచనం పంపండి"</string>
+    <string name="sms_work_pager" msgid="8500140274906830742">"కార్యాలయ పేజర్‌కు వచనం పంపండి"</string>
+    <string name="sms_assistant" msgid="8513548482745330818">"<xliff:g id="ASSISTANT">%s</xliff:g>కు వచనం పంపండి"</string>
+    <string name="sms_mms" msgid="5187888900503248542">"MMSకు వచనం పంపండి"</string>
+    <string name="sms_by_shortcut" msgid="8005496406639963582">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (సందేశం పంపు)"</string>
+    <string name="clearFrequentsConfirmation_title" msgid="7465690215775790243">"తరచుగా సంప్రదించినవాటిని క్లియర్ చేయాలా?"</string>
+    <string name="clearFrequentsConfirmation" msgid="5750611450893399198">"మీరు పరిచయాలు మరియు ఫోన్ అనువర్తనాల్లో తరచుగా సంప్రదించిన పరిచయాల జాబితాను తీసివేస్తారు మరియు స్క్రాచ్ నుండి మీ చిరునామా ప్రాధాన్యతలను తెలుసుకునేలా ఇమెయిల్ అనువర్తనాలను నిర్బంధిస్తారు."</string>
+    <string name="clearFrequentsProgress_title" msgid="2057183487226039454">"తరచుగా సంప్రదించినవాటిని క్లియర్ చేస్తోంది…"</string>
+    <string name="status_available" msgid="2648156525685472626">"అందుబాటులో ఉన్నారు"</string>
+    <string name="status_away" msgid="2298688367552893953">"దూరంగా ఉన్నారు"</string>
+    <string name="status_busy" msgid="5990832098713248503">"బిజీగా ఉన్నారు"</string>
+    <string name="contactsList" msgid="8806067891419291513">"పరిచయాలు"</string>
+    <string name="contact_suggestions" msgid="3324166754807120006">"ఉత్తమ సూచనలు"</string>
+    <string name="local_invisible_directory" msgid="4723238462733650090">"ఇతరం"</string>
+    <string name="directory_search_label" msgid="4621215895484025229">"డైరెక్టరీ"</string>
+    <string name="directory_search_label_work" msgid="7679326282707414897">"కార్యాలయ డైరెక్టరీ"</string>
+    <string name="local_search_label" msgid="907622822323119235">"అన్ని పరిచయాలు"</string>
+    <string name="local_suggestions_search_label" msgid="1178575146224386118">"సూచనలు"</string>
+    <string name="user_profile_contacts_list_header" msgid="9180620153828279580">"నేను"</string>
+    <string name="search_results_searching" msgid="3710866752172327451">"శోధిస్తోంది..."</string>
+    <string name="foundTooManyContacts" msgid="3685002426663730799">"<xliff:g id="COUNT">%d</xliff:g> కంటే ఎక్కువ కనుగొనబడ్డాయి."</string>
+    <string name="listFoundAllContactsZero" msgid="1151813986040671916">"పరిచయాలు లేవు"</string>
+    <plurals name="searchFoundContacts" formatted="false" msgid="3733009742282085433">
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> కనుగొనబడ్డాయి</item>
+      <item quantity="one">1 కనుగొనబడింది</item>
+    </plurals>
+    <string name="description_quick_contact_for" msgid="6327207399167819147">"<xliff:g id="NAME">%1$s</xliff:g> కోసం శీఘ్ర సంప్రదింపు"</string>
+    <string name="missing_name" msgid="978606963362745020">"(పేరు లేదు)"</string>
+    <string name="favoritesFrequentCalled" msgid="4646019087163449555">"తరచుగా కాల్ చేయబడినవి"</string>
+    <string name="favoritesFrequentContacted" msgid="946588736701567509">"తరచుగా సంప్రదించబడినవి"</string>
+    <string name="description_view_contact_detail" msgid="2428742401208561136">"పరిచయాన్ని వీక్షించండి"</string>
+    <string name="list_filter_phones" msgid="8763316061763437182">"ఫోన్ నంబర్‌లు గల అన్ని పరిచయాలు"</string>
+    <string name="list_filter_phones_work" msgid="7083575404573422965">"కార్యాలయ ప్రొఫైల్ పరిచయాలు"</string>
+    <string name="view_updates_from_group" msgid="9011641093168385729">"నవీకరణలను వీక్షించండి"</string>
+    <string name="account_phone" msgid="7067809073194061035">"పరికరంలో మాత్రమే ఉంటుంది, సమకాలీకరించబడదు"</string>
+    <string name="nameLabelsGroup" msgid="7730465833159557471">"పేరు"</string>
+    <string name="nicknameLabelsGroup" msgid="6310556912361840029">"మారుపేరు"</string>
+    <string name="full_name" msgid="648186563998465740">"పేరు"</string>
+    <string name="name_given" msgid="5096576006314820536">"మొదటి పేరు"</string>
+    <string name="name_family" msgid="6646235805198547467">"చివరి పేరు"</string>
+    <string name="name_prefix" msgid="9215326539658838">"పేరు ఆదిప్రత్యయం"</string>
+    <string name="name_middle" msgid="703755205331582769">"మధ్య పేరు"</string>
+    <string name="name_suffix" msgid="5777083390282548702">"పేరు అంత్యప్రత్యయం"</string>
+    <string name="name_phonetic" msgid="1650870996361663089">"ఫొనెటిక్ పేరు"</string>
+    <string name="name_phonetic_given" msgid="618812334274603170">"ఫొనెటిక్ మొదటి పేరు"</string>
+    <string name="name_phonetic_middle" msgid="4826820763384625538">"ఫొనెటిక్ మధ్య పేరు"</string>
+    <string name="name_phonetic_family" msgid="379905191212930771">"ఫొనెటిక్ చివరి పేరు"</string>
+    <string name="phoneLabelsGroup" msgid="169661929021355548">"ఫోన్"</string>
+    <string name="emailLabelsGroup" msgid="2249752810477488833">"ఇమెయిల్ చేయండి"</string>
+    <string name="postalLabelsGroup" msgid="6772000590189142253">"చిరునామా"</string>
+    <string name="imLabelsGroup" msgid="5718066254237364731">"IM"</string>
+    <string name="organizationLabelsGroup" msgid="1101996309241601435">"సంస్థ"</string>
+    <string name="relationLabelsGroup" msgid="53866051664600053">"సంబంధం"</string>
+    <string name="eventLabelsGroup" msgid="1236970042646618489">"ప్రత్యేక తేదీ"</string>
+    <string name="sms" msgid="7574344928185328095">"వచన సందేశం"</string>
+    <string name="postal_address" msgid="1804707930129674200">"చిరునామా"</string>
+    <string name="ghostData_company" msgid="2554310786296833424">"కంపెనీ"</string>
+    <string name="ghostData_title" msgid="4994968731830184837">"శీర్షిక"</string>
+    <string name="label_notes" msgid="2050255313694219786">"గమనికలు"</string>
+    <string name="label_sip_address" msgid="8883266182575965926">"SIP"</string>
+    <string name="websiteLabelsGroup" msgid="1630734286462186790">"వెబ్‌సైట్"</string>
+    <string name="groupsLabel" msgid="2694002798416868728">"సమూహాలు"</string>
+    <string name="email_home" msgid="889830029388962171">"ఇంటికి ఇమెయిల్ చేయండి"</string>
+    <string name="email_mobile" msgid="4487686436743741150">"మొబైల్‌కు ఇమెయిల్ చేయండి"</string>
+    <string name="email_work" msgid="4223487303344613528">"కార్యాలయానికి ఇమెయిల్ చేయండి"</string>
+    <string name="email_other" msgid="4246411900126012062">"ఇమెయిల్ చేయండి"</string>
+    <string name="email_custom" msgid="7246580894327511013">"<xliff:g id="CUSTOM">%s</xliff:g>కు ఇమెయిల్ చేయండి"</string>
+    <string name="email" msgid="2807318537887091606">"ఇమెయిల్ చేయండి"</string>
+    <string name="postal_street" msgid="6918171741240802474">"వీధి"</string>
+    <string name="postal_pobox" msgid="2962203483168878561">"PO పెట్టె"</string>
+    <string name="postal_neighborhood" msgid="5275280978237639716">"పరిసరాలు"</string>
+    <string name="postal_city" msgid="8674569121430005628">"నగరం"</string>
+    <string name="postal_region" msgid="1730369286225469192">"రాష్ట్రం"</string>
+    <string name="postal_postcode" msgid="4450700741261990439">"జిప్ కోడ్"</string>
+    <string name="postal_country" msgid="232670707458768148">"దేశం"</string>
+    <string name="map_home" msgid="4181131107392126938">"ఇంటి చిరునామాను వీక్షించండి"</string>
+    <string name="map_work" msgid="5723471185992684400">"కార్యాలయ చిరునామాను వీక్షించండి"</string>
+    <string name="map_other" msgid="2253764780863500516">"చిరునామాను వీక్షించండి"</string>
+    <string name="map_custom" msgid="5581743097882436157">"<xliff:g id="CUSTOM">%s</xliff:g> చిరునామాను వీక్షించండి"</string>
+    <string name="chat_aim" msgid="2954364435497941659">"AIMని ఉపయోగించి చాట్ చేయండి"</string>
+    <string name="chat_msn" msgid="3130135239071228678">"Windows Liveని ఉపయోగించి చాట్ చేయండి"</string>
+    <string name="chat_yahoo" msgid="3233552142326865347">"Yahooని ఉపయోగించి చాట్ చేయండి"</string>
+    <string name="chat_skype" msgid="6486703981390592425">"Skypeని ఉపయోగించి చాట్ చేయండి"</string>
+    <string name="chat_qq" msgid="786924280665740019">"QQని ఉపయోగించి చాట్ చేయండి"</string>
+    <string name="chat_gtalk" msgid="7914674177243078035">"Google Talkని ఉపయోగించి చాట్ చేయండి"</string>
+    <string name="chat_icq" msgid="3292934726414765801">"ICQని ఉపయోగించి చాట్ చేయండి"</string>
+    <string name="chat_jabber" msgid="6701542313597880204">"Jabberని ఉపయోగించి చాట్ చేయండి"</string>
+    <string name="chat" msgid="1020428260359370236">"చాట్ చేయండి"</string>
+    <string name="description_minus_button" msgid="2659092981396583806">"తొలగించు"</string>
+    <string name="expand_collapse_name_fields_description" msgid="9005732230091761802">"పేరు ఫీల్డ్‌లను విస్తరింపజేయి లేదా కుదించు"</string>
+    <string name="expand_collapse_phonetic_name_fields_description" msgid="3450645489720595412">"ఫొనెటిక్ పేరు ఫీల్డ్‌లను విస్తరింపజేస్తుంది లేదా కుదిస్తుంది"</string>
+    <string name="list_filter_all_accounts" msgid="473782314881473992">"అన్ని పరిచయాలు"</string>
+    <string name="menu_done" msgid="1817505539263889535">"పూర్తయింది"</string>
+    <string name="menu_doNotSave" msgid="4174389775790094548">"రద్దు చేయి"</string>
+    <string name="listAllContactsInAccount" msgid="3486378621592995630">"<xliff:g id="NAME">%s</xliff:g>లో పరిచయాలు"</string>
+    <string name="listCustomView" msgid="5306282632413086731">"అనుకూల వీక్షణలో పరిచయాలు"</string>
+    <string name="listSingleContact" msgid="8620818791932382627">"ఒక పరిచయం"</string>
+    <string name="dialog_new_contact_account" msgid="3089718960461539156">"దిగుమతి చేసిన పరిచయాలను దీనికి సేవ్ చేయి:"</string>
+    <string name="import_from_sim" msgid="4025122666048801234">"సిమ్ కార్డు నుండి దిగుమతి చేయండి"</string>
+    <string name="import_from_sim_summary" msgid="7347530878981811858">"<xliff:g id="SIM_NAME">^1</xliff:g> - <xliff:g id="SIM_NUMBER">^2</xliff:g> SIM నుండి దిగుమతి చేయండి"</string>
+    <string name="import_from_sim_summary_no_number" msgid="2311025421424473798">"<xliff:g id="SIM_NAME">%1$s</xliff:g> SIM నుండి దిగుమతి చేయండి"</string>
+    <string name="import_from_vcf_file" product="default" msgid="2755992524137862594">".vcf ఫైల్ నుండి దిగుమతి చేయి"</string>
+    <string name="cancel_import_confirmation_message" msgid="1112854508504355394">"<xliff:g id="FILENAME">%s</xliff:g> యొక్క దిగుమతిని రద్దు చేయాలా?"</string>
+    <string name="cancel_export_confirmation_message" msgid="8507822905973961704">"<xliff:g id="FILENAME">%s</xliff:g> యొక్క ఎగుమతిని రద్దు చేయాలా?"</string>
+    <string name="cancel_vcard_import_or_export_failed" msgid="3633975947527306665">"vCard దిగుమతి/ఎగుమతిని రద్దు చేయడం సాధ్యపడలేదు"</string>
+    <string name="fail_reason_unknown" msgid="4526834573707737085">"తెలియని లోపం."</string>
+    <string name="fail_reason_could_not_open_file" msgid="2564113989228646444">"\"<xliff:g id="FILE_NAME">%s</xliff:g>\"ని ఈ కారణంగా తెరవడం సాధ్యపడలేదు: <xliff:g id="EXACT_REASON">%s</xliff:g>."</string>
+    <string name="fail_reason_could_not_initialize_exporter" msgid="1391801997398257839">"ఎక్స్‌పోర్టర్‌ను ప్రారంభించడం సాధ్యపడలేదు: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\"."</string>
+    <string name="fail_reason_no_exportable_contact" msgid="5905140440417594395">"ఎగమతి చేయగల పరిచయం లేదు."</string>
+    <string name="missing_required_permission" msgid="3977319568919699902">"మీరు అవసరమయ్యే అనుమతిని నిలిపివేసారు."</string>
+    <string name="fail_reason_error_occurred_during_export" msgid="4022425018935814242">"ఎగుమతి సమయంలో లోపం సంభవించింది: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\"."</string>
+    <string name="fail_reason_too_long_filename" msgid="1782388695897859448">"అవసరమైన ఫైల్ పేరు (\"<xliff:g id="FILENAME">%s</xliff:g>\") చాలా పెద్దదిగా ఉంది."</string>
+    <string name="fail_reason_io_error" msgid="5610192449460803752">"I/O లోపం"</string>
+    <string name="fail_reason_low_memory_during_import" msgid="5383581106403466715">"తగినంత మెమరీ లేదు. ఫైల్ చాలా పెద్దదిగా ఉండవచ్చు."</string>
+    <string name="fail_reason_vcard_parse_error" msgid="7166381747317969497">"ఊహించని కారణంగా vCardను అన్వయించడం సాధ్యపడలేదు."</string>
+    <string name="fail_reason_not_supported" msgid="6529299412185608834">"ఆకృతికి మద్దతు లేదు."</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info" msgid="2071371622333685552">"అందించిన vCard ఫైల్(లు) యొక్క మెటా డేటా సమాచారాన్ని సేకరించడం సాధ్యపడలేదు."</string>
+    <string name="fail_reason_failed_to_read_files" msgid="7364342120566067558">"ఒకటి లేదా అంతకంటే ఎక్కువ ఫైల్‌లను (%s) దిగుమతి చేయడం సాధ్యపడలేదు."</string>
+    <string name="exporting_vcard_finished_title" msgid="6969111823207538096">"<xliff:g id="FILENAME">%s</xliff:g>ని ఎగుమతి చేయడం పూర్తయింది."</string>
+    <string name="exporting_vcard_finished_title_fallback" msgid="3456404588243153606">"పరిచయాలను ఎగుమతి చేయడం పూర్తయింది."</string>
+    <string name="exporting_vcard_finished_toast" msgid="864313687240614505">"పరిచయాలను ఎగుమతి చేయడం పూర్తయింది, పరిచయాలను భాగస్వామ్యం చేయడానికి నోటిఫికేషన్‌ను క్లిక్ చేయండి."</string>
+    <string name="touch_to_share_contacts" msgid="8684610418619975866">"పరిచయాలను భాగస్వామ్యం చేయడానికి నొక్కండి."</string>
+    <string name="exporting_vcard_canceled_title" msgid="4160930279977285925">"<xliff:g id="FILENAME">%s</xliff:g>ని ఎగుమతి చేయడం రద్దు చేయబడింది."</string>
+    <string name="exporting_contact_list_title" msgid="874590947793345632">"పరిచయ డేటాను ఎగుమతి చేస్తోంది"</string>
+    <string name="exporting_contact_list_message" msgid="3263011604569444133">"పరిచయ డేటా ఎగుమతి చేయబడుతోంది."</string>
+    <string name="composer_failed_to_get_database_infomation" msgid="443743100925218813">"డేటాబేస్ సమాచారాన్ని పొందడం సాధ్యపడలేదు."</string>
+    <string name="composer_has_no_exportable_contact" msgid="1492572045460138455">"ఎగుమతి చేయదగిన పరిచయాలు ఏవీ లేవు. మీరు మీ పరికరంలో పరిచయాలు కలిగి ఉన్నప్పటికీ, కొందరు డేటా ప్రదాతలు పరిచయాలను పరికరం నుండి ఎగుమతి చేయడానికి అనుమతించకుండా ఉండవచ్చు."</string>
+    <string name="composer_not_initialized" msgid="7126008930727708362">"vCard కంపోజర్ సరిగ్గా ప్రారంభించబడలేదు."</string>
+    <string name="exporting_contact_failed_title" msgid="5400878429352404258">"ఎగుమతి చేయడం సాధ్యపడలేదు"</string>
+    <string name="exporting_contact_failed_message" msgid="1453772164161663415">"పరిచయ డేటా ఎగుమతి చేయబడలేదు.\nకారణం: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="importing_vcard_description" msgid="1206078719084863234">"<xliff:g id="NAME">%s</xliff:g>ని దిగుమతి చేస్తోంది"</string>
+    <string name="reading_vcard_failed_title" msgid="4759080957711586257">"vCard డేటాను చదవడం సాధ్యపడలేదు"</string>
+    <string name="reading_vcard_canceled_title" msgid="3650078934530953275">"vCard డేటాను చదవడం రద్దయింది"</string>
+    <string name="importing_vcard_finished_title" msgid="1543368028741535966">"vCard <xliff:g id="FILENAME">%s</xliff:g>ని దిగుమతి చేయడం పూర్తయింది"</string>
+    <string name="importing_vcard_canceled_title" msgid="2454436016819017436">"<xliff:g id="FILENAME">%s</xliff:g>ని దిగుమతి చేయడం రద్దయింది"</string>
+    <string name="vcard_import_will_start_message" msgid="6013286576133592154">"<xliff:g id="FILENAME">%s</xliff:g> కొద్దిసేపట్లో దిగుమతి చేయబడుతుంది."</string>
+    <string name="vcard_import_will_start_message_with_default_name" msgid="3172538521736189687">"ఫైల్ కొద్దిసేపట్లో దిగుమతి చేయబడుతుంది."</string>
+    <string name="vcard_import_request_rejected_message" msgid="7620870852106507620">"vCard దిగుమతి అభ్యర్థన తిరస్కరించబడింది. తర్వాత మళ్లీ ప్రయత్నించండి."</string>
+    <string name="vcard_export_will_start_message" msgid="4480722586633503615">"<xliff:g id="FILENAME">%s</xliff:g> కొద్దిసేపట్లో ఎగుమతి చేయబడుతుంది."</string>
+    <string name="vcard_export_will_start_message_fallback" msgid="8746087280091814150">"ఫైల్ కాసేపట్లో ఎగుమతి చేయబడుతుంది."</string>
+    <string name="contacts_export_will_start_message" msgid="5950262391638837408">"పరిచయాలు కొద్ది సేపట్లో ఎగుమతి చేయబడతాయి."</string>
+    <string name="vcard_export_request_rejected_message" msgid="4132430982367686579">"vCard ఎగుమతి అభ్యర్థన తిరస్కరించబడింది. తర్వాత మళ్లీ ప్రయత్నించండి."</string>
+    <string name="vcard_unknown_filename" msgid="7576066884501578965">"పరిచయం"</string>
+    <string name="caching_vcard_message" msgid="7778832851741500256">"vCard(ల)ను స్థానిక తాత్కాలిక నిల్వకు కాష్ చేస్తోంది. అసలు దిగుమతి కొద్దిసేపట్లో ప్రారంభమవుతుంది."</string>
+    <string name="vcard_import_failed" msgid="4135012206186446511">"vCardని దిగుమతి చేయడం సాధ్యపడలేదు."</string>
+    <string name="nfc_vcard_file_name" msgid="7174382505002702431">"పరిచయం NFC ద్వారా స్వీకరించబడింది"</string>
+    <string name="confirm_export_title" msgid="9164673124925342242">"పరిచయాలను ఎగుమతి చేయాలా?"</string>
+    <string name="caching_vcard_title" msgid="8092335276785174935">"కాష్ చేస్తోంది"</string>
+    <string name="progress_notifier_message" msgid="2778542784808529164">"<xliff:g id="TOTAL_NUMBER">%s</xliff:g>లో <xliff:g id="CURRENT_NUMBER">%s</xliff:g> దిగుమతి చేస్తోంది: <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="export_to_vcf_file" product="default" msgid="6148360234812424446">".vcf ఫైల్‌కు ఎగుమతి చేయి"</string>
+    <string name="display_options_sort_list_by" msgid="3541875948367831228">"ఇలా క్రమబద్ధీకరించు"</string>
+    <string name="display_options_sort_by_given_name" msgid="4316351826810346915">"మొదటి పేరు"</string>
+    <string name="display_options_sort_by_family_name" msgid="5238820876940079000">"చివరి పేరు"</string>
+    <string name="display_options_view_names_as" msgid="4204204205736735618">"పేరు ఆకృతి"</string>
+    <string name="display_options_view_given_name_first" msgid="2308026973021171020">"ముందుగా మొదటి పేరు"</string>
+    <string name="display_options_view_family_name_first" msgid="987430497292428242">"ముందుగా చివరి పేరు"</string>
+    <string name="default_editor_account" msgid="1826578934497338822">"కొత్త పరిచయాల కోసం డిఫాల్ట్ ఖాతా"</string>
+    <string name="sync_contact_metadata_dialog_title" msgid="7839882899954930421">"పరిచయ మెటాడేటాను సమకాలీకరించు"</string>
+    <string name="setting_about" msgid="5253319937596745755">"పరిచయాల గురించి"</string>
+    <string name="activity_title_settings" msgid="2398428034981372932">"సెట్టింగ్‌లు"</string>
+    <string name="share_visible_contacts" msgid="6775120441469077620">"కనిపించే పరిచయాలను భాగస్వామ్యం చేయండి"</string>
+    <string name="share_visible_contacts_failure" msgid="1365755167786055470">"కనిపించే పరిచయాలను భాగస్వామ్యం చేయడం విఫలమైంది."</string>
+    <string name="share_favorite_contacts" msgid="9138011836074034817">"ఇష్టమైన పరిచయాలను భాగస్వామ్యం చేయి"</string>
+    <string name="share_contacts" msgid="6505699963814423437">"పరిచయాలన్నీ భాగస్వామ్యం చేయి"</string>
+    <string name="share_contacts_failure" msgid="6027174424732204424">"పరిచయాలను భాగస్వామ్యం చేయడం విఫలమైంది."</string>
+    <string name="dialog_import_export" msgid="3052335055728876529">"పరిచయాలను దిగుమతి/ఎగుమతి చేయండి"</string>
+    <string name="dialog_import" msgid="8508508044485808554">"పరిచయాలను దిగుమతి చేయి"</string>
+    <string name="share_error" msgid="5642622973966851784">"ఈ పరిచయాన్ని భాగస్వామ్యం చేయడం సాధ్యపడదు."</string>
+    <string name="no_contact_to_share" msgid="9115223064368461904">"భాగస్వామ్యం చేయడానికి పరిచయాలు ఏవీ లేవు."</string>
+    <string name="menu_search" msgid="1241802591112035764">"శోధించండి"</string>
+    <string name="hint_findContacts" msgid="1913556676649442295">"పరిచయాలను కనుగొనండి"</string>
+    <string name="contactsFavoritesLabel" msgid="5198982253222486561">"ఇష్టమైనవి"</string>
+    <string name="listTotalAllContactsZero" msgid="8436822729781033537">"పరిచయాలు లేవు."</string>
+    <string name="listTotalAllContactsZeroCustom" msgid="6072173682342248964">"కనిపించే పరిచయాలు ఏవీ లేవు."</string>
+    <string name="listTotalAllContactsZeroStarred" msgid="5008410556001744528">"ఇష్టమైనవి లేవు"</string>
+    <string name="listTotalAllContactsZeroGroup" msgid="6782377127075025237">"<xliff:g id="NAME">%s</xliff:g>లో పరిచయాలు లేవు"</string>
+    <string name="menu_clear_frequents" msgid="5358271535047496120">"తరచుగా ఉన్నవాటిని క్లియర్ చేయి"</string>
+    <string name="menu_select_sim" msgid="3960197724339200637">"సిమ్ కార్డ్‌ను ఎంచుకోండి"</string>
+    <string name="menu_accounts" msgid="8092083497106343280">"ఖాతాలను నిర్వహించు"</string>
+    <string name="menu_import_export" msgid="8834601882032781755">"దిగుమతి చేయి/ఎగుమతి చేయి"</string>
+    <string name="contact_status_update_attribution" msgid="6042601531361543253">"<xliff:g id="SOURCE">%1$s</xliff:g> ద్వారా"</string>
+    <string name="contact_status_update_attribution_with_date" msgid="3448746388181727251">"<xliff:g id="SOURCE">%2$s</xliff:g> ద్వారా <xliff:g id="DATE">%1$s</xliff:g>"</string>
+    <string name="action_menu_back_from_search" msgid="3550669942742167644">"శోధించడం ఆపివేయి"</string>
+    <string name="description_clear_search" msgid="2347258825265600782">"శోధనను క్లియర్ చేయి"</string>
+    <string name="settings_contact_display_options_title" msgid="5535295687646503547">"పరిచయ ప్రదర్శన ఎంపికలు"</string>
+    <string name="select_account_dialog_title" msgid="2673504582803359239">"ఖాతా"</string>
+    <string name="set_default_account" msgid="7966099951006467572">"కాల్‌ల కోసం ఎల్లప్పుడూ దీన్ని ఉపయోగించు"</string>
+    <string name="select_phone_account_for_calls" msgid="1784460686103423274">"దీనితో కాల్ చేయండి"</string>
+    <string name="call_with_a_note" msgid="6242261320491851133">"గమనికతో కాల్ చేయి"</string>
+    <string name="call_subject_hint" msgid="7233138753650420800">"కాల్‌తో పాటు పంపడానికి గమనికను టైప్ చేయండి ..."</string>
+    <string name="send_and_call_button" msgid="4735168294120154013">"పంపు &amp; కాల్ చేయి"</string>
+    <string name="call_subject_limit" msgid="8273208736191593939">"<xliff:g id="COUNT">%1$s</xliff:g> / <xliff:g id="LIMIT">%2$s</xliff:g>"</string>
+    <string name="call_subject_type_and_number" msgid="6338030032554019678">"<xliff:g id="TYPE">%1$s</xliff:g> <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="tab_title" msgid="3387876802026074288">"<xliff:g id="TITLE">%1$s</xliff:g> ట్యాబ్."</string>
+    <plurals name="tab_title_with_unread_items" formatted="false" msgid="8548492980702182785">
+      <item quantity="other"> <xliff:g id="TITLE_2">%1$s</xliff:g> ట్యాబ్. <xliff:g id="COUNT_3">%2$d</xliff:g> చదవని అంశాలు. </item>
+      <item quantity="one"> <xliff:g id="TITLE_0">%1$s</xliff:g> ట్యాబ్. <xliff:g id="COUNT_1">%2$d</xliff:g> చదవని అంశం. </item>
+    </plurals>
+    <string name="about_build_version" msgid="6809677213570116689">"బిల్డ్ సంస్కరణ"</string>
+    <string name="about_open_source_licenses" msgid="9071344335180981674">"ఓపెన్ సోర్స్ లైసెన్స్‌లు"</string>
+    <string name="about_open_source_licenses_summary" msgid="4662018242345608420">"ఓపెన్ సోర్స్ సాఫ్ట్‌వేర్ కోసం లైసెన్స్ వివరాలు"</string>
+    <string name="about_privacy_policy" msgid="120921692215934837">"గోప్యతా విధానం"</string>
+    <string name="about_terms_of_service" msgid="9004506174858804172">"సేవా నిబంధనలు"</string>
+    <string name="activity_title_licenses" msgid="2416018204229261875">"ఓపెన్ సోర్స్ లైసెన్స్‌లు"</string>
+    <string name="url_open_error_toast" msgid="3814442157861318482">"urlని తెరవడంలో విఫలమైంది."</string>
+    <string name="description_search_video_call" msgid="4337369876888024909">"వీడియో కాల్"</string>
+    <string name="description_search_call_and_share" msgid="4912772842755050467">"భాగస్వామ్యం చేసి, కాల్ చేయి"</string>
+
+
+
+<string name="phoneAppLabel" product="default" msgid="4266606423746318128">"ఫోన్"</string>
+    <string name="inCallLabel" msgid="8627766543550519912">"ఇన్‌కాల్UI"</string>
+    <string name="confCall" msgid="36560628097626181">"కాన్ఫరెన్స్ కాల్"</string>
+    <string name="call_lost" msgid="2082971531689406145">"కాల్ కట్ అయింది"</string>
+    <string name="wait_prompt_str" msgid="3509685348904329594">"క్రింది టోన్‌లు పంపాలా?\n"</string>
+    <string name="pause_prompt_str" msgid="5712344742516488080">"టోన్‌లు పంపుతోంది\n"</string>
+    <string name="send_button" msgid="6976782353456252579">"పంపు"</string>
+    <string name="pause_prompt_yes" msgid="4642047011233552973">"అవును"</string>
+    <string name="pause_prompt_no" msgid="4691320111774935838">"కాదు"</string>
+    <string name="wild_prompt_str" msgid="1399377741491574104">"దీనితో వైల్డ్ అక్షరాన్ని భర్తీ చేయండి"</string>
+    <string name="caller_manage_header" msgid="7358710345135355578">"కాన్ఫరెన్స్ కాల్ <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="voicemail_settings_number_label" msgid="8935904934161608885">"వాయిస్ మెయిల్ నంబర్"</string>
+    <string name="notification_dialing" msgid="9072177265772083826">"డయల్ చేస్తోంది"</string>
+    <string name="notification_missedCallTicker" msgid="238492086972857643">"<xliff:g id="MISSED_CALL_FROM">%s</xliff:g> నుండి సమాధానం ఇవ్వని కాల్"</string>
+    <string name="notification_ongoing_call" msgid="8712641937577776125">"కాల్ కొనసాగుతోంది"</string>
+    <string name="notification_ongoing_work_call" msgid="3189581218078981547">"కార్యాలయ కాల్ కొనసాగుతోంది"</string>
+    <string name="notification_ongoing_call_wifi" msgid="4393238962909277019">"మాట్లాడుతున్న Wi‑Fi కాల్"</string>
+    <string name="notification_ongoing_work_call_wifi" msgid="3169378605818323964">"మాట్లాడుతున్న Wi‑Fi కార్యాలయ కాల్"</string>
+    <string name="notification_on_hold" msgid="7141827443379205682">"హోల్డ్‌లో ఉంది"</string>
+    <string name="notification_incoming_call" msgid="7520580807513849283">"ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_call_with_photo" msgid="4360505044807517422">"ఫోటోతో ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_call_with_message" msgid="5608687985694956601">"సందేశంతో ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_call_with_location" msgid="4519498445081598767">"స్థానంతో ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_call_with_photo_message" msgid="316806247057497525">"ఫోటో మరియు సందేశంతో ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_call_with_photo_location" msgid="3523930283842222367">"ఫోటో మరియు స్థానంతో ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_call_with_message_location" msgid="319374298517482028">"సందేశం మరియు స్థానంతో ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_call_with_photo_message_location" msgid="596658237891406809">"ఫోటో, సందేశం మరియు స్థానంతో ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_call_attachments" msgid="3708414495376236948">"జోడింపులతో ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call" msgid="2867013954509930989">"ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call_with_photo" msgid="4908333121583658560">"ఫోటోతో ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call_with_message" msgid="1614505248246685319">"సందేశంతో ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call_with_location" msgid="7387284065036564352">"స్థానంతో ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call_with_photo_message" msgid="4577220919701434817">"ఫోటో మరియు సందేశంతో ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call_with_photo_location" msgid="7172208615619394502">"ఫోటో మరియు స్థానంతో ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call_with_message_location" msgid="7244079127080064796">"సందేశం మరియు స్థానంతో ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call_with_photo_message_location" msgid="513692941317253479">"ఫోటో, సందేశం, స్థానంతో ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="important_notification_incoming_call_attachments" msgid="4594375776340303751">"జోడింపులతో ముఖ్యమైన ఇన్‌కమింగ్ కాల్"</string>
+    <string name="notification_incoming_work_call" msgid="5291275092734261918">"ఇన్‌కమింగ్ కార్యాలయ కాల్"</string>
+    <string name="notification_incoming_call_wifi" msgid="1020138378061234203">"ఇన్‌కమింగ్ Wi-Fi కాల్"</string>
+    <string name="notification_incoming_work_call_wifi" msgid="3549264481033044684">"ఇన్‌కమింగ్ Wi-Fi కార్యాలయ కాల్"</string>
+    <string name="notification_incoming_spam_call" msgid="7591506944666791937">"అనుమానాస్పద స్పామ్ కాల్ వస్తోంది"</string>
+    <string name="notification_requesting_video_call" msgid="1807679328811515758">"ఇన్‌కమింగ్ వీడియో అభ్యర్థన"</string>
+    <string name="notification_network_selection_title" msgid="8639159088474275747">"సేవ లేదు"</string>
+    <string name="notification_network_selection_text" msgid="7190860774239009625">"ఎంచుకున్న నెట్‌వర్క్ (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) అందుబాటులో లేదు"</string>
+    <string name="notification_action_answer" msgid="8748275902211192568">"సమాధానం ఇవ్వండి"</string>
+    <string name="notification_action_end_call" msgid="7467258454170007765">"కాల్‌ను ముగించు"</string>
+    <string name="notification_action_answer_video" msgid="8488108892919917287">"వీడియో"</string>
+    <string name="notification_action_answer_voice" msgid="6237890905749760509">"వాయిస్"</string>
+    <string name="notification_action_accept" msgid="1272761514200507143">"ఆమోదిస్తున్నాను"</string>
+    <string name="notification_action_dismiss" msgid="3128241581632616226">"తిరస్కరించు"</string>
+    <string name="notification_external_call" msgid="2504334597315343920">"మరో పరికరంలో కాల్ జరుగుతోంది"</string>
+    <string name="notification_external_video_call" msgid="7709394856028436683">"మరో పరికరంలో వీడియో కాల్ జరుగుతోంది"</string>
+    <string name="notification_take_call" msgid="5631659438864492229">"కాల్‌ను తీయి"</string>
+    <string name="notification_take_video_call" msgid="4473387503712341390">"వీడియో కాల్‌ను తీయి"</string>
+    <string name="incall_error_power_off" msgid="3244691852792529453">"కాల్ చేయడానికి, మొదట ఎయిర్‌ప్లైన్ మోడ్‌ను ఆపివేయండి."</string>
+    <string name="incall_error_emergency_only" msgid="8313690034696753566">"నెట్‌వర్క్‌లో నమోదు కాలేదు."</string>
+    <string name="incall_error_out_of_service" msgid="5027539470868484145">"మొబైల్ నెట్‌వర్క్ అందుబాటులో లేదు."</string>
+    <string name="incall_error_no_phone_number_supplied" msgid="293343960362630925">"కాల్ చేయడానికి, చెల్లుబాటు అయ్యే నంబర్‌ను నమోదు చేయండి."</string>
+    <string name="incall_error_call_failed" msgid="5560521345862514733">"కాల్ చేయలేరు."</string>
+    <string name="incall_status_dialed_mmi" msgid="3341365334358686873">"MMI శ్రేణిని ప్రారంభిస్తోంది…"</string>
+    <string name="incall_error_supp_service_unknown" msgid="3062751096566282959">"సేవకు మద్దతు లేదు."</string>
+    <string name="incall_error_supp_service_switch" msgid="759346040980722884">"కాల్‌లను మార్చలేరు."</string>
+    <string name="incall_error_supp_service_separate" msgid="5250304200901095519">"కాల్‌ను వేరు చేయలేరు."</string>
+    <string name="incall_error_supp_service_transfer" msgid="556522021433482116">"బదిలీ చేయలేరు."</string>
+    <string name="incall_error_supp_service_conference" msgid="9211560861266632111">"సమావేశం కుదరదు."</string>
+    <string name="incall_error_supp_service_reject" msgid="2724981515194352120">"కాల్‌ను తిరస్కరించలేరు."</string>
+    <string name="incall_error_supp_service_hangup" msgid="4659922482839313098">"కాల్(ల)ను విడిచిపెట్టలేరు."</string>
+    <string name="emergency_enable_radio_dialog_title" msgid="5964415982020440543">"అత్యవసర కాల్"</string>
+    <string name="emergency_enable_radio_dialog_message" msgid="6927454354381787268">"రేడియోను ప్రారంభిస్తోంది…"</string>
+    <string name="emergency_enable_radio_dialog_retry" msgid="8760220613410560290">"సేవ లేదు. మళ్లీ ప్రయత్నిస్తోంది…"</string>
+    <string name="dial_emergency_error" msgid="6953255422990366011">"కాల్ చేయలేరు. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> అత్యవసర నంబర్ కాదు."</string>
+    <string name="dial_emergency_empty_error" msgid="6668006522178181198">"కాల్ చేయలేరు. అత్యవసర నంబర్‌ను డయల్ చేయండి."</string>
+    <string name="dialerKeyboardHintText" msgid="6275105254377292585">"డయల్ చేయడానికి కీబోర్డ్‌ను ఉపయోగించండి"</string>
+    <string name="player_started" msgid="9177182657338033086">"ప్లేయర్ ప్రారంభమైంది"</string>
+    <string name="player_stopped" msgid="5040965200339765956">"ప్లేయర్ ఆపివేయబడింది"</string>
+    <string name="camera_not_ready" msgid="3629017450703828964">"కెమెరా సిద్ధంగా లేదు"</string>
+    <string name="camera_ready" msgid="4312684554501216898">"కెమెరా సిద్ధంగా ఉంది"</string>
+    <string name="unknown_call_session_event" msgid="797786212356595358">"తెలియని కాల్ సెషన్ ఉదంతం"</string>
+    <string name="other_settings" msgid="2537377721890761197">"ఇతర కాల్ సెట్టింగ్‌లు"</string>
+    <string name="goPrivate" msgid="5269514638004595378">"ప్రైవేట్‌గా వెళ్లు"</string>
+    <string name="selectContact" msgid="1703433172800564849">"పరిచయాన్ని ఎంచుకోండి"</string>
+    <string name="preference_category_ringtone" msgid="8566115267004890115">"రింగ్‌టోన్ &amp; వైబ్రేట్"</string>
+    <string name="manageConferenceLabel" msgid="3589379023518128318">"కాన్ఫరెన్స్ కాల్‌ను నిర్వహించు"</string>
+    <string name="emergency_call_dialog_number_for_display" msgid="461645337084699104">"అత్యవసర నంబర్"</string>
+    <string name="child_number" msgid="3398257437107259682">"<xliff:g id="CHILD_NUMBER">%s</xliff:g> ద్వారా"</string>
+    <string name="person_contact_context_title" msgid="9186980175313563725">"ఇటీవలి సందేశాలు"</string>
+    <string name="business_contact_context_title" msgid="4796616668776688978">"వ్యాపార సంస్థ సమాచారం"</string>
+    <string name="distance_imperial_away" msgid="66546464027126106">"<xliff:g id="DISTANCE">%.1f</xliff:g> మై. దూరంలో ఉంది"</string>
+    <string name="distance_metric_away" msgid="4535553190850854545">"<xliff:g id="DISTANCE">%.1f</xliff:g> కి.మీ దూరంలో ఉంది"</string>
+    <string name="display_address" msgid="2909385132133621873">"<xliff:g id="STREET_ADDRESS">%1$s</xliff:g>, <xliff:g id="LOCALITY">%2$s</xliff:g>"</string>
+    <string name="open_time_span" msgid="3333746415188434992">"<xliff:g id="OPEN_TIME">%1$s</xliff:g> - <xliff:g id="CLOSE_TIME">%2$s</xliff:g>"</string>
+    <string name="opening_hours" msgid="2908934145495754020">"<xliff:g id="EARLIER_TIMES">%1$s</xliff:g>, <xliff:g id="LATER_TIME">%2$s</xliff:g>"</string>
+    <string name="opens_tomorrow_at" msgid="2896787795283597856">"రేపు <xliff:g id="OPEN_TIME">%s</xliff:g>కి తెరవబడుతుంది"</string>
+    <string name="opens_today_at" msgid="4701005560156621184">"ఈరోజు <xliff:g id="OPEN_TIME">%s</xliff:g>కి తెరవబడుతుంది"</string>
+    <string name="closes_today_at" msgid="2668928851103904896">"<xliff:g id="CLOSE_TIME">%s</xliff:g>కి మూసివేయబడుతుంది"</string>
+    <string name="closed_today_at" msgid="4203311397205549440">"ఈరోజు <xliff:g id="CLOSE_TIME">%s</xliff:g>కి మూసివేయబడింది"</string>
+    <string name="open_now" msgid="5897306702060039512">"ఇప్పుడు తెరిచి ఉంది"</string>
+    <string name="closed_now" msgid="3962291301467974921">"ఇప్పుడు మూసివేయబడింది"</string>
+    <string name="non_spam_notification_title" msgid="3290544768406546372">"<xliff:g id="NUMBER">%1$s</xliff:g> తెలుసా?"</string>
+    <string name="spam_notification_title" msgid="2439276063775520534">"<xliff:g id="NUMBER">%1$s</xliff:g> స్పామ్ కాదా?"</string>
+    <string name="spam_notification_block_report_toast_text" msgid="6844067640633690292">"<xliff:g id="NUMBER">%1$s</xliff:g> బ్లాక్ చేయబడింది మరియు కాల్ స్పామ్ వలె నివేదించబడింది."</string>
+    <string name="spam_notification_not_spam_toast_text" msgid="8321993839027073785">"<xliff:g id="NUMBER">%1$s</xliff:g> నుండి కాల్ స్పామ్ కాదని నివేదించబడింది."</string>
+    <string name="spam_notification_non_spam_call_collapsed_text" msgid="6482092382445364016">"స్పామ్ నంబర్‌ను పరిచయాలకు జోడించడానికి లేదా బ్లాక్ చేయడానికి నొక్కండి."</string>
+    <string name="spam_notification_non_spam_call_expanded_text" msgid="3598209932872915536">"ఈ నంబర్ నుండి మీకు కాల్ రావడం ఇదే మొదటిసారి. ఈ కాల్ స్పామ్ అయితే, మీరు ఈ నంబర్‌ను బ్లాక్ చేసి, నివేదించవచ్చు."</string>
+    <string name="spam_notification_spam_call_collapsed_text" msgid="3865687645128037638">"స్పామ్ కాదని నివేదించడానికి లేదా దాన్ని బ్లాక్ చేయడానికి నొక్కండి."</string>
+    <string name="spam_notification_spam_call_expanded_text" msgid="1062029525759401658">"మాకు ఇది స్పామర్ అయ్యి ఉండవచ్చని అనుమానం కలిగింది. ఈ కాల్ స్పామ్ కాకుంటే, మా పొరపాటును నివేదించడానికి స్పామ్ కాదని నొక్కండి."</string>
+    <string name="spam_notification_report_spam_action_text" msgid="4829510418690824538">"బ్లాక్ చేసి, నివేదించు"</string>
+    <string name="spam_notification_add_contact_action_text" msgid="307315138401483232">"పరిచయాన్ని జోడించు"</string>
+    <string name="spam_notification_not_spam_action_text" msgid="2576048366011852090">"స్పామ్ కాదు"</string>
+    <string name="spam_notification_block_spam_action_text" msgid="80045727259264724">"నంబర్‌ను బ్లాక్ చేయి"</string>
+    <string name="spam_notification_dialog_add_contact_action_text" msgid="5619696845681999506">"పరిచయాలకు జోడించండి"</string>
+    <string name="spam_notification_dialog_block_report_spam_action_text" msgid="1821506089128547428">"బ్లాక్ చేసి, స్పామ్ అని నివేదించు"</string>
+    <string name="spam_notification_dialog_was_not_spam_action_text" msgid="4953789750391355251">"స్పామ్ కాదు"</string>
+    <string name="callFailed_simError" msgid="4587775795711340072">"సిమ్ లేదు లేదా సిమ్ లోపం"</string>
+    <string name="conference_caller_disconnect_content_description" msgid="2821988368803183644">"కాల్‌ను ముగిస్తుంది"</string>
+    <string name="conference_call_name" msgid="8189987124611337174">"కాన్ఫరెన్స్ కాల్"</string>
+    <string name="generic_conference_call_name" msgid="1546941472424243894">"కాల్‌లో ఉన్నారు"</string>
+    <string name="video_call_wifi_to_lte_handover_toast" msgid="2108633957233856099">"మొబైల్ డేటాను ఉపయోగించి కాల్‌ను కొనసాగిస్తోంది…"</string>
+    <string name="video_call_lte_to_wifi_failed_title" msgid="1343446383310594456">"Wi-Fi నెట్‌వర్క్‌కి మార్చడం సాధ్యపడలేదు"</string>
+    <string name="video_call_lte_to_wifi_failed_message" msgid="3703332569739939335">"వీడియో కాల్ మొబైల్ నెట్‌వర్క్‌లో కొనసాగుతుంది. ప్రామాణిక డేటా ఛార్జీలు వర్తించవచ్చు."</string>
+    <string name="video_call_lte_to_wifi_failed_do_not_show" msgid="7609115874511223150">"దీన్ని మళ్లీ చూపవద్దు"</string>
+
+
+
+    <string name="voicemail_settings_with_label" msgid="563926539137546586">"వాయిస్ మెయిల్ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="voicemail_settings_title" msgid="6685263321755930738">"వాయిస్ మెయిల్"</string>
+    <string name="voicemail_notifications_preference_title" msgid="3490553930230492405">"నోటిఫికేషన్‌లు"</string>
+    <string name="voicemail_advanced_settings_title" msgid="6390900339808156711">"అధునాతన సెట్టింగ్‌లు"</string>
+    <string name="voicemail_visual_voicemail_switch_title" msgid="3158454817165714998">"దృశ్యమాన వాయిస్ మెయిల్"</string>
+    <string name="voicemail_visual_voicemail_auto_archive_switch_title" msgid="7120443850486401455">"అదనపు బ్యాకప్ మరియు నిల్వ"</string>
+    <string name="voicemail_set_pin_preference_title" msgid="1034691230818233684">"PINని సెట్ చేయండి"</string>
+    <string name="voicemail_change_pin_preference_title" msgid="8944570865151211693">"PINను మార్చండి"</string>
+    <string name="voicemail_change_pin_preference_summary_disable" msgid="2787334822298063691">"PINని మార్చడానికి తప్పనిసరిగా దృశ్యమాన వాయిస్ మెయిల్‌ను ప్రారంభించాలి"</string>
+    <string name="voicemail_change_pin_preference_summary_not_activated" msgid="8794039647258533633">"దృశ్యమాన వాయిస్ మెయిల్‌ ఇంకా సక్రియం కాలేదు, దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి"</string>
+    <string name="vm_change_pin_old_pin" msgid="3732582036597386047">"పాత PIN"</string>
+    <string name="vm_change_pin_new_pin" msgid="5167496290646066333">"కొత్త PIN"</string>
+    <string name="vm_change_pin_progress_message" msgid="4143209637626661679">"దయచేసి వేచి ఉండండి."</string>
+    <string name="vm_change_pin_error_too_short" msgid="2825020644385639921">"కొత్త PIN చాలా చిన్నదిగా ఉంది."</string>
+    <string name="vm_change_pin_error_too_long" msgid="683260438529171998">"కొత్త PIN చాలా పొడవుగా ఉంది."</string>
+    <string name="vm_change_pin_error_too_weak" msgid="5865254034338293113">"కొత్త PIN చాలా బలహీనంగా ఉంది. శక్తివంతమైన పాస్‌వర్డ్‌లో వరుస శ్రేణిలో అక్షరాలు/అంకెలు లేదా పునరావృత అంకెలు ఉండకూడదు."</string>
+    <string name="vm_change_pin_error_mismatch" msgid="3682667971009913553">"పాత PIN సరిపోలలేదు."</string>
+    <string name="vm_change_pin_error_invalid" msgid="4317397281749196545">"కొత్త PIN చెల్లని అక్షరాలను కలిగి ఉంది."</string>
+    <string name="vm_change_pin_error_system_error" msgid="5972056058776852411">"PINని మార్చడం సాధ్యపడలేదు"</string>
+    <string name="vvm_unsupported_message_format" msgid="2746490691815392491">"మద్దతు లేని సందేశ రకం, వినేందుకు <xliff:g id="NUMBER">%s</xliff:g>కి కాల్ చేయండి."</string>
+    <string name="change_pin_title" msgid="1363830310845461697">"వాయిస్ మెయిల్ PINని మార్చండి"</string>
+    <string name="change_pin_continue_label" msgid="9184635195162827832">"కొనసాగించు"</string>
+    <string name="change_pin_cancel_label" msgid="7258783861113501519">"రద్దు చేయి"</string>
+    <string name="change_pin_ok_label" msgid="4527043915415428629">"సరే"</string>
+    <string name="change_pin_enter_old_pin_header" msgid="1375728090965833028">"మీ పాత PINని నిర్ధారించండి"</string>
+    <string name="change_pin_enter_old_pin_hint" msgid="1654231195871094175">"కొనసాగించడానికి మీ వాయిస్ మెయిల్ PINని నమోదు చేయండి."</string>
+    <string name="change_pin_enter_new_pin_header" msgid="7142620840890909719">"కొత్త PINని సెట్ చేయండి"</string>
+    <string name="change_pin_enter_new_pin_hint" msgid="1289662932759932217">"PIN తప్పనిసరిగా <xliff:g id="MIN">%1$d</xliff:g>-<xliff:g id="MAX">%2$d</xliff:g> అంకెల మధ్య ఉండాలి."</string>
+    <string name="change_pin_confirm_pin_header" msgid="7282604363655862136">"మీ PINను నిర్ధారించండి"</string>
+    <string name="change_pin_confirm_pins_dont_match" msgid="8626742552205369433">"PINలు సరిపోలలేదు"</string>
+    <string name="change_pin_succeeded" msgid="6869403202124894671">"వాయిస్ మెయిల్ PIN నవీకరించబడింది"</string>
+    <string name="change_pin_system_error" msgid="5762853042379833829">"PINని సెట్ చేయడం సాధ్యపడలేదు"</string>
+
+
+    <string name="urgent" msgid="5271653973625093934">"అత్యవసరం! దయచేసి కాల్ ఎత్తండి!"</string>
+    <string name="want_to_chat" msgid="847333669248949914">"చాట్ చేయాలనుకుంటున్నారా?"</string>
+    <string name="quick_question" msgid="3501160802390214092">"త్వరిత ప్రశ్న…"</string>
+    <string name="message_composer_custom_message_hint" msgid="2061100708804604835">"అనుకూల సందేశాన్ని వ్రాయండి"</string>
+    <string name="send_and_call" msgid="3749091015058610762">"పంపి, కాల్ చేయి"</string>
+    <string name="share_and_call" msgid="8934144481838868674">"భాగస్వా. చేసి, కాల్ చేయి"</string>
+    <string name="gallery_item_description" msgid="7600601724204579471">"చిత్రం <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g>"</string>
+    <string name="gallery_item_description_no_date" msgid="2059198895441426838">"చిత్రం"</string>
+    <string name="camera_switch_to_still_mode" msgid="1881982437979592567">"ఫోటో తీస్తుంది"</string>
+    <string name="camera_media_failure" msgid="8979549551450965882">"కెమెరా చిత్రాన్ని లోడ్ చేయడం సాధ్యపడలేదు"</string>
+    <string name="allow" msgid="8637148297403066623">"అనుమతించు"</string>
+    <string name="camera_permission_text" msgid="7863231776480341614">"ఫోటోను తీయడానికి, కెమెరాకు ప్రాప్యతను అందించండి"</string>
+    <string name="gallery_permission_text" msgid="4102566850658919346">"చిత్రాన్ని భాగస్వామ్యం చేయడానికి, మీడియాకు ప్రాప్యతను అందించండి"</string>
+    <string name="description_call_composer_camera" msgid="388088245837924914">"చిత్రాన్ని తీస్తుంది"</string>
+    <string name="description_call_composer_photo" msgid="6449208314952246454">"ఫోటోను ఎంచుకోండి"</string>
+    <string name="description_call_composer_message" msgid="9132362446000908550">"సందేశాన్ని పంపుతుంది"</string>
+    <string name="image_sent_messages" msgid="6520870555040566229">"సందేశాల అనువర్తనం ద్వారా ఫోటోను పంపాము"</string>
+    <string name="message_sent_messages" msgid="6286576951151541098">"సందేశాల అనువర్తనం ద్వారా సందేశాన్ని పంపాము"</string>
+
+    <string name="migrate_blocked_numbers_dialog_title" msgid="7823962296457673809">"కొత్త, సరళీకృత బ్లాకింగ్"</string>
+    <string name="migrate_blocked_numbers_dialog_message" msgid="8309736147266462485">"మిమ్మల్ని మెరుగైన రీతిలో సంరక్షించడానికి, ఫోన్ బ్లాకింగ్ పని చేసే విధానాన్ని మార్చాలి. అప్పుడు మీరు బ్లాక్ చేసిన నంబర్‌ల నుండి కాల్‌లు మరియు వచన సందేశాలు ఆపివేయబడతాయి మరియు ఆ బ్లాక్ చేయబడిన నంబర్‌లను ఇతర అనువర్తనాలకు కూడా భాగస్వామ్యం చేయవచ్చు."</string>
+    <string name="migrate_blocked_numbers_dialog_allow_button" msgid="5192836471557751367">"అనుమతించు"</string>
+    <string name="block_number_confirmation_title" msgid="2699521227461376076">"<xliff:g id="NUMBER">%1$s</xliff:g>ని బ్లాక్ చేయాలా?"</string>
+    <string name="block_number_confirmation_message_vvm" msgid="6501105244172290939">"ఈ నంబర్ నుండి కాల్‌లు బ్లాక్ చేయబడతాయి మరియు వాయిస్‌మెయిల్‌లు స్వయంచాలకంగా తొలగించబడతాయి."</string>
+    <string name="block_number_confirmation_message_no_vvm" msgid="8236641245709649882">"ఈ నంబర్ నుండి కాల్‌లు బ్లాక్ చేయబడతాయి, కానీ కాలర్ ఇప్పటికీ మీకు వాయిస్‌మెయిల్‌లు పంపగలరు."</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="8487449683723062644">"మీరు ఇకపై ఈ నంబర్ నుండి కాల్‌లు లేదా వచన సందేశాలను స్వీకరించరు."</string>
+    <string name="block_number_ok" msgid="739786082788038932">"బ్లాక్ చేయి"</string>
+    <string name="unblock_number_confirmation_title" msgid="7897778825085659941">"<xliff:g id="NUMBER">%1$s</xliff:g>ని అన్‌బ్లాక్ చేయాలా?"</string>
+    <string name="unblock_number_ok" msgid="5089057152966269355">"అన్‌బ్లాక్ చేయి"</string>
+    <string name="invalidNumber" msgid="6270918250761754967">"<xliff:g id="NUMBER">%1$s</xliff:g> చెల్లదు."</string>
+    <string name="snackbar_number_blocked" msgid="5760234822413921845">"<xliff:g id="NUMBER">%1$s</xliff:g> బ్లాక్ చేయబడింది"</string>
+    <string name="snackbar_number_unblocked" msgid="7941296274123990585">"<xliff:g id="NUMBER">%1$s</xliff:g> అన్‌బ్లాక్ చేయబడింది"</string>
+    <string name="block_number_undo" msgid="5158120911892491697">"చర్యరద్దు"</string>
+    <string name="send_to_voicemail_import_failed" msgid="1012752662074208237">"దిగుమతి విఫలమైంది"</string>
+    <string name="call_blocking_disabled_notification_title" msgid="7211352205255347489">"48 గంటల పాటు కాల్ బ్లాకింగ్ నిలిపివేయబడింది"</string>
+    <string name="call_blocking_disabled_notification_text" msgid="141384084865180722">"అత్యవసర కాల్ చేసినందున నిలిపివేయబడింది."</string>
+    <string name="block_report_number_alert_title" msgid="2740581989824959611">"<xliff:g id="NUMBER">%1$s</xliff:g>ని బ్లాక్ చేయాలా?"</string>
+    <string name="block_report_number_alert_details" msgid="2652479394593143562">"మీరు ఇకపై ఈ నంబర్ నుండి కాల్‌లు స్వీకరించరు."</string>
+    <string name="block_number_alert_details" msgid="715942751312046429">"<xliff:g id="TEXT">%1$s</xliff:g> ఈ కాల్ స్పామ్ వలె నివేదించబడుతుంది."</string>
+    <string name="unblock_number_alert_details" msgid="8696070817026870606">"ఈ నంబర్ అన్‌బ్లాక్ చేసి, స్పామ్ కాదని నివేదించబడుతుంది. భవిష్యత్తు కాల్‌లు స్పామ్‌గా గుర్తించబడవు."</string>
+    <string name="unblock_report_number_alert_title" msgid="2221901995393696882">"<xliff:g id="NUMBER">%1$s</xliff:g>ని అన్‌బ్లాక్ చేయాలా?"</string>
+    <string name="report_not_spam_alert_button" msgid="3244953565919894995">"నివేదించు"</string>
+    <string name="report_not_spam_alert_title" msgid="395961923213504916">"పొరపాటును నివేదించాలా?"</string>
+    <string name="report_not_spam_alert_details" msgid="4463730683530824797">"ఇకపై <xliff:g id="NUMBER">%1$s</xliff:g> నుండి భావి కాల్‌లు స్పామ్‌గా గుర్తించబడవు."</string>
+    <string name="checkbox_report_as_spam_action" msgid="1549159682170273798">"కాల్‌ను స్పామ్‌గా నివేదించు"</string>
+
+
+
+    <string name="call_details" msgid="5063658079729839605">"కాల్ వివరాలు"</string>
+    <string name="delete" msgid="2141020674108406737">"తొలగించు"</string>
+    <string name="call_details_copy_number" msgid="4265479408878990796">"నంబర్‌ను కాపీ చేయి"</string>
+    <string name="call_details_edit_number" msgid="8718476514903513624">"కాల్ చేసే ముందు నంబర్‌ను సవరించు"</string>
+    <string name="call_details_report_call_id" msgid="8857541295264421217">"అనిర్దిష్టంగా ఉండే నంబర్‌ను నివేదించు"</string>
+    <string name="sent_a_photo" msgid="3978670717462979502">"ఫోటో పంపబడింది"</string>
+    <string name="received_a_photo" msgid="3528953225576480505">"ఫోటో స్వీకరించబడింది"</string>
+    <string name="message_in_quotes" msgid="3270574830115828365">"\"<xliff:g id="MESSAGE">%1$s</xliff:g>\""</string>
+    <string name="report_caller_id_dialog_title" msgid="145323726250371695">"చెల్లని నంబర్‌ను నివేదించండి"</string>
+    <string name="report_caller_id_failed" msgid="1471904930106125702">"నంబర్‌ను నివేదించడం సాధ్యపడలేదు"</string>
+    <string name="report_caller_id_toast" msgid="5494870403429969932">"నంబర్ నివేదించబడింది"</string>
+
+
+    <string name="type_incoming" msgid="5727636795656199810">"ఇన్‌కమింగ్ కాల్"</string>
+    <string name="type_incoming_pulled" msgid="8434723359163965796">"ఇన్‌కమింగ్ కాల్ మరొక పరికరానికి బదిలీ చేయబడింది"</string>
+    <string name="type_outgoing" msgid="764896746073942963">"అవుట్‌గోయింగ్ కాల్"</string>
+    <string name="type_outgoing_pulled" msgid="1648517538371704193">"అవుట్‌గోయింగ్ కాల్ మరొక పరికరానికి బదిలీ చేయబడింది"</string>
+    <string name="type_missed" msgid="2997043831022028176">"సమాధానమివ్వని కాల్"</string>
+    <string name="type_incoming_video" msgid="7507180294202642554">"ఇన్‌కమింగ్ వీడియో కాల్"</string>
+    <string name="type_incoming_video_pulled" msgid="7879031598844023977">"ఇన్‌కమింగ్ వీడియో కాల్ మరొక పరికరానికి బదిలీ చేయబడింది"</string>
+    <string name="type_outgoing_video" msgid="309370072333983910">"అవుట్‌గోయింగ్ వీడియో కాల్"</string>
+    <string name="type_outgoing_video_pulled" msgid="3924450629684331345">"అవుట్‌గోయింగ్ వీడియో కాల్ మరొక పరికరానికి బదిలీ చేయబడింది"</string>
+    <string name="type_missed_video" msgid="4350107016317603785">"సమాధానమివ్వని వీడియో కాల్‌"</string>
+    <string name="type_voicemail" msgid="1877524395253846684">"వాయిస్ మెయిల్"</string>
+    <string name="type_rejected" msgid="5632107438472996198">"నిరాకరించిన కాల్"</string>
+    <string name="type_blocked" msgid="9177237294052244929">"బ్లాక్ చేసిన కాల్"</string>
+    <string name="call_details_minutes_abbreviation" msgid="7899774555556720560">"ని"</string>
+    <string name="call_details_seconds_abbreviation" msgid="5893806826648947126">"సె"</string>
+    <string name="a11y_call_duration_format" msgid="2905525933361674470">"<xliff:g id="MINUTES_0">%d</xliff:g> <xliff:g id="MINUTES_TRANSLATION">%s</xliff:g> <xliff:g id="SECONDS_1">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="a11y_call_duration_short_format" msgid="5908875871251062453">"<xliff:g id="SECONDS_0">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="call_duration_format_pattern" msgid="7566375153243313914">"<xliff:g id="MINUTES_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="MINUTES_TRANSLATION">%s</xliff:g>\' <xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <string name="call_duration_short_format_pattern" msgid="1713177000235994790">"<xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <plurals name="a11y_seconds" formatted="false" msgid="6695730844760611970">
+      <item quantity="other">సెకన్లు</item>
+      <item quantity="one">సెకను</item>
+    </plurals>
+    <plurals name="a11y_minutes" formatted="false" msgid="6377010096698624038">
+      <item quantity="other">నిమిషాలు</item>
+      <item quantity="one">నిమిషం</item>
+    </plurals>
+    <string name="type_answered_elsewhere" msgid="411958582555881640">"కాల్‌కి మరొక పరికరంలో సమాధానం ఇవ్వబడింది"</string>
+    <string name="description_phone_account" msgid="4382951172691362244">"<xliff:g id="PHONEACCOUNT">^1</xliff:g>లో"</string>
+    <string name="description_via_number" msgid="7682575124846343076">"<xliff:g id="NUMBER">%1$s</xliff:g> ద్వారా"</string>
+    <string name="description_via_number_phone_account" msgid="4345445677508018830">"<xliff:g id="PHONEACCOUNT">%1$s</xliff:g>లో, <xliff:g id="NUMBER">%2$s</xliff:g> ద్వారా"</string>
+    <string name="voicemail_string" msgid="6029775151483803006">"వాయిస్ మెయిల్"</string>
+
+
+    <string name="network_name_wifi" msgid="3026388992566895417">"Wifi"</string>
+    <string name="network_name_mobile" msgid="7655711935020766459">"మొబైల్"</string>
+
+
+    <string name="description_dialpad_back" msgid="6226488105558971135">"వెనుకకు నావిగేట్ చేస్తుంది"</string>
+    <string name="description_dialpad_overflow" msgid="5984341386518189787">"మరిన్ని ఎంపికలు"</string>
+    <string name="description_delete_button" msgid="8431313818404527096">"బ్యాక్‌స్పేస్"</string>
+    <string name="description_image_button_plus" msgid="8936338119824589388">"కూడిక"</string>
+    <string name="description_voicemail_button" msgid="4187006295368768215">"వాయిస్ మెయిల్"</string>
+
+
+    <string name="sms_disambig_title" msgid="369677069797534410">"నంబర్‌ను ఎంచుకోండి"</string>
+    <string name="call_disambig_title" msgid="2395382326030227603">"నంబర్‌ను ఎంచుకోండి"</string>
+    <string name="make_primary" msgid="9069345357862475091">"ఈ ఎంపికను గుర్తుంచుకో"</string>
+
+
+    <string name="notification_channel_incoming_call" msgid="2478740764736158630">"ఇన్‌కమింగ్ కాల్‌లు"</string>
+    <string name="notification_channel_ongoing_call" msgid="5593444445363940672">"కొనసాగుతున్న కాల్‌లు"</string>
+    <string name="notification_channel_missed_call" msgid="5820652855908217695">"సమాధానమివ్వని కాల్‌లు"</string>
+    <string name="notification_channel_voicemail" msgid="9206363659849426204">"వాయిస్ మెయిల్‌లు"</string>
+    <string name="notification_channel_misc" msgid="5595452227577858518">"డిఫాల్ట్"</string>
+
+
+    <string name="private_num_verizon" msgid="3281061244372204957">"నియంత్రించబడింది"</string>
+    <string name="private_num_non_verizon" msgid="5829254390933301216">"ప్రైవేట్ నంబర్"</string>
+
+
+    <string name="post_call_message" msgid="3541277172068556862">"మీరు ఎందుకు కాల్ చేసారో చెప్పండి"</string>
+    <string name="post_call_message_1" msgid="4827849136801228106">"అత్యవసరమైన విషయం. నాకు తిరిగి కాల్ చేయండి."</string>
+    <string name="post_call_message_2" msgid="5310301526176003385">"మీకు సమయం ఉన్నప్పుడు నాకు తిరిగి కాల్ చేయండి."</string>
+    <string name="post_call_message_3" msgid="3932759658420368056">"అత్యవసరమేమీ కాదు, మనం తర్వాత చాట్ చేసుకోవచ్చు."</string>
+    <string name="post_call_add_message" msgid="8298853527467080463">"సందేశాన్ని జోడించండి"</string>
+    <string name="post_call_send_message" msgid="8039569617234824873">"సందేశాన్ని పంపండి"</string>
+    <string name="post_call_message_sent" msgid="832757977985265036">"సందేశం పంపబడింది"</string>
+    <string name="view" msgid="8572192949673703830">"వీక్షించండి"</string>
+
+
+    <string name="dialer_shortcut_add_contact_short" msgid="7587385197258884650">"కొత్త పరిచయం"</string>
+    <string name="dialer_shortcut_add_contact_long" msgid="7573187314386728329">"కొత్త పరిచయం"</string>
+    <string name="dialer_shortcut_disabled_message" msgid="7713603194332953571">"సత్వరమార్గం పని చేయడం లేదు. తీసివేయడానికి లాగండి."</string>
+    <string name="dialer_shortcut_contact_not_found_or_has_no_number" msgid="3538594504123040498">"పరిచయం ఇప్పుడు అందుబాటులో లేదు."</string>
+    <string name="dialer_shortcut_no_permissions" msgid="4422956724546867357">"అనుమతులు లేకుండా కాల్ చేయలేరు."</string>
+
+    <string name="default_notification_description" msgid="4304424287748323094">"డిఫాల్ట్ ధ్వని (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="ringtone_silent" msgid="946744257396998305">"ఏదీ వద్దు"</string>
+    <string name="ringtone_unknown" msgid="1310974715243581582">"తెలియని రింగ్‌టోన్"</string>
+    <string name="activity_not_available" msgid="8360067109103762211">"ఈ పరికరంలో దాని కోసం అనువర్తనం ఏదీ లేదు"</string>
+    <string name="outgoing_wps_warning" msgid="7505673114152005234">"WPS కాల్ చేయడం వలన మీరు ప్రస్తుతం మాట్లాడుతున్న కాల్ డిస్‌కనెక్ట్ అవుతుంది."</string>
+    <string name="dialog_continue" msgid="4070630558441163574">"కొనసాగించు"</string>
+    <!-- no translation found for camera_privacy_text (4268584469444688293) -->
+    <skip />
+
+
+    <string name="voicemail_status_voicemail_not_available" msgid="5853033558114540057">"వాయిస్ మెయిల్ నవీకరణలు అందుబాటులో లేవు"</string>
+    <string name="voicemail_status_messages_waiting" msgid="8900895357460505877">"కొత్త వాయిస్ మెయిల్ వేచి ఉంది. ప్రస్తుతం లోడ్ చేయడం సాధ్యపడదు."</string>
+    <string name="voicemail_status_configure_voicemail" msgid="8642831215097798709">"మీ వాయిస్ మెయిల్‌ను సెటప్ చేయండి"</string>
+    <string name="voicemail_status_audio_not_available" msgid="2341871147130931237">"ఆడియో అందుబాటులో లేదు"</string>
+    <string name="voicemail_status_action_configure" msgid="4445818528232235329">"సెటప్ చేయండి"</string>
+    <string name="voicemail_status_action_call_server" msgid="3189606267631644507">"వాయిస్ మెయిల్‌కు కాల్ చేయండి"</string>
+
+
+    <string name="custom_message_hint" msgid="2179012696339457461">"అనుకూల సందేశాన్ని వ్రాయండి"</string>
+    <string name="toolbar_close" msgid="1081308076149879833">"మూసివేయి"</string>
+    <string name="all_contacts_empty" msgid="4260556610403994011">"మీకు ఇప్పటికీ పరిచయాలేవీ లేవు"</string>
+    <string name="all_contacts_empty_add_contact_action" msgid="7850060327481179533">"కొత్త పరిచయాన్ని సృష్టించండి"</string>
+    <string name="permission_single_turn_on" msgid="1306416016676232584">"ఆన్ చేయి"</string>
+    <string name="permission_no_contacts" msgid="2388204904477299207">"మీ పరిచయాలను చూడటానికి, పరిచయాల అనుమతిని ఆన్ చేయండి."</string>
+    <string name="add_contact_not_available" msgid="3083256438899321502">"పరిచయాల అనువర్తనం ఏదీ అందుబాటులో లేదు"</string>
+
+
+    <string name="audioroute_bluetooth" msgid="3426527851663711141">"బ్లూటూత్"</string>
+    <string name="audioroute_speaker" msgid="3269659224838962927">"స్పీకర్"</string>
+    <string name="audioroute_phone" msgid="4006113852056568310">"ఫోన్"</string>
+    <string name="audioroute_headset" msgid="3911496379650036544">"వైర్ గల హెడ్‌సెట్"</string>
+
+
+    <string name="incall_content_description_end_call" msgid="8232796487777787200">"కాల్‌ను ముగిస్తుంది"</string>
+    <string name="incall_content_description_muted" msgid="2130133443150389474">"మ్యూట్ చేయబడింది"</string>
+    <string name="incall_content_description_unmuted" msgid="4023577547526525202">"అన్‌మ్యూట్ చేయబడింది"</string>
+    <string name="incall_content_description_swap_calls" msgid="5233257839262161417">"కాల్‌లను మారుస్తుంది"</string>
+    <string name="incall_content_description_merge_calls" msgid="5198778837993669729">"కాల్‌లను విలీనం చేస్తుంది"</string>
+    <string name="incall_content_description_earpiece" msgid="2786221842272370555">"హ్యాండ్‌సెట్ ఇయర్‌పీస్"</string>
+    <string name="incall_content_description_speaker" msgid="7837829930201265549">"స్పీకర్"</string>
+    <string name="incall_content_description_bluetooth" msgid="6988919010980910001">"బ్లూటూత్"</string>
+    <string name="incall_content_description_headset" msgid="3170439802944346719">"వైర్ గల హెడ్‌సెట్"</string>
+    <string name="incall_content_description_hold" msgid="3335508251734906019">"కాల్‌ను హోల్డ్ చేయి"</string>
+    <string name="incall_content_description_unhold" msgid="3862584118869933593">"కాల్‌ను పునఃప్రారంభించు"</string>
+    <string name="incall_content_description_video_on" msgid="899266487647420613">"వీడియో ఆన్‌లో ఉంది"</string>
+    <string name="incall_content_description_video_off" msgid="762985912616707076">"వీడియో ఆఫ్‌లో ఉంది"</string>
+    <string name="incall_content_description_swap_video" msgid="297943299827908998">"వీడియోను మారుస్తుంది"</string>
+    <string name="incall_label_speaker" msgid="1814254833253409394">"స్పీకర్"</string>
+    <string name="incall_label_audio" msgid="5923781170533336820">"ధ్వని"</string>
+
+
+    <string name="incall_calling_via_template" msgid="3416867359475780924">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> ద్వారా కాల్ చేస్తోంది"</string>
+    <string name="incall_connecting" msgid="1708280493198276616">"కాల్ చేస్తోంది…"</string>
+    <string name="incall_transferring" msgid="7909128243635579407">"బదిలీ చేస్తోంది…"</string>
+    <string name="incall_video_call_requesting" msgid="5251915562785911238">"వీడియో కాల్ చేస్తోంది…"</string>
+    <string name="incall_wifi_video_call_requesting" msgid="8783968191180862607">"Wi-Fi వీడియో కాలింగ్…"</string>
+    <string name="incall_video_call_request_failed" msgid="5014067473831870379">"కనెక్ట్ చేయలేకపోయింది"</string>
+    <string name="incall_video_call_request_rejected" msgid="5357441169519503234">"కాల్ తిరస్కరించబడింది"</string>
+    <string name="incall_video_call_request_timed_out" msgid="6804535684856203120">"కాల్ సమయాభావం అయింది"</string>
+    <string name="incall_hanging_up" msgid="2166116351937190949">"కాల్ ముగిస్తోంది"</string>
+    <string name="incall_call_ended" msgid="6294704948774348480">"కాల్ ముగిసింది"</string>
+    <string name="incall_remotely_held" msgid="8561379039177396615">"హోల్డ్‌లో ఉంది"</string>
+    <string name="contact_grid_incoming_video_call" msgid="4935122585117803710">"వీరి నుండి వీడియో కాల్:"</string>
+    <string name="contact_grid_incoming_wifi_video_call" msgid="5938822096623593533">"వీరి నుండి Wi-Fi వీడియో కాల్:"</string>
+    <string name="contact_grid_incoming_video_request" msgid="7488892854791471116">"వీరి నుండి వీడియో అప్‌గ్రేడ్ అభ్యర్థన"</string>
+    <string name="contact_grid_incoming_wifi_video_request" msgid="4516902096577976768">"వీరి నుండి Wi-Fi వీడియో అప్‌గ్రేడ్ అభ్యర్థన"</string>
+    <string name="contact_grid_incoming_voice_call" msgid="7165853925114955346">"వీరి నుండి కాల్:"</string>
+    <string name="contact_grid_incoming_work_call" msgid="837605505036615004">"వీరి నుండి కార్యాలయ కాల్:"</string>
+    <string name="contact_grid_incoming_via_template" msgid="7747391077955623969">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> ద్వారా ఇన్‌కమింగ్ కాల్"</string>
+    <string name="contact_grid_incoming_suspected_spam" msgid="285365265897630425">"అనుమానాస్పద స్పామ్ కాలర్"</string>
+    <string name="contact_grid_callback_number" msgid="1284649030313415807">"కాల్‌బ్యాక్ నంబర్: <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+
+
+    <string name="incall_enable_wifi_calling_button" msgid="3295230556186542328">"ప్రారంభించు"</string>
+    <string name="video_call_not_available_title" msgid="987490011944013201">"ప్రస్తుతం వీడియో కాలింగ్ అందుబాటులో లేదు"</string>
+    <string name="video_call_not_available_message" msgid="2284146863894603221">"మళ్లీ కాల్ చేసి ప్రయత్నించండి లేదా కాల్‌ను వాయిస్ కాల్ వలె కొనసాగించండి."</string>
+    <string name="voice_call" msgid="6748636104112578475">"వాయిస్ కాల్"</string>
+
+
+    <string name="incall_on_hold" msgid="5618253281695138626">"హోల్డ్‌లో ఉంది"</string>
+
+
+    <string name="incall_label_videocall" msgid="2208755440134676113">"వీడియో కాల్"</string>
+    <string name="incall_label_hold" msgid="4223472584896867896">"హోల్డ్ చేయి"</string>
+    <string name="incall_label_add_call" msgid="5641663436373994915">"కాల్ జోడించు"</string>
+    <string name="incall_label_mute" msgid="2180667027331706737">"మ్యూట్ చేయి"</string>
+    <string name="incall_label_end_call" msgid="5434079261446614887">"కాల్ ముగించు"</string>
+    <string name="incall_label_dialpad" msgid="8609779533654156550">"కీప్యాడ్"</string>
+    <string name="incall_talkback_speaker_on" msgid="5819463769258124228">", ఆన్‌లో ఉంది"</string>
+    <string name="incall_talkback_speaker_off" msgid="7486836772563090186">", ఆఫ్‌లో ఉంది"</string>
+    <string name="incall_label_merge" msgid="720076442985913175">"విలీనం చేయి"</string>
+    <string name="incall_label_manage" msgid="2175471192903568159">"నిర్వహించు"</string>
+    <string name="a11y_description_incall_label_manage_content" msgid="8298638893449287602">"కాలర్‌లను నిర్వహిస్తుంది"</string>
+    <string name="incall_label_swap" msgid="10458642864243507">"మార్చు"</string>
+    <string name="incall_note_sent" msgid="4524130323127388367">"గమనిక పంపబడింది"</string>
+
+
+    <string name="spam_photo_text" msgid="5250301844057954813">"ఫోటోను చూడటానికి సమాధానమివ్వండి"</string>
+    <string name="spam_message_text" msgid="6522893079398269847">"సందేశాన్ని చూడటానికి సమాధానమివ్వండి"</string>
+
+
+    <string name="always_warn" msgid="8332929731464707890">"ప్రతిసారి హెచ్చరికను చూపు"</string>
+    <string name="details" msgid="8642701148762155677">"మీరు అంతర్జాతీయ నంబర్‌కు కాల్ చేస్తున్నందున ఛార్జీలు వర్తించవచ్చు."</string>
+
+
+    <string name="description_camera_switch_full_screen" msgid="835509743097428216">"పూర్తి స్క్రీన్ కెమెరాకు మారుస్తుంది"</string>
+    <string name="description_camera_switch_preview_screen" msgid="2575355782470181047">"కెమెరా పరిదృశ్యానికి మారుస్తుంది"</string>
+    <string name="description_camera_switch_camera_facing" msgid="6831946148788764412">"ముందువైపు కెమెరాకు మారుస్తుంది"</string>
+    <string name="description_camera_switch_camera_rear" msgid="644854053851698293">"వెనుకవైపు కెమెరాకు మారుస్తుంది"</string>
+    <string name="description_camera_take_picture" msgid="3953639532118936286">"ఫోటో తీస్తుంది"</string>
+    <string name="description_camera_cancel_photo" msgid="2759593421176396701">"ఫోటోను మళ్లీ తీస్తుంది"</string>
+
+
+  <string name="enriched_call_simulator_activity" translatable="false">Enriched Call Simulator Activity</string>
+
+  <string name="important" translatable="false">important</string>
+  <string name="not_important" translatable="false">not important</string>
+
+  <string name="refresh" translatable="false">refresh</string>
+
+
+    <string name="main_activity_label" msgid="3121599977875141886">"ఫోన్"</string>
+    <string name="nui_shortcut_name" msgid="6370942901789984087">"ఫోన్ NUI"</string>
+    <string name="main_call_history_tab_description" msgid="1705569872650796265">"కాల్ చరిత్ర"</string>
+    <string name="search" msgid="3570654445331155513">"@android:string/search_go"</string>
+    <string name="description_search" msgid="3443578912463129718">"పరిచయాలు మరియు స్థలాలను శోధించు"</string>
+    <string name="contacts" msgid="4464246185723317911">"పరిచయాలు"</string>
+    <string name="description_contacts" msgid="12768481422137448">"పరిచయాలను వీక్షించండి"</string>
+    <string name="tab_title_call_history" msgid="5191872501729332994">"కాల్ చరిత్ర"</string>
+    <string name="tab_title_speed_dial" msgid="1968484500112572774">"స్పీడ్ డయల్"</string>
+    <string name="tab_title_voicemail" msgid="4777655983569268504">"వాయిస్ మెయిల్"</string>
+    <string name="settings" msgid="7614336599112169779">"సెట్టింగ్‌లు"</string>
+    <string name="main_send_feedback" msgid="2446919533981327373">"అభిప్రాయాన్ని పంపండి"</string>
+    
+        <string name="nearby_places" msgid="275117539511113867">"సమీప స్థలాలు"</string>
+
+    <string name="call_incoming_swipe_to_decline_with_message" msgid="2426342919316424240">"సందేశంతో తిరస్కరించడానికి చిహ్నం నుండి స్వైప్ చేయండి"</string>
+    <string name="call_incoming_swipe_to_answer_video_as_audio" msgid="2656902519734774070">"ఆడియో కాల్ రూపంలో సమాధానం ఇవ్వడానికి చిహ్నం నుండి స్వైప్ చేయండి"</string>
+    <string name="call_incoming_default_label_answer_and_release_second" msgid="4543429977872844314">"సమాధానం ఇవ్వడానికి మరియు కొనసాగుతున్న కాల్‌ను హోల్డ్‌లో ఉంచడానికి పైకి స్వైప్ చేయండి"</string>
+    <string name="call_incoming_default_label_answer_and_release_third" msgid="1738895612225349741">"సమాధానం ఇవ్వడానికి మరియు హోల్డ్‌లో ఉన్న కాల్‌ను ముగించడానికి పైకి స్వైప్ చేయండి"</string>
+    <string name="call_incoming_swipe_to_answer_and_release" msgid="662432029870261061">"సమాధానం ఇవ్వడానికి మరియు కొనసాగుతున్న కాల్‌ను ముగించడానికి చిహ్నం నుండి స్వైప్ చేయండి"</string>
+    <string name="call_incoming_message_custom" msgid="5819492800418293238">"మీ స్వంతంగా వ్రాయండి…"</string>
+    <string name="call_incoming_audio_handset" msgid="2299009191401671619">"హ్యాండ్‌సెట్"</string>
+    <string name="call_incoming_audio_speakerphone" msgid="5632622369522427991">"స్పీకర్‌ఫోన్"</string>
+    <string name="call_incoming_respond_via_sms_custom_message" msgid="6808438125627371020">"మీ స్వంతంగా వ్రాయండి…"</string>
+    <string name="call_incoming_custom_message_cancel" msgid="5231860339073505201">"రద్దు చేయి"</string>
+    <string name="call_incoming_custom_message_send" msgid="3826716354040318205">"పంపు"</string>
+    <string name="a11y_incoming_call_reject_with_sms" msgid="6101839791429796754">"ఈ కాల్‌ను సందేశంతో తిరస్కరించండి"</string>
+    <string name="a11y_incoming_call_answer_video_as_audio" msgid="3890612269318682756">"ఆడియో కాల్ రూపంలో సమాధానమివ్వండి"</string>
+    <string name="a11y_incoming_call_answer_and_release" msgid="4896746774725239464">"సమాధానమివ్వండి మరియు కొనసాగుతున్న కాల్‌ను ముగించండి"</string>
+    <string name="a11y_description_incoming_call_reject_with_sms" msgid="4705064921696291310">"సందేశంతో తిరస్కరించండి"</string>
+    <string name="a11y_description_incoming_call_answer_video_as_audio" msgid="1562530317428907884">"ఆడియో కాల్ రూపంలో సమాధానమివ్వండి"</string>
+    <string name="a11y_description_incoming_call_answer_and_release" msgid="8511087499748888476">"సమాధానం ఇస్తుంది మరియు కొనసాగుతున్న కాల్‌ను ముగిస్తుంది"</string>
+    <string name="call_incoming_video_is_off" msgid="3216603035158629403">"వీడియో ఆఫ్‌లో ఉంది"</string>
+    <string name="a11y_incoming_call_swipe_gesture_prompt" msgid="8682480557168484972">"సమాధానం ఇవ్వడానికి రెండు వేళ్లతో పైకి స్వైప్ చేయండి. తిరస్కరించడానికి రెండు వేళ్లతో క్రిందికి స్వైప్ చేయండి."</string>
+    <string name="call_incoming_important" msgid="3762352743365137090">"ముఖ్యమైనది"</string>
+
+
+    <string name="call_incoming_swipe_to_answer" msgid="2959042172304267183">"సమాధానం ఇవ్వడానికి పైకి స్వైప్ చేయండి"</string>
+    <string name="call_incoming_swipe_to_reject" msgid="463322705441386885">"తిరస్కరించడానికి క్రిందికి స్వైప్ చేయండి"</string>
+    <string name="a11y_incoming_call_swipe_to_answer" msgid="6992663569851713736">"కాల్‌కు సమాధానమివ్వడానికి రెండు వేళ్లతో పైకి స్వైప్ చేయండి లేదా కాల్‌ను తిరస్కరించడానికి రెండు వేళ్లతో కిందికి స్వైప్ చేయండి"</string>
+    <string name="call_incoming_will_disconnect" msgid="7095934149229485541">"ఈ కాల్‌కు సమాధానమిస్తే, మీ వీడియో కాల్ ముగుస్తుంది"</string>
+    <string name="a11y_call_incoming_decline_description" msgid="4441041052558364987">"తిరస్కరిస్తుంది"</string>
+    <string name="call_incoming_decline" msgid="2982110738106661231">"తిరస్కరించు"</string>
+    <string name="a11y_call_incoming_answer_description" msgid="1623200501347799736">"సమాధానం ఇస్తుంది"</string>
+    <string name="call_incoming_answer" msgid="841798555883717852">"సమాధానం ఇవ్వండి"</string>
+
+
+    <string name="videocall_remote_video_off" msgid="2959680546745902547">"వారి వీడియో ఆఫ్‌లో ఉంది"</string>
+    <string name="videocall_remote_video_on" msgid="6011817851703181639">"వారి వీడియో ఆన్‌లో ఉంది"</string>
+    <string name="videocall_remotely_held" msgid="1295702896355732947">"కాల్ హోల్డ్‌లో ఉంది"</string>
+    <string name="videocall_remotely_resumed" msgid="3331784411244773788">"కాల్ పునఃప్రారంభించబడింది"</string>
+    <string name="camera_permission_dialog_title" msgid="4901760354830982117">"వీడియోను అనుమతించాలా?"</string>
+    <string name="camera_permission_dialog_message" msgid="2677490854794162699">"ఫోన్ అనువర్తనం వీడియో కాల్‌ల కోసం మీ కెమెరాను ఉపయోగించాలనుకుంటోంది."</string>
+    <string name="camera_permission_dialog_positive_button" msgid="9075818030671161374">"అనుమతించు"</string>
+    <string name="camera_permission_dialog_negative_button" msgid="7538535842403837541">"తిరస్కరించు"</string>
+
+
+    <string name="voicemail_error_turn_off_airplane_mode_title" msgid="335011175933917603">"ఎయిర్‌ప్లైన్ మోడ్‌ను ఆఫ్ చేయండి"</string>
+    <string name="voicemail_error_activating_title" msgid="2428457130578359186">"దృశ్య వాయిస్ మెయిల్‌ను సక్రియం చేస్తోంది"</string>
+    <string name="voicemail_error_activating_message" msgid="7157030596259443393">"దృశ్య వాయిస్ మెయిల్ పూర్తిగా సక్రియం అయ్యే వరకు మీరు వాయిస్ మెయిల్ నోటిఫికేషన్‌లను స్వీకరించలేకపోవచ్చు. వాయిస్ మెయిల్ పూర్తిగా సక్రియం అయ్యే వరకు కొత్త సందేశాలను తిరిగి పొందడానికి వాయిస్ మెయిల్‌కి కాల్ చేయండి."</string>
+    <string name="voicemail_error_not_activate_no_signal_title" msgid="742273366199085615">"దృశ్య వాయిస్ మెయిల్‌ను సక్రియం చేయడం సాధ్యపడదు"</string>
+    <string name="voicemail_error_not_activate_no_signal_message" msgid="2929059808327964011">"మీ ఫోన్‌కు మొబైల్ నెట్‌వర్క్ కనెక్షన్ ఉన్నట్లు నిర్ధారించుకొని, ఆపై మళ్లీ ప్రయత్నించండి."</string>
+    <string name="voicemail_error_not_activate_no_signal_airplane_mode_message" msgid="2005255281543281215">"ఎయిర్‌ప్లైన్ మోడ్‌ను ఆఫ్ చేసి, ఆపై మళ్లీ ప్రయత్నించండి."</string>
+    <string name="voicemail_error_no_signal_title" msgid="341954685733680219">"కనెక్షన్ లేదు"</string>
+    <string name="voicemail_error_no_signal_message" msgid="2626509025723748371">"మీకు కొత్త వాయిస్ మెయిల్‌ల గురించి తెలియజేయబడదు. మీరు Wi-Fiలో ఉంటే, ఇప్పుడే సమకాలీకరించడం ద్వారా వాయిస్ మెయిల్‌‍ను తనిఖీ చేయవచ్చు."</string>
+    <string name="voicemail_error_no_signal_airplane_mode_message" msgid="8553646558282754276">"మీకు కొత్త వాయిస్ మెయిల్‌ల గురించి తెలియజేయబడదు. మీ వాయిస్ మెయిల్‌‍ను సమకాలీకరించడానికి ఎయిర్‌ప్లైన్ మోడ్‌ను ఆఫ్ చేయండి."</string>
+    <string name="voicemail_error_no_signal_cellular_required_message" msgid="6452586752169746399">"వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి మీ ఫోన్‌కు మొబైల్ డేటా కనెక్షన్ అవసరం."</string>
+    <string name="voicemail_error_activation_failed_title" msgid="3823477898681399391">"దృశ్య వాయిస్ మెయిల్‌ను సక్రియం చేయడం సాధ్యపడదు"</string>
+    <string name="voicemail_error_activation_failed_message" msgid="2188301459207765442">"మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు."</string>
+    <string name="voicemail_error_no_data_title" msgid="8127858252892092732">"దృశ్య వాయిస్ మెయిల్‌ను నవీకరించడం సాధ్యపడదు"</string>
+    <string name="voicemail_error_no_data_message" msgid="6634124460113498265">"మీ Wi-Fi లేదా మొబైల్ డేటా కనెక్షన్ మెరుగైనప్పుడు మళ్లీ ప్రయత్నించండి. మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు."</string>
+    <string name="voicemail_error_no_data_cellular_required_message" msgid="2521491029817662357">"మీ మొబైల్ డేటా కనెక్షన్ మెరుగైనప్పుడు మళ్లీ ప్రయత్నించండి. మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు."</string>
+    <string name="voicemail_error_bad_config_title" msgid="527594487104462966">"దృశ్య వాయిస్ మెయిల్‌ను నవీకరించడం సాధ్యపడదు"</string>
+    <string name="voicemail_error_bad_config_message" msgid="2692955418930476771">"మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు."</string>
+    <string name="voicemail_error_communication_title" msgid="9183339646110368169">"దృశ్య వాయిస్ మెయిల్‌ను నవీకరించడం సాధ్యపడదు"</string>
+    <string name="voicemail_error_communication_message" msgid="1226746423005179379">"మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు."</string>
+    <string name="voicemail_error_server_connection_title" msgid="3036980885397552848">"దృశ్య వాయిస్ మెయిల్‌ను నవీకరించడం సాధ్యపడదు"</string>
+    <string name="voicemail_error_server_connection_message" msgid="6008577624710159550">"మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు."</string>
+    <string name="voicemail_error_server_title" msgid="5355286554022049134">"దృశ్య వాయిస్ మెయిల్‌ను నవీకరించడం సాధ్యపడదు"</string>
+    <string name="voicemail_error_server_message" msgid="3538157415413084592">"మీరు ఇప్పటికీ వాయిస్ మెయిల్‌ను తనిఖీ చేయడానికి కాల్ చేయవచ్చు."</string>
+    <string name="voicemail_error_inbox_near_full_title" msgid="7568681773644454672">"ఇన్‌బాక్స్‌ దాదాపు నిండింది"</string>
+    <string name="voicemail_error_inbox_near_full_message" msgid="354118612203528244">"మీ ఇన్‌బాక్స్ నిండిపోయి ఉంటే, కొత్త వాయిస్ మెయిల్‌ను స్వీకరించలేరు."</string>
+    <string name="voicemail_error_inbox_full_title" msgid="249268068442046872">"కొత్త వాయిస్ మెయిల్‌లను స్వీకరించలేరు"</string>
+    <string name="voicemail_error_inbox_full_message" msgid="5788411018158899123">"మీ ఇన్‌బాక్స్ నిండింది. కొత్త వాయిస్ మెయిల్‌ను స్వీకరించడానికి కొన్ని సందేశాలను తొలగించడానికి ప్రయత్నించండి."</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_title" msgid="6209039728273651055">"అదనపు నిల్వ మరియు బ్యాకప్‌ను ఆన్ చేయండి"</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_message" msgid="5203159732288749722">"మీ మెయిల్‌బాక్స్ నిండింది. స్థలాన్ని ఖాళీ చేసేందుకు అదనపు నిల్వను ఆన్ చేయండి, దీని వలన Google మీ వాయిస్ మెయిల్ సందేశాలను నిర్వహించగలదు మరియు బ్యాకప్ చేయగలదు."</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title" msgid="20352920357816927">"అదనపు నిల్వ మరియు బ్యాకప్‌ను ఆన్ చేయండి"</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message" msgid="9140680538578301853">"మీ మెయిల్‌బాక్స్ దాదాపు నిండిపోయింది. స్థలాన్ని ఖాళీ చేసేందుకు అదనపు నిల్వను ఆన్ చేయండి, దీని వలన Google మీ వాయిస్ మెయిల్ సందేశాలను నిర్వహించగలదు మరియు బ్యాకప్ చేయగలదు."</string>
+    <string name="voicemail_error_pin_not_set_title" msgid="1287168514277948082">"మీ వాయిస్ మెయిల్ PIN సెట్ చేయండి"</string>
+    <string name="voicemail_error_pin_not_set_message" msgid="3802375002103184625">"మీరు మీ వాయిస్ మెయిల్‌ను ప్రాప్యత చేయడానికి కాల్ చేసే ప్రతిసారి మీకు వాయిస్ మెయిల్ PIN అవసరమవుతుంది."</string>
+    <string name="voicemail_error_unknown_title" msgid="7214482611706360680">"తెలియని లోపం"</string>
+    <string name="voicemail_action_turn_off_airplane_mode" msgid="6905706401164671086">"ఎయిర్‌ప్లైన్ మోడ్ సెట్టింగ్‌లు"</string>
+    <string name="voicemail_action_set_pin" msgid="958510049866316228">"PIN సెట్ చేయి"</string>
+    <string name="voicemail_action_retry" msgid="4450307484541052511">"మళ్లీ ప్రయత్నించండి"</string>
+    <string name="voicemail_action_turn_archive_on" msgid="6008444955560830591">"ఆన్ చేయి"</string>
+    <string name="voicemail_action_dimiss" msgid="6018415798136796966">"వద్దు, ధన్యవాదాలు"</string>
+    <string name="voicemail_action_sync" msgid="5139315923415392787">"సమకాలీకరించు"</string>
+    <string name="voicemail_action_call_voicemail" msgid="6701710720535556395">"వాయిస్ మెయిల్‌కు కాల్ చేయి"</string>
+    <string name="voicemail_action_call_customer_support" msgid="7698973007656462748">"వినియోగదారు సేవా కేంద్రానికి కాల్ చేయి"</string>
+    <string name="vvm3_error_vms_dns_failure_title" msgid="7561818769198666727">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_vms_dns_failure_message" msgid="4284259553458502369">"క్షమించండి, ఒక సమస్య ఏర్పడింది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉంటే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9001గా తెలపండి."</string>
+    <string name="vvm3_error_vmg_dns_failure_title" msgid="6257196468618464574">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_vmg_dns_failure_message" msgid="7110154996415009499">"క్షమించండి, ఒక సమస్య ఏర్పడింది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉంటే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9002గా తెలపండి."</string>
+    <string name="vvm3_error_spg_dns_failure_title" msgid="8670172138011171697">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_spg_dns_failure_message" msgid="6780011498675342391">"క్షమించండి, ఒక సమస్య ఏర్పడింది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉంటే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9003గా తెలపండి."</string>
+    <string name="vvm3_error_vms_no_cellular_title" msgid="5402891018307856824">"మీ వాయిస్‌ మెయిల్‌బాక్స్‌కు కనెక్ట్ చేయడం సాధ్యపడదు"</string>
+    <string name="vvm3_error_vms_no_cellular_message" msgid="6671769320769351896">"క్షమించండి, మీ వాయిస్ మెయిల్‌బాక్స్‌కు కనెక్ట్ చేయడంలో సమస్య ఎదుర్కొంటున్నాము. మీరు బలహీనమైన సిగ్నల్ గల ప్రాంతంలో ఉన్నట్లయితే, శక్తివంతమైన సిగ్నల్ పొందే వరకు వేచి ఉండి, ఆపై మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉన్నట్లయితే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9004గా తెలపండి."</string>
+    <string name="vvm3_error_vmg_no_cellular_title" msgid="7974884412395827829">"మీ వాయిస్‌ మెయిల్‌బాక్స్‌కు కనెక్ట్ చేయడం సాధ్యపడదు"</string>
+    <string name="vvm3_error_vmg_no_cellular_message" msgid="4591495395224161921">"క్షమించండి, మీ వాయిస్ మెయిల్‌బాక్స్‌కు కనెక్ట్ చేయడంలో సమస్య ఎదుర్కొంటున్నాము. మీరు బలహీనమైన సిగ్నల్ గల ప్రాంతంలో ఉన్నట్లయితే, శక్తివంతమైన సిగ్నల్ పొందే వరకు వేచి ఉండి, ఆపై మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉన్నట్లయితే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9005 అని తెలపండి."</string>
+    <string name="vvm3_error_spg_no_cellular_title" msgid="8175349498869951939">"మీ వాయిస్‌ మెయిల్‌బాక్స్‌కు కనెక్ట్ చేయడం సాధ్యపడదు"</string>
+    <string name="vvm3_error_spg_no_cellular_message" msgid="7902149969965747111">"క్షమించండి, మీ వాయిస్ మెయిల్‌బాక్స్‌కు కనెక్ట్ చేయడంలో సమస్య ఎదుర్కొంటున్నాము. మీరు బలహీనమైన సిగ్నల్ గల ప్రాంతంలో ఉన్నట్లయితే, శక్తివంతమైన సిగ్నల్ పొందే వరకు వేచి ఉండి, ఆపై మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉన్నట్లయితే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9006గా తెలపండి."</string>
+    <string name="vvm3_error_vms_timeout_title" msgid="4044531581957597519">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_vms_timeout_message" msgid="2997890600174252849">"క్షమించండి, ఒక సమస్య ఏర్పడింది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉంటే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9007గా తెలపండి."</string>
+    <string name="vvm3_error_vmg_timeout_title" msgid="2631426958078372779">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_vmg_timeout_message" msgid="8366857300952305567">"క్షమించండి, ఒక సమస్య ఏర్పడింది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉంటే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9008గా తెలపండి."</string>
+    <string name="vvm3_error_status_sms_timeout_title" msgid="6528532085593533049">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_status_sms_timeout_message" msgid="9079367624352316780">"క్షమించండి, మీకు సేవ ఏర్పాటు చేయడంలో సమస్య ఎదుర్కొంటున్నాము. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉంటే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9009గా తెలపండి."</string>
+    <string name="vvm3_error_subscriber_blocked_title" msgid="3650932081111129710">"మీ వాయిస్‌ మెయిల్‌బాక్స్‌కు కనెక్ట్ చేయడం సాధ్యపడదు"</string>
+    <string name="vvm3_error_subscriber_blocked_message" msgid="5162479488602796264">"క్షమించండి, ఈ సమయంలో మేము మీ ఇన్‌బాక్స్‌కు కనెక్ట్ చేయలేకపోతున్నాము. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి. అప్పటికీ సమస్య ఉంటే, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ సంఖ్య 9990గా తెలపండి."</string>
+    <string name="vvm3_error_unknown_user_title" msgid="3908082247867523916">"వాయిస్ మెయిల్ సెటప్ చేయండి"</string>
+    <string name="vvm3_error_unknown_user_message" msgid="1509539640475335686">"మీ ఖాతాలో వాయిస్ మెయిల్ సెటప్ చేయబడలేదు. దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9991గా తెలపండి."</string>
+    <string name="vvm3_error_unknown_device_title" msgid="1894628172321293169">"వాయిస్ మెయిల్"</string>
+    <string name="vvm3_error_unknown_device_message" msgid="5653639091623486217">"ఈ పరికరంలో దృశ్య వాయిస్ మెయిల్‌ను ఉపయోగించలేరు. దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9992గా తెలపండి."</string>
+    <string name="vvm3_error_invalid_password_title" msgid="4552360498026788519">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_invalid_password_message" msgid="7203223289526274700">"దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9993గా తెలపండి."</string>
+    <string name="vvm3_error_mailbox_not_initialized_title" msgid="7903951619707049472">"దృశ్య వాయిస్ మెయిల్"</string>
+    <string name="vvm3_error_mailbox_not_initialized_message" msgid="6411209982463628638">"దృశ్య వాయిస్ మెయిల్ సెటప్‌ను పూర్తి చేయడానికి, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9994గా తెలపండి."</string>
+    <string name="vvm3_error_service_not_provisioned_title" msgid="6200721664168681357">"దృశ్య వాయిస్ మెయిల్"</string>
+    <string name="vvm3_error_service_not_provisioned_message" msgid="2652652017548677049">"దృశ్య వాయిస్ మెయిల్ సెటప్‌ను పూర్తి చేయడానికి, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9995గా తెలపండి."</string>
+    <string name="vvm3_error_service_not_activated_title" msgid="8223482379756083354">"దృశ్య వాయిస్ మెయిల్"</string>
+    <string name="vvm3_error_service_not_activated_message" msgid="3877179443583231620">"దృశ్య వాయిస్ మెయిల్‌ను సక్రియం చేయడానికి, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9996గా తెలపండి."</string>
+    <string name="vvm3_error_user_blocked_title" msgid="3182280563102274326">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_user_blocked_message" msgid="5006388183845631086">"దృశ్య వాయిస్ మెయిల్ సెటప్‌ను పూర్తి చేయడానికి, దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9998గా తెలపండి."</string>
+    <string name="vvm3_error_subscriber_unknown_title" msgid="2327013918755472131">"దృశ్య వాయిస్ మెయిల్ నిలిపివేయబడింది"</string>
+    <string name="vvm3_error_subscriber_unknown_message" msgid="7991526423950940698">"దృశ్య వాయిస్ మెయిల్‌ను సక్రియం చేయడానికి దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేయండి."</string>
+    <string name="vvm3_error_imap_getquota_error_title" msgid="2229474251543811881">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_imap_getquota_error_message" msgid="4266777005393484563">"దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9997గా తెలపండి."</string>
+    <string name="vvm3_error_imap_select_error_title" msgid="688468464562761731">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_imap_select_error_message" msgid="7535508175537847085">"దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9989గా తెలపండి."</string>
+    <string name="vvm3_error_imap_error_title" msgid="1952971680250515832">"ఏదో తప్పు జరిగింది"</string>
+    <string name="vvm3_error_imap_error_message" msgid="6668651261796655388">"దయచేసి <xliff:g id="NUMBER">%1$s</xliff:g> నంబర్‌లో వినియోగదారు సేవా కేంద్రానికి కాల్ చేసి, వారికి లోపం కోడ్ 9999గా తెలపండి."</string>
+    <string name="verizon_terms_and_conditions_title" msgid="9074967311276321500">"దృశ్య వాయిస్ మెయిల్ నిబంధనలు మరియు షరతులు"</string>
+    <string name="verizon_terms_and_conditions_message" msgid="120258835788235077">"%1$s\n\nమీరు దృశ్య వాయిస్ మెయిల్‌ను ఉపయోగించాలంటే Verizon Wireless నిబంధనలు మరియు షరతులను తప్పనిసరిగా ఆమోదించాలి:\n\n%2$s"</string>
+    <string name="dialer_terms_and_conditions_title" msgid="311603424861921251">"దృశ్య వాయిస్ మెయిల్‌ను ఆన్ చేయండి"</string>
+    <string name="dialer_terms_and_conditions_message" msgid="6207219973959897196">"%s"</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_message" msgid="7852059293806766767">"నిబంధనలు మరియు షరతులను తిరస్కరిస్తే దృశ్య వాయిస్ మెయిల్ నిలిపివేయబడుతుంది."</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_downgrade" msgid="8347128304508008823">"దృశ్య వాయిస్ మెయిల్‌ను నిలిపివేయండి"</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_message" msgid="1726573227032877573">"నిబంధనలు మరియు షరతులను నిరాకరిస్తే వాయిస్ మెయిల్ లిప్యంతరీకరణ నిలిపివేయబడుతుంది."</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_downgrade" msgid="6694612247173639685">"వాయిస్ మెయిల్ లిప్యంతరీకరణను నిలిపివేయండి"</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message" msgid="2200388197966526000">"వాయిస్ మెయిల్‌ను కేవలం *86కి కాల్ చేయడం ద్వారా మాత్రమే ప్రాప్యత చేయగలరు. కొనసాగించడానికి కొత్త వాయిస్ మెయిల్ PINని సెట్ చేయండి."</string>
+
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin" msgid="4320664492466296770">"PINని సెట్ చేయండి"</string>
+    <string name="event_deactivated" msgid="689994223349549274">"పెంపుడు జంతువుల మోడ్ ఆఫ్‌లో ఉంది"</string>
+
+
+</resources>

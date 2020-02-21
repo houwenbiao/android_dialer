@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel" msgid="2202739481132958990">"ဖုန်း"</string>
+    <string name="launcherDialpadActivityLabel" msgid="4170587663888307424">"ဖုန်းခလုတ်ခုံ"</string>
+    <string name="dialerIconLabel" msgid="3422916015542176907">"ဖုန်း"</string>
+    <string name="callHistoryIconLabel" msgid="7493268743411968630">"ခေါ်ဆိုမှု မှတ်တမ်း"</string>
+    <string name="action_report_number" msgid="7231442711369737797">"မမှန်ကန်သည့် နံပါတ်အား သတင်းပို့ပါ"</string>
+    <string name="action_copy_number_text" msgid="832682558551502319">"နံပါတ်ကိုကူးရန်"</string>
+    <string name="copy_transcript_text" msgid="937904189017310829">"အသံမှစာအဖြစ်ဘာသာပြန်ခြင်းကို ကူးရန်"</string>
+    <string name="action_block_number" msgid="3669819840999705278">"နံပါတ်ကို ပိတ်ရန်"</string>
+    <string name="action_unblock_number" msgid="6583611581996402004">"နံပါတ်ကို ဖွင့်မည်"</string>
+    <string name="action_edit_number_before_call" msgid="8017492815878473837">"မခေါ်ဆိုမီ နံပါတ်ကိုတည်းဖြတ်ရန်"</string>
+    <string name="call_log_delete_all" msgid="7852970926906523784">"ခေါ်ဆိုမှု မှတ်တမ်း ရှင်းရန်"</string>
+    <string name="call_log_trash_voicemail" msgid="6118493534178533972">"အသံပို့စာ အားဖျက်ရန်"</string>
+    <string name="snackbar_voicemail_deleted" msgid="7463166543725496307">"အသံမေးလ် ရှာတွေ့ခဲ့"</string>
+    <string name="snackbar_voicemail_deleted_undo" msgid="6959743982796409941">"ပြန်ဖျက်ရန်"</string>
+    <string name="clearCallLogConfirmation_title" msgid="7051888019546472245">"ခေါ်ဆိုမှု မှတ်တမ်းကို ဖယ်ရှားရမလား။"</string>
+    <string name="clearCallLogConfirmation" msgid="6844949465815109166">"ဒါက သင့် မှတ်တမ်းထဲက ခေါ်ဆိုမှုများ  အားလုံးကို ဖျက်ပစ်မည်"</string>
+    <string name="clearCallLogProgress_title" msgid="995004835687361977">"ခေါ်ဆိုမှု မှတ်တမ်းကို ရှင်းနေ…"</string>
+    <string name="userCallActivityLabel" product="default" msgid="9198964841862577505">"ဖုန်း"</string>
+    <string name="notification_missedCallTitle" msgid="8283366068539898486">"လွဲသွားသော ဖုန်းခေါ်မှု"</string>
+    <string name="notification_missedWorkCallTitle" msgid="8831332957103679183">"လွတ်သွားသည့် အလုပ်ဆိုင်ရာ ခ​ေါ်ဆိုမှု"</string>
+    <string name="notification_missedCallsTitle" msgid="3697442015345089802">"လွတ်သွားသော ခေါ်ဆိုမှုများ"</string>
+    <string name="notification_missedCallsMsg" msgid="8176217633929018706">"လွတ်သွားသော ခေါ်ဆိုမှု <xliff:g id="NUM_MISSED_CALLS">%d</xliff:g>"</string>
+    <string name="notification_missedCall_call_back" msgid="3875698110051973965">"ပြန်ခေါ်ပါ"</string>
+    <string name="notification_missedCall_message" msgid="5086910028988305964">"မက်ဆေ့ဂျ်"</string>
+    <string name="post_call_notification_message" msgid="5417476789860590611">"<xliff:g id="NAME">%1$s</xliff:g> - <xliff:g id="MESSAGE">%2$s</xliff:g>"</string>
+    <string name="notification_voicemail_text_format" msgid="1895667520930252897">"<xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g> ကို ခေါ်ပါ"</string>
+    <string name="notification_voicemail_no_vm_number" msgid="8942821987929495842">"အသံမေးလ်နံပါတ် မသိပါ"</string>
+    <plurals name="notification_voicemail_title" formatted="false" msgid="1551847434476438657">
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> အသံမေးလ်များ </item>
+      <item quantity="one"> အသံမေးလ်</item>
+    </plurals>
+    <string name="notification_action_voicemail_play" msgid="5156500902796354071">"နားထောင်သည်"</string>
+    <string name="notification_voicemail_callers_list" msgid="7543659703018479564">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+    <string name="notification_new_voicemail_ticker" msgid="6547711461667072303">"<xliff:g id="CALLER">%1$s</xliff:g> ဆီမှ အသံစာ အသစ်"</string>
+    <string name="voicemail_playback_error" msgid="4384373852257757295">"အသံမေးလ်ကို ဖွင့်မပေးနိုင်ခဲ့"</string>
+    <string name="voicemail_fetching_content" msgid="572320120918636014">"အသံမေးလ်ကို တင်ပေးနေ…"</string>
+    <string name="voicemail_archiving_content" msgid="2415183864104922185">"အသံစာတိုကို သိမ်းနေသည်..."</string>
+    <string name="voicemail_fetching_timout" msgid="2128873915839949783">"အသံမေးလ်ကို တင်မပေးနိုင်ခဲ့"</string>
+    <string name="call_log_voicemail_header" msgid="5799424860394542726">"အသံမေးလ်ပါသော အဝင်ခေါ်ဆိုမှုများသာ"</string>
+    <string name="call_log_incoming_header" msgid="1158753168119845168">"အဝင်ဖုန်းသာ"</string>
+    <string name="call_log_outgoing_header" msgid="149333910997122683">"အထွက်ခေါ်ဆိုမှုများသာ"</string>
+    <string name="call_log_missed_header" msgid="6491707499211289630">"လွတ်သွားသော ဖုန်းသာ"</string>
+    <string name="call_log_item_count_and_date" msgid="723848797957319181">"(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="description_search_button" msgid="4515570469584782176">"ရှာဖွေရန်"</string>
+    <string name="description_dial_button" msgid="699794433224646027">"ဖုန်းခေါ်ခြင်း"</string>
+    <string name="description_digits_edittext" msgid="8908702618098485186">"ခေါ်ရန် နံပါတ်"</string>
+    <string name="description_playback_start_stop" msgid="5320452461700750120">"ပြန်ဖွင့်ပြမှုကို ဖွင့်ရန် သို့မဟုတ် ရပ်ရန်"</string>
+    <string name="description_playback_speakerphone" msgid="4852027754869750227">"စပီကာဖုန်းကို ဖွင့် သို့မဟုတ် ပိတ်ရန်"</string>
+    <string name="description_playback_seek" msgid="1340910573254132520">"အသံပြန်ဖွင့်ရေး နေရာကို ရှာရန်"</string>
+    <string name="description_rate_decrease" msgid="5053221110217704199">"ပြန်ဖွင့်မှု နှုန်းကို လျှော့ချရန်"</string>
+    <string name="description_rate_increase" msgid="4372206363557406700">"ပြန်ဖွင့်မှု နှုန်းကို မြှင့်ရန်"</string>
+    <string name="action_menu_call_history_description" msgid="8829135306925008546">"ခေါ်ဆိုမှုမှတ်တမ်း"</string>
+    <string name="action_menu_overflow_description" msgid="7648679686746517341">"ပိုမိုရွေးချယ်စရာများ"</string>
+    <string name="action_menu_dialpad_button" msgid="1970631633457493180">"ခလုတ်ခုံ"</string>
+    <string name="menu_show_outgoing_only" msgid="6941420328999801171">"အထွက်ခေါ်ဆိုခြင်းများသာပြပါ"</string>
+    <string name="menu_show_incoming_only" msgid="6018600870504685564">"အဝင်ခေါ်ဆိုမှုသာ ပြပါ"</string>
+    <string name="menu_show_missed_only" msgid="2266983597575047192">"လွတ်သွားသော ခေါ်ဆိုမှုများသာပြပါ"</string>
+    <string name="menu_show_voicemails_only" msgid="1114917855179284592">"အသံပို့စာများသာ ပြပါ"</string>
+    <string name="menu_show_all_calls" msgid="220054502052344488">"ဖုန်းခေါ်မှုအားလုံးပြရန်"</string>
+    <string name="add_2sec_pause" msgid="3417815038173424525">"၂စက္ကန့်ရပ်ဆိုင်းရန် ထည့်ပါ"</string>
+    <string name="add_wait" msgid="1177723010768282578">"စောင့်ဆိုင်းခြင်း ထည့်ပါ"</string>
+    <string name="dialer_settings_label" msgid="4980176284150290175">"ဆက်တင်များ"</string>
+    <string name="simulator_submenu_label" msgid="186156287346615267">"အသစ်ကဲ့သို့ တုပသည့်စနစ်"</string>
+    <string name="new_ui_launcher_shortcut_label" msgid="7195823535703686736">"UI ဖြတ်လမ်းလင့်ခ်အသစ် လုပ်ရန်"</string>
+    <string name="menu_allContacts" msgid="8544950176866640863">"လိပ်စာများအားလုံး"</string>
+    <string name="dialer_useDtmfDialpad" msgid="3919115408138798484">"touch tone ကီးခလုတ် ကိုအသုံးပြုပါ"</string>
+    <string name="dialer_returnToInCallScreen" msgid="3487191628252824117">"ဖုန်းပြန်ခေါ်မှု ပြုလုပ်နေစဉ်"</string>
+    <string name="dialer_addAnotherCall" msgid="3132945651710234674">"ဖုန်းခေါ်မှု ထပ်ထည့်ပါ"</string>
+    <string name="actionIncomingCall" msgid="891346596090030558">"အဝင်ခေါ်ဆိုမှုများ"</string>
+    <string name="description_entering_bulk_action_mode" msgid="6134916000015585401">"တပြိုင်နက်တည်း စုပြုံလုပ်ဆောင်ချက်မုဒ်ကို ထည့်သွင်းခြင်း"</string>
+    <string name="description_leaving_bulk_action_mode" msgid="4355853387639765529">"တပြိုင်နက်တည်း စုပြုံလုပ်ဆောင်ချက်မုဒ်မှ ထွက်လိုက်သည်"</string>
+    <string name="description_selecting_bulk_action_mode" msgid="7228565941043117618">"ရွေးချယ်ထားသော <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_unselecting_bulk_action_mode" msgid="6450971299622386060">"မရွေးချယ်ထားသော <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_call_log_play_button" msgid="2349845005022431438">"အသံပို့စာ နားထောင်ရန်"</string>
+    <string name="description_view_contact" msgid="3940984937384372665">"<xliff:g id="NAME">%1$s</xliff:g> လိပ်စာကြည့်ရန်"</string>
+    <string name="description_call" msgid="1532402285334775372">"<xliff:g id="NAME">%1$s</xliff:g> ကိုခေါ်ပါ"</string>
+    <string name="description_contact_details" msgid="3341280873855253464">"<xliff:g id="NAMEORNUMBER">%1$s</xliff:g> ရဲ့ အဆက်အသွယ် အသေးစိတ်"</string>
+    <string name="description_spam_contact_details" msgid="5592578752881528368">"သံသယဖြစ်ဖွယ်စပမ်းခေါ်ဆိုသူ <xliff:g id="NAMEORNUMBER">%1$s</xliff:g> အတွက် အဆက်အသွယ်အသေးစိတ်"</string>
+    <string name="description_num_calls" msgid="6483594535796216044">"<xliff:g id="NUMBEROFCALLS">%1$s</xliff:g> ခါ"</string>
+    <string name="description_video_call" msgid="3738199365585751727">"ဗီဒီယို ခေါ်ဆိုမှု"</string>
+    <string name="description_send_text_message" msgid="8450269896765568596">"<xliff:g id="NAME">%1$s</xliff:g>ထံသို့  SMS ပို့ရန်"</string>
+    <string name="description_call_log_unheard_voicemail" msgid="2258821530650350303">"မနားထောင်ရသေးသော အသံပို့စာ"</string>
+    <string name="description_start_voice_search" msgid="8380022725973015261">"အသံဖွင့်ရှာဖွေမှု စရန်"</string>
+    <string name="menu_callNumber" msgid="1540773545517152514">"<xliff:g id="NUMBER">%s</xliff:g> ကိုခေါ်ပါ"</string>
+    <string name="voicemail" msgid="8899540969000957954">"အသံစာပို့စနစ်"</string>
+    <string name="callDetailsShortDurationFormat" msgid="8517030531054801588">"<xliff:g id="SECONDS">%s</xliff:g> စက္ကန့်"</string>
+    <string name="callDetailsDurationFormat" msgid="6826204822350034578">"<xliff:g id="MINUTES">%s</xliff:g> မိနစ် <xliff:g id="SECONDS">%s</xliff:g> စက္ကန့်"</string>
+    <string name="description_cancel_multi_select" msgid="3930475950253360461">"တပြိုင်နက်တည်း စုပြုံလုပ်ဆောင်ချက်များမုဒ်ကိ ပယ်ဖျက်ရန်"</string>
+    <string name="voicemailMultiSelectDeleteConfirm" msgid="5110048580165845200">"ဖျက်ပါ"</string>
+    <string name="voicemailMultiSelectDeleteCancel" msgid="4574287102479485528">"မလုပ်တော့"</string>
+    <string name="voicemailMultiSelectDialogTitle" msgid="150612124416146690">"ရွေးထားသော <xliff:g id="VOICEMAILORVOICEMAILS">%1$s</xliff:g> ကို ဖျက်လိုပါသလား။"</string>
+    <string name="voicemailMultiSelectActionBarTitle" msgid="5840745438559612431">"<xliff:g id="NUMBER">%1$s</xliff:g> ကို ရွေးချယ်ထားသည်"</string>
+    <plurals name="delete_voicemails_confirmation_dialog_title" formatted="false" msgid="2452264208706783960">
+      <item quantity="other">"<b>"ဤအသံမေးလ်များကို ဖျက်မလား။ "</b>"</item>
+      <item quantity="one">"<b>"ဤအသံမေးလ်ကို ဖျက်မလား။ "</b>"</item>
+    </plurals>
+    <string name="voicemailCallLogToday" msgid="709034597866788854">@string/call_log_header_today</string>
+    <string name="voicemailCallLogDateTimeFormat" msgid="4998985002074131268">"<xliff:g id="DATE">%1$s</xliff:g> <xliff:g id="TIME">%2$s</xliff:g> ၌"</string>
+    <string name="voicemailDurationFormat" msgid="5649961568550898382">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration" msgid="7224408726047155205">"<xliff:g id="DATEANDTIME">%1$s</xliff:g> • <xliff:g id="DURATION">%2$s</xliff:g>"</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="6317935773274628316">"ဒီနံပါတ်ကို မခေါ်ဆိုနိုင်ပါ"</string>
+    <string name="dialog_voicemail_not_ready_message" msgid="6437173108290752604">"အသံမေးလ်စနစ်ကိုသတ်မှတ်ရန် မီနူးမှတစ်ဆင့် ဆက်တင်များသို့သွားပါ။"</string>
+    <string name="dialog_voicemail_airplane_mode_message" msgid="1044988101597862159">"အသံမေးလ်ခေါ်ဆိုနိုင်ရန် လေယာဉ်ပျံပေါ်သုံးစနစ်ကို ပိတ်ပါ။"</string>
+    <string name="contact_list_loading" msgid="7919825236309749352">"ဖွင့်နေစဉ်"</string>
+    <string name="imei" msgid="5214505934662768308">"IMEI"</string>
+    <string name="meid" msgid="3333779521535224028">"MEIDနံပါတ်"</string>
+    <string name="simContacts_emptyLoading" msgid="6205424276735652071">"ဆင်းမ်ကဒ်မှ ဖွင့်နေပါသည်..."</string>
+    <string name="simContacts_title" msgid="7961069730386378887">"ဆင်းမ်ကဒ်မှ အဆက်အသွယ်များ"</string>
+    <string name="voice_search_not_available" msgid="6546240433719732905">"အသံဖြင့် ရှာဖွေမှု မရှိ"</string>
+    <string name="call_not_available" msgid="7850148370757361155">"ဖုန်း အပလီကေးရှင်းကို ပိတ်ထား၍ ဖုန်း ခေါ်ဆိုမှု မပြုလုပ်နိုင်ခဲ့ပါ။"</string>
+    <string name="dialer_hint_find_contact" msgid="2023214799381149808">"အဆက်အသွယ်များရှာပါ"</string>
+    <string name="block_number_search_hint" msgid="5377706079015099416">"နံပါတ်ပေါင်းထည့်ပါ သို့မဟုတ် အဆက်အသွယ်များ ရှာဖွေပါ"</string>
+    <string name="call_log_all_empty" msgid="3955572868518162004">"သင့်ခေါ်ဆိုမှတ်တမ်းတွင် ဘာမှမရှိပါ"</string>
+    <string name="call_log_all_empty_action" msgid="852218280136243014">"ဖုန်းခေါ်ရန်"</string>
+    <string name="call_log_missed_empty" msgid="7094936030845062214">"သင့်တွင် လွတ်သွားသည့်ခေါ်ဆိုမှုများ မရှိပါ။"</string>
+    <string name="call_log_voicemail_empty" msgid="273623903423275178">"သင့်အသံမေးလ် စာတိုက်ပုံးတွင် ဘာမှမရှိပါ။"</string>
+    <string name="show_favorites_only" msgid="8089163582448737837">"အနှစ်သက်ဆုံးများသာ ပြပါ"</string>
+    <string name="call_log_activity_title" msgid="1275242727244945527">"ယခင်ခေါ်ဆိုမှုများ"</string>
+    <string name="call_log_all_title" msgid="6042262422192020327">"အားလုံး"</string>
+    <string name="call_log_missed_title" msgid="17254005889268015">"လွတ်သွားသော"</string>
+    <string name="call_log_voicemail_title" msgid="6504826963256437971">"အသံစာ"</string>
+    <string name="tab_speed_dial" msgid="6616404752227561075">"အမြန် နံပါတ်လှည့်မှု"</string>
+    <string name="tab_history" msgid="7420269368689503596">"ခေါ်ဆိုမှု မှတ်တမ်း"</string>
+    <string name="tab_all_contacts" msgid="5531733977693943015">"အဆက်အသွယ်များ"</string>
+    <string name="tab_voicemail" msgid="2458548090088316246">"အသံမေးလ်"</string>
+    <string name="favorite_hidden" msgid="1077010324849831399">"အနှစ်သက်ဆုံးများထဲမှာ ထုတ်လိုက်ပါပြီ"</string>
+    <string name="favorite_hidden_undo" msgid="5660280521854875320">"နောက်ပြန်လုပ်ပါ"</string>
+    <string name="search_shortcut_call_number" msgid="8847918845036880688">"<xliff:g id="NUMBER">%s</xliff:g> ကိုခေါ်ပါ"</string>
+    <string name="search_shortcut_create_new_contact" msgid="2076374262874775425">"အဆက်အသွယ် အသစ် ဖန်တီးရန်"</string>
+    <string name="search_shortcut_add_to_contact" msgid="701957016267810766">"အဆက်အသွယ်သို့ ပေါင်းထည့်ရန်"</string>
+    <string name="search_shortcut_send_sms_message" msgid="1065069206532610854">"စာတို ပို့ရန်"</string>
+    <string name="search_shortcut_make_video_call" msgid="3746207985295802095">"ဗီဒီယို ဖုန်းခေါ်ရန်"</string>
+    <string name="search_shortcut_block_number" msgid="4587283230665805776">"နံပါတ်ကို ပိတ်ဆို့ရန်"</string>
+    <string name="num_missed_calls" msgid="5171791753696317082">"လွတ်သွားသောဖုန်း <xliff:g id="NUMBER">%s</xliff:g> ခါ"</string>
+    <string name="speed_dial_empty" msgid="3346406399966039505">"သင်၏အမြန်ခေါ်စာရင်းတွင် မည်သူမျှ မရှိသေးပါ"</string>
+    <string name="speed_dial_empty_add_favorite_action" msgid="3470360584638103033">"အနှစ်သက်ဆုံးတစ်ခု ထည့်ရန်"</string>
+    <string name="contact_tooltip" msgid="8871614660967439999">"နံပါတ်အားလုံးကိုကြည့်ရန် ပုံကိုထိပါ (သို့) ပြန်စီရန် ထိပြီးဖိထားပါ"</string>
+    <string name="remove_contact" msgid="2353580570488923668">"ဖယ်ရှာခြင်း"</string>
+    <string name="select_all" msgid="408601760696146245">"အားလုံးကို ရွေးချယ်ပါ"</string>
+    <string name="call_log_action_video_call" msgid="7565549950343850819">"ဗီဒီယို ခေါ်ဆိုမှု"</string>
+    <string name="call_log_action_send_message" msgid="6948727362660115554">"စာ တစ်စောင် ပို့ပါ"</string>
+    <string name="call_log_action_details" msgid="2091370737371449501">"ဖုန်းခေါ်မှု အသေးစိတ်အချက်အလက်"</string>
+    <string name="call_log_action_share_voicemail" msgid="8888250682433873454">"... သို့ ပို့ပါ"</string>
+    <string name="call_log_action_call" msgid="682724094251540583">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> အား ခေါ်ပါ"</string>
+    <string name="description_incoming_missed_call" msgid="8292535799379230029">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>၊ <xliff:g id="TYPEORLOCATION">^2</xliff:g>၊ <xliff:g id="TIMEOFCALL">^3</xliff:g>၊ <xliff:g id="PHONEACCOUNT">^4</xliff:g> မှ ခေါ်ဆိုမှု လွတ်သွား၏။"</string>
+    <string name="description_incoming_answered_call" msgid="3920182963103160610">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>၊ <xliff:g id="TYPEORLOCATION">^2</xliff:g>၊ <xliff:g id="TIMEOFCALL">^3</xliff:g>၊ <xliff:g id="PHONEACCOUNT">^4</xliff:g> မှ ခ​ေါ်ဆိုမှုအား ဖြေထား၏။"</string>
+    <string name="description_unread_voicemail" msgid="145170985013419170">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>၊ <xliff:g id="TYPEORLOCATION">^2</xliff:g>၊ <xliff:g id="TIMEOFCALL">^3</xliff:g>၊ <xliff:g id="PHONEACCOUNT">^4</xliff:g>ထံမှ အသံစာကို ဖတ်ပါ။"</string>
+    <string name="description_read_voicemail" msgid="5585559881573227732">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>၊ <xliff:g id="TYPEORLOCATION">^2</xliff:g>၊ <xliff:g id="TIMEOFCALL">^3</xliff:g>၊ <xliff:g id="PHONEACCOUNT">^4</xliff:g>ထံမှ အသံစာ။"</string>
+    <string name="description_outgoing_call" msgid="543952487882919924">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>၊ <xliff:g id="TYPEORLOCATION">^2</xliff:g>၊ <xliff:g id="TIMEOFCALL">^3</xliff:g>၊ <xliff:g id="PHONEACCOUNT">^4</xliff:g> အား ခေါ်ခြင်း။"</string>
+    <string name="call_log_via_number" msgid="1340307109806397650">"<xliff:g id="NUMBER">%1$s</xliff:g> မှတစ်ဆင့်"</string>
+    <string name="call_log_via_number_phone_account" msgid="7698459003033083416">"<xliff:g id="PHONEACCOUNT">%1$s</xliff:g> <xliff:g id="NUMBER">%2$s</xliff:g> မှတစ်ဆင့်"</string>
+    <string name="description_call_action" msgid="4042796498169106545">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> အားခေါ်ရန်"</string>
+    <string name="description_video_call_action" msgid="1237090968588659650">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> ကိုဗီဒီယိုခေါ်ဆိုမည်။"</string>
+    <string name="description_voicemail_action" msgid="3290143432403538524">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>ထံမှ အသံစာကို နားထောင်ရန်"</string>
+    <string name="description_voicemail_play" msgid="737337291418966183">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> မှ အသံအသုံးပြုစာအား ဖွင့်ပါ"</string>
+    <string name="description_voicemail_pause" msgid="2400610579956333661">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> မှ အသံအသုံးပြုစာအား ရပ်ပါ"</string>
+    <string name="description_voicemail_delete" msgid="5305509366448404410">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> မှ အသံအသုံးပြုစာအား ဖျက်ပါ"</string>
+    <plurals name="description_voicemail_unread" formatted="false" msgid="7562208210097630839">
+      <item quantity="other"> အသံသုံးပို့စာ အသစ် <xliff:g id="COUNT_1">%d</xliff:g> ခု</item>
+      <item quantity="one"> အသံသုံးပို့စာ အသစ် <xliff:g id="COUNT_0">%d</xliff:g> ခု</item>
+    </plurals>
+    <string name="description_create_new_contact_action" msgid="1928282350281564130">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> အတွက် အဆက်အသွယ် ဖန်တီးမည်"</string>
+    <string name="description_add_to_existing_contact_action" msgid="5485618682525057684">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> အားလက်ရှိ အဆက်အသွယ်သို့ ပေါင်းထည့်မည်"</string>
+    <string name="description_details_action" msgid="2061866409737706174">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>၏ ခေါ်ဆိုမှု အသေးစိတ်များ"</string>
+    <string name="toast_entry_removed" msgid="6821678859297454838">"ခေါ်ဆိုမှု မှတ်တမ်းထဲမှ ဖျက်ပစ်ခဲ့"</string>
+    <string name="call_log_header_today" msgid="1576119097475845293">"ယနေ့"</string>
+    <string name="call_log_header_yesterday" msgid="5616077776205329563">"မနေ့က"</string>
+    <string name="call_log_header_other" msgid="4940676886254217644">"ပိုဟောင်းသော"</string>
+    <string name="call_detail_list_header" msgid="1174040565810083473">"ခေါ်ဆိုမှုများ စာရင်း"</string>
+    <string name="voicemail_speaker_on" msgid="3151333608926996668">"စပီကာကို ဖွင့်ပါ။"</string>
+    <string name="voicemail_speaker_off" msgid="2530064206962034201">"စပီကာကို ပိတ်ပါ။"</string>
+    <string name="voicemail_play_faster" msgid="2742012169751409677">"ပိုမြန်စွာ ကစားရန်"</string>
+    <string name="voicemail_play_slower" msgid="868588128301087884">"ပိုနှေးစွာ ကစားရန်"</string>
+    <string name="voicemail_play_start_pause" msgid="3874823480278334664">"ဖွင့်မှု စတင် သို့မဟုတ် ဆိုင်းငံ့ရန်"</string>
+    <string name="display_options_title" msgid="3880091801055797975">"ပြသမှုအတွက်ရွေးစရာများ"</string>
+    <string name="sounds_and_vibration_title" msgid="3075050000721181384">"အသံများနှင့် တုန်ခါမှု"</string>
+    <string name="accessibility_settings_title" msgid="3329027650429831820">"ရယူသုံးနိုင်မှု"</string>
+    <string name="ringtone_title" msgid="8377174189894648486">"ဖုန်း သံစဉ်"</string>
+    <string name="vibrate_on_ring_title" msgid="631441314790960485">"ဖုန်းဝင်လျှင် တုန်ခါရန်"</string>
+    <string name="dtmf_tone_enable_title" msgid="3273762431523939277">"ခလုတ်ခုံအသံများ"</string>
+    <string name="dtmf_tone_length_title" msgid="534096029202438539">"ခလုတ်ခုံအသံအပိုင်းအခြား"</string>
+  <string-array name="dtmf_tone_length_entries">
+    <item msgid="3136353015227162823">"ပုံမှန်"</item>
+    <item msgid="5376841175538523822">"အရှည်"</item>
+  </string-array>
+    <string name="respond_via_sms_setting_title" msgid="8008181606657693452">"အမြန်တုံ့ပြန်ချက်များ"</string>
+    <string name="call_settings_label" msgid="7824611757200960807">"ခေါ်ဆိုမှုများ"</string>
+    <string name="manage_blocked_numbers_label" msgid="16823761991832273">"ခေါ်ဆိုမှု ပိတ်ဆို့ခြင်း"</string>
+    <string name="voicemail_settings_label" msgid="4594299554519920570">"အသံမေးလ်"</string>
+    <string name="voicemail_settings_select_sim_title" msgid="129296966967476845">"အသံမေးလ်ဆက်တင်အတွက် SIM ရွေးပါ"</string>
+    <string name="blocked_numbers_disabled_emergency_header_label" msgid="6936696532562923971">"ခေါ်ဆိုမှုပိတ်ဆို့ခြင်း ယာယီပိတ်ထားသည်"</string>
+    <string name="blocked_numbers_disabled_emergency_desc" msgid="5484785225285297040">"သင်သည် လွန်ခဲ့သည့် ၄၈ နာရီအတွင်း ဤဖုန်းဖြင့် အရေးပေါ်ဌာနကိုဖုန်း ခေါ်ဆိုခဲ့သောကြောင့် ခေါ်ဆိုမှုပိတ်ဆို့ခြင်းကို ဖြုတ်ထားသည်။ ၄၈ နာရီကျော်လွန်သည်နှင့် ၎င်းကိုအလိုအလျောက် ပြန်ဖွင့်ပေးပါမည်။"</string>
+    <string name="import_send_to_voicemail_numbers_label" msgid="7821890095264297681">"နံပါတ်များ သွင်းရန်"</string>
+    <string name="blocked_call_settings_import_description" msgid="1819412052545228965">"သင်သည် ယခင်က အချို့ခေါ်ဆိုသူများကို အလိုအလျောက် အခြား အက်ပ်များမှ တဆင့် အသံစာသို့ ပို့ရန် မှတ်ပေးခဲ့သည်။"</string>
+    <string name="blocked_call_settings_view_numbers_button" msgid="3332727948554356704">"နံပါတ်များကို ကြည့်ရန်"</string>
+    <string name="blocked_call_settings_import_button" msgid="7319111700387470727">"တင်သွင်းရန်"</string>
+    <string name="description_blocked_number_list_delete" msgid="2139644216858370740">"နံပါတ်ကို ဖွင့်မည်"</string>
+    <string name="addBlockedNumber" msgid="3053473735238295551">"နံပါတ် ထည့်သွင်းပါ"</string>
+    <string name="block_number_footer_message_vvm" msgid="7955326304033982368">"ဤနံပါတ်များမှ ခေါ်ဆိုမှုများကို ပိတ်ဆို့လိုက်မည်ဖြစ်ပြီး အသံမေးလ်များကို အလိုအလျောက် ဖျက်လိုက်ပါမည်။"</string>
+    <string name="block_number_footer_message_no_vvm" msgid="1152684139070471665">"ဤနံပါတ်များမှ ခေါ်ဆိုမှုများကို ပိတ်ဆို့လိုက်ပါမည်၊ သို့သော် ၎င်းတို့သည် သင့်ကို အသံမေးလ်ချန်ခဲ့နိုင်ပါသည်။"</string>
+    <string name="block_list" msgid="4701585783411870782">"ပိတ်ထားသည့် နံပါတ်များ"</string>
+    <string name="alreadyBlocked" msgid="5483253180532475653">"<xliff:g id="NUMBER">%1$s</xliff:g> အားပိတ်ဆို့ထားပြီးပါပြီ။"</string>
+    <string name="phone_account_settings_label" msgid="8372485478006965920">"ခေါ်ဆိုသော အကောင့်များ"</string>
+    <string name="permission_multiple_turn_on" msgid="5679888820253829400">"ခွင့်ပြုချက်များ သတ်မှတ်မည်"</string>
+    <string name="permission_no_speeddial" msgid="8487215628510596753">"မြန်နှုန်းမြင့်ဖုန်းခေါ်ဆိုမှုကို ဖွင့်ရန်၊ အဆက်အသွယ်ခွင့်ပြုချက်ကို ဖွင့်ပါ။"</string>
+    <string name="permission_no_calllog" msgid="4053705651238775784">"ခေါ်ဆိုမှုမှတ်တမ်းကို ကြည့်ရန်၊ ဖုန်းခွင့်ပြုချက်ကို ဖွင့်ပါ။"</string>
+    <string name="permission_no_voicemail" msgid="1908142679289209291">"အသံမေးလ်ကိုအသုံးပြုရန်၊ ဖုန်းခွင့်ပြုချက်ကိုဖွင့်ပါ။"</string>
+    <string name="permission_no_search" msgid="2424710404207193826">"သင့်အဆက်အသွယ်များကို ရှာဖွေရန်၊ အဆက်အသွယ်ခွင့်ပြုချက်များကို ဖွင့်ပါ။"</string>
+    <string name="permission_place_call" msgid="8686908130349369423">"ဖုန်းခေါ်ဆိုရန်၊ ဖုန်းခွင့်ပြုချက်ကိုဖွင့်ပါ။"</string>
+    <string name="toast_cannot_write_system_settings" msgid="1108307781918782515">"ဖုန်း အက်ပ်ဆီတွင် စနစ် ဆက်တင်များသို့ ရေးသားခွင့် မရှိပါ။"</string>
+    <string name="blocked_number_call_log_label" msgid="4212282846299997693">"ပိတ်ဆို့ထား"</string>
+    <string name="call_log_action_block_report_number" msgid="7302636538668696729">"စပမ်းကို ပိတ်ဆို့ပါ/သတင်းပို့ပါ"</string>
+    <string name="call_log_action_block_number" msgid="5048188386501998865">"နံပါတ်ကို ပိတ်ဆို့ရန်"</string>
+    <string name="call_log_action_remove_spam" msgid="2045319806318398403">"စပမ်း မဟုတ်ပါ"</string>
+    <string name="call_log_action_unblock_number" msgid="6100117033288448758">"နံပါတ်ကို ဖွင့်မည်"</string>
+    <string name="spam_number_call_log_label" msgid="2678431398326811131">"စပမ်း"</string>
+    <string name="call_composer_connection_failed" msgid="6776461585447831242">"<xliff:g id="NAME">%1$s</xliff:g> သည် အော့ဖ်လိုင်းဖြစ်နေသောကြောင့် ဆက်သွယ်၍ မရနိုင်ပါ"</string>
+    <string name="about_phone_label" msgid="582991354677973731">"အကြောင်း"</string>
+    <string name="view_conversation" msgid="7895904782094119702">"ကြည့်ရန်"</string>
+    <string name="ec_data_deleted" msgid="4794880345545827107">"ခေါ်ဆိုမှုကို ဖျက်လိုက်ပါပြီ။ မက်ဆေ့ဂျ်များရှိ ဤခေါ်ဆိုမှုအတောအတွင်း မျှဝေထားသော ပူးတွဲပါဖိုင်များကို ကြည့်ရှုပြီး ဖျက်ပါ။"</string>
+    <string name="multiple_ec_data_deleted" msgid="2971579891973176316">"ခေါ်ဆိုမှုကို ဖျက်လိုက်ပါပြီ။ မက်ဆေ့ဂျ်များရှိ ဤခေါ်ဆိုမှုများအတွင်း မျှဝေထားသော ပူးတွဲပါဖိုင်များကို ကြည့်ရှုပြီး ဖျက်ပါ။"</string>
+
+
+    <string name="build_version_label" msgid="3876300343684966840">"တည်ဆောက်မှု ဗားရှင်း"</string>
+    <string name="open_source_license_detail_label" msgid="2860076509914623912">"အခမဲ့ရင်းမြစ်ဆော့ဖ်ဝဲအတွက် လိုင်စင်အသေးစိတ်များ"</string>
+    <string name="licenseActivityLabel" msgid="8258726177561826066">"အခမဲ့ရင်းမြစ်လိုင်စင်များ"</string>
+    <string name="privacy_policy_label" msgid="6567158248788870442">"ပုဂ္ဂိုလ်ရေးဆိုင်ရာ မူဝါဒ"</string>
+    <string name="terms_of_service_label" msgid="6788126078040996084">"ဝန်ဆောင်မှု စည်းမျဉ်းများ"</string>
+
+
+    <string name="unknown" msgid="7932659017139013277">"အကြောင်းအရာ မသိရှိ"</string>
+    <string name="unknown_counter" msgid="7452889151953704159">"<xliff:g id="UNKNOWN">%s</xliff:g> <xliff:g id="ID">%d</xliff:g>"</string>
+    <string name="payphone" msgid="7106361320283710387">"ငွေပေးရသည့်ဖုန်း"</string>
+    <string name="launcherActivityLabel" msgid="9034868428899993166">"ဖုန်း"</string>
+    <string name="video_call" msgid="8914878391104612532">"ဗီဒီယိုခေါ်ဆိုမှု"</string>
+    <string name="call" msgid="3699617769606114168">"ခေါ်ဆိုရန်"</string>
+
+
+ <string name="toast_text_copied" msgid="8979281391599667362">"စာသားကူးယူပြီး"</string>
+    <string name="copy_text" msgid="5890820280087874642">"ခဏကူးယူထားပါ"</string>
+    <string name="call_custom" msgid="3041673234638990874">"<xliff:g id="CUSTOM">%s</xliff:g> ကိုခေါ်ပါ"</string>
+    <string name="call_home" msgid="125893483593803791">"အိမ်ကိုခေါ်ပါ"</string>
+    <string name="call_mobile" msgid="967589404494150813">"မိုဘိုင်းကိုခေါ်ပါ"</string>
+    <string name="call_work" msgid="6040550697395300892">"အလုပ်ကိုခေါ်ပါ"</string>
+    <string name="call_fax_work" msgid="5260192771364592922">"အလုပ်ဖက်စ်ကိုခေါ်ပါ"</string>
+    <string name="call_fax_home" msgid="5174311195081144124">"အိမ်ဖက်စ်ကိုခေါ်ပါ"</string>
+    <string name="call_pager" msgid="6814149227741274161">"ပေဂျာကိုခေါ်ပါ"</string>
+    <string name="call_other" msgid="5536385588712587235">"ခေါ်ပါ"</string>
+    <string name="call_callback" msgid="6314019862718112786">"ပြန်ခေါ်ခြင်းဝန်ဆောင်မှုကို ခေါ်ပါ"</string>
+    <string name="call_car" msgid="3197417098027764954">"ကားကိုခေါ်ပါ"</string>
+    <string name="call_company_main" msgid="2557663310028446397">"ကုမ္ပဏီပင်မနံပါတ်ကို ခေါ်ပါ"</string>
+    <string name="call_isdn" msgid="4691270442763649522">"ISDN ကိုခေါ်ပါ"</string>
+    <string name="call_main" msgid="3293707608770407814">"ပင်မနံပါတ်ကို ခေါ်ပါ"</string>
+    <string name="call_other_fax" msgid="4724521984879021465">"ဖက်စ်ကိုခေါ်ပါ"</string>
+    <string name="call_radio" msgid="8942441419845057942">"ရေဒီယိုကိုခေါ်ပါ"</string>
+    <string name="call_telex" msgid="2031514461660668351">"တဲလက်ဇ်နံပါတ်ကိုခေါ်ပါ"</string>
+    <string name="call_tty_tdd" msgid="7807210224965727701">"TTY/TDD ကိုခေါ်ပါ"</string>
+    <string name="call_work_mobile" msgid="2716342732938578495">"အလုပ်မိုဘိုင်းကိုခေါ်ပါ"</string>
+    <string name="call_work_pager" msgid="3791778749827366574">"အလုပ်ပေဂျာကိုခေါ်ပါ"</string>
+    <string name="call_assistant" msgid="4177478845473789294">"<xliff:g id="ASSISTANT">%s</xliff:g> ကိုခေါ်ပါ"</string>
+    <string name="call_mms" msgid="4958811711741872901">"MMS ကိုခေါ်ပါ"</string>
+    <string name="call_by_shortcut" msgid="4623082183552111045">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (ခေါ်ပါ)"</string>
+    <string name="sms_custom" msgid="8785368968605026317">"<xliff:g id="CUSTOM">%s</xliff:g> သို့ စာပို့ပါ"</string>
+    <string name="sms_home" msgid="3527719551060295243">"အိမ်သို့ စာပို့ပါ"</string>
+    <string name="sms_mobile" msgid="8883045857887736518">"မိုဘိုင်းသို့ စာပို့ပါ"</string>
+    <string name="sms_work" msgid="4158595439553450966">"အလုပ်နံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_fax_work" msgid="5483726627718055248">"အလုပ်ဖက်စ်သို့ စာပို့ပါ"</string>
+    <string name="sms_fax_home" msgid="9219265155770746077">"အိမ်ဖက်စ်သို့ စာပို့ပါ"</string>
+    <string name="sms_pager" msgid="4901085068525193933">"ပေဂျာနံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_other" msgid="1742702947993285933">"စာတို"</string>
+    <string name="sms_callback" msgid="5833483630377538308">"ပြန်ခေါ်မှုနံပါတ်ထံ စာပို့ပါ"</string>
+    <string name="sms_car" msgid="4314577266154395174">"ကားဆီ စာပို့ပါ"</string>
+    <string name="sms_company_main" msgid="2308160928487360705">"ကုမ္ပဏီ ပင်မနံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_isdn" msgid="6394300346179302542">"ISDN စာပို့ပါ"</string>
+    <string name="sms_main" msgid="8908087742014140774">"အဓိကနံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_other_fax" msgid="8768455473295405427">"ဖက်စ်နံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_radio" msgid="855555176531704682">"ရေဒီယိုနံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_telex" msgid="6269029276223252719">"တဲလက်စ်နံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_tty_tdd" msgid="6229057354509192444">"TTY/TDD နံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_work_mobile" msgid="2155975469329969840">"အလုပ်မိုဘိုင်းသို့ စာပို့ပါ"</string>
+    <string name="sms_work_pager" msgid="8500140274906830742">"အလုပ်ပေ့ဂျာသို့ စာပို့ပါ"</string>
+    <string name="sms_assistant" msgid="8513548482745330818">"<xliff:g id="ASSISTANT">%s</xliff:g>ထံ စာပို့ပါ"</string>
+    <string name="sms_mms" msgid="5187888900503248542">"MMS နံပါတ်သို့ စာပို့ပါ"</string>
+    <string name="sms_by_shortcut" msgid="8005496406639963582">"<xliff:g id="CONTACT_NAME">%s</xliff:g> (မက်ဆေ့ဂ်ျပို့ပါ)"</string>
+    <string name="clearFrequentsConfirmation_title" msgid="7465690215775790243">"အသုံးများသောလိပ်စာများရှင်းပစ်မလား?"</string>
+    <string name="clearFrequentsConfirmation" msgid="5750611450893399198">"အသုံးများသော အဆက်အသွယ်စာရင်းအား Contacts နှင့် Phone app များမှ သင် ရှင်းလင်းပစ်မှာဖြစ်ပြီး၊ အီးမေးလ် app များအား သင့်နှစ်သက်ရာ ​ပ​ြောဆိုဆက်ဆံမှုပုံစံကို အစမှပြန်လည် လေ့လာခိုင်းမည်။"</string>
+    <string name="clearFrequentsProgress_title" msgid="2057183487226039454">"အသုံးများသောလိပ်စာများ ရှင်းလင်းနေစဉ်"</string>
+    <string name="status_available" msgid="2648156525685472626">"ဆက်သွယ်နိုင်ပါသည်"</string>
+    <string name="status_away" msgid="2298688367552893953">"အဝေးရောက်နေပါသည်"</string>
+    <string name="status_busy" msgid="5990832098713248503">"အလုပ်များနေသည်"</string>
+    <string name="contactsList" msgid="8806067891419291513">"အဆက်အသွယ်များ"</string>
+    <string name="contact_suggestions" msgid="3324166754807120006">"ထိပ်တန်း အကြံပြုထားပါသည်"</string>
+    <string name="local_invisible_directory" msgid="4723238462733650090">"တစ်ခြား"</string>
+    <string name="directory_search_label" msgid="4621215895484025229">"လမ်းညွှန်"</string>
+    <string name="directory_search_label_work" msgid="7679326282707414897">"အလုပ်လမ်းညွှန်"</string>
+    <string name="local_search_label" msgid="907622822323119235">"လိပ်စာများအားလုံး"</string>
+    <string name="local_suggestions_search_label" msgid="1178575146224386118">"အကြံပြုချက်များ"</string>
+    <string name="user_profile_contacts_list_header" msgid="9180620153828279580">"ကျွန်ုပ်"</string>
+    <string name="search_results_searching" msgid="3710866752172327451">"ရှာဖွေနေသည်…"</string>
+    <string name="foundTooManyContacts" msgid="3685002426663730799">"<xliff:g id="COUNT">%d</xliff:g> ထက်ပိုတွေ့ရှိသည်"</string>
+    <string name="listFoundAllContactsZero" msgid="1151813986040671916">"အဆက်အသွယ်များမရှိပါ"</string>
+    <plurals name="searchFoundContacts" formatted="false" msgid="3733009742282085433">
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ခု တွေ့ပါသည်</item>
+      <item quantity="one">၁ ခု တွေ့ပါသည်</item>
+    </plurals>
+    <string name="description_quick_contact_for" msgid="6327207399167819147">"<xliff:g id="NAME">%1$s</xliff:g> အတွက် အမြန်ဆက်သွယ်လိပ်စာ"</string>
+    <string name="missing_name" msgid="978606963362745020">"(အမည်မရှိ)"</string>
+    <string name="favoritesFrequentCalled" msgid="4646019087163449555">"မကြာခဏခေါ်ရန်သူများ"</string>
+    <string name="favoritesFrequentContacted" msgid="946588736701567509">"မကြာခဏဆက်သွယ်ရန်သူများ"</string>
+    <string name="description_view_contact_detail" msgid="2428742401208561136">"အဆက်အသွယ်ကိုကြည့်ရန်"</string>
+    <string name="list_filter_phones" msgid="8763316061763437182">"ဖုန်းနံပါတ်ပါသော လိပ်စာများအားလုံး"</string>
+    <string name="list_filter_phones_work" msgid="7083575404573422965">"အလုပ်ပရိုဖိုင် အဆက်အသွယ်များ"</string>
+    <string name="view_updates_from_group" msgid="9011641093168385729">"အဆင့်မြှင့်ခြင်းများပြရန်"</string>
+    <string name="account_phone" msgid="7067809073194061035">"ကိရိယာတွင်သာ၊ စင့်ခ်မလုပ်ပါ"</string>
+    <string name="nameLabelsGroup" msgid="7730465833159557471">"အမည်"</string>
+    <string name="nicknameLabelsGroup" msgid="6310556912361840029">"နာမည်ဝှက်"</string>
+    <string name="full_name" msgid="648186563998465740">"အမည်"</string>
+    <string name="name_given" msgid="5096576006314820536">"ပထမ အမည်"</string>
+    <string name="name_family" msgid="6646235805198547467">"နောက်ဆုံး အမည်"</string>
+    <string name="name_prefix" msgid="9215326539658838">"နာမည်ရှေ့ဆောင်"</string>
+    <string name="name_middle" msgid="703755205331582769">"အလယ်နာမည်"</string>
+    <string name="name_suffix" msgid="5777083390282548702">"နာမည်နောက်စွဲ"</string>
+    <string name="name_phonetic" msgid="1650870996361663089">"အသံထွက်နာမည်"</string>
+    <string name="name_phonetic_given" msgid="618812334274603170">"အသံထွက် ပထမ အမည်"</string>
+    <string name="name_phonetic_middle" msgid="4826820763384625538">"အသံထွက် အလယ်နာမည်"</string>
+    <string name="name_phonetic_family" msgid="379905191212930771">"အသံထွက် နောက်ဆုံး အမည်"</string>
+    <string name="phoneLabelsGroup" msgid="169661929021355548">"ဖုန်း"</string>
+    <string name="emailLabelsGroup" msgid="2249752810477488833">"အီးမေးလ်"</string>
+    <string name="postalLabelsGroup" msgid="6772000590189142253">"လိပ်စာ"</string>
+    <string name="imLabelsGroup" msgid="5718066254237364731">"IM"</string>
+    <string name="organizationLabelsGroup" msgid="1101996309241601435">"အဖွဲ့အစည်း"</string>
+    <string name="relationLabelsGroup" msgid="53866051664600053">"ပတ်သတ်မှု"</string>
+    <string name="eventLabelsGroup" msgid="1236970042646618489">"အထူးနေ့"</string>
+    <string name="sms" msgid="7574344928185328095">"စာတို"</string>
+    <string name="postal_address" msgid="1804707930129674200">"လိပ်စာ"</string>
+    <string name="ghostData_company" msgid="2554310786296833424">"ကုမ္ပဏီ"</string>
+    <string name="ghostData_title" msgid="4994968731830184837">"ခေါင်းစဉ်"</string>
+    <string name="label_notes" msgid="2050255313694219786">"မှတ်စုများ"</string>
+    <string name="label_sip_address" msgid="8883266182575965926">"SIP"</string>
+    <string name="websiteLabelsGroup" msgid="1630734286462186790">"ဝဘ်ဆိုက်"</string>
+    <string name="groupsLabel" msgid="2694002798416868728">"အုပ်စုများ"</string>
+    <string name="email_home" msgid="889830029388962171">"အိမ်ကို အီးမေးလ် ပို့ပါ"</string>
+    <string name="email_mobile" msgid="4487686436743741150">"မိုဘိုင်း ကို အီးမေးလ် ပို့ပါ"</string>
+    <string name="email_work" msgid="4223487303344613528">"အလုပ်ကို အီးမေးလ် ပို့ပါ"</string>
+    <string name="email_other" msgid="4246411900126012062">"အီးမေးလ်"</string>
+    <string name="email_custom" msgid="7246580894327511013">"အီးမေးလ် <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="email" msgid="2807318537887091606">"အီးမေးလ်"</string>
+    <string name="postal_street" msgid="6918171741240802474">"လမ်း"</string>
+    <string name="postal_pobox" msgid="2962203483168878561">"စာတိုက်သေတ္တာ"</string>
+    <string name="postal_neighborhood" msgid="5275280978237639716">"ပတ်ဝန်းကျင်"</string>
+    <string name="postal_city" msgid="8674569121430005628">"မြို့"</string>
+    <string name="postal_region" msgid="1730369286225469192">"ပြည်နယ်"</string>
+    <string name="postal_postcode" msgid="4450700741261990439">"စာပို့သင်္ကေတ"</string>
+    <string name="postal_country" msgid="232670707458768148">"နိုင်ငံ"</string>
+    <string name="map_home" msgid="4181131107392126938">"အိမ်လိပ်စာအားကြည့်ရန်"</string>
+    <string name="map_work" msgid="5723471185992684400">"အလုပ်လိပ်စာအားကြည့်ရန်"</string>
+    <string name="map_other" msgid="2253764780863500516">"လိပ်စာအားကြည့်ရန်"</string>
+    <string name="map_custom" msgid="5581743097882436157">"<xliff:g id="CUSTOM">%s</xliff:g> လိပ်စာအားကြည့်ရန်"</string>
+    <string name="chat_aim" msgid="2954364435497941659">"AIM သုံး၍ ချက်တင်လုပ်ခြင်း"</string>
+    <string name="chat_msn" msgid="3130135239071228678">"Windows Liveသုံး၍ ချက်တင်ပြုလုပ်ခြင်း"</string>
+    <string name="chat_yahoo" msgid="3233552142326865347">"Yahoo သုံး၍ ချက်တင်ပြုလုပ်ခြင်း"</string>
+    <string name="chat_skype" msgid="6486703981390592425">"Skype သုံး၍ ချက်တင်ပြုလုပ်ခြင်း"</string>
+    <string name="chat_qq" msgid="786924280665740019">"QQ သုံး၍ ချက်တင်ပြုလုပ်ခြင်း"</string>
+    <string name="chat_gtalk" msgid="7914674177243078035">"ဂူးဂဲလ်တော့သုံး၍ ချက်တင်ပြုလုပ်ခြင်း"</string>
+    <string name="chat_icq" msgid="3292934726414765801">"ICQ သုံး၍ ချက်တင်ပြုလုပ်ခြင်း"</string>
+    <string name="chat_jabber" msgid="6701542313597880204">"Jabberသုံး၍ ချက်တင်ပြုလုပ်ခြင်း"</string>
+    <string name="chat" msgid="1020428260359370236">"ချက်တင်းပြောသည်"</string>
+    <string name="description_minus_button" msgid="2659092981396583806">"ဖျက်သည်"</string>
+    <string name="expand_collapse_name_fields_description" msgid="9005732230091761802">"နာမည်အကွက်များအား ဖြန့်ချ သို့မဟုတ် လိပ်တင်ပါ"</string>
+    <string name="expand_collapse_phonetic_name_fields_description" msgid="3450645489720595412">"အသံထွက်ဆိုင်ရာ အကွက်များကို တိုးချဲ့ သို့မဟုတ် ခေါက်သိမ်းပါ"</string>
+    <string name="list_filter_all_accounts" msgid="473782314881473992">"ဆက်သွယ်အားလုံး"</string>
+    <string name="menu_done" msgid="1817505539263889535">"ပြီးပါပြီ"</string>
+    <string name="menu_doNotSave" msgid="4174389775790094548">"မလုပ်တော့ပါ"</string>
+    <string name="listAllContactsInAccount" msgid="3486378621592995630">"<xliff:g id="NAME">%s</xliff:g> ထဲမှ အဆက်အသွယ်များ"</string>
+    <string name="listCustomView" msgid="5306282632413086731">"မိမိစိတ်ကြိုက် မြင်ကွင်းမှ"</string>
+    <string name="listSingleContact" msgid="8620818791932382627">"အဆက်အသွယ်တစ်ခုတည်း"</string>
+    <string name="dialog_new_contact_account" msgid="3089718960461539156">"သွင်းထားသည့် အဆက်အသွယ်များကို သိမ်းဆည်းရန် −"</string>
+    <string name="import_from_sim" msgid="4025122666048801234">"ဆင်းမ်ကဒ်ထဲမှ အထဲသို့သွင်းရန်"</string>
+    <string name="import_from_sim_summary" msgid="7347530878981811858">"ဆင်းမ်ကဒ်မှ သွင်းယူရန် <xliff:g id="SIM_NAME">^1</xliff:g> - <xliff:g id="SIM_NUMBER">^2</xliff:g>"</string>
+    <string name="import_from_sim_summary_no_number" msgid="2311025421424473798">"ဆင်းမ်ကဒ်မှ သွင်းယူရန် <xliff:g id="SIM_NAME">%1$s</xliff:g>"</string>
+    <string name="import_from_vcf_file" product="default" msgid="2755992524137862594">".vcf ဖိုင်မှသွင်းမည်"</string>
+    <string name="cancel_import_confirmation_message" msgid="1112854508504355394">"<xliff:g id="FILENAME">%s</xliff:g> ကို အထဲသို့သွင်းခြင်းအား ရပ်တန့်မလား?"</string>
+    <string name="cancel_export_confirmation_message" msgid="8507822905973961704">"<xliff:g id="FILENAME">%s</xliff:g> ကိုအပြင်သို့ထုတ်ခြင်းအား ရပ်တန့်မလား?"</string>
+    <string name="cancel_vcard_import_or_export_failed" msgid="3633975947527306665">"လိပ်စာကဒ် အသွင်း၊အထုတ်ကို ရပ်၍မရပါ"</string>
+    <string name="fail_reason_unknown" msgid="4526834573707737085">"အမည်မသိသော မှားယွင်းမှု"</string>
+    <string name="fail_reason_could_not_open_file" msgid="2564113989228646444">"\"<xliff:g id="FILE_NAME">%s</xliff:g>\" ကို ဖွင့်၍မရပါ - <xliff:g id="EXACT_REASON">%s</xliff:g>။"</string>
+    <string name="fail_reason_could_not_initialize_exporter" msgid="1391801997398257839">"အပြင်ထုတ်သောစနစ်အား စတင်လို့မရပါ: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\"."</string>
+    <string name="fail_reason_no_exportable_contact" msgid="5905140440417594395">"အပြင်သို့ထုတ်ယူရနိုင်သော အဆက်အသွယ်မရှိပါ"</string>
+    <string name="missing_required_permission" msgid="3977319568919699902">"လိုအပ်သည့် ခွင့်ပြုချက်ကို သင်ပိတ်လိုက်သည်။"</string>
+    <string name="fail_reason_error_occurred_during_export" msgid="4022425018935814242">"အပြင်ထုတ်နေစဉ် အမှားပေါ်ပါသည်: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\"."</string>
+    <string name="fail_reason_too_long_filename" msgid="1782388695897859448">"လိုအပ်သောဖိုင်နာမည် အလွန်ရှည်နေပါသည် (\"<xliff:g id="FILENAME">%s</xliff:g>\")."</string>
+    <string name="fail_reason_io_error" msgid="5610192449460803752">"I/O အမှား"</string>
+    <string name="fail_reason_low_memory_during_import" msgid="5383581106403466715">"လုံလောက်သော မှတ်ဉာဏ်မရှိပါ။ ဖိုင်အရမ်းကြီးနေတာ ဖြစ်နိုင်ပါသည်"</string>
+    <string name="fail_reason_vcard_parse_error" msgid="7166381747317969497">"လိပ်စာကဒ်အား အမျိုးအမည်မသိအမှားကြောင့် ဖတ်လို့မရပါ"</string>
+    <string name="fail_reason_not_supported" msgid="6529299412185608834">"ပံ့ပိုးမှုပေးနိုင်သော ပုံစံမဟုတ်ပါ"</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info" msgid="2071371622333685552">"ဖော်ပြပါ လိပ်စာကဒ်ဖိုင်(များ)၏ အချက်အလက်များအား စုဆောင်းလို့မရပါ"</string>
+    <string name="fail_reason_failed_to_read_files" msgid="7364342120566067558">"ဖိုင်တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသော ဖိုင်များအား အထဲသို့သွင်းလို့မရပါ(%s)."</string>
+    <string name="exporting_vcard_finished_title" msgid="6969111823207538096">"<xliff:g id="FILENAME">%s</xliff:g> ကို အပြင်ထုတ်ခြင်းပြီးစီးပါပြီး"</string>
+    <string name="exporting_vcard_finished_title_fallback" msgid="3456404588243153606">"အဆက်အသွယ်များ တင်ပို့ခြင်း ပြီးပါပြီ။"</string>
+    <string name="exporting_vcard_finished_toast" msgid="864313687240614505">"အဆက်အသွယ်များကို တင်ပို့ပြီးပါပြီ၊ အဆက်အသွယ်များကို မျှဝေရန် အကြောင်းကြားချက်ကိုနှိပ်ပါ။"</string>
+    <string name="touch_to_share_contacts" msgid="8684610418619975866">"အဆက်အသွယ်များကို မျှဝေရန် နှိပ်ပါ။"</string>
+    <string name="exporting_vcard_canceled_title" msgid="4160930279977285925">"<xliff:g id="FILENAME">%s</xliff:g> ကို အပြင်ထုတ်ခြင်းအား ပယ်ဖျက်ပြီး"</string>
+    <string name="exporting_contact_list_title" msgid="874590947793345632">"အဆက်အသွယ်ဒေတာများအား အပြင်သို့ထုတ်နေစဉ်"</string>
+    <string name="exporting_contact_list_message" msgid="3263011604569444133">"အဆက်အသွယ်အချက်အလက်ကို တင်ပို့နေသည်။"</string>
+    <string name="composer_failed_to_get_database_infomation" msgid="443743100925218813">"ဒေတာဘေ့စ်အချက်အလက်အား မရရှိနိုင်ပါ"</string>
+    <string name="composer_has_no_exportable_contact" msgid="1492572045460138455">"တင်ပို့နိုင်သောအဆက်အသွယ် မရှိပါ။ သင့်ကိရိယာတွင် အဆက်အသွယ်များရှိပါက ဒေတာဝန်ဆောင်မှုအချို့က အဆက်အသွယ်များကို ကိရိယာမှ တင်ပို့ခွင့်မပေးခြင်းမျိုး ဖြစ်နိုင်ပါသည်။"</string>
+    <string name="composer_not_initialized" msgid="7126008930727708362">"လိပ်စာကဒ်ပြုလုပ်သောစန် ကောင်းမွန်စာ မစတင်ပါ"</string>
+    <string name="exporting_contact_failed_title" msgid="5400878429352404258">"အပြင်ထုတ်လို့မရပါ"</string>
+    <string name="exporting_contact_failed_message" msgid="1453772164161663415">"အဆက်အသွယ် အချက်အလက်ကို \nအကြောင်းပြချက်ကြောင့် မထုတ်နိုင်ပါ။  \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="importing_vcard_description" msgid="1206078719084863234">"<xliff:g id="NAME">%s</xliff:g> အား အထဲသွင်းစဉ်"</string>
+    <string name="reading_vcard_failed_title" msgid="4759080957711586257">"လိပ်စာကဒ်ဒေတာအား ဖတ်မရပါ"</string>
+    <string name="reading_vcard_canceled_title" msgid="3650078934530953275">"လိပ်စာကဒ်ဒေတာဖတ်ခြင်းအား ရပ်တန့်ပြီး"</string>
+    <string name="importing_vcard_finished_title" msgid="1543368028741535966">"<xliff:g id="FILENAME">%s</xliff:g> လိပ်စာကဒ် အထဲသွင်းခြင်း ပြီးပါပြီ"</string>
+    <string name="importing_vcard_canceled_title" msgid="2454436016819017436">"<xliff:g id="FILENAME">%s</xliff:g> အားအထဲသွင်းခြင်း ရပ်ဆိုင်းပြီး"</string>
+    <string name="vcard_import_will_start_message" msgid="6013286576133592154">"<xliff:g id="FILENAME">%s</xliff:g> ကို မကြာမှီ အထဲသို့ သွင်းပါမည်"</string>
+    <string name="vcard_import_will_start_message_with_default_name" msgid="3172538521736189687">"ဖိုင်အား မကြာမှီ အထဲသို့ သွင်းပါမည်"</string>
+    <string name="vcard_import_request_rejected_message" msgid="7620870852106507620">"လိပ်စာကဒ်အား အထဲသွင်းရန် တောင်းဆိုမှု ငြင်းဆန်ခံရပါသည်။ နောင်မှ ပြန်လည်ကြိုးစားပါ"</string>
+    <string name="vcard_export_will_start_message" msgid="4480722586633503615">"<xliff:g id="FILENAME">%s</xliff:g> ကို မကြာမီ အပြင်သို့ ထုတ်ပါမည်"</string>
+    <string name="vcard_export_will_start_message_fallback" msgid="8746087280091814150">"ဖိုင်အား မကြာမီ တင်ပို့ပါလိမ့်မည်။"</string>
+    <string name="contacts_export_will_start_message" msgid="5950262391638837408">"အဆက်အသွယ်များကို မကြာမီ တင်ပို့သွားပါမည်။"</string>
+    <string name="vcard_export_request_rejected_message" msgid="4132430982367686579">"လိပ်စာကဒ်အား အပြင်ထုတ်ရန် တောင်းဆိုမှု ငြင်းဆန်ခံရပါသည်။ နောင်မှ ပြန်လည်ကြိုးစားပါ"</string>
+    <string name="vcard_unknown_filename" msgid="7576066884501578965">"အဆက်အသွယ်"</string>
+    <string name="caching_vcard_message" msgid="7778832851741500256">"လိပ်စာကဒ်(များ)ကို စက်တွင်း ခဏသိမ်းဆည်းရာနေရာသို့ ပို့နေပါသည်။ အမှန်တကယ် တင်သွင်းခြင်း မကြာခင် စပါမည်။"</string>
+    <string name="vcard_import_failed" msgid="4135012206186446511">"လိပ်စာကဒ်အား အထဲသွင်းလို့မရပါ"</string>
+    <string name="nfc_vcard_file_name" msgid="7174382505002702431">"NFCမှရသောလိပ်စာ"</string>
+    <string name="confirm_export_title" msgid="9164673124925342242">"လိပ်စာများအပြင်သို့ထုတ်မလား?"</string>
+    <string name="caching_vcard_title" msgid="8092335276785174935">"ယာယီသိမ်းထားခြင်း"</string>
+    <string name="progress_notifier_message" msgid="2778542784808529164">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g> ကို သွင်းနေသည် - <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="export_to_vcf_file" product="default" msgid="6148360234812424446">".vcf ဖိုင်သို့ထုတ်မည်"</string>
+    <string name="display_options_sort_list_by" msgid="3541875948367831228">"ဖြင့် စီပေးရန်"</string>
+    <string name="display_options_sort_by_given_name" msgid="4316351826810346915">"ပထမ အမည်"</string>
+    <string name="display_options_sort_by_family_name" msgid="5238820876940079000">"နောက်ဆုံး အမည်"</string>
+    <string name="display_options_view_names_as" msgid="4204204205736735618">"အမည် ချထားပုံစံ"</string>
+    <string name="display_options_view_given_name_first" msgid="2308026973021171020">"ပထမ အမည် ဦးစွာ"</string>
+    <string name="display_options_view_family_name_first" msgid="987430497292428242">"နောက်ဆုံး အမည် ဦးစွာ"</string>
+    <string name="default_editor_account" msgid="1826578934497338822">"အဆက်အသွယ် အသစ်များအတွက် မူရင်း အကောင့်"</string>
+    <string name="sync_contact_metadata_dialog_title" msgid="7839882899954930421">"အဆက်အသွယ် မက်တာဒေတာကို စင့်ခ်လုပ်ပါ"</string>
+    <string name="setting_about" msgid="5253319937596745755">"အဆက်အသွယ်များ အကြောင်း"</string>
+    <string name="activity_title_settings" msgid="2398428034981372932">"အပြင်အဆင်များ"</string>
+    <string name="share_visible_contacts" msgid="6775120441469077620">"မြင်နိုင်သော အဆက်အသွယ်များအား မျှဝေပါ"</string>
+    <string name="share_visible_contacts_failure" msgid="1365755167786055470">"မြင်သာသော အဆက်အသွယ်တွေကိုဝေမျှခြင်းမပြုနိုင်ခဲ့ပါ။"</string>
+    <string name="share_favorite_contacts" msgid="9138011836074034817">"အကြိုက်ဆုံးအဆက်အသွယ်များကို မျှဝေပါ"</string>
+    <string name="share_contacts" msgid="6505699963814423437">"အဆက်အသွယ်များအားလုံးကို မျှဝေပါ"</string>
+    <string name="share_contacts_failure" msgid="6027174424732204424">"အဆက်အသွယ်များကို မျှဝေခြင်းမအောင်မြင်ပါ။"</string>
+    <string name="dialog_import_export" msgid="3052335055728876529">"အဆက်အသွယ်များ သွင်းယူ၊ ထုတ်ယူရန်"</string>
+    <string name="dialog_import" msgid="8508508044485808554">"အဆက်အသွယ်များ သွင်းပါ"</string>
+    <string name="share_error" msgid="5642622973966851784">"ဒီလိပ်စာအား မျှဝေလို့ မရပါ"</string>
+    <string name="no_contact_to_share" msgid="9115223064368461904">"မျှဝေရန် အဆက်အသွယ်များမရှိပါ။"</string>
+    <string name="menu_search" msgid="1241802591112035764">"ရှာဖွေရန်"</string>
+    <string name="hint_findContacts" msgid="1913556676649442295">"အဆက်အသွယ်များရှာပါ"</string>
+    <string name="contactsFavoritesLabel" msgid="5198982253222486561">"အနှစ်သက်ဆုံးများ"</string>
+    <string name="listTotalAllContactsZero" msgid="8436822729781033537">"အဆက်အသွယ်များမရှိပါ။"</string>
+    <string name="listTotalAllContactsZeroCustom" msgid="6072173682342248964">"မြင်နိုင်သော အဆက်အသွယ်မရှိပါ"</string>
+    <string name="listTotalAllContactsZeroStarred" msgid="5008410556001744528">"အနှစ်သက်ဆုံး မရှိပါ"</string>
+    <string name="listTotalAllContactsZeroGroup" msgid="6782377127075025237">"<xliff:g id="NAME">%s</xliff:g> ထဲတွင် အဆက်အသွယ်မရှိပါ"</string>
+    <string name="menu_clear_frequents" msgid="5358271535047496120">"မကြာခဏအရာများအား ဖယ်ရှားရန်"</string>
+    <string name="menu_select_sim" msgid="3960197724339200637">"ဆင်းမ် ကဒ်ကို ရွေးရန်"</string>
+    <string name="menu_accounts" msgid="8092083497106343280">"အကောင့်များကို စီမံကွပ်ကဲရန်"</string>
+    <string name="menu_import_export" msgid="8834601882032781755">"သွင်းယူ၊ ထုတ်ယူခြင်း"</string>
+    <string name="contact_status_update_attribution" msgid="6042601531361543253">"<xliff:g id="SOURCE">%1$s</xliff:g> မှတဆင့်"</string>
+    <string name="contact_status_update_attribution_with_date" msgid="3448746388181727251">"<xliff:g id="SOURCE">%2$s</xliff:g> မှတဆင့် <xliff:g id="DATE">%1$s</xliff:g>"</string>
+    <string name="action_menu_back_from_search" msgid="3550669942742167644">"ရှာဖွေမှုကို ရပ်ရန်"</string>
+    <string name="description_clear_search" msgid="2347258825265600782">"ရှာဖွေမှုကို ရှင်းပါ"</string>
+    <string name="settings_contact_display_options_title" msgid="5535295687646503547">"အဆက်အသွယ် ပြသမှု ရွေးစရာများ"</string>
+    <string name="select_account_dialog_title" msgid="2673504582803359239">"အကောင့်"</string>
+    <string name="set_default_account" msgid="7966099951006467572">"ခေါ်ဆိုမှုများ အတွက် အမြဲတမ်း ဒါကို သုံးရန်"</string>
+    <string name="select_phone_account_for_calls" msgid="1784460686103423274">"ဖြင့် ခေါ်ဆိုရန်"</string>
+    <string name="call_with_a_note" msgid="6242261320491851133">"မှတ်စုတစ်ခုဖြင့် ခေါ်ဆိုမည်"</string>
+    <string name="call_subject_hint" msgid="7233138753650420800">"ခေါ်ဆိုမှုဖြင့် ပေးပို့ရန် မှတ်စုတစ်ခု ရိုက်ပါ ..."</string>
+    <string name="send_and_call_button" msgid="4735168294120154013">"ပေးပို့ပြီး ခေါ်ပါ"</string>
+    <string name="call_subject_limit" msgid="8273208736191593939">"<xliff:g id="COUNT">%1$s</xliff:g> / <xliff:g id="LIMIT">%2$s</xliff:g>"</string>
+    <string name="call_subject_type_and_number" msgid="6338030032554019678">"<xliff:g id="TYPE">%1$s</xliff:g> <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="tab_title" msgid="3387876802026074288">"<xliff:g id="TITLE">%1$s</xliff:g> တဘ်။"</string>
+    <plurals name="tab_title_with_unread_items" formatted="false" msgid="8548492980702182785">
+      <item quantity="other"> <xliff:g id="TITLE_2">%1$s</xliff:g> တဘ်။ မဖတ်ရသေးသည့် အရာ <xliff:g id="COUNT_3">%2$d</xliff:g> ခု။ </item>
+      <item quantity="one"> <xliff:g id="TITLE_0">%1$s</xliff:g> တဘ်။ မဖတ်ရသေးသည့် အရာ <xliff:g id="COUNT_1">%2$d</xliff:g> ခု။ </item>
+    </plurals>
+    <string name="about_build_version" msgid="6809677213570116689">"တည်ဆောက်မှု ဗားရှင်း"</string>
+    <string name="about_open_source_licenses" msgid="9071344335180981674">"အခမဲ့ ရင်းမြစ် လိုင်စင်များ"</string>
+    <string name="about_open_source_licenses_summary" msgid="4662018242345608420">"အခမဲ့  ဆော့ဝဲအတွက် လိုင်စင် အသေးစိတ်များ"</string>
+    <string name="about_privacy_policy" msgid="120921692215934837">"ပုဂ္ဂိုလ်ရေးဆိုင်ရာ မူဝါဒ"</string>
+    <string name="about_terms_of_service" msgid="9004506174858804172">"ဝန်ဆောင်မှုဆိုင်ရာ စည်းမျဉ်းများ"</string>
+    <string name="activity_title_licenses" msgid="2416018204229261875">"အခမဲ့ရင်းမြစ်လိုင်စင်များ"</string>
+    <string name="url_open_error_toast" msgid="3814442157861318482">"url ကို ဖွင့်၍မရပါ။"</string>
+    <string name="description_search_video_call" msgid="4337369876888024909">"ဗီဒီယို ခေါ်ဆိုမှု"</string>
+    <string name="description_search_call_and_share" msgid="4912772842755050467">"မျှဝေပြီး ခေါ်ဆိုရန်"</string>
+
+
+ <string name="phoneAppLabel" product="default" msgid="4266606423746318128">"ဖုန်း"</string>
+    <string name="inCallLabel" msgid="8627766543550519912">"InCallUI"</string>
+    <string name="confCall" msgid="36560628097626181">"ကွန်းဖရင့်ခေါ်ဆိုမှု"</string>
+    <string name="call_lost" msgid="2082971531689406145">"ဖုန်းလိုင်းကျသွား၏"</string>
+    <string name="wait_prompt_str" msgid="3509685348904329594">"အောက်ပါ တီးလုံးများကို ပို့မလား?\n"</string>
+    <string name="pause_prompt_str" msgid="5712344742516488080">"အသံ ပို့နေစဉ်\n"</string>
+    <string name="send_button" msgid="6976782353456252579">"ပို့ပါ"</string>
+    <string name="pause_prompt_yes" msgid="4642047011233552973">"Yes"</string>
+    <string name="pause_prompt_no" msgid="4691320111774935838">"No"</string>
+    <string name="wild_prompt_str" msgid="1399377741491574104">"wildစာလုံးကို အစားထိုးရန်မှာ"</string>
+    <string name="caller_manage_header" msgid="7358710345135355578">"ကွန်းဖရင့် ခေါ်ဆိုမှု <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="voicemail_settings_number_label" msgid="8935904934161608885">"အသံစာပို့စနစ်နံပါတ်"</string>
+    <string name="notification_dialing" msgid="9072177265772083826">"ခေါ်ဆိုနေသည်"</string>
+    <string name="notification_missedCallTicker" msgid="238492086972857643">"<xliff:g id="MISSED_CALL_FROM">%s</xliff:g> မှလွတ်သွားသော ခေါ်ဆိုမှု"</string>
+    <string name="notification_ongoing_call" msgid="8712641937577776125">"ဆက်သွားနေသော ဖုန်းခေါ်မှု"</string>
+    <string name="notification_ongoing_work_call" msgid="3189581218078981547">"ခေါ်နေဆဲ အလုပ်မှ ခေါ်ဆိုမှု"</string>
+    <string name="notification_ongoing_call_wifi" msgid="4393238962909277019">"လက်ရှိ Wi-Fi ဖုန်းခေါ်ဆိုမှု"</string>
+    <string name="notification_ongoing_work_call_wifi" msgid="3169378605818323964">"လက်ရှိ Wi-Fi အလုပ်ဖုန်းခေါ်ဆိုမှု"</string>
+    <string name="notification_on_hold" msgid="7141827443379205682">"ခဏ ကိုင်ထားစဉ်"</string>
+    <string name="notification_incoming_call" msgid="7520580807513849283">"အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_with_photo" msgid="4360505044807517422">"ဓာတ်ပုံဖြင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_with_message" msgid="5608687985694956601">"မက်ဆေ့ဂျ်ဖြင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_with_location" msgid="4519498445081598767">"တည်နေရာဖြင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_with_photo_message" msgid="316806247057497525">"ဓာတ်ပုံနှင့် မက်ဆေ့ဂျ်တို့ဖြင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_with_photo_location" msgid="3523930283842222367">"ဓာတ်ပုံနှင့် တည်နေရာတို့ဖြင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_with_message_location" msgid="319374298517482028">"မက်ဆေ့ဂျ်နှင့် တည်နေရာတို့ဖြင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_with_photo_message_location" msgid="596658237891406809">"ဓာတ်ပုံ၊ မက်ဆေ့ဂျ်၊ တည်နေရာဖြင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_attachments" msgid="3708414495376236948">"ပူးတွဲပါဖိုင်များဖြင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call" msgid="2867013954509930989">"အရေးကြီးသော အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call_with_photo" msgid="4908333121583658560">"ဓာတ်ပုံဖြင့် အရေးကြီးသော အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call_with_message" msgid="1614505248246685319">"မက်ဆေ့ဂျ်ဖြင့် အရေးကြီးသော အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call_with_location" msgid="7387284065036564352">"တည်နေရာဖြင့် အရေးကြီးသော အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call_with_photo_message" msgid="4577220919701434817">"ဓာတ်ပုံနှင့် မက်ဆေ့ဂျ်ဖြင့် အရေးကြီးသောခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call_with_photo_location" msgid="7172208615619394502">"ဓာတ်ပုံနှင့် တည်နေရာဖြင့် အရေးကြီးသောခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call_with_message_location" msgid="7244079127080064796">"မက်ဆေ့ဂျ်နှင့် တည်နေရာဖြင့် အရေးကြီးသောခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call_with_photo_message_location" msgid="513692941317253479">"ဓာတ်ပုံ၊မက်ဆေ့ဂျ်၊တည်နေရာဖြင့် အရေးကြီးခေါ်ဆိုမှု"</string>
+    <string name="important_notification_incoming_call_attachments" msgid="4594375776340303751">"ပူးတွဲပါဖိုင်များဖြင့် အရေးကြီးသော အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_work_call" msgid="5291275092734261918">"အဝင် ခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_call_wifi" msgid="1020138378061234203">"အဝင် Wi‑Fi ဖုန်းခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_work_call_wifi" msgid="3549264481033044684">"အဝင် Wi‑Fi အလုပ်ဖုန်းခေါ်ဆိုမှု"</string>
+    <string name="notification_incoming_spam_call" msgid="7591506944666791937">"ခေါ်နေသော မသင်္ကာဖွယ်ရာ စပမ်းခေါ်ဆိုမှု"</string>
+    <string name="notification_requesting_video_call" msgid="1807679328811515758">"အသံ ခေါ်ဆိုမှုအဖြစ် တောင်းဆိုမှု"</string>
+    <string name="notification_network_selection_title" msgid="8639159088474275747">"ဝန်ဆောင်မှု မရှိပါ"</string>
+    <string name="notification_network_selection_text" msgid="7190860774239009625">"ရွေးချယ်ထားသော ကွန်ရက် (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) မရရှိနိုင်ပါ"</string>
+    <string name="notification_action_answer" msgid="8748275902211192568">"အဖြေ"</string>
+    <string name="notification_action_end_call" msgid="7467258454170007765">"ဖုန်းချလိုက်ပါပြီ"</string>
+    <string name="notification_action_answer_video" msgid="8488108892919917287">"ဗီဒီယို"</string>
+    <string name="notification_action_answer_voice" msgid="6237890905749760509">"အသံ"</string>
+    <string name="notification_action_accept" msgid="1272761514200507143">"လက်ခံရန်"</string>
+    <string name="notification_action_dismiss" msgid="3128241581632616226">"ငြင်းပယ်ရန်"</string>
+    <string name="notification_external_call" msgid="2504334597315343920">"အခြားကိရိယာတွင် လက်ရှိခေါ်ဆိုနေမှု"</string>
+    <string name="notification_external_video_call" msgid="7709394856028436683">"အခြားကိရိယာရှိ လက်ရှိဗီဒီယိုခေါ်ဆိုမှု"</string>
+    <string name="notification_take_call" msgid="5631659438864492229">"ဖုန်းခေါ်ဆိုမှုလွှဲယူပါ"</string>
+    <string name="notification_take_video_call" msgid="4473387503712341390">"ဗီဒီယိုခေါ်ဆိုမှုလွှဲယူပါ"</string>
+    <string name="incall_error_power_off" msgid="3244691852792529453">"ဖုန်းခေါ်ဆိုမှုပြုရန်, လေယာဥ်ပျံပေါ်အသုံးပြုသောစနစ်ကို ပိတ်ပါ"</string>
+    <string name="incall_error_emergency_only" msgid="8313690034696753566">"ကွန်ယက်ပေါ်မှာ မှတ်ပုံတင်မှု မပြုလုပ်ထားပါ"</string>
+    <string name="incall_error_out_of_service" msgid="5027539470868484145">"မိုဘိုင်းကွန်ရက် မရနိုင်ပါ"</string>
+    <string name="incall_error_no_phone_number_supplied" msgid="293343960362630925">"ဖုန်းခေါ်ရန်အတွက်၊ သင့်လျော်သည့်နံပါတ် ရိုက်ထည့်ပါ။"</string>
+    <string name="incall_error_call_failed" msgid="5560521345862514733">"မခေါ်ဆိုနိုင်ပါ။"</string>
+    <string name="incall_status_dialed_mmi" msgid="3341365334358686873">"MMI အမှတ်စဉ်ကို စတင်နေပါသည်…"</string>
+    <string name="incall_error_supp_service_unknown" msgid="3062751096566282959">"ဤဝန်ဆောင်မှုအား မပံ့ပိုးပါ။"</string>
+    <string name="incall_error_supp_service_switch" msgid="759346040980722884">"ဖုန်းခေါ်ခြင်းများကြား မကူးပ​ြောင်းနိုင်ပါ။"</string>
+    <string name="incall_error_supp_service_separate" msgid="5250304200901095519">"ဖုန်းခေါ်ခြင်းအား မခွဲထုတ်နိုင်ပါ။"</string>
+    <string name="incall_error_supp_service_transfer" msgid="556522021433482116">"မလွှဲပြောင်းနိုင်ပါ။"</string>
+    <string name="incall_error_supp_service_conference" msgid="9211560861266632111">"ကွန်းဖရန့်စ် မလုပ်နိုင်ပါ။"</string>
+    <string name="incall_error_supp_service_reject" msgid="2724981515194352120">"ဖုန်းခေါ်ခြင်းအား မငြင်းဆိုနိုင်ပါ။"</string>
+    <string name="incall_error_supp_service_hangup" msgid="4659922482839313098">"ဖုန်းခေါ်ခြင်း(များ)အား လွှတ်မပေးနိုင်ပါ။"</string>
+    <string name="emergency_enable_radio_dialog_title" msgid="5964415982020440543">"အရေးပေါ်ခေါ်ဆိုမှု"</string>
+    <string name="emergency_enable_radio_dialog_message" msgid="6927454354381787268">"ရေဒီယို ဖွင့်နေစဉ်…"</string>
+    <string name="emergency_enable_radio_dialog_retry" msgid="8760220613410560290">"ဝန်ဆောင်မှု မရှိပါ။ ထပ်မံကြိုးစားပါ…"</string>
+    <string name="dial_emergency_error" msgid="6953255422990366011">"ခေါ်ဆို၍မရနိုင်ပါ။ <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> သည်အရေးပေါ်နံပါတ်တစ်ခု မဟုတ်ပါ။"</string>
+    <string name="dial_emergency_empty_error" msgid="6668006522178181198">"မခေါ်ဆိုနိုင်ပါ။ အရေးပေါ်နံပါတ်အား ခေါ်ဆိုပါ။"</string>
+    <string name="dialerKeyboardHintText" msgid="6275105254377292585">"ကီးဘုတ်သုံး၍ခလုတ်နှိပ်ပါ"</string>
+    <string name="player_started" msgid="9177182657338033086">"Player စတင်ခဲ့သည်"</string>
+    <string name="player_stopped" msgid="5040965200339765956">"Player ရပ်တန့်ခဲ့သည်"</string>
+    <string name="camera_not_ready" msgid="3629017450703828964">"ကင်မရာအဆင်သင့် မဖြစ်သေးပါ"</string>
+    <string name="camera_ready" msgid="4312684554501216898">"ကင်မရာအဆင်သင့်"</string>
+    <string name="unknown_call_session_event" msgid="797786212356595358">"အမည်မသိခေါ်ဆိုမှု ဆက်ရှင်ဖြစ်ရပ်"</string>
+    <string name="other_settings" msgid="2537377721890761197">"တခြားခေါ်ဆိုမှုဆိုင်ရာ ဆက်တင်"</string>
+    <string name="goPrivate" msgid="5269514638004595378">"ပရိုက်ဗိတ်သို့ သွားပါ"</string>
+    <string name="selectContact" msgid="1703433172800564849">"လိပ်စာရွေးပါ"</string>
+    <string name="preference_category_ringtone" msgid="8566115267004890115">"ဖုန်းမြည်သံနှင့် တုန်ခါမှု"</string>
+    <string name="manageConferenceLabel" msgid="3589379023518128318">"အစည်းအဝေးခေါ်ဆိုမှုကို စီမံခန့်ခွဲပါ"</string>
+    <string name="emergency_call_dialog_number_for_display" msgid="461645337084699104">"အရေးပေါ်နံပါတ်"</string>
+    <string name="child_number" msgid="3398257437107259682">"<xliff:g id="CHILD_NUMBER">%s</xliff:g>မှတစ်ဆင့်"</string>
+    <string name="person_contact_context_title" msgid="9186980175313563725">"မကြာမီက စာတိုများ"</string>
+    <string name="business_contact_context_title" msgid="4796616668776688978">"စီးပွားရေး အချက်အလက်"</string>
+    <string name="distance_imperial_away" msgid="66546464027126106">"<xliff:g id="DISTANCE">%.1f</xliff:g> mi အကွာ"</string>
+    <string name="distance_metric_away" msgid="4535553190850854545">"<xliff:g id="DISTANCE">%.1f</xliff:g> km အကွာ"</string>
+    <string name="display_address" msgid="2909385132133621873">"<xliff:g id="STREET_ADDRESS">%1$s</xliff:g>၊ <xliff:g id="LOCALITY">%2$s</xliff:g>"</string>
+    <string name="open_time_span" msgid="3333746415188434992">"<xliff:g id="OPEN_TIME">%1$s</xliff:g> - <xliff:g id="CLOSE_TIME">%2$s</xliff:g>"</string>
+    <string name="opening_hours" msgid="2908934145495754020">"<xliff:g id="EARLIER_TIMES">%1$s</xliff:g>၊ <xliff:g id="LATER_TIME">%2$s</xliff:g>"</string>
+    <string name="opens_tomorrow_at" msgid="2896787795283597856">"မနက်ဖြန် <xliff:g id="OPEN_TIME">%s</xliff:g> ၌ဖွင့်မည်"</string>
+    <string name="opens_today_at" msgid="4701005560156621184">"ယနေ့ <xliff:g id="OPEN_TIME">%s</xliff:g> ၌ဖွင့်မည်"</string>
+    <string name="closes_today_at" msgid="2668928851103904896">"<xliff:g id="CLOSE_TIME">%s</xliff:g> ၌ပိတ်မည်"</string>
+    <string name="closed_today_at" msgid="4203311397205549440">"ယနေ့ <xliff:g id="CLOSE_TIME">%s</xliff:g> ၌ပိတ်ခဲ့သည်"</string>
+    <string name="open_now" msgid="5897306702060039512">"ယခုဖွင့်ရန်"</string>
+    <string name="closed_now" msgid="3962291301467974921">"ယခုပိတ်ရန်"</string>
+    <string name="non_spam_notification_title" msgid="3290544768406546372">"<xliff:g id="NUMBER">%1$s</xliff:g> ကို သိပါသလား။"</string>
+    <string name="spam_notification_title" msgid="2439276063775520534">"<xliff:g id="NUMBER">%1$s</xliff:g> က စပမ်းလား။"</string>
+    <string name="spam_notification_block_report_toast_text" msgid="6844067640633690292">"<xliff:g id="NUMBER">%1$s</xliff:g> ကို ပိတ်ဆို့လိုက်ပြီး ခေါ်ဆိုမှုကို စပမ်းအဖြစ် သတင်းပို့ပြီးပါပြီ။"</string>
+    <string name="spam_notification_not_spam_toast_text" msgid="8321993839027073785">"<xliff:g id="NUMBER">%1$s</xliff:g> ထံမှခေါ်ဆိုမှုကို စပမ်းအဖြစ် သတင်းပို့ပြီးပါပြီ။"</string>
+    <string name="spam_notification_non_spam_call_collapsed_text" msgid="6482092382445364016">"အဆက်အသွယ်များသို့ ထည့်ရန် (သို့) စပမ်းနံပါတ်ကို ပိတ်ဆို့ရန် နှိပ်ပါ"</string>
+    <string name="spam_notification_non_spam_call_expanded_text" msgid="3598209932872915536">"ဤနံပါတ်သည် သင့်ထံသို့ ပထမဆုံးခေါ်ဖူးခြင်းဖြစ်သည်။ ဤခေါ်ဆိုမှုသည် စပမ်းဖြစ်ပါက ဤနံပါတ်ကို ပိတ်ဆို့၍ သတင်းပို့နိုင်ပါသည်။"</string>
+    <string name="spam_notification_spam_call_collapsed_text" msgid="3865687645128037638">"စပမ်းမဟုတ်ကြောင်း သတင်းပို့ရန် နှိပ်ပါ၊ သို့မဟုတ် ၎င်းကို ပိတ်ဆို့ပါ။"</string>
+    <string name="spam_notification_spam_call_expanded_text" msgid="1062029525759401658">"ဤသည်ကို စပမ်မာဟု ကျွန်ုပ်တို့ သံသယရှိပါသည်။ ဤခေါ်ဆိုမှုသည် စပမ်းမဟုတ်ပါက ကျွန်ုပ်တို့၏မှားယွင်းမှုကို သတင်းပို့ရန် \"စပမ်းမဟုတ်ပါ\" ကို နှိပ်ပါ။"</string>
+    <string name="spam_notification_report_spam_action_text" msgid="4829510418690824538">"ပိတ်ဆို့ပြီး သတင်းပို့ပါ"</string>
+    <string name="spam_notification_add_contact_action_text" msgid="307315138401483232">"လိပ်စာထပ်ထည့်ပါ"</string>
+    <string name="spam_notification_not_spam_action_text" msgid="2576048366011852090">"စပမ်းမဟုတ်ပါ"</string>
+    <string name="spam_notification_block_spam_action_text" msgid="80045727259264724">"နံပါတ်ကို ပိတ်ဆို့ပါ"</string>
+    <string name="spam_notification_dialog_add_contact_action_text" msgid="5619696845681999506">"အဆက်အသွယ်များထဲသို့ ထည့်ပါ"</string>
+    <string name="spam_notification_dialog_block_report_spam_action_text" msgid="1821506089128547428">"စပမ်းကို ပိတ်ဆို့ပြီး သတင်းပို့ပါ"</string>
+    <string name="spam_notification_dialog_was_not_spam_action_text" msgid="4953789750391355251">"စပမ်းမဟုတ်ပါ"</string>
+    <string name="callFailed_simError" msgid="4587775795711340072">"ဆင်းမ်ကဒ်မရှိ သို့မဟုတ် ဆင်းမ်ကဒ်အမှား"</string>
+    <string name="conference_caller_disconnect_content_description" msgid="2821988368803183644">"ခေါ်ဆိုမှုအပြီးသတ်ရန်"</string>
+    <string name="conference_call_name" msgid="8189987124611337174">"အစည်းအဝေးခေါ်ဆိုမှု"</string>
+    <string name="generic_conference_call_name" msgid="1546941472424243894">"ဖုန်းပြောနေသည်"</string>
+    <string name="video_call_wifi_to_lte_handover_toast" msgid="2108633957233856099">"မိုဘိုင်းဒေတာသုံးပြီး ဆက်လက်ခေါ်ဆိုနေသည်…"</string>
+    <string name="video_call_lte_to_wifi_failed_title" msgid="1343446383310594456">"Wi‑Fi ကွန်ရက်သို့ မပြောင်းနိုင်ပါ"</string>
+    <string name="video_call_lte_to_wifi_failed_message" msgid="3703332569739939335">"ဗီဒီယိုခေါ်ဆိုမှုသည် မိုဘိုင်းကွန်ရက်တွင် ဆက်ရှိနေပါမည်။ ပုံမှန်ဒေတာသုံးစွဲခများ ကျသင့်နိုင်ပါသည်။"</string>
+    <string name="video_call_lte_to_wifi_failed_do_not_show" msgid="7609115874511223150">"ဤသည်ကို ထပ်မပြပါနှင့်"</string>
+
+
+
+    <string name="voicemail_settings_with_label" msgid="563926539137546586">"အသံမေးလ် (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="voicemail_settings_title" msgid="6685263321755930738">"အသံမေးလ်"</string>
+    <string name="voicemail_notifications_preference_title" msgid="3490553930230492405">"အကြောင်းကြားချက်များ"</string>
+    <string name="voicemail_advanced_settings_title" msgid="6390900339808156711">"အဆင့်မြင့် ဆက်တင်များ"</string>
+    <string name="voicemail_visual_voicemail_switch_title" msgid="3158454817165714998">"စာသားမှတ်တမ်းပါ အသံမေးလ်"</string>
+    <string name="voicemail_visual_voicemail_auto_archive_switch_title" msgid="7120443850486401455">"အပိုဆောင်း မိတ္တူနှင့် သိုလှောင်မှု"</string>
+    <string name="voicemail_set_pin_preference_title" msgid="1034691230818233684">"ပင်နံပါတ် သတ်မှတ်ပါ"</string>
+    <string name="voicemail_change_pin_preference_title" msgid="8944570865151211693">"ပင်နံပါတ် ပြောင်းပါ"</string>
+    <string name="voicemail_change_pin_preference_summary_disable" msgid="2787334822298063691">"ပင်နံပါတ်ပြောင်းရန် စာသားမှတ်တမ်းပါ အသံမေးလ်ကို ဖွင့်ထားရပါမည်"</string>
+    <string name="voicemail_change_pin_preference_summary_not_activated" msgid="8794039647258533633">"စာသားမှတ်တမ်းပါ အသံမေးလ်ကို မဖွင့်ရသေးပါ၊ နောက်မှ ထပ်ဖွင့်ကြည့်ပါ"</string>
+    <string name="vm_change_pin_old_pin" msgid="3732582036597386047">"ပင်နံပါတ်အဟောင်း"</string>
+    <string name="vm_change_pin_new_pin" msgid="5167496290646066333">"ပင်နံပါတ်အသစ်"</string>
+    <string name="vm_change_pin_progress_message" msgid="4143209637626661679">"ခဏစောင့်ပါ။"</string>
+    <string name="vm_change_pin_error_too_short" msgid="2825020644385639921">"ပင်နံပါတ်အသစ်မှာ တိုလွန်းနေသည်။"</string>
+    <string name="vm_change_pin_error_too_long" msgid="683260438529171998">"ပင်နံပါတ်အသစ်မှာ ရှည်လွန်းနေသည်။"</string>
+    <string name="vm_change_pin_error_too_weak" msgid="5865254034338293113">"ပင်နံပါတ်အသစ်မှာ အားနည်းလွန်းနေသည်။ အားကောင်းသောစကားဝှက်တစ်ခုတွင် အစဉ်လိုက်စာလုံးများ (သို့) ထပ်တလဲလဲသုံးထားသောကိန်းဂဏန်းများ မပါသင့်ပါ။"</string>
+    <string name="vm_change_pin_error_mismatch" msgid="3682667971009913553">"ပင်နံပါတ်အဟောင်းမှာ မကိုက်ညီပါ။"</string>
+    <string name="vm_change_pin_error_invalid" msgid="4317397281749196545">"ပင်နံပါတ်အသစ်တွင် အသုံးပြု၍မရသောအက္ခရာများ ပါဝင်နေပါသည်။"</string>
+    <string name="vm_change_pin_error_system_error" msgid="5972056058776852411">"ပင်နံပါတ်ကို ပြောင်း၍မရပါ"</string>
+    <string name="vvm_unsupported_message_format" msgid="2746490691815392491">"ပံ့ပိုးမထားသော မက်ဆေ့ဂျ်အမျိုးအစားဖြစ်၍ နားထောင်ရန် <xliff:g id="NUMBER">%s</xliff:g> ကို ခေါ်ဆိုပါ။"</string>
+    <string name="change_pin_title" msgid="1363830310845461697">"အသံမေးလ်ပင်နံပါတ် ပြောင်းပါ"</string>
+    <string name="change_pin_continue_label" msgid="9184635195162827832">"ဆက်လုပ်ရန်"</string>
+    <string name="change_pin_cancel_label" msgid="7258783861113501519">"မလုပ်တော့"</string>
+    <string name="change_pin_ok_label" msgid="4527043915415428629">"အိုကေ"</string>
+    <string name="change_pin_enter_old_pin_header" msgid="1375728090965833028">"သင့်ပင်နံပါတ်အဟောင်းကို အတည်ပြုပါ"</string>
+    <string name="change_pin_enter_old_pin_hint" msgid="1654231195871094175">"ဆက်လုပ်ရန် သင့်အသံမေးလ်ပင်နံပါတ်ကို ထည့်ပါ။"</string>
+    <string name="change_pin_enter_new_pin_header" msgid="7142620840890909719">"ပင်နံပါတ်အသစ် သတ်မှတ်ပါ"</string>
+    <string name="change_pin_enter_new_pin_hint" msgid="1289662932759932217">"ပင်နံပါတ်တွင် ဂဏန်း <xliff:g id="MIN">%1$d</xliff:g>-<xliff:g id="MAX">%2$d</xliff:g> လုံး ပါရှိရမည်။"</string>
+    <string name="change_pin_confirm_pin_header" msgid="7282604363655862136">"သင့်ပင်နံပါတ်ကို အတည်ပြုပါ"</string>
+    <string name="change_pin_confirm_pins_dont_match" msgid="8626742552205369433">"ပင်နံပါတ်များ မကိုက်ညီပါ"</string>
+    <string name="change_pin_succeeded" msgid="6869403202124894671">"အသံမေးလ်ပင်နံပါတ်ကို အပ်ဒိတ်လုပ်လိုက်ပါပြီ"</string>
+    <string name="change_pin_system_error" msgid="5762853042379833829">"ပင်နံပါတ်ကို သတ်မှတ်၍မရပါ"</string>
+
+
+    <string name="urgent" msgid="5271653973625093934">"အရေးကြီးသည်။ ဖုန်းကိုင်ပါ။"</string>
+    <string name="want_to_chat" msgid="847333669248949914">"ချတ်လုပ်လိုပါသလား။"</string>
+    <string name="quick_question" msgid="3501160802390214092">"အမြန်မေးခွန်း…"</string>
+    <string name="message_composer_custom_message_hint" msgid="2061100708804604835">"စိတ်ကြိုက် မက်ဆေ့ဂျ်တစ်ခု ရေးပါ"</string>
+    <string name="send_and_call" msgid="3749091015058610762">"ပို့ပြီး ဖုန်းခေါ်ရန်"</string>
+    <string name="share_and_call" msgid="8934144481838868674">"မျှဝေပြီး ခေါ်ဆိုရန်"</string>
+    <string name="gallery_item_description" msgid="7600601724204579471">"ပုံ <xliff:g id="DATE">%1$tB %1$te %1$tY %1$tl %1$tM %1$tp</xliff:g>"</string>
+    <string name="gallery_item_description_no_date" msgid="2059198895441426838">"ပုံ"</string>
+    <string name="camera_switch_to_still_mode" msgid="1881982437979592567">"ဓာတ်ပုံတစ်ပုံ ရိုက်ရန်"</string>
+    <string name="camera_media_failure" msgid="8979549551450965882">"ကင်မရာမှပုံကို မရယူနိုင်ပါ"</string>
+    <string name="allow" msgid="8637148297403066623">"ခွင့်ပြုရန်"</string>
+    <string name="camera_permission_text" msgid="7863231776480341614">"ဓာတ်ပုံရိုက်ရန် ကင်မရာသို့ ဝင်သုံးခွင့်ပေးပါ"</string>
+    <string name="gallery_permission_text" msgid="4102566850658919346">"ပုံမျှဝေရန် မီဒီယာသို့ ဝင်သုံးခွင့်ပေးပါ"</string>
+    <string name="description_call_composer_camera" msgid="388088245837924914">"ဓာတ်ပုံတစ်ပုံ ရိုက်ရန်"</string>
+    <string name="description_call_composer_photo" msgid="6449208314952246454">"ဓာတ်ပုံတစ်ပုံ ရွေးရန်"</string>
+    <string name="description_call_composer_message" msgid="9132362446000908550">"မက်ဆေ့ဂျ်ပို့ရန်"</string>
+    <string name="image_sent_messages" msgid="6520870555040566229">"မက်ဆေ့ဂျ်များမှတစ်ဆင့် ဓာတ်ပုံပို့ပြီးပါပြီ"</string>
+    <string name="message_sent_messages" msgid="6286576951151541098">"မက်ဆေ့ဂျ်များမှတစ်ဆင့် မက်ဆေ့ဂျ်ပို့ပြီးပါပြီ"</string>
+
+    <string name="migrate_blocked_numbers_dialog_title" msgid="7823962296457673809">"အသစ်၊ ရိုးရှင်းသည့် ပိတ်ဆို့မှု"</string>
+    <string name="migrate_blocked_numbers_dialog_message" msgid="8309736147266462485">"သင့်အား ပိုမိုကောင်းမွန်စွာကာကွယ်နိုင်ရန်၊ ဖုန်းသည် ပိတ်ဆို့ခြင်းအလုပ်လုပ်ပုံကို ပြောင်းလဲရန် လိုအပ်ပါသည်။ သင် ပိတ်ဆို့ထားသည့် နံပါတ်များမှ ခေါ်ဆိုခြင်းနှင့် စာပို့ခြင်းများကို ရပ်တန့်လိုက်မည်ဖြစ်ပြီး၊ ၎င်းနံပါတ်များကို အခြားအက်ပ်များဖြင့်လည်း မျှဝေနိုင်ပါသည်။"</string>
+    <string name="migrate_blocked_numbers_dialog_allow_button" msgid="5192836471557751367">"ခွင့်ပြုမည်"</string>
+    <string name="block_number_confirmation_title" msgid="2699521227461376076">"<xliff:g id="NUMBER">%1$s</xliff:g>ကို ပိတ်ဆို့မလား။"</string>
+    <string name="block_number_confirmation_message_vvm" msgid="6501105244172290939">"ဤနံပါတ်မှခေါ်ဆိုမှုများကို ပိတ်ဆို့လိုက်မည်ဖြစ်ပြီး အသံမေးလ်များကို အလိုအလျောက် ဖျက်လိုက်ပါမည်။"</string>
+    <string name="block_number_confirmation_message_no_vvm" msgid="8236641245709649882">"ဤနံပါတ်မှ ခေါ်ဆိုမှုများကို ပိတ်ဆို့လိုက်ပါမည်၊ သို့သော် ၎င်းတို့သည် သင့်ကို အသံမေးလ်ချန်ခဲ့နိုင်ပါသည်။"</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="8487449683723062644">"ဤနံပါတ်ထံမှ ဖုန်းခေါ်ဆိုမှုများနှင့် စာများကို သင် ထပ်မံရရှိတော့မည် မဟုတ်ပါ။"</string>
+    <string name="block_number_ok" msgid="739786082788038932">"ပိတ်ဆို့ပါ"</string>
+    <string name="unblock_number_confirmation_title" msgid="7897778825085659941">"<xliff:g id="NUMBER">%1$s</xliff:g> အား ပိတ်ဆို့မှု ဖယ်ရှားလိုက်ရမလား။"</string>
+    <string name="unblock_number_ok" msgid="5089057152966269355">"ပိတ်ဆို့ခြင်းမှ ဖယ်ရှားပါ"</string>
+    <string name="invalidNumber" msgid="6270918250761754967">"<xliff:g id="NUMBER">%1$s</xliff:g> သည်တရားမဝင်ပါ။"</string>
+    <string name="snackbar_number_blocked" msgid="5760234822413921845">"<xliff:g id="NUMBER">%1$s</xliff:g> ကိုပိတ်ဆို့လိုက်ပါပြီ"</string>
+    <string name="snackbar_number_unblocked" msgid="7941296274123990585">"<xliff:g id="NUMBER">%1$s</xliff:g> ကိုပိတ်ဆို့ခြင်းမှ ဖယ်ရှားလိုက်ပါပြီ"</string>
+    <string name="block_number_undo" msgid="5158120911892491697">"ပြန်ဖျက်ရန်"</string>
+    <string name="send_to_voicemail_import_failed" msgid="1012752662074208237">"တင်သွင်းမှု မအောင်မြင်ပါ"</string>
+    <string name="call_blocking_disabled_notification_title" msgid="7211352205255347489">"ခေါ်ဆိုမှုပိတ်ဆို့ခြင်းကို ၄၈ နာရီပိတ်ထားသည်"</string>
+    <string name="call_blocking_disabled_notification_text" msgid="141384084865180722">"အရေးပေါ်ခေါ်ဆိုမှု ပြုလုပ်ခဲ့သည့်အတွက် ပိတ်ထားပါသည်။"</string>
+    <string name="block_report_number_alert_title" msgid="2740581989824959611">"<xliff:g id="NUMBER">%1$s</xliff:g>ကို ပိတ်ဆို့မလား။"</string>
+    <string name="block_report_number_alert_details" msgid="2652479394593143562">"သင့်အနေဖြင့် ဤနံပါတ်မှဖုန်းခေါ်ဆိုမှုများကို လက်ခံရရှိတော့မည်မဟုတ်ပါ။"</string>
+    <string name="block_number_alert_details" msgid="715942751312046429">"<xliff:g id="TEXT">%1$s</xliff:g> ဤခေါ်ဆိုမှုကို စပမ်းအဖြစ် သတင်းပို့ပါလိမ့်မည်။"</string>
+    <string name="unblock_number_alert_details" msgid="8696070817026870606">"ဤနံပါတ်ကို ပိတ်ဆို့တော့မည်မဟုတ်ဘဲ စပမ်းမဟုတ်ကြောင်း သတင်းပို့ပါမည်။ နောင်ဝင်လာမည့်ဖုန်းခေါ်ဆိုမှုများနှင့် အသံမေးလ်များကို စပမ်းအဖြစ် သတ်မှတ်တော့မည်မဟုတ်ပါ။"</string>
+    <string name="unblock_report_number_alert_title" msgid="2221901995393696882">"<xliff:g id="NUMBER">%1$s</xliff:g> အား ပိတ်ဆို့မှု ဖယ်ရှားလိုက်ရမလား။"</string>
+    <string name="report_not_spam_alert_button" msgid="3244953565919894995">"သတင်းပို့ပါ"</string>
+    <string name="report_not_spam_alert_title" msgid="395961923213504916">"မှားယွင်းမှုတစ်ခုကို သတင်းပို့မလား။"</string>
+    <string name="report_not_spam_alert_details" msgid="4463730683530824797">"<xliff:g id="NUMBER">%1$s</xliff:g> ထံမှ နောင်ဝင်လာမည့်ဖုန်းခေါ်ဆိုမှုများကို စပမ်းအဖြစ် သတ်မှတ်တော့မည်မဟုတ်ပါ။"</string>
+    <string name="checkbox_report_as_spam_action" msgid="1549159682170273798">"ခေါ်ဆိုမှုကို စပမ်းအဖြစ် သတင်းပို့ပါ"</string>
+
+
+
+    <string name="call_details" msgid="5063658079729839605">"ခေါ်ဆိုမှုအသေးစိတ်"</string>
+    <string name="delete" msgid="2141020674108406737">"ဖျက်ရန်"</string>
+    <string name="call_details_copy_number" msgid="4265479408878990796">"နံပါတ်ကိုကူးယူရန်"</string>
+    <string name="call_details_edit_number" msgid="8718476514903513624">"မခေါ်ဆိုမီ နံပါတ်ကိုပြင်ဆင်ရန်"</string>
+    <string name="call_details_report_call_id" msgid="8857541295264421217">"မတိကျသော နံပါတ်ကို တိုင်ကြားရန်"</string>
+    <string name="sent_a_photo" msgid="3978670717462979502">"ဓာတ်ပုံ ပို့လိုက်သည်"</string>
+    <string name="received_a_photo" msgid="3528953225576480505">"ဓာတ်ပုံ လက်ခံရရှိသည်"</string>
+    <string name="message_in_quotes" msgid="3270574830115828365">"\"<xliff:g id="MESSAGE">%1$s</xliff:g>\""</string>
+    <string name="report_caller_id_dialog_title" msgid="145323726250371695">"မမှန်ကန်သည့် နံပါတ်ကို တိုင်ကြားရန်"</string>
+    <string name="report_caller_id_failed" msgid="1471904930106125702">"နံပါတ်ကို မတိုင်ကြားနိုင်ပါ"</string>
+    <string name="report_caller_id_toast" msgid="5494870403429969932">"နံပါတ်ကို တိုင်ကြားပြီးပါပြီ"</string>
+
+
+    <string name="type_incoming" msgid="5727636795656199810">"အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="type_incoming_pulled" msgid="8434723359163965796">"အဝင်ခေါ်ဆိုမှုကို အခြားကိရိယာသို့ လွှဲပြောင်းလိုက်သည်"</string>
+    <string name="type_outgoing" msgid="764896746073942963">"အထွက်ခေါ်ဆိုမှု"</string>
+    <string name="type_outgoing_pulled" msgid="1648517538371704193">"အထွက်ခေါ်ဆိုမှုကို အခြားကိရိယာသို့ လွှဲပြောင်းလိုက်သည်"</string>
+    <string name="type_missed" msgid="2997043831022028176">"လွတ်သွားသော ခေါ်ဆိုမှု"</string>
+    <string name="type_incoming_video" msgid="7507180294202642554">"အဝင်ဗီဒီယိုခေါ်ဆိုမှု"</string>
+    <string name="type_incoming_video_pulled" msgid="7879031598844023977">"အဝင်ဗီဒီယိုခေါ်ဆိုမှုကို အခြားကိရိယာသို့ လွှဲပြောင်းလိုက်သည်"</string>
+    <string name="type_outgoing_video" msgid="309370072333983910">"အထွက်ဗီဒီယိုခေါ်ဆိုမှု"</string>
+    <string name="type_outgoing_video_pulled" msgid="3924450629684331345">"အထွက်ဗီဒီယိုခေါ်ဆိုမှုကို အခြားကိရိယာသို့ လွှဲလိုက်သည်"</string>
+    <string name="type_missed_video" msgid="4350107016317603785">"လွတ်သွားသော ဗီဒီယိုခေါ်ဆိုမှု"</string>
+    <string name="type_voicemail" msgid="1877524395253846684">"အသံမေးလ်"</string>
+    <string name="type_rejected" msgid="5632107438472996198">"ငြင်းပယ်ထားသော ခေါ်ဆိုမှု"</string>
+    <string name="type_blocked" msgid="9177237294052244929">"ခေါ်ဆိုမှုကို ပိတ်ဆို့ထားပါသည်"</string>
+    <string name="call_details_minutes_abbreviation" msgid="7899774555556720560">"မိနစ်"</string>
+    <string name="call_details_seconds_abbreviation" msgid="5893806826648947126">"စက္ကန့်"</string>
+    <string name="a11y_call_duration_format" msgid="2905525933361674470">"<xliff:g id="MINUTES_0">%d</xliff:g> <xliff:g id="MINUTES_TRANSLATION">%s</xliff:g> <xliff:g id="SECONDS_1">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="a11y_call_duration_short_format" msgid="5908875871251062453">"<xliff:g id="SECONDS_0">%d</xliff:g> <xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>"</string>
+    <string name="call_duration_format_pattern" msgid="7566375153243313914">"<xliff:g id="MINUTES_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="MINUTES_TRANSLATION">%s</xliff:g>\' <xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <string name="call_duration_short_format_pattern" msgid="1713177000235994790">"<xliff:g id="SECONDS_SPECIAL_CHARACTER">%s</xliff:g>\'<xliff:g id="SECONDS_TRANSLATION">%s</xliff:g>\'"</string>
+    <plurals name="a11y_seconds" formatted="false" msgid="6695730844760611970">
+      <item quantity="other">စက္ကန့်</item>
+      <item quantity="one">စက္ကန့်</item>
+    </plurals>
+    <plurals name="a11y_minutes" formatted="false" msgid="6377010096698624038">
+      <item quantity="other">မိနစ်</item>
+      <item quantity="one">မိနစ်</item>
+    </plurals>
+    <string name="type_answered_elsewhere" msgid="411958582555881640">"ခေါ်ဆိုမှုကို အခြားကိရိယာတွင် ဖြေကြားထားပါသည်"</string>
+    <string name="description_phone_account" msgid="4382951172691362244">"<xliff:g id="PHONEACCOUNT">^1</xliff:g> တွင်"</string>
+    <string name="description_via_number" msgid="7682575124846343076">"<xliff:g id="NUMBER">%1$s</xliff:g> မှတစ်ဆင့်"</string>
+    <string name="description_via_number_phone_account" msgid="4345445677508018830">"<xliff:g id="PHONEACCOUNT">%1$s</xliff:g> တွင်၊ <xliff:g id="NUMBER">%2$s</xliff:g> မှတစ်ဆင့်"</string>
+    <string name="voicemail_string" msgid="6029775151483803006">"အသံမေးလ်"</string>
+
+
+    <string name="network_name_wifi" msgid="3026388992566895417">"Wifi"</string>
+    <string name="network_name_mobile" msgid="7655711935020766459">"မိုဘိုင်း"</string>
+
+
+    <string name="description_dialpad_back" msgid="6226488105558971135">"အနောက်သို့ ပြန်သွားပါ"</string>
+    <string name="description_dialpad_overflow" msgid="5984341386518189787">"ပိုမိုရွေးချယ်စရာများ"</string>
+    <string name="description_delete_button" msgid="8431313818404527096">"နောက်ပြန်ဖျက်ခလုတ်"</string>
+    <string name="description_image_button_plus" msgid="8936338119824589388">"အပေါင်း လက္ခဏာ"</string>
+    <string name="description_voicemail_button" msgid="4187006295368768215">"အသံမေးလ်"</string>
+
+
+    <string name="sms_disambig_title" msgid="369677069797534410">"နံပါတ်ရွေးပါ"</string>
+    <string name="call_disambig_title" msgid="2395382326030227603">"နံပါတ်ရွေးပါ"</string>
+    <string name="make_primary" msgid="9069345357862475091">"ဒီရွေးချယ်မှုကို မှတ်ထားပါ"</string>
+
+    <string name="notification_channel_incoming_call" msgid="2478740764736158630">"အဝင်ခေါ်ဆိုမှုများ"</string>
+    <string name="notification_channel_ongoing_call" msgid="5593444445363940672">"လက်ရှိခေါ်ဆိုမှုများ"</string>
+    <string name="notification_channel_missed_call" msgid="5820652855908217695">"လွဲသွားသော ခေါ်ဆိုမှုများ"</string>
+    <string name="notification_channel_voicemail" msgid="9206363659849426204">"အသံစာပို့စနစ်များ"</string>
+    <string name="notification_channel_misc" msgid="5595452227577858518">"မူရင်း"</string>
+
+    <string name="private_num_verizon" msgid="3281061244372204957">"ကန့်သတ်ထားသည်"</string>
+    <string name="private_num_non_verizon" msgid="5829254390933301216">"ပုဂ္ဂလိကဖုန်းနံပါတ်"</string>
+
+
+    <string name="post_call_message" msgid="3541277172068556862">"သင် ဘာကြောင့် ခေါ်ဆိုသည်ကို ပြောပါ"</string>
+    <string name="post_call_message_1" msgid="4827849136801228106">"အရေးကြီးသည်။ ကျွန်ုပ်ကို ပြန်ခေါ်ပါ။"</string>
+    <string name="post_call_message_2" msgid="5310301526176003385">"သင်အချိန်ရလျှင် ကျွန်ုပ်ကို ပြန်ခေါ်ပါ။"</string>
+    <string name="post_call_message_3" msgid="3932759658420368056">"အရေးမကြီးပါ၊ နောက်မှ ကျွန်ုပ်တို့ ချတ်လုပ်နိုင်ပါသည်။"</string>
+    <string name="post_call_add_message" msgid="8298853527467080463">"မက်ဆေ့ဂျ် ထည့်သွင်းပါ"</string>
+    <string name="post_call_send_message" msgid="8039569617234824873">"မက်ဆေ့ဂျ် ပို့မလား"</string>
+    <string name="post_call_message_sent" msgid="832757977985265036">"မက်ဆေ့ဂျ် ပို့ပြီးပါပြီ"</string>
+    <string name="view" msgid="8572192949673703830">"ကြည့်ရန်"</string>
+
+    <string name="dialer_shortcut_add_contact_short" msgid="7587385197258884650">"နံပါတ်သစ်"</string>
+    <string name="dialer_shortcut_add_contact_long" msgid="7573187314386728329">"အဆက်အသွယ်အသစ်"</string>
+    <string name="dialer_shortcut_disabled_message" msgid="7713603194332953571">"ဖြတ်လမ်း အလုပ်မလုပ်ပါ။ ဖယ်ရှားရန် ဖိဆွဲပါ။"</string>
+    <string name="dialer_shortcut_contact_not_found_or_has_no_number" msgid="3538594504123040498">"အဆက်အသွယ် မရှိတော့ပါ။"</string>
+    <string name="dialer_shortcut_no_permissions" msgid="4422956724546867357">"ခွင့်ပြုချက် မရှိဘဲ ခေါ်ဆို၍ မရပါ။"</string>
+
+
+
+    <string name="default_notification_description" msgid="4304424287748323094">"ပုံသေ အသံ (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="ringtone_silent" msgid="946744257396998305">"မရှိ"</string>
+    <string name="ringtone_unknown" msgid="1310974715243581582">"မသိသောမြည်သံ"</string>
+    <string name="activity_not_available" msgid="8360067109103762211">"ဒီကိရိယာထဲမှာ အဲဒါ့အတွက် app မရှိပါ"</string>
+    <string name="outgoing_wps_warning" msgid="7505673114152005234">"WPS ခေါ်ဆိုပါက သင့်လက်ရှိခေါ်ဆိုမှု ပြတ်တောက်သွားပါမည်။"</string>
+    <string name="dialog_continue" msgid="4070630558441163574">"ဆက်လုပ်ရန်"</string>
+    <!-- no translation found for camera_privacy_text (4268584469444688293) -->
+    <skip />
+
+
+    <string name="voicemail_status_voicemail_not_available" msgid="5853033558114540057">"အသံမေးလ် မွမ်းမံမှုများ မရှိ"</string>
+    <string name="voicemail_status_messages_waiting" msgid="8900895357460505877">"အသံမေးလ် အသစ် စောင့်နေသည်။ ယခုချက်ချင်း တင်မပေးနိုင်ပါ။"</string>
+    <string name="voicemail_status_configure_voicemail" msgid="8642831215097798709">"သင်၏ အသံမေးလ်ကို စဖွင့်သတ်မှတ်ရန်"</string>
+    <string name="voicemail_status_audio_not_available" msgid="2341871147130931237">"အသံ မရှိ"</string>
+    <string name="voicemail_status_action_configure" msgid="4445818528232235329">"အစီအမံလုပ်ပါ"</string>
+    <string name="voicemail_status_action_call_server" msgid="3189606267631644507">"အသံပို့စာစနစ်ခေါ်ရန်"</string>
+
+
+    <string name="custom_message_hint" msgid="2179012696339457461">"စိတ်ကြိုက် မက်ဆေ့ဂျ်တစ်ခု ရေးပါ"</string>
+    <string name="toolbar_close" msgid="1081308076149879833">"ပိတ်ရန်"</string>
+    <string name="all_contacts_empty" msgid="4260556610403994011">"သင့်တွင် မည်သည့်အဆက်အသွယ်မျှ မရှိသေးပါ"</string>
+    <string name="all_contacts_empty_add_contact_action" msgid="7850060327481179533">"အဆက်အသွယ်အသစ် ပြုလုပ်ရန်"</string>
+    <string name="permission_single_turn_on" msgid="1306416016676232584">"ဖွင့်ရန်"</string>
+    <string name="permission_no_contacts" msgid="2388204904477299207">"အဆက်အသွယ်များကိုကြည့်ရန်၊ အဆက်အသွယ်ခွင့်ပြုချက်ကို ဖွင့်ပါ။"</string>
+    <string name="add_contact_not_available" msgid="3083256438899321502">"အဆက်အသွယ်များ app မရှိပါ"</string>
+
+
+    <string name="audioroute_bluetooth" msgid="3426527851663711141">"ဘလူးတုသ်"</string>
+    <string name="audioroute_speaker" msgid="3269659224838962927">"စပီကာ"</string>
+    <string name="audioroute_phone" msgid="4006113852056568310">"ဖုန်း"</string>
+    <string name="audioroute_headset" msgid="3911496379650036544">"ကြိုးတပ်မိုက်ခွက်ပါနားကြပ်"</string>
+
+
+    <string name="incall_content_description_end_call" msgid="8232796487777787200">"ခေါ်ဆိုမှုအပြီးသတ်ရန်"</string>
+    <string name="incall_content_description_muted" msgid="2130133443150389474">"အသံပိတ်ထားသည်"</string>
+    <string name="incall_content_description_unmuted" msgid="4023577547526525202">"အသံပြန်ဖွင့်လိုက်သည်"</string>
+    <string name="incall_content_description_swap_calls" msgid="5233257839262161417">"ခေါ်ဆိုမှုများကို ဖလှယ်ရန်"</string>
+    <string name="incall_content_description_merge_calls" msgid="5198778837993669729">"ခေါ်ဆိုမှုများပေါင်းရန်"</string>
+    <string name="incall_content_description_earpiece" msgid="2786221842272370555">"လက်ကိုင်ဖုန်းနားကြပ်"</string>
+    <string name="incall_content_description_speaker" msgid="7837829930201265549">"စပီကာ"</string>
+    <string name="incall_content_description_bluetooth" msgid="6988919010980910001">"ဘလူးတုသ်"</string>
+    <string name="incall_content_description_headset" msgid="3170439802944346719">"ကြိုးတပ်မိုက်ခွက်ပါနားကြပ်"</string>
+    <string name="incall_content_description_hold" msgid="3335508251734906019">"ခေါ်ဆိုမှုခဏရပ်ရန်"</string>
+    <string name="incall_content_description_unhold" msgid="3862584118869933593">"ခေါ်ဆိုမှုဆက်လုပ်ရန်"</string>
+    <string name="incall_content_description_video_on" msgid="899266487647420613">"ဗီဒီယိုဖွင့်ထားသည်"</string>
+    <string name="incall_content_description_video_off" msgid="762985912616707076">"ဗီဒီယိုပိတ်ထားသည်"</string>
+    <string name="incall_content_description_swap_video" msgid="297943299827908998">"ဗီဒီယိုဖလှယ်ရန်"</string>
+    <string name="incall_label_speaker" msgid="1814254833253409394">"စပီကာ"</string>
+    <string name="incall_label_audio" msgid="5923781170533336820">"အသံ"</string>
+
+
+    <string name="incall_calling_via_template" msgid="3416867359475780924">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> မှတစ်ဆင့် ခေါ်ဆိုနေသည်"</string>
+    <string name="incall_connecting" msgid="1708280493198276616">"ခေါ်ဆိုနေသည်…"</string>
+    <string name="incall_transferring" msgid="7909128243635579407">"လွှဲပြောင်းနေသည်…"</string>
+    <string name="incall_video_call_requesting" msgid="5251915562785911238">"ဗီဒီယိုခေါ်ဆိုနေသည်…"</string>
+    <string name="incall_wifi_video_call_requesting" msgid="8783968191180862607">"Wi-Fi ဗီဒီယိုခေါ်ဆိုနေသည်…"</string>
+    <string name="incall_video_call_request_failed" msgid="5014067473831870379">"ချိတ်ဆက်၍ မရပါ"</string>
+    <string name="incall_video_call_request_rejected" msgid="5357441169519503234">"ခေါ်ဆိုမှုကို ငြင်းပယ်လိုက်ပါသည်"</string>
+    <string name="incall_video_call_request_timed_out" msgid="6804535684856203120">"ခေါ်ဆိုမှု အချိန်ကုန်ဆုံးသွားပါပြီ"</string>
+    <string name="incall_hanging_up" msgid="2166116351937190949">"ဖုန်းချနေပါသည်"</string>
+    <string name="incall_call_ended" msgid="6294704948774348480">"ခေါ်ဆိုမှု ပြီးသွားပါပြီ"</string>
+    <string name="incall_remotely_held" msgid="8561379039177396615">"ဖုန်းကိုင်ထားသည်"</string>
+    <string name="contact_grid_incoming_video_call" msgid="4935122585117803710">"အောက်ပါထံမှ ဗီဒီယိုခေါ်ဆိုမှု"</string>
+    <string name="contact_grid_incoming_wifi_video_call" msgid="5938822096623593533">"အောက်ပါထံမှ Wi-Fi ဗီဒီယိုခေါ်ဆိုမှု"</string>
+    <string name="contact_grid_incoming_video_request" msgid="7488892854791471116">"အောက်ပါထံမှ ဗီဒီယိုအဆင့်မြှင့်ခြင်းတောင်းဆိုချက်"</string>
+    <string name="contact_grid_incoming_wifi_video_request" msgid="4516902096577976768">"အောက်ပါထံမှ Wi-Fi ဗီဒီယိုအဆင့်မြှင့်ခြင်းတောင်းဆိုချက်"</string>
+    <string name="contact_grid_incoming_voice_call" msgid="7165853925114955346">"အောက်ပါထံမှ ခေါ်ဆိုမှု"</string>
+    <string name="contact_grid_incoming_work_call" msgid="837605505036615004">"အောက်ပါထံမှ အလုပ်ခေါ်ဆိုမှု"</string>
+    <string name="contact_grid_incoming_via_template" msgid="7747391077955623969">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> မှတစ်ဆင့် အဝင်ခေါ်ဆိုမှု"</string>
+    <string name="contact_grid_incoming_suspected_spam" msgid="285365265897630425">"မသင်္ကာဖွယ်ရာ စပမ်းခေါ်ဆိုသူ"</string>
+    <string name="contact_grid_callback_number" msgid="1284649030313415807">"ပြန်လည်ခေါ်ဆိုရန်နံပါတ် - <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+
+
+    <string name="incall_enable_wifi_calling_button" msgid="3295230556186542328">"ဖွင့်ရန်"</string>
+    <string name="video_call_not_available_title" msgid="987490011944013201">"ဗီဒီယိုခေါ်ဆိုမှုကို လက်ရှိတွင် မရရှိနိုင်ပါ"</string>
+    <string name="video_call_not_available_message" msgid="2284146863894603221">"နောက်မှ ထပ်မံခေါ်ဆိုကြည့်ပါ (သို့) အသံခေါ်ဆိုမှု ဆက်လုပ်ကြည့်ပါ။"</string>
+    <string name="voice_call" msgid="6748636104112578475">"အသံခေါ်ဆိုမှု"</string>
+
+
+    <string name="incall_on_hold" msgid="5618253281695138626">"ဖုန်းကိုင်ထားသည်"</string>
+
+
+    <string name="incall_label_videocall" msgid="2208755440134676113">"ဗီဒီယိုခေါ်ဆိုမှု"</string>
+    <string name="incall_label_hold" msgid="4223472584896867896">"ခဏရပ်ထားရန်"</string>
+    <string name="incall_label_add_call" msgid="5641663436373994915">"ထပ်ခေါ်ရန်"</string>
+    <string name="incall_label_mute" msgid="2180667027331706737">"အသံပိတ်ရန်"</string>
+    <string name="incall_label_end_call" msgid="5434079261446614887">"ဖုန်းချရန်"</string>
+    <string name="incall_label_dialpad" msgid="8609779533654156550">"ခလုတ်ခုံ"</string>
+    <string name="incall_talkback_speaker_on" msgid="5819463769258124228">"၊ ပွင့်နေသည်"</string>
+    <string name="incall_talkback_speaker_off" msgid="7486836772563090186">"၊ ပိတ်နေသည်"</string>
+    <string name="incall_label_merge" msgid="720076442985913175">"ပေါင်းရန်"</string>
+    <string name="incall_label_manage" msgid="2175471192903568159">"စီမံရန်"</string>
+    <string name="a11y_description_incall_label_manage_content" msgid="8298638893449287602">"ခေါ်ဆိုသူများကို စီမံခန့်ခွဲရန်"</string>
+    <string name="incall_label_swap" msgid="10458642864243507">"ဖလှယ်ရန်"</string>
+    <string name="incall_note_sent" msgid="4524130323127388367">"မှတ်စုပို့ပြီးပါပြီ"</string>
+
+
+    <string name="spam_photo_text" msgid="5250301844057954813">"ဓာတ်ပုံကို ကြည့်နိုင်ရန် ဖြေကြားပေးပါ"</string>
+    <string name="spam_message_text" msgid="6522893079398269847">"မက်ဆေ့ဂျ်ကို ကြည့်နိုင်ရန် ဖြေကြားပေးပါ"</string>
+
+
+    <string name="always_warn" msgid="8332929731464707890">"သတိပေးချက်ကို အကြိမ်တိုင်းပြရန်"</string>
+    <string name="details" msgid="8642701148762155677">"သင်သည်  နိုင်ငံတကာဖုန်းနံပါတ်တစ်ခုကို ခေါ်ဆိုနေပြီး ဖုန်းခေါ်ဆိုခများ ကျသင့်နိုင်ပါသည်။"</string>
+
+
+    <string name="description_camera_switch_full_screen" msgid="835509743097428216">"မျက်နှာပြင်အပြည့်ကင်မရာသို့ ပြောင်းရန်"</string>
+    <string name="description_camera_switch_preview_screen" msgid="2575355782470181047">"ကင်မရာအစမ်းကြည့်ရှုမှုသို့ ပြောင်းရန်"</string>
+    <string name="description_camera_switch_camera_facing" msgid="6831946148788764412">"အရှေ့ကင်မရာသို့ ပြောင်းရန်"</string>
+    <string name="description_camera_switch_camera_rear" msgid="644854053851698293">"အနောက်ကင်မရာသို့ ပြောင်းရန်"</string>
+    <string name="description_camera_take_picture" msgid="3953639532118936286">"ဓာတ်ပုံရိုက်ရန်"</string>
+    <string name="description_camera_cancel_photo" msgid="2759593421176396701">"ဓာတ်ပုံပြန်ရိုက်ရန်"</string>
+
+
+  <string name="enriched_call_simulator_activity" translatable="false">Enriched Call Simulator Activity</string>
+
+  <string name="important" translatable="false">important</string>
+  <string name="not_important" translatable="false">not important</string>
+
+  <string name="refresh" translatable="false">refresh</string>
+
+
+    <string name="main_activity_label" msgid="3121599977875141886">"ဖုန်း"</string>
+    <string name="nui_shortcut_name" msgid="6370942901789984087">"NUI ဖုန်း"</string>
+    <string name="main_call_history_tab_description" msgid="1705569872650796265">"ခေါ်ဆိုမှုမှတ်တမ်း"</string>
+    <string name="search" msgid="3570654445331155513">"@android:string/search_go"</string>
+    <string name="description_search" msgid="3443578912463129718">"အဆက်အသွယ်များနှင့် နေရာများကို ရှာဖွေရန်"</string>
+    <string name="contacts" msgid="4464246185723317911">"အဆက်အသွယ်များ"</string>
+    <string name="description_contacts" msgid="12768481422137448">"အဆက်အသွယ်များကို ကြည့်ရှုရန်"</string>
+    <string name="tab_title_call_history" msgid="5191872501729332994">"ခေါ်ဆိုမှု"</string>
+    <string name="tab_title_speed_dial" msgid="1968484500112572774">"နံပါတ်ကွက်"</string>
+    <string name="tab_title_voicemail" msgid="4777655983569268504">"အသံမေးလ်"</string>
+    <string name="settings" msgid="7614336599112169779">"ဆက်တင်များ"</string>
+    <string name="main_send_feedback" msgid="2446919533981327373">"အကြံပြုချက် ပို့ရန်"</string>
+    
+        <string name="nearby_places" msgid="275117539511113867">"အနီးတဝိုက်ရှိ နေရာများ"</string>
+    <string name="call_incoming_swipe_to_decline_with_message" msgid="2426342919316424240">"မက်ဆေ့ဂျ်ဖြင့်ငြင်းပယ်ရန် သင်္ကေတမှ ပွတ်ဆွဲပါ"</string>
+    <string name="call_incoming_swipe_to_answer_video_as_audio" msgid="2656902519734774070">"အသံခေါ်ဆိုမှုအဖြစ်ဖြေကြားရန် သင်္ကေတမှ ပွတ်ဆွဲပါ"</string>
+    <string name="call_incoming_default_label_answer_and_release_second" msgid="4543429977872844314">"ဖြေကြားရန် အပေါ်သို့ ပွတ်ဆွဲပြီး လက်ရှိခေါ်ဆိုမှုကို ခဏရပ်ထားပါ"</string>
+    <string name="call_incoming_default_label_answer_and_release_third" msgid="1738895612225349741">"ဖြေကြားရန် အပေါ်သို့ ပွတ်ဆွဲပြီး ကိုင်ထားသောခေါ်ဆိုမှုကို အပြီးသတ်ပါ"</string>
+    <string name="call_incoming_swipe_to_answer_and_release" msgid="662432029870261061">"ဖြေကြားရန် သင်္ကေတမှ ပွတ်ဆွဲပြီး လက်ရှိခေါ်ဆိုမှုကို အပြီးသတ်ပါ"</string>
+    <string name="call_incoming_message_custom" msgid="5819492800418293238">"သင့်ကိုယ်ပိုင်ရေးပါ…"</string>
+    <string name="call_incoming_audio_handset" msgid="2299009191401671619">"လက်ကိုင်ဖုန်း"</string>
+    <string name="call_incoming_audio_speakerphone" msgid="5632622369522427991">"စပီကာဖုန်း"</string>
+    <string name="call_incoming_respond_via_sms_custom_message" msgid="6808438125627371020">"သင့်ကိုယ်ပိုင်ရေးပါ…"</string>
+    <string name="call_incoming_custom_message_cancel" msgid="5231860339073505201">"မလုပ်တော့"</string>
+    <string name="call_incoming_custom_message_send" msgid="3826716354040318205">"ပို့ရန်"</string>
+    <string name="a11y_incoming_call_reject_with_sms" msgid="6101839791429796754">"ဤခေါ်ဆိုမှုကို မက်ဆေ့ဂျ်ဖြင့် ငြင်းဆိုရန်"</string>
+    <string name="a11y_incoming_call_answer_video_as_audio" msgid="3890612269318682756">"အသံခေါ်ဆိုမှုအဖြစ် ဖြေကြားရန်"</string>
+    <string name="a11y_incoming_call_answer_and_release" msgid="4896746774725239464">"ဖြေကြားပြီး လက်ရှိခေါ်ဆိုမှုကို အပြီးသတ်ပါ"</string>
+    <string name="a11y_description_incoming_call_reject_with_sms" msgid="4705064921696291310">"မက်ဆေ့ဂျ်ဖြင့် ငြင်းပယ်ရန်"</string>
+    <string name="a11y_description_incoming_call_answer_video_as_audio" msgid="1562530317428907884">"အသံခေါ်ဆိုမှုအဖြစ် ဖြေကြားရန်"</string>
+    <string name="a11y_description_incoming_call_answer_and_release" msgid="8511087499748888476">"ဖြေကြားပြီး လက်ရှိခေါ်ဆိုမှုကို အပြီးသတ်ပါ"</string>
+    <string name="call_incoming_video_is_off" msgid="3216603035158629403">"ဗီဒီယို ပိတ်ထားပါသည်"</string>
+    <string name="a11y_incoming_call_swipe_gesture_prompt" msgid="8682480557168484972">"ဖြေကြားရန် လက်နှစ်ချောင်းဖြင့် အပေါ်သို့ ပွတ်ဆွဲပါ။ ငြင်းပယ်ရန် လက်နှစ်ချောင်းဖြင့် အောက်သို့ ပွတ်ဆွဲပါ။"</string>
+    <string name="call_incoming_important" msgid="3762352743365137090">"အရေးကြီး"</string>
+
+
+    <string name="call_incoming_swipe_to_answer" msgid="2959042172304267183">"ဖြေကြားရန် အပေါ်သို့ပွတ်ဆွဲပါ"</string>
+    <string name="call_incoming_swipe_to_reject" msgid="463322705441386885">"ငြင်းဆိုရန် အောက်သို့ပွတ်ဆွဲပါ"</string>
+    <string name="a11y_incoming_call_swipe_to_answer" msgid="6992663569851713736">"ခေါ်ဆိုမှုကို ဖြေကြားရန် လက်နှစ်ချောင်းဖြင့် အပေါ်သို့ပွတ်ဆွဲပါ (သို့) ငြင်းဆိုရန် အောက်သို့ပွတ်ဆွဲပါ"</string>
+    <string name="call_incoming_will_disconnect" msgid="7095934149229485541">"ဤခေါ်ဆိုမှုကိုဖြေကြားခြင်းက သင့်ဗီဒီယိုခေါ်ဆိုမှုကို ဖြတ်တောက်ပါလိမ့်မည်"</string>
+    <string name="a11y_call_incoming_decline_description" msgid="4441041052558364987">"ငြင်းပယ်ပါ"</string>
+    <string name="call_incoming_decline" msgid="2982110738106661231">"ငြင်းပယ်ရန်"</string>
+    <string name="a11y_call_incoming_answer_description" msgid="1623200501347799736">"ဖြေကြားပါ"</string>
+    <string name="call_incoming_answer" msgid="841798555883717852">"ဖြေကြားရန်"</string>
+
+
+    <string name="videocall_remote_video_off" msgid="2959680546745902547">"သူတို့ဗီဒီယို ပိတ်ထားသည်"</string>
+    <string name="videocall_remote_video_on" msgid="6011817851703181639">"၎င်းတို့၏ဗီဒီယိုကို ဖွင့်ထားပါသည်"</string>
+    <string name="videocall_remotely_held" msgid="1295702896355732947">"ခေါ်ဆိုမှု ခဏရပ်ထားသည်"</string>
+    <string name="videocall_remotely_resumed" msgid="3331784411244773788">"ခေါ်ဆိုမှုပြန်စသည်"</string>
+    <string name="camera_permission_dialog_title" msgid="4901760354830982117">"ဗီဒီယို ခွင့်ပြုမလား။"</string>
+    <string name="camera_permission_dialog_message" msgid="2677490854794162699">"ဗီဒီယိုခေါ်ဆိုမှုများအတွက် သင့်ကင်မရာကို Phone အက်ပ်က အသုံးပြုလိုပါသည်။"</string>
+    <string name="camera_permission_dialog_positive_button" msgid="9075818030671161374">"ခွင့်ပြုရန်"</string>
+    <string name="camera_permission_dialog_negative_button" msgid="7538535842403837541">"ငြင်းပယ်ရန်"</string>
+
+
+    <string name="voicemail_error_turn_off_airplane_mode_title" msgid="335011175933917603">"လေယာဉ်ပျံမုဒ်ပိတ်ရန်"</string>
+    <string name="voicemail_error_activating_title" msgid="2428457130578359186">"မြင်နိုင်သောအသံမေးလ်ကို ဖွင့်နေသည်"</string>
+    <string name="voicemail_error_activating_message" msgid="7157030596259443393">"မြင်ရသောအသံမေးလ်ကို အပြည့်အဝစမဖွင့်သရွေ့ အသံမေးလ်အကြောင်းကြားချက်များကို လက်ခံရရှိနိုင်မည်မဟုတ်ပါ။ အသံမေးလ်ကို အပြည့်အဝစဖွင့်မပြီးမချင်း မက်ဆေ့ဂျ်အသစ်များရယူရန် အသံမေးလ်ခေါ်ဆိုပါ။"</string>
+    <string name="voicemail_error_not_activate_no_signal_title" msgid="742273366199085615">"မြင်ရသောအသံမေးလ်ကို ဖွင့်၍မရပါ"</string>
+    <string name="voicemail_error_not_activate_no_signal_message" msgid="2929059808327964011">"သင့်ဖုန်းတွင် မိုဘိုင်းကွန်ရက် ချိတ်ဆက်မှုရှိကြောင်း စစ်ဆေး၍ ထပ်စမ်းကြည့်ပါ။"</string>
+    <string name="voicemail_error_not_activate_no_signal_airplane_mode_message" msgid="2005255281543281215">"လေယာဉ်ပျံမုဒ်ပိတ်၍ ထပ်စမ်းကြည့်ပါ။"</string>
+    <string name="voicemail_error_no_signal_title" msgid="341954685733680219">"ချိတ်ဆက်မှုမရှိပါ"</string>
+    <string name="voicemail_error_no_signal_message" msgid="2626509025723748371">"အသံမေးလ်အသစ်များအတွက် သင့်ကို အကြောင်းကြားလိမ့်မည်မဟုတ်ပါ။ Wi-Fi သုံးနေပါက ယခုပင် စင့်ခ်လုပ်ခြင်းဖြင့် အသံမေးလ်ကို စစ်ဆေးနိုင်ပါသည်။"</string>
+    <string name="voicemail_error_no_signal_airplane_mode_message" msgid="8553646558282754276">"အသံမေးလ်အသစ်များအတွက် သင့်ကို အကြောင်းကြားလိမ့်မည်မဟုတ်ပါ။ သင့်အသံမေးလ်ပြိုင်တူညှိရန် လေယာဉ်ပျံမုဒ်ပိတ်ပါ။"</string>
+    <string name="voicemail_error_no_signal_cellular_required_message" msgid="6452586752169746399">"အသံမေးလ်စစ်ရန်အတွက် သင့်ဖုန်းတွင် မိုဘိုင်းဒေတာချိတ်ဆက်မှုတစ်ခု လိုပါသည်။"</string>
+    <string name="voicemail_error_activation_failed_title" msgid="3823477898681399391">"မြင်ရသောအသံမေးလ် ဖွင့်၍မရပါ"</string>
+    <string name="voicemail_error_activation_failed_message" msgid="2188301459207765442">"အသံမေးလ်စစ်ရန်အတွက် ဖုန်းခေါ်နိုင်ပါသေးသည်။"</string>
+    <string name="voicemail_error_no_data_title" msgid="8127858252892092732">"မြင်ရသောအသံမေးလ်ကို အပ်ဒိတ်လုပ်၍မရပါ"</string>
+    <string name="voicemail_error_no_data_message" msgid="6634124460113498265">"သင်၏ Wi-Fi (သို့) မိုဘိုင်းဒေတာချိတ်ဆက်မှု လိုင်းပိုကောင်းမှ ထပ်စမ်းကြည့်ပါ။ အသံမေးလ်စစ်ရန်အတွက် ဖုန်းခေါ်နိုင်ပါသေးသည်။"</string>
+    <string name="voicemail_error_no_data_cellular_required_message" msgid="2521491029817662357">"သင်၏ မိုဘိုင်းဒေတာ ချိတ်ဆက်မှု လိုင်းပိုကောင်းမှ ထပ်စမ်းကြည့်ပါ။ အသံမေးလ်စစ်ရန်အတွက် ဖုန်းခေါ်နိုင်ပါသေးသည်။"</string>
+    <string name="voicemail_error_bad_config_title" msgid="527594487104462966">"မြင်ရသောအသံမေးလ်ကို အပ်ဒိတ်လုပ်၍မရပါ"</string>
+    <string name="voicemail_error_bad_config_message" msgid="2692955418930476771">"အသံမေးလ်စစ်ရန်အတွက် ဖုန်းခေါ်နိုင်ပါသေးသည်။"</string>
+    <string name="voicemail_error_communication_title" msgid="9183339646110368169">"မြင်ရသောအသံမေးလ်ကို အပ်ဒိတ်လုပ်၍မရပါ"</string>
+    <string name="voicemail_error_communication_message" msgid="1226746423005179379">"အသံမေးလ်စစ်ရန်အတွက် ဖုန်းခေါ်နိုင်ပါသေးသည်။"</string>
+    <string name="voicemail_error_server_connection_title" msgid="3036980885397552848">"မြင်ရသောအသံမေးလ်ကို အပ်ဒိတ်လုပ်၍မရပါ"</string>
+    <string name="voicemail_error_server_connection_message" msgid="6008577624710159550">"အသံမေးလ်စစ်ရန်အတွက် ဖုန်းခေါ်နိုင်ပါသေးသည်။"</string>
+    <string name="voicemail_error_server_title" msgid="5355286554022049134">"မြင်ရသောအသံမေးလ်ကို အပ်ဒိတ်လုပ်၍မရပါ"</string>
+    <string name="voicemail_error_server_message" msgid="3538157415413084592">"အသံမေးလ်စစ်ရန်အတွက် ဖုန်းခေါ်နိုင်ပါသေးသည်။"</string>
+    <string name="voicemail_error_inbox_near_full_title" msgid="7568681773644454672">"ဝင်စာပြည့်ခါနီးပြီ"</string>
+    <string name="voicemail_error_inbox_near_full_message" msgid="354118612203528244">"သင့်ဝင်စာပြည့်နေပါက အသံမေးလ်အသစ်များ လက်ခံရယူနိုင်မည်မဟုတ်ပါ။"</string>
+    <string name="voicemail_error_inbox_full_title" msgid="249268068442046872">"အသံမေးလ်အသစ် လက်ခံ၍မရပါ"</string>
+    <string name="voicemail_error_inbox_full_message" msgid="5788411018158899123">"သင့်ဝင်စာပြည့်နေပါသည်။ အသံမေးလ်အသစ်များ လက်ခံရယူနိုင်ရန် မက်ဆေ့ဂျ်အချို့ဖျက်ကြည့်ပါ။"</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_title" msgid="6209039728273651055">"အပိုသိုလှောင်မှုနှင့် မိတ္တူ ဖွင့်ရန်"</string>
+    <string name="voicemail_error_inbox_full_turn_archive_on_message" msgid="5203159732288749722">"သင့်ဝင်စာ ပြည့်နေပါပြီ။ နေရာလွတ်ရရှိရန်အတွက် Google က သင်၏အသံမေးလ်မက်ဆေ့ဂျ်များကို စီမံခန့်ခွဲပြီး မိတ္တူကူးနိုင်ရန် အပိုသိုလှောင်မှုကို ဖွင့်ပါ။"</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_title" msgid="20352920357816927">"အပိုသိုလှောင်မှုနှင့် မိတ္တူ ဖွင့်ရန်"</string>
+    <string name="voicemail_error_inbox_almost_full_turn_archive_on_message" msgid="9140680538578301853">"သင့်ဝင်စာ ပြည့်လုပါပြီ။ နေရာလွတ်ရရှိရန်အတွက် Google က သင်၏အသံမေးလ်မက်ဆေ့ဂျ်များကို စီမံခန့်ခွဲပြီး မိတ္တူကူးနိုင်ရန် အပိုသိုလှောင်မှုကို ဖွင့်ပါ။"</string>
+    <string name="voicemail_error_pin_not_set_title" msgid="1287168514277948082">"သင်၏အသံမေးလ်ပင်နံပါတ် သတ်မှတ်ပါ"</string>
+    <string name="voicemail_error_pin_not_set_message" msgid="3802375002103184625">"သင်၏အသံမေးလ်ကို သုံးစွဲရန်အတွက် သင်ခေါ်ဆိုသည့်အခါတိုင်း အသံမေးလ်ပင်နံပါတ်တစ်ခု လိုအပ်ပါမည်။"</string>
+    <string name="voicemail_error_unknown_title" msgid="7214482611706360680">"အမျိုးအမည်မသိမှားယွင်းမှု"</string>
+    <string name="voicemail_action_turn_off_airplane_mode" msgid="6905706401164671086">"လေယာဉ်ပျံမုဒ်ဆက်တင်များ"</string>
+    <string name="voicemail_action_set_pin" msgid="958510049866316228">"ပင်နံပါတ်သတ်မှတ်ပါ"</string>
+    <string name="voicemail_action_retry" msgid="4450307484541052511">"ထပ်စမ်းကြည့်ရန်"</string>
+    <string name="voicemail_action_turn_archive_on" msgid="6008444955560830591">"ဖွင့်ရန်"</string>
+    <string name="voicemail_action_dimiss" msgid="6018415798136796966">"မလိုပါ"</string>
+    <string name="voicemail_action_sync" msgid="5139315923415392787">"ပြိုင်တူညှိရန်"</string>
+    <string name="voicemail_action_call_voicemail" msgid="6701710720535556395">"အသံမေးလ်ခေါ်ဆိုရန်"</string>
+    <string name="voicemail_action_call_customer_support" msgid="7698973007656462748">"သုံးစွဲသူဝန်ဆောင်ရေးကို ခေါ်ဆိုရန်"</string>
+    <string name="vvm3_error_vms_dns_failure_title" msgid="7561818769198666727">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_vms_dns_failure_message" msgid="4284259553458502369">"ပြဿနာတစ်ခုရှိနေသဖြင့် တောင်းပန်ပါသည်။ နောက်မှထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၁ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_vmg_dns_failure_title" msgid="6257196468618464574">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_vmg_dns_failure_message" msgid="7110154996415009499">"ပြဿနာတစ်ခုရှိနေသဖြင့် တောင်းပန်ပါသည်။ နောက်မှထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၂ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_spg_dns_failure_title" msgid="8670172138011171697">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_spg_dns_failure_message" msgid="6780011498675342391">"ပြဿနာတစ်ခုရှိနေသဖြင့် တောင်းပန်ပါသည်။ နောက်မှထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၃ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_vms_no_cellular_title" msgid="5402891018307856824">"သင့်အသံဝင်စာနှင့် ချိတ်ဆက်၍မရပါ"</string>
+    <string name="vvm3_error_vms_no_cellular_message" msgid="6671769320769351896">"သင့်အသံဝင်စာနှင့် ချိတ်ဆက်၍မရသောကြောင့် ဝမ်းနည်းပါသည်။ လိုင်းမကောင်းသောနေရာတွင် သင်ရောက်ရှိနေပါက လိုင်းကောင်းသည်အထိစောင့်ပြီးမှ ထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၄ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_vmg_no_cellular_title" msgid="7974884412395827829">"သင့်အသံဝင်စာနှင့် ချိတ်ဆက်၍မရပါ"</string>
+    <string name="vvm3_error_vmg_no_cellular_message" msgid="4591495395224161921">"သင့်အသံဝင်စာနှင့် ချိတ်ဆက်၍မရသောကြောင့် ဝမ်းနည်းပါသည်။ လိုင်းမကောင်းသောနေရာတွင် သင်ရောက်ရှိနေပါက လိုင်းကောင်းသည်အထိစောင့်ပြီးမှ ထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၅ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_spg_no_cellular_title" msgid="8175349498869951939">"သင့်အသံဝင်စာနှင့် ချိတ်ဆက်၍မရပါ"</string>
+    <string name="vvm3_error_spg_no_cellular_message" msgid="7902149969965747111">"သင့်အသံဝင်စာနှင့် ချိတ်ဆက်၍မရသောကြောင့် ဝမ်းနည်းပါသည်။ လိုင်းမကောင်းသောနေရာတွင် သင်ရောက်ရှိနေပါက လိုင်းကောင်းသည်အထိစောင့်ပြီးမှ ထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၆ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_vms_timeout_title" msgid="4044531581957597519">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_vms_timeout_message" msgid="2997890600174252849">"ပြဿနာတစ်ခုရှိနေသဖြင့် တောင်းပန်ပါသည်။ နောက်မှထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၇ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_vmg_timeout_title" msgid="2631426958078372779">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_vmg_timeout_message" msgid="8366857300952305567">"ပြဿနာတစ်ခုရှိနေသဖြင့် တောင်းပန်ပါသည်။ နောက်မှထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၈ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_status_sms_timeout_title" msgid="6528532085593533049">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_status_sms_timeout_message" msgid="9079367624352316780">"သင့်ဝန်ဆောင်မှုကို ပြင်ဆင်ပေးရာတွင် ပြဿနာတစ်ခုရှိနေသဖြင့် တောင်းပန်ပါသည်။ နောက်မှထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၀၀၉ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_subscriber_blocked_title" msgid="3650932081111129710">"သင့်အသံဝင်စာနှင့် ချိတ်ဆက်၍မရပါ"</string>
+    <string name="vvm3_error_subscriber_blocked_message" msgid="5162479488602796264">"သင့်အသံဝင်စာနှင့် ယခုချိတ်ဆက်၍မရသဖြင့် တောင်းပန်ပါသည်။ နောက်မှထပ်စမ်းကြည့်ပါ။ ပြဿနာရှိနေသေးပါက သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၀ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_unknown_user_title" msgid="3908082247867523916">"အသံမေးလ်ပြင်ဆင်ရန်"</string>
+    <string name="vvm3_error_unknown_user_message" msgid="1509539640475335686">"သင့်အကောင့်တွင် အသံမေးလ်ပြင်ဆင်မထားပါ။ သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၁ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_unknown_device_title" msgid="1894628172321293169">"အသံမေးလ်"</string>
+    <string name="vvm3_error_unknown_device_message" msgid="5653639091623486217">"ဤကိရိယာတွင် မြင်ရသောအသံမေးလ် မသုံးနိုင်ပါ။ သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၂ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_invalid_password_title" msgid="4552360498026788519">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_invalid_password_message" msgid="7203223289526274700">"သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၃ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_mailbox_not_initialized_title" msgid="7903951619707049472">"မြင်ရသောအသံမေးလ်"</string>
+    <string name="vvm3_error_mailbox_not_initialized_message" msgid="6411209982463628638">"မြင်ရသောအသံမေးလ်ပြင်ဆင်မှု အပြီးသတ်ရန် သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၄ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_service_not_provisioned_title" msgid="6200721664168681357">"မြင်ရသောအသံမေးလ်"</string>
+    <string name="vvm3_error_service_not_provisioned_message" msgid="2652652017548677049">"မြင်ရသောအသံမေးလ်ပြင်ဆင်မှု အပြီးသတ်ရန် သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၅ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_service_not_activated_title" msgid="8223482379756083354">"မြင်ရသောအသံမေးလ်"</string>
+    <string name="vvm3_error_service_not_activated_message" msgid="3877179443583231620">"မြင်ရသောအသံမေးလ်စဖွင့်ရန် သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၆ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_user_blocked_title" msgid="3182280563102274326">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_user_blocked_message" msgid="5006388183845631086">"မြင်ရသောအသံမေးလ်ပြင်ဆင်မှု အပြီးသတ်ရန် သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၈ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_subscriber_unknown_title" msgid="2327013918755472131">"မြင်ရသောအသံမေးလ် ပိတ်ထားသည်"</string>
+    <string name="vvm3_error_subscriber_unknown_message" msgid="7991526423950940698">"မြင်ရသောအသံမေးလ်စဖွင့်ရန် သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပါ။"</string>
+    <string name="vvm3_error_imap_getquota_error_title" msgid="2229474251543811881">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_imap_getquota_error_message" msgid="4266777005393484563">"သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၇ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_imap_select_error_title" msgid="688468464562761731">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_imap_select_error_message" msgid="7535508175537847085">"သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၈၉ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="vvm3_error_imap_error_title" msgid="1952971680250515832">"တစ်စုံတစ်ခု လွဲချော်နေပါသည်"</string>
+    <string name="vvm3_error_imap_error_message" msgid="6668651261796655388">"သုံးစွဲသူဝန်ဆောင်ရေးကို <xliff:g id="NUMBER">%1$s</xliff:g> တွင် ဆက်သွယ်ပြီး အမှားအယွင်းကုဒ်သည် ၉၉၉၉ ဖြစ်ကြောင်း ပြောပါ။"</string>
+    <string name="verizon_terms_and_conditions_title" msgid="9074967311276321500">"မြင်နိုင်သောအသံမေးလ် ဝန်ဆောင်မှုဆိုင်ရာစည်းမျဉ်းများ"</string>
+    <string name="verizon_terms_and_conditions_message" msgid="120258835788235077">"%1$s\n\nစာသားမှတ်တမ်းပါ အသံမေးလ်ကို အသုံးပြုရန် Verizon ကြိုးမဲ့စနစ်၏ ဝန်ဆောင်မှုဆိုင်ရာစည်းမျဉ်းများကို လက်ခံရပါမည် - \n\n%2$s"</string>
+    <string name="dialer_terms_and_conditions_title" msgid="311603424861921251">"စာသားမှတ်တမ်းပါ အသံမေးလ်ဖွင့်ခြင်း"</string>
+    <string name="dialer_terms_and_conditions_message" msgid="6207219973959897196">"%s"</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_message" msgid="7852059293806766767">"ဝန်ဆောင်မှုဆိုင်ရာစည်းမျဉ်းများကို ငြင်းပယ်ပါက မြင်နိုင်သောအသံမေးလ်ကို ပိတ်ပစ်ပါလိမ့်မည်။"</string>
+    <string name="verizon_terms_and_conditions_decline_dialog_downgrade" msgid="8347128304508008823">"မြင်နိုင်သောအသံမေးလ် ပိတ်ပါ"</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_message" msgid="1726573227032877573">"ဝန်ဆောင်မှုဆိုင်ရာစည်းမျဉ်းများကို ငြင်းပယ်ပါက အသံမေးလ် စာသားမှတ်တမ်းများကို ပိတ်ပစ်ပါလိမ့်မည်။"</string>
+    <string name="dialer_terms_and_conditions_decline_dialog_downgrade" msgid="6694612247173639685">"အသံမေးလ် စာသားမှတ်တမ်းကို ပိတ်ရန်"</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_message" msgid="2200388197966526000">"*၈၆ သို့ ခေါ်ဆိုခြင်းဖြင့်သာ အသံမေးလ်ကို ဝင်သုံးနိုင်ပါမည်။ ဆက်သွားရန် အသံမေးလ်ပင်နံပါတ်အသစ်ကို သတ်မှတ်ပါ။"</string>
+    <string name="verizon_terms_and_conditions_decline_set_pin_dialog_set_pin" msgid="4320664492466296770">"ပင်နံပါတ်ကို သတ်မှတ်ပါ"</string>
+
+    <string name="event_deactivated" msgid="689994223349549274">"အိမ်မွေးတိရိစ္ဆာန်မုဒ်ကို ပိတ်ထားပါသည်"</string>
+
+
+</resources>
